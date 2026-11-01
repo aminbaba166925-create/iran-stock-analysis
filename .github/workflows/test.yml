@@ -1,29 +1,33 @@
-name: Test TSETMC Connection
+name: Test TSETMC Alternative
+
 on: push
 
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Check connection
+      - name: Test alternative sources
         run: |
           python - <<'PY'
           import urllib.request
 
           urls = [
-              "https://www.google.com",
-              "https://cdn.tsetmc.com",
-              "https://webgw.tse.ir"
+              "https://cdn10.tsetmc.com/api/Instrument/GetInstrumentSearch/%D9%81%D9%88%D9%84%D8%A7%D8%AF",
+              "https://cdn.tsetmc.com/api/BestLimits/46348559193224090/20261001",
+              "http://old.tsetmc.com/tsev2/data/MarketWatchInit.aspx?h=0&r=0"
           ]
 
           for url in urls:
+              print("\nTEST:", url)
               try:
                   req = urllib.request.Request(
                       url,
                       headers={"User-Agent": "Mozilla/5.0"}
                   )
                   response = urllib.request.urlopen(req, timeout=20)
-                  print(url, "STATUS:", response.status)
+                  data = response.read()
+                  print("STATUS:", response.status)
+                  print("DATA:", data[:500].decode("utf-8", errors="replace"))
               except Exception as e:
-                  print(url, "ERROR:", str(e))
+                  print("ERROR:", repr(e))
           PY
