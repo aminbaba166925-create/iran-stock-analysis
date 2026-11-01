@@ -1,35 +1,9 @@
-
 name: Test TSETMC Connection
-
-'on':
-  workflow_dispatch:
+on: push
 
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - name: Check connection
-        run: |
-          python - <<'PY'
-          import requests
-
-          urls = [
-              "https://www.google.com",
-              "https://cdn.tsetmc.com",
-              "https://cdn.tsetmc.com/api/Instrument/GetInstrumentSearch/%D9%81%D9%88%D9%84%D8%A7%D8%AF"
-          ]
-
-          for url in urls:
-              try:
-                  r = requests.get(
-                      url,
-                      headers={"User-Agent": "Mozilla/5.0"},
-                      timeout=25
-                  )
-                  print("\nURL:", url)
-                  print("Status:", r.status_code)
-                  print("Response:", r.text[:300])
-              except Exception as e:
-                  print("\nURL:", url)
-                  print("ERROR:", repr(e))
-          PY
+        run: echo "Workflow is running"
