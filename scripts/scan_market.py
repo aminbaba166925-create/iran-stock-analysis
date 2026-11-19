@@ -70,6 +70,9 @@ def main():
         raise RuntimeError("MarketWatch response had no instrument rows; keys=" +
                            ",".join(watch_payload.keys()) if isinstance(watch_payload, dict)
                            else "MarketWatch response had no instrument rows")
+    # Temporary schema diagnostic: expose the first raw row's key/value pairs in Actions logs.
+    if watch and isinstance(watch[0], dict):
+        print("MARKETWATCH_SAMPLE_ROW:", json.dumps(watch[0], ensure_ascii=False)[:5000])
     # Bulk client-type endpoint avoids thousands of per-symbol requests.
     ct_payload = get_json(BASE + "/ClientType/GetClientTypeAll")
     client_rows = find_list(ct_payload, ("clientTypeAllDto", "clientTypeAll", "clientType"))
