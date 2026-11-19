@@ -1,0 +1,91 @@
+{
+  "batch": 63,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 22538,
+  "events": 64,
+  "instruments": [
+    {
+      "insCode": "52497713622747990",
+      "symbol": "آلياژ",
+      "asset_type": "fund",
+      "rows": 498,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "32845891587040106",
+      "symbol": "ثنوسا",
+      "asset_type": "share",
+      "rows": 5029,
+      "latest_date": "20261118",
+      "events": 6
+    },
+    {
+      "insCode": "22312990497291517",
+      "symbol": "سامان",
+      "asset_type": "share",
+      "rows": 732,
+      "latest_date": "20261118",
+      "events": 6
+    },
+    {
+      "insCode": "20596947704449026",
+      "symbol": "سيدكو3",
+      "asset_type": "share",
+      "rows": 2906,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "11622051128546106",
+      "symbol": "شپاكسا",
+      "asset_type": "share",
+      "rows": 5708,
+      "latest_date": "20261118",
+      "events": 25
+    },
+    {
+      "insCode": "21003176534704369",
+      "symbol": "فوكا",
+      "asset_type": "share",
+      "rows": 231,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "69614746145092145",
+      "symbol": "فوكا3",
+      "asset_type": "share",
+      "rows": 231,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "32941062994509455",
+      "symbol": "مانا",
+      "asset_type": "fund",
+      "rows": 556,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "6375951461729203",
+      "symbol": "ميدكو3",
+      "asset_type": "share",
+      "rows": 1284,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "33931218652865616",
+      "symbol": "ونفت",
+      "asset_type": "share",
+      "rows": 5363,
+      "latest_date": "20261118",
+      "events": 25
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:58:55.902625Z"
+}
