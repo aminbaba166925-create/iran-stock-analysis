@@ -2,6 +2,7 @@
 """Download raw and corporate-action-adjusted daily history for a TSETMC instrument."""
 from __future__ import annotations
 import csv, json, os, sys, time, urllib.request
+from datetime import datetime
 from pathlib import Path
 
 INS_CODE = os.getenv("TSETMC_INS_CODE", "46348559193224090")
@@ -63,8 +64,12 @@ def main():
             events.append({'date':d, 'ratio':after/before, 'source':'price_adjust'})
             adjust_dates.append(d)
     # Share-change endpoint fills capital events missing from PriceAdjustList.
+    def within_seven_days(a, b):
+        da = datetime.strptime(str(a), '%Y%m%d').date()
+        db = datetime.strptime(str(b), '%Y%m%d').date()
+        return abs((da - db).days) <= 7
     for e in unique.values():
-        if not any(abs(e['date'] - d) <= 7 for d in adjust_dates): events.append(e)
+        if not any(within_seven_days(e['date'], d) for d in adjust_dates): events.append(e)
     events.sort(key=lambda x:x['date'])
     # Build and validate separate raw and adjusted OHLCV histories.
     raw_rows=[]; adj_rows=[]; seen=set()
