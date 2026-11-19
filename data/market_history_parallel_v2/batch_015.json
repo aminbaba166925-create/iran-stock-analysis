@@ -1,0 +1,91 @@
+{
+  "batch": 15,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 38816,
+  "events": 128,
+  "instruments": [
+    {
+      "insCode": "52932092555708556",
+      "symbol": "تكاردان",
+      "asset_type": "share",
+      "rows": 824,
+      "latest_date": "20261118",
+      "events": 6
+    },
+    {
+      "insCode": "21432551703060846",
+      "symbol": "حآفرين",
+      "asset_type": "share",
+      "rows": 1372,
+      "latest_date": "20261118",
+      "events": 6
+    },
+    {
+      "insCode": "50185721305191887",
+      "symbol": "ختور",
+      "asset_type": "share",
+      "rows": 4693,
+      "latest_date": "20261118",
+      "events": 23
+    },
+    {
+      "insCode": "2589887561569709",
+      "symbol": "خزاميا",
+      "asset_type": "share",
+      "rows": 5756,
+      "latest_date": "20261118",
+      "events": 15
+    },
+    {
+      "insCode": "17330546482145553",
+      "symbol": "خمهر",
+      "asset_type": "share",
+      "rows": 5103,
+      "latest_date": "20261118",
+      "events": 6
+    },
+    {
+      "insCode": "18440075505402168",
+      "symbol": "دلقما3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "64298008532791199",
+      "symbol": "ساينا",
+      "asset_type": "share",
+      "rows": 2707,
+      "latest_date": "20261118",
+      "events": 14
+    },
+    {
+      "insCode": "611986653700161",
+      "symbol": "سبزوا",
+      "asset_type": "share",
+      "rows": 3912,
+      "latest_date": "20261118",
+      "events": 9
+    },
+    {
+      "insCode": "408934423224097",
+      "symbol": "فرآور",
+      "asset_type": "share",
+      "rows": 5076,
+      "latest_date": "20261118",
+      "events": 19
+    },
+    {
+      "insCode": "8977369674477111",
+      "symbol": "كطبس",
+      "asset_type": "share",
+      "rows": 5043,
+      "latest_date": "20261118",
+      "events": 30
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:18:19.018486Z"
+}
