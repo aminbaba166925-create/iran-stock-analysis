@@ -9,7 +9,7 @@ from pathlib import Path
 BASE = "https://cdn.tsetmc.com/api"
 DATA = Path("data")
 SCREENER = DATA / "market_screener.csv"
-OUT = DATA / "market_history_parallel"
+OUT = DATA / "market_history_parallel_v2"
 SHARDS = 24
 WORKERS = 10
 HEADERS = {
@@ -71,10 +71,13 @@ def fetch_one(item):
     daily_url = BASE + "/ClosingPrice/GetClosingPriceDailyList/" + code + "/0"
     adjust_url = BASE + "/ClosingPrice/GetPriceAdjustList/" + code
     shares_url = BASE + "/Instrument/GetInstrumentShareChange/" + code
+    print("[%s] requesting daily history" % symbol, flush=True)
     daily = rows_from(get_json(daily_url), ("closingPriceDaily",))
     if len(daily) < 20:
         raise RuntimeError("daily history too short: " + str(len(daily)))
+    print("[%s] requesting price adjustments" % symbol, flush=True)
     adjustments = rows_from(get_json(adjust_url), ("priceAdjust",))
+    print("[%s] requesting share changes" % symbol, flush=True)
     share_changes = rows_from(get_json(shares_url), ("instrumentShareChange",))
     unique_shares = {}
     for event in share_changes:
@@ -187,7 +190,7 @@ def main():
     if not items:
         raise RuntimeError("No eligible instruments found in screener")
 
-    batch_size = 50
+    batch_size = 10
     batches = [items[i:i + batch_size] for i in range(0, len(items), batch_size)]
     completed, all_ok, all_failed = set(), [], []
     for batch_no, batch in enumerate(batches):
@@ -272,7 +275,7 @@ def main():
     subprocess.run(["git", "add", str(OUT / "manifest.json")], check=True)
     if subprocess.run(["git", "diff", "--cached", "--quiet"]).returncode != 0:
         subprocess.run(["git", "commit", "-m", "Finalize market history manifest"], check=True)
-        subprocess.run(["git", "push", "origin", "HEAD:main"], check=True)
+        subprocess.run(["git", "push", "origin", "HEAD:parallel-market-history-" + os.getenv("GITHUB_RUN_ID", "local")], check=True)
     print("COMPLETE: requested=%d success=%d failed=%d rows=%d latest=%s" %
           (len(items), len(all_ok), len(all_failed), total_rows, latest), flush=True)
 
