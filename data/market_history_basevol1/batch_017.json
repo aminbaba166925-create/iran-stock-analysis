@@ -1,0 +1,91 @@
+{
+  "batch": 17,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 2327,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "40126421241992147",
+      "symbol": "سورنافود",
+      "asset_type": "fund",
+      "rows": 431,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "57468269415483633",
+      "symbol": "سولار",
+      "asset_type": "fund",
+      "rows": 103,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "31765923007618205",
+      "symbol": "سيان",
+      "asset_type": "fund",
+      "rows": 73,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "7887331100268907",
+      "symbol": "سيلوا",
+      "asset_type": "fund",
+      "rows": 71,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "52578796680038854",
+      "symbol": "سيلوا2",
+      "asset_type": "fund",
+      "rows": 71,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "24865200855668752",
+      "symbol": "سيلور2",
+      "asset_type": "fund",
+      "rows": 220,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "19262304347711355",
+      "symbol": "سيمان",
+      "asset_type": "fund",
+      "rows": 74,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "23614259119330713",
+      "symbol": "سيمان2",
+      "asset_type": "fund",
+      "rows": 74,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "46918165794045813",
+      "symbol": "سيمانا",
+      "asset_type": "fund",
+      "rows": 577,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "62069100905581368",
+      "symbol": "سيمانو",
+      "asset_type": "fund",
+      "rows": 633,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T23:12:34.576547+00:00"
+}
