@@ -7,6 +7,7 @@ on:
       - '.github/workflows/test.yml'
       - 'scripts/scan_market.py'
       - 'scripts/fetch_foolad.py'
+      - 'scripts/fetch_market_history.py'
   schedule:
     # Saturday through Wednesday, 13:45 Tehran time.
     - cron: "15 10 * * 0-3,6"
@@ -39,7 +40,10 @@ jobs:
       - name: Scan all market symbols
         run: python scripts/scan_market.py
 
-      - name: Fetch all symbols historical prices\n        run: python scripts/fetch_market_history.py\n\n      - name: Commit updated datasets
+      - name: Fetch all symbols historical prices
+        run: python scripts/fetch_market_history.py
+
+      - name: Commit updated datasets
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
