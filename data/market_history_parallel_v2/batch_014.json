@@ -1,0 +1,91 @@
+{
+  "batch": 14,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 29731,
+  "events": 113,
+  "instruments": [
+    {
+      "insCode": "52792903131341205",
+      "symbol": "افرا",
+      "asset_type": "share",
+      "rows": 3696,
+      "latest_date": "20261118",
+      "events": 25
+    },
+    {
+      "insCode": "64899658576570461",
+      "symbol": "بانيان",
+      "asset_type": "share",
+      "rows": 297,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "49572254150311426",
+      "symbol": "خودرو3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "67988012428906654",
+      "symbol": "دارو",
+      "asset_type": "share",
+      "rows": 5088,
+      "latest_date": "20261118",
+      "events": 25
+    },
+    {
+      "insCode": "59461185672081215",
+      "symbol": "غمايه",
+      "asset_type": "share",
+      "rows": 982,
+      "latest_date": "20261118",
+      "events": 6
+    },
+    {
+      "insCode": "58810336532668771",
+      "symbol": "كايزد",
+      "asset_type": "share",
+      "rows": 1207,
+      "latest_date": "20261118",
+      "events": 10
+    },
+    {
+      "insCode": "43256212620530446",
+      "symbol": "كبافق",
+      "asset_type": "share",
+      "rows": 4771,
+      "latest_date": "20261118",
+      "events": 20
+    },
+    {
+      "insCode": "59866041653103343",
+      "symbol": "نوين",
+      "asset_type": "share",
+      "rows": 1988,
+      "latest_date": "20261118",
+      "events": 9
+    },
+    {
+      "insCode": "5968811612822747",
+      "symbol": "ولنوين",
+      "asset_type": "share",
+      "rows": 1422,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "59486059679335017",
+      "symbol": "وپترو",
+      "asset_type": "share",
+      "rows": 5950,
+      "latest_date": "20261118",
+      "events": 12
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:28:29.602609Z"
+}
