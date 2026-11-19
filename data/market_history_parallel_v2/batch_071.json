@@ -1,0 +1,91 @@
+{
+  "batch": 71,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 10787,
+  "events": 12,
+  "instruments": [
+    {
+      "insCode": "71523045480231681",
+      "symbol": "اعتماد4",
+      "asset_type": "fund",
+      "rows": 2813,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "23498719713662118",
+      "symbol": "اونيكس",
+      "asset_type": "fund",
+      "rows": 782,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "50264175787486822",
+      "symbol": "ترنج ثابت",
+      "asset_type": "fund",
+      "rows": 562,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "57191287546444240",
+      "symbol": "زمرد كوروش",
+      "asset_type": "fund",
+      "rows": 498,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "68663404861394640",
+      "symbol": "زمرد كوروش4",
+      "asset_type": "fund",
+      "rows": 498,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "31913287805282551",
+      "symbol": "سيناد",
+      "asset_type": "fund",
+      "rows": 1293,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "18623561935932625",
+      "symbol": "كيان4",
+      "asset_type": "fund",
+      "rows": 2406,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "38732168937429122",
+      "symbol": "نيلي4",
+      "asset_type": "fund",
+      "rows": 893,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "55070742656326885",
+      "symbol": "پايا",
+      "asset_type": "fund",
+      "rows": 934,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "56650067865905863",
+      "symbol": "پايدار",
+      "asset_type": "fund",
+      "rows": 108,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:50:08.174733Z"
+}
