@@ -1,0 +1,91 @@
+{
+  "batch": 7,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 35017,
+  "events": 150,
+  "instruments": [
+    {
+      "insCode": "64619251116188373",
+      "symbol": "بپيوند",
+      "asset_type": "share",
+      "rows": 1497,
+      "latest_date": "20261118",
+      "events": 6
+    },
+    {
+      "insCode": "62258804563636993",
+      "symbol": "تكشا",
+      "asset_type": "share",
+      "rows": 4868,
+      "latest_date": "20261118",
+      "events": 24
+    },
+    {
+      "insCode": "50100062518826135",
+      "symbol": "دامين",
+      "asset_type": "share",
+      "rows": 5052,
+      "latest_date": "20261118",
+      "events": 24
+    },
+    {
+      "insCode": "24085906177899789",
+      "symbol": "كترام",
+      "asset_type": "share",
+      "rows": 5104,
+      "latest_date": "20261118",
+      "events": 13
+    },
+    {
+      "insCode": "32257753560585502",
+      "symbol": "كحافظ",
+      "asset_type": "share",
+      "rows": 4620,
+      "latest_date": "20261118",
+      "events": 19
+    },
+    {
+      "insCode": "50633804639547462",
+      "symbol": "كمرجان",
+      "asset_type": "share",
+      "rows": 4139,
+      "latest_date": "20261118",
+      "events": 22
+    },
+    {
+      "insCode": "36236701370110884",
+      "symbol": "كپرسپوليس",
+      "asset_type": "share",
+      "rows": 442,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "55897939403232751",
+      "symbol": "لسرما",
+      "asset_type": "share",
+      "rows": 5650,
+      "latest_date": "20261118",
+      "events": 25
+    },
+    {
+      "insCode": "48241092863917835",
+      "symbol": "ولپارس",
+      "asset_type": "share",
+      "rows": 2184,
+      "latest_date": "20261118",
+      "events": 10
+    },
+    {
+      "insCode": "41122066907413786",
+      "symbol": "چخزر",
+      "asset_type": "share",
+      "rows": 1461,
+      "latest_date": "20261118",
+      "events": 6
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:05:10.325904Z"
+}
