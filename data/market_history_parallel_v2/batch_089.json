@@ -1,0 +1,91 @@
+{
+  "batch": 89,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 27843,
+  "events": 70,
+  "instruments": [
+    {
+      "insCode": "43443105991896600",
+      "symbol": "ارزش",
+      "asset_type": "fund",
+      "rows": 1545,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "55761294311886451",
+      "symbol": "اعتبارسهام",
+      "asset_type": "fund",
+      "rows": 335,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "42705920381780437",
+      "symbol": "ترمه",
+      "asset_type": "fund",
+      "rows": 965,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "6757220448540984",
+      "symbol": "سشمال",
+      "asset_type": "share",
+      "rows": 5184,
+      "latest_date": "20261118",
+      "events": 25
+    },
+    {
+      "insCode": "45452221088910484",
+      "symbol": "عقيق",
+      "asset_type": "fund",
+      "rows": 1034,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "6131290133202745",
+      "symbol": "غمهرا",
+      "asset_type": "share",
+      "rows": 5079,
+      "latest_date": "20261118",
+      "events": 25
+    },
+    {
+      "insCode": "56053659461970276",
+      "symbol": "فنفت3",
+      "asset_type": "share",
+      "rows": 700,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "65023851436340574",
+      "symbol": "كاردان",
+      "asset_type": "fund",
+      "rows": 2834,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "7385624172574740",
+      "symbol": "ورنا",
+      "asset_type": "share",
+      "rows": 5837,
+      "latest_date": "20261118",
+      "events": 20
+    },
+    {
+      "insCode": "65018252907856423",
+      "symbol": "ورنا3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T23:48:40.091290Z"
+}
