@@ -1,0 +1,91 @@
+{
+  "batch": 4,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 33986,
+  "events": 157,
+  "instruments": [
+    {
+      "insCode": "60162288821230099",
+      "symbol": "تماوند",
+      "asset_type": "share",
+      "rows": 1079,
+      "latest_date": "20261118",
+      "events": 6
+    },
+    {
+      "insCode": "19257295292088310",
+      "symbol": "خكمك",
+      "asset_type": "share",
+      "rows": 4890,
+      "latest_date": "20261118",
+      "events": 9
+    },
+    {
+      "insCode": "17834623106317041",
+      "symbol": "خنصير",
+      "asset_type": "share",
+      "rows": 4617,
+      "latest_date": "20261118",
+      "events": 33
+    },
+    {
+      "insCode": "56550776668133562",
+      "symbol": "دفارا",
+      "asset_type": "share",
+      "rows": 5323,
+      "latest_date": "20261118",
+      "events": 21
+    },
+    {
+      "insCode": "64341992373049080",
+      "symbol": "سدبير",
+      "asset_type": "share",
+      "rows": 3465,
+      "latest_date": "20261118",
+      "events": 15
+    },
+    {
+      "insCode": "12874072841236826",
+      "symbol": "فسازان",
+      "asset_type": "share",
+      "rows": 1839,
+      "latest_date": "20261118",
+      "events": 11
+    },
+    {
+      "insCode": "40467386864240950",
+      "symbol": "فكور",
+      "asset_type": "share",
+      "rows": 223,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "67030488744129337",
+      "symbol": "قپيرا",
+      "asset_type": "share",
+      "rows": 5001,
+      "latest_date": "20261118",
+      "events": 24
+    },
+    {
+      "insCode": "65671173927025645",
+      "symbol": "كتوكا",
+      "asset_type": "share",
+      "rows": 2767,
+      "latest_date": "20261118",
+      "events": 20
+    },
+    {
+      "insCode": "28325731560106431",
+      "symbol": "كساپا",
+      "asset_type": "share",
+      "rows": 4782,
+      "latest_date": "20261118",
+      "events": 18
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:00:37.458442Z"
+}
