@@ -1,0 +1,91 @@
+{
+  "batch": 90,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 21936,
+  "events": 53,
+  "instruments": [
+    {
+      "insCode": "36592972482259020",
+      "symbol": "آسام",
+      "asset_type": "fund",
+      "rows": 3197,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "34074071043606558",
+      "symbol": "دارونو",
+      "asset_type": "fund",
+      "rows": 476,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "36886571380752943",
+      "symbol": "دجابر3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "54482686501491508",
+      "symbol": "زبينا",
+      "asset_type": "share",
+      "rows": 2180,
+      "latest_date": "20261118",
+      "events": 10
+    },
+    {
+      "insCode": "22606384425961730",
+      "symbol": "زبينا3",
+      "asset_type": "share",
+      "rows": 2180,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "24130026414356277",
+      "symbol": "فارس متال",
+      "asset_type": "fund",
+      "rows": 29,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "34397330698947448",
+      "symbol": "نماد2",
+      "asset_type": "share",
+      "rows": 724,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "47333458678352378",
+      "symbol": "وخاور",
+      "asset_type": "share",
+      "rows": 2814,
+      "latest_date": "20261118",
+      "events": 18
+    },
+    {
+      "insCode": "26395547559465669",
+      "symbol": "وخاور3",
+      "asset_type": "share",
+      "rows": 2814,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "11258722998911897",
+      "symbol": "وسكاب",
+      "asset_type": "share",
+      "rows": 3192,
+      "latest_date": "20261118",
+      "events": 25
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T23:50:38.545098Z"
+}
