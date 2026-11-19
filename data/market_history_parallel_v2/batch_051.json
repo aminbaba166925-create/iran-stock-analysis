@@ -1,0 +1,91 @@
+{
+  "batch": 51,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 29064,
+  "events": 56,
+  "instruments": [
+    {
+      "insCode": "16383091566030431",
+      "symbol": "امتياز",
+      "asset_type": "fund",
+      "rows": 204,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "63830424809501048",
+      "symbol": "اپرداز",
+      "asset_type": "share",
+      "rows": 2522,
+      "latest_date": "20261118",
+      "events": 14
+    },
+    {
+      "insCode": "27094475877974911",
+      "symbol": "حآفرين3",
+      "asset_type": "share",
+      "rows": 1372,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "71732243867931129",
+      "symbol": "خمهر3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "3808653081327624",
+      "symbol": "ساينا3",
+      "asset_type": "share",
+      "rows": 2707,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "32614736362841960",
+      "symbol": "فرآور3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "50341528161302545",
+      "symbol": "كمنگنز",
+      "asset_type": "share",
+      "rows": 5304,
+      "latest_date": "20261118",
+      "events": 24
+    },
+    {
+      "insCode": "2308153763974554",
+      "symbol": "كمنگنز3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "32784604551756178",
+      "symbol": "پيزد",
+      "asset_type": "share",
+      "rows": 1659,
+      "latest_date": "20261118",
+      "events": 10
+    },
+    {
+      "insCode": "66599109405217136",
+      "symbol": "گكوثر",
+      "asset_type": "share",
+      "rows": 2306,
+      "latest_date": "20261118",
+      "events": 8
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:35:55.293004Z"
+}
