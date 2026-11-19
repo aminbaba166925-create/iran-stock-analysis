@@ -1,0 +1,91 @@
+{
+  "batch": 32,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 22303,
+  "events": 73,
+  "instruments": [
+    {
+      "insCode": "15451317146134956",
+      "symbol": "افق ملت",
+      "asset_type": "fund",
+      "rows": 2060,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "54493234408301135",
+      "symbol": "بنو",
+      "asset_type": "share",
+      "rows": 1497,
+      "latest_date": "20261118",
+      "events": 6
+    },
+    {
+      "insCode": "42799209630949274",
+      "symbol": "بهين رو",
+      "asset_type": "fund",
+      "rows": 768,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "34641719089573667",
+      "symbol": "دتماد",
+      "asset_type": "share",
+      "rows": 4733,
+      "latest_date": "20261118",
+      "events": 22
+    },
+    {
+      "insCode": "33406621820337161",
+      "symbol": "دجابر",
+      "asset_type": "share",
+      "rows": 5833,
+      "latest_date": "20261118",
+      "events": 24
+    },
+    {
+      "insCode": "59894184850560807",
+      "symbol": "رادان",
+      "asset_type": "fund",
+      "rows": 241,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "58462435595049907",
+      "symbol": "فنفت",
+      "asset_type": "share",
+      "rows": 1035,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "26543014712914772",
+      "symbol": "ميهن",
+      "asset_type": "share",
+      "rows": 3629,
+      "latest_date": "20261118",
+      "events": 9
+    },
+    {
+      "insCode": "62845384302495432",
+      "symbol": "هيوا",
+      "asset_type": "fund",
+      "rows": 1010,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "64973252728260903",
+      "symbol": "وكبهمن",
+      "asset_type": "share",
+      "rows": 1497,
+      "latest_date": "20261118",
+      "events": 9
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:45:10.651894Z"
+}
