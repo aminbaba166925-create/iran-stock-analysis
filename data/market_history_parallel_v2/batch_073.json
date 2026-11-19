@@ -1,0 +1,91 @@
+{
+  "batch": 73,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 12897,
+  "events": 12,
+  "instruments": [
+    {
+      "insCode": "57761388729898548",
+      "symbol": "اوصتا",
+      "asset_type": "fund",
+      "rows": 1992,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "42662558291119602",
+      "symbol": "اوصتا4",
+      "asset_type": "fund",
+      "rows": 1992,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "36657164096233359",
+      "symbol": "تداوم4",
+      "asset_type": "fund",
+      "rows": 2821,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "8688959373404772",
+      "symbol": "توانا",
+      "asset_type": "fund",
+      "rows": 30,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "49531112577387255",
+      "symbol": "جاودان",
+      "asset_type": "fund",
+      "rows": 709,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "66105959479616770",
+      "symbol": "رايكا",
+      "asset_type": "fund",
+      "rows": 988,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "59598536122397373",
+      "symbol": "سخند",
+      "asset_type": "fund",
+      "rows": 2742,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "31379272181300633",
+      "symbol": "سپنتارود",
+      "asset_type": "fund",
+      "rows": 475,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "7803396484851273",
+      "symbol": "كارآمد",
+      "asset_type": "fund",
+      "rows": 521,
+      "latest_date": "20261118",
+      "events": 6
+    },
+    {
+      "insCode": "33015297618582406",
+      "symbol": "كارما",
+      "asset_type": "fund",
+      "rows": 627,
+      "latest_date": "20261118",
+      "events": 3
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T23:18:32.236736Z"
+}
