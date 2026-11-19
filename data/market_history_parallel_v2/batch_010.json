@@ -1,0 +1,91 @@
+{
+  "batch": 10,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 27740,
+  "events": 114,
+  "instruments": [
+    {
+      "insCode": "62107151670661969",
+      "symbol": "بكابل",
+      "asset_type": "share",
+      "rows": 1192,
+      "latest_date": "20261118",
+      "events": 7
+    },
+    {
+      "insCode": "66315581735594751",
+      "symbol": "توسن",
+      "asset_type": "share",
+      "rows": 1357,
+      "latest_date": "20261118",
+      "events": 8
+    },
+    {
+      "insCode": "7457232989848872",
+      "symbol": "خمحور",
+      "asset_type": "share",
+      "rows": 4884,
+      "latest_date": "20261118",
+      "events": 17
+    },
+    {
+      "insCode": "13235547361447092",
+      "symbol": "زاگرس",
+      "asset_type": "share",
+      "rows": 3703,
+      "latest_date": "20261118",
+      "events": 16
+    },
+    {
+      "insCode": "50043787917446233",
+      "symbol": "زاگرس3",
+      "asset_type": "share",
+      "rows": 3703,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "64843936383937546",
+      "symbol": "غگلستا",
+      "asset_type": "share",
+      "rows": 2495,
+      "latest_date": "20261118",
+      "events": 12
+    },
+    {
+      "insCode": "18004480270695404",
+      "symbol": "فمراد",
+      "asset_type": "share",
+      "rows": 4509,
+      "latest_date": "20261118",
+      "events": 14
+    },
+    {
+      "insCode": "27276541005386425",
+      "symbol": "فنر",
+      "asset_type": "share",
+      "rows": 756,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "59607545337891226",
+      "symbol": "پرداخت",
+      "asset_type": "share",
+      "rows": 2326,
+      "latest_date": "20261118",
+      "events": 12
+    },
+    {
+      "insCode": "7235435095059069",
+      "symbol": "پكوير",
+      "asset_type": "share",
+      "rows": 2815,
+      "latest_date": "20261118",
+      "events": 21
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:10:15.894462Z"
+}
