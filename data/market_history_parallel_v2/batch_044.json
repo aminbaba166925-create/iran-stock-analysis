@@ -1,0 +1,91 @@
+{
+  "batch": 44,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 27001,
+  "events": 35,
+  "instruments": [
+    {
+      "insCode": "34572217024107032",
+      "symbol": "بپيوند3",
+      "asset_type": "share",
+      "rows": 1497,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "71068313834275501",
+      "symbol": "بگيلان",
+      "asset_type": "share",
+      "rows": 2052,
+      "latest_date": "20261118",
+      "events": 6
+    },
+    {
+      "insCode": "5378511183644852",
+      "symbol": "بگيلان3",
+      "asset_type": "share",
+      "rows": 2052,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "35549194038034802",
+      "symbol": "تكشا3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "33267382570714473",
+      "symbol": "دامين3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "33546211888642100",
+      "symbol": "دتوليد3",
+      "asset_type": "share",
+      "rows": 3256,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "66242811461338992",
+      "symbol": "سپيدار3",
+      "asset_type": "share",
+      "rows": 1447,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "47442919607006919",
+      "symbol": "مديريت3",
+      "asset_type": "share",
+      "rows": 1362,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "68117765376081366",
+      "symbol": "وتوس",
+      "asset_type": "share",
+      "rows": 5214,
+      "latest_date": "20261118",
+      "events": 29
+    },
+    {
+      "insCode": "68229158292465420",
+      "symbol": "چخزر3",
+      "asset_type": "share",
+      "rows": 1461,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:04:53.102510Z"
+}
