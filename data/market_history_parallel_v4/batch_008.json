@@ -1,0 +1,91 @@
+{
+  "batch": 8,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 31091,
+  "events": 157,
+  "instruments": [
+    {
+      "insCode": "17403065366457237",
+      "symbol": "آواپارس",
+      "asset_type": "share",
+      "rows": 30,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "41625340598198551",
+      "symbol": "بساما",
+      "asset_type": "share",
+      "rows": 3533,
+      "latest_date": "20261118",
+      "events": 24
+    },
+    {
+      "insCode": "41927452991671109",
+      "symbol": "توان",
+      "asset_type": "fund",
+      "rows": 968,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "28253678449273505",
+      "symbol": "حخزر",
+      "asset_type": "share",
+      "rows": 3080,
+      "latest_date": "20261118",
+      "events": 16
+    },
+    {
+      "insCode": "15949743338644220",
+      "symbol": "ساروم",
+      "asset_type": "share",
+      "rows": 5042,
+      "latest_date": "20261118",
+      "events": 21
+    },
+    {
+      "insCode": "15001802434062073",
+      "symbol": "سينرژي",
+      "asset_type": "fund",
+      "rows": 505,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "66772024744156373",
+      "symbol": "فباهنر",
+      "asset_type": "share",
+      "rows": 5409,
+      "latest_date": "20261118",
+      "events": 24
+    },
+    {
+      "insCode": "48010225447410247",
+      "symbol": "وبانك",
+      "asset_type": "share",
+      "rows": 5659,
+      "latest_date": "20261118",
+      "events": 23
+    },
+    {
+      "insCode": "23441366113375722",
+      "symbol": "پارسان",
+      "asset_type": "share",
+      "rows": 3562,
+      "latest_date": "20261118",
+      "events": 24
+    },
+    {
+      "insCode": "12638840758449459",
+      "symbol": "پخش",
+      "asset_type": "share",
+      "rows": 3303,
+      "latest_date": "20261118",
+      "events": 25
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:35:18.317308Z"
+}
