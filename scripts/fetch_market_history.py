@@ -155,7 +155,7 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     raw_paths = [OUT / ("raw_%02d.csv.gz" % i) for i in range(SHARDS)]
     adj_paths = [OUT / ("adjusted_%02d.csv.gz" % i) for i in range(SHARDS)]
-    raw_files = [gzip.open(p, "wt", encoding="utf-8", newline="", compresslevel=6, mtime=0) for p in raw_paths]
+    raw_files = [gzip.open(p, "wt", encoding="utf-8", newline="", compresslevel=6) for p in raw_paths]
     adj_files = [gzip.open(p, "wt", encoding="utf-8", newline="", compresslevel=6, mtime=0) for p in adj_paths]
     raw_writers = [csv.DictWriter(f, fieldnames=FIELDS) for f in raw_files]
     adj_writers = [csv.DictWriter(f, fieldnames=FIELDS) for f in adj_files]
