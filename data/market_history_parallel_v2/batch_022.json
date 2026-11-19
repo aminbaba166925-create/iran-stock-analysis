@@ -1,0 +1,91 @@
+{
+  "batch": 22,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 9142,
+  "events": 29,
+  "instruments": [
+    {
+      "insCode": "40912525017440979",
+      "symbol": "آبنوس",
+      "asset_type": "fund",
+      "rows": 600,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "14886507586508567",
+      "symbol": "آوان",
+      "asset_type": "fund",
+      "rows": 115,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "60887982279284651",
+      "symbol": "ثجنوب",
+      "asset_type": "share",
+      "rows": 1345,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "40030273081894426",
+      "symbol": "ثروين",
+      "asset_type": "fund",
+      "rows": 205,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "63481599728522324",
+      "symbol": "ثشاهد",
+      "asset_type": "share",
+      "rows": 4895,
+      "latest_date": "20261118",
+      "events": 24
+    },
+    {
+      "insCode": "63886404454477678",
+      "symbol": "رخش",
+      "asset_type": "fund",
+      "rows": 598,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "71907403347534074",
+      "symbol": "غزنجان",
+      "asset_type": "share",
+      "rows": 413,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "51920757918600374",
+      "symbol": "هم تراز",
+      "asset_type": "fund",
+      "rows": 288,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "36002472163498476",
+      "symbol": "همسنگ",
+      "asset_type": "fund",
+      "rows": 247,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "118005828419984",
+      "symbol": "چتر",
+      "asset_type": "fund",
+      "rows": 436,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:29:51.760160Z"
+}
