@@ -4,8 +4,6 @@ on:
   push:
     branches: [main]
     paths:
-      - '.github/workflows/market-history-next100.yml'
-      - 'scripts/fetch_market_history_next100.py'
       - 'data/market_history_parallel_v3_excluded_codes.json'
   workflow_dispatch:
 
