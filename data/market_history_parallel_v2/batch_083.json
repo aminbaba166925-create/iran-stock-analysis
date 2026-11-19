@@ -1,0 +1,91 @@
+{
+  "batch": 83,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 31098,
+  "events": 4,
+  "instruments": [
+    {
+      "insCode": "63555882930905460",
+      "symbol": "بامداد",
+      "asset_type": "fund",
+      "rows": 255,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "9781695326258674",
+      "symbol": "دزهراوي3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "26547362091465395",
+      "symbol": "ديوان",
+      "asset_type": "fund",
+      "rows": 1204,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "15124889255100138",
+      "symbol": "رويش",
+      "asset_type": "fund",
+      "rows": 2379,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "11892449447452574",
+      "symbol": "سپاها3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "52587702130425802",
+      "symbol": "غدام3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "11426217028122315",
+      "symbol": "فجام3",
+      "asset_type": "share",
+      "rows": 4329,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "60298476338592154",
+      "symbol": "كلوند3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "58965710006903807",
+      "symbol": "كمان",
+      "asset_type": "fund",
+      "rows": 1281,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "38914218471764487",
+      "symbol": "پلاسك3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T23:54:25.943978Z"
+}
