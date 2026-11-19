@@ -1,0 +1,91 @@
+{
+  "batch": 33,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 12290,
+  "events": 28,
+  "instruments": [
+    {
+      "insCode": "37028614515926436",
+      "symbol": "آفرين",
+      "asset_type": "fund",
+      "rows": 728,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "21731820344041381",
+      "symbol": "اتوكار",
+      "asset_type": "fund",
+      "rows": 81,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "31400839654504249",
+      "symbol": "تفارس",
+      "asset_type": "share",
+      "rows": 355,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "43450146028916610",
+      "symbol": "دزاگرس",
+      "asset_type": "share",
+      "rows": 665,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "6279426571085158",
+      "symbol": "ديار",
+      "asset_type": "fund",
+      "rows": 409,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "38428194580055973",
+      "symbol": "شيلد",
+      "asset_type": "fund",
+      "rows": 254,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "66036975502302203",
+      "symbol": "فيروزه",
+      "asset_type": "fund",
+      "rows": 2849,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "47041908051542008",
+      "symbol": "هم وزن",
+      "asset_type": "fund",
+      "rows": 1082,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "18063426072758458",
+      "symbol": "وبهمن",
+      "asset_type": "share",
+      "rows": 5037,
+      "latest_date": "20261118",
+      "events": 22
+    },
+    {
+      "insCode": "971068957336171",
+      "symbol": "گارانتي",
+      "asset_type": "fund",
+      "rows": 830,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:47:06.165557Z"
+}
