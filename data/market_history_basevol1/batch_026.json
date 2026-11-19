@@ -1,0 +1,91 @@
+{
+  "batch": 26,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 2017,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "7850711562566658",
+      "symbol": "نفتوداريوش2",
+      "asset_type": "fund",
+      "rows": 194,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "67269004688649567",
+      "symbol": "نفيس2",
+      "asset_type": "fund",
+      "rows": 983,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "41941748231072053",
+      "symbol": "نقرآمد",
+      "asset_type": "fund",
+      "rows": 64,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "56749722173437552",
+      "symbol": "نقرا",
+      "asset_type": "fund",
+      "rows": 53,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "47200039431982622",
+      "symbol": "نقرا2",
+      "asset_type": "fund",
+      "rows": 53,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "63283084239560679",
+      "symbol": "نقراتي",
+      "asset_type": "fund",
+      "rows": 35,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "1866895338227997",
+      "symbol": "نقران2",
+      "asset_type": "fund",
+      "rows": 205,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "47843549691797539",
+      "symbol": "نقرسا2",
+      "asset_type": "fund",
+      "rows": 130,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "12590355983583239",
+      "symbol": "نقرين",
+      "asset_type": "fund",
+      "rows": 150,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "64755435377613454",
+      "symbol": "نقرين2",
+      "asset_type": "fund",
+      "rows": 150,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T23:29:42.695633+00:00"
+}
