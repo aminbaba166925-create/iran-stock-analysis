@@ -221,12 +221,12 @@ def main():
             "price_sample_keys": list((watch[0].get("closingPriceInfo") or {}).keys()) if watch and isinstance(watch[0], dict) and isinstance(watch[0].get("closingPriceInfo"), dict) else [],
             "client_type_sample_keys": list(client_rows[0].keys()) if client_rows and isinstance(client_rows[0], dict) else []
         },
-        "top_20": output[:20],
+        "highest_value_20_not_ranked": output[:20],
     }
     (OUT / "market_screener_summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"OK: market rows={len(watch)}, saved symbols={len(output)}, client-type rows={len(client_rows)}, matched={summary['symbols_with_client_type']}")
     print(f"CSV: {csv_path}")
-    print("Top 10:")
+    print("Highest traded-value 10 (not a recommendation ranking):")
     for row in output[:10]:
         print(row["symbol"], row["change_pct"], row["net_individual_value_rial"], row["buyer_power"], row["screen_score"])
 
