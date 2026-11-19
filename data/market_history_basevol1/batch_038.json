@@ -1,0 +1,91 @@
+{
+  "batch": 38,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 32476,
+  "corporate_action_events": 135,
+  "instruments": [
+    {
+      "insCode": "3839324986781871",
+      "symbol": "تپسي",
+      "asset_type": "share",
+      "rows": 1189,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "43062880954780884",
+      "symbol": "تپمپي",
+      "asset_type": "share",
+      "rows": 4983,
+      "latest_date": "20261118",
+      "events": 29
+    },
+    {
+      "insCode": "16693610252404739",
+      "symbol": "ثالوند",
+      "asset_type": "share",
+      "rows": 2575,
+      "latest_date": "20261118",
+      "events": 13
+    },
+    {
+      "insCode": "66456062140680461",
+      "symbol": "ثامان",
+      "asset_type": "share",
+      "rows": 5464,
+      "latest_date": "20261118",
+      "events": 19
+    },
+    {
+      "insCode": "6043384171800349",
+      "symbol": "ثشرق",
+      "asset_type": "share",
+      "rows": 3020,
+      "latest_date": "20261118",
+      "events": 13
+    },
+    {
+      "insCode": "17939384202383793",
+      "symbol": "ثغرب",
+      "asset_type": "share",
+      "rows": 3372,
+      "latest_date": "20261118",
+      "events": 16
+    },
+    {
+      "insCode": "32845891587040106",
+      "symbol": "ثنوسا",
+      "asset_type": "share",
+      "rows": 5029,
+      "latest_date": "20261118",
+      "events": 6
+    },
+    {
+      "insCode": "32357363984168442",
+      "symbol": "جم",
+      "asset_type": "share",
+      "rows": 2720,
+      "latest_date": "20261118",
+      "events": 13
+    },
+    {
+      "insCode": "27096851668435724",
+      "symbol": "جم پيلن",
+      "asset_type": "share",
+      "rows": 1836,
+      "latest_date": "20261118",
+      "events": 8
+    },
+    {
+      "insCode": "44625249840480397",
+      "symbol": "حآسا",
+      "asset_type": "share",
+      "rows": 2288,
+      "latest_date": "20261118",
+      "events": 13
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T23:52:05.696832+00:00"
+}
