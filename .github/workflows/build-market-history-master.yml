@@ -1,0 +1,50 @@
+name: Build verified master market history index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_market_history_master.py'
+      - '.github/workflows/build-market-history-master.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-market-history-master
+  cancel-in-progress: false
+
+jobs:
+  consolidate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fetch durable checkpoint branches
+        run: |
+          git fetch origin market-history-checkpoints:refs/remotes/origin/market-history-checkpoints
+          git fetch origin market-history-checkpoints-v3:refs/remotes/origin/market-history-checkpoints-v3
+          mkdir -p /tmp/checkpoints/v2 /tmp/checkpoints/v3
+          git archive origin/market-history-checkpoints data/market_history_parallel_v2 | tar -x -C /tmp/checkpoints/v2
+          git archive origin/market-history-checkpoints-v3 data/market_history_parallel_v3 | tar -x -C /tmp/checkpoints/v3
+
+      - name: Verify archives and build master index
+        run: |
+          python scripts/build_market_history_master.py \
+            --v2-dir /tmp/checkpoints/v2/data/market_history_parallel_v2 \
+            --v3-dir /tmp/checkpoints/v3/data/market_history_parallel_v3 \
+            --out data/market_history_master
+
+      - name: Publish master index on its own branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "market-history-master-${GITHUB_RUN_ID}"
+          git add data/market_history_master
+          git commit -m "Build verified master market history index"
+          git push origin "HEAD:market-history-master-${GITHUB_RUN_ID}"
