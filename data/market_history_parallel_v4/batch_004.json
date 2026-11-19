@@ -1,0 +1,91 @@
+{
+  "batch": 4,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 33980,
+  "events": 173,
+  "instruments": [
+    {
+      "insCode": "61332057061846617",
+      "symbol": "دابور",
+      "asset_type": "share",
+      "rows": 4802,
+      "latest_date": "20261118",
+      "events": 27
+    },
+    {
+      "insCode": "41048299027409941",
+      "symbol": "رتاپ",
+      "asset_type": "share",
+      "rows": 3672,
+      "latest_date": "20261118",
+      "events": 26
+    },
+    {
+      "insCode": "5054819322815158",
+      "symbol": "زمگسا",
+      "asset_type": "share",
+      "rows": 4482,
+      "latest_date": "20261118",
+      "events": 21
+    },
+    {
+      "insCode": "15472396110662150",
+      "symbol": "سكرما",
+      "asset_type": "share",
+      "rows": 5271,
+      "latest_date": "20261118",
+      "events": 26
+    },
+    {
+      "insCode": "8234855558996646",
+      "symbol": "غدانه",
+      "asset_type": "share",
+      "rows": 1260,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "2434703913394836",
+      "symbol": "غدشت",
+      "asset_type": "share",
+      "rows": 5005,
+      "latest_date": "20261118",
+      "events": 17
+    },
+    {
+      "insCode": "34673681828119297",
+      "symbol": "فاما",
+      "asset_type": "share",
+      "rows": 5295,
+      "latest_date": "20261118",
+      "events": 32
+    },
+    {
+      "insCode": "29974853866926823",
+      "symbol": "فروي",
+      "asset_type": "share",
+      "rows": 1688,
+      "latest_date": "20261118",
+      "events": 10
+    },
+    {
+      "insCode": "46878429508891351",
+      "symbol": "نخريس",
+      "asset_type": "share",
+      "rows": 984,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "28957320033282870",
+      "symbol": "چكاپا",
+      "asset_type": "share",
+      "rows": 1521,
+      "latest_date": "20261118",
+      "events": 5
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:27:43.969771Z"
+}
