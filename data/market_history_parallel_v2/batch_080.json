@@ -1,0 +1,91 @@
+{
+  "batch": 80,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 33423,
+  "events": 0,
+  "instruments": [
+    {
+      "insCode": "63600824877528094",
+      "symbol": "البرز3",
+      "asset_type": "share",
+      "rows": 4132,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "53393468648784277",
+      "symbol": "سخاش3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "45351719508336831",
+      "symbol": "غشهد3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "40149571318090913",
+      "symbol": "غپاك3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "55128878093228671",
+      "symbol": "فولاژ3",
+      "asset_type": "share",
+      "rows": 3830,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "71595553356620707",
+      "symbol": "كاخ",
+      "asset_type": "fund",
+      "rows": 178,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "7181890548313534",
+      "symbol": "ملت3",
+      "asset_type": "share",
+      "rows": 3490,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "28295696926054253",
+      "symbol": "مهر3",
+      "asset_type": "share",
+      "rows": 143,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "58375368401823035",
+      "symbol": "نمرينو3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "47915296881164515",
+      "symbol": "پرديس3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T23:33:05.912840Z"
+}
