@@ -1,0 +1,91 @@
+{
+  "batch": 26,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 14556,
+  "events": 10,
+  "instruments": [
+    {
+      "insCode": "7104496710718469",
+      "symbol": "آرامش",
+      "asset_type": "fund",
+      "rows": 590,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "66818022341772870",
+      "symbol": "اعتماد",
+      "asset_type": "fund",
+      "rows": 2813,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "45728383369147894",
+      "symbol": "امين يكم",
+      "asset_type": "fund",
+      "rows": 2396,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "52551569846042389",
+      "symbol": "بمان",
+      "asset_type": "fund",
+      "rows": 711,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "53419976284977130",
+      "symbol": "تصميم",
+      "asset_type": "fund",
+      "rows": 1699,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "2161110547458064",
+      "symbol": "سپيدما",
+      "asset_type": "fund",
+      "rows": 1356,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "67241087413794092",
+      "symbol": "شفق",
+      "asset_type": "fund",
+      "rows": 46,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "34718633636164421",
+      "symbol": "كمند",
+      "asset_type": "fund",
+      "rows": 2239,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "43267179898797137",
+      "symbol": "پاداش",
+      "asset_type": "fund",
+      "rows": 1099,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "57728534324022361",
+      "symbol": "گنجين",
+      "asset_type": "fund",
+      "rows": 1607,
+      "latest_date": "20261118",
+      "events": 1
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:52:18.435296Z"
+}
