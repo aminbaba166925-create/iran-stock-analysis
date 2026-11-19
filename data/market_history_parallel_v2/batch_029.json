@@ -1,0 +1,91 @@
+{
+  "batch": 29,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 11585,
+  "events": 12,
+  "instruments": [
+    {
+      "insCode": "37073830945037165",
+      "symbol": "آفاق",
+      "asset_type": "fund",
+      "rows": 1066,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "35163287528816137",
+      "symbol": "اعتبار",
+      "asset_type": "fund",
+      "rows": 945,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "3846143218462419",
+      "symbol": "افران",
+      "asset_type": "fund",
+      "rows": 1610,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "56871139881800017",
+      "symbol": "توسكا",
+      "asset_type": "fund",
+      "rows": 791,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "21077182490095731",
+      "symbol": "درين",
+      "asset_type": "fund",
+      "rows": 897,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "64968461315419199",
+      "symbol": "سپر4",
+      "asset_type": "fund",
+      "rows": 1518,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "42670427020727409",
+      "symbol": "كاج",
+      "asset_type": "fund",
+      "rows": 992,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "61265100181977543",
+      "symbol": "ماني",
+      "asset_type": "fund",
+      "rows": 1271,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "31188566503248753",
+      "symbol": "نيلي",
+      "asset_type": "fund",
+      "rows": 893,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "1438514795814416",
+      "symbol": "ياقوت",
+      "asset_type": "fund",
+      "rows": 1602,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:58:25.563028Z"
+}
