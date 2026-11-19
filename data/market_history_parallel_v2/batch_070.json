@@ -1,0 +1,91 @@
+{
+  "batch": 70,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 20583,
+  "events": 43,
+  "instruments": [
+    {
+      "insCode": "47492157735162813",
+      "symbol": "آتيه ملت",
+      "asset_type": "fund",
+      "rows": 590,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "19828734979381742",
+      "symbol": "آلا",
+      "asset_type": "fund",
+      "rows": 815,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "12209858318273950",
+      "symbol": "بالاس3",
+      "asset_type": "share",
+      "rows": 3928,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "70219663893822560",
+      "symbol": "بكاب",
+      "asset_type": "share",
+      "rows": 5385,
+      "latest_date": "20261118",
+      "events": 23
+    },
+    {
+      "insCode": "70427653845237273",
+      "symbol": "خزانه ملت4",
+      "asset_type": "fund",
+      "rows": 542,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "48287767791629523",
+      "symbol": "رشد",
+      "asset_type": "fund",
+      "rows": 1101,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "39329349079135923",
+      "symbol": "سپيدما4",
+      "asset_type": "fund",
+      "rows": 1356,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "45205530868811305",
+      "symbol": "صايند",
+      "asset_type": "fund",
+      "rows": 2763,
+      "latest_date": "20261118",
+      "events": 14
+    },
+    {
+      "insCode": "70595828753641750",
+      "symbol": "پارند",
+      "asset_type": "fund",
+      "rows": 2496,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "10628305906504872",
+      "symbol": "گنجين4",
+      "asset_type": "fund",
+      "rows": 1607,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T23:12:34.001856Z"
+}
