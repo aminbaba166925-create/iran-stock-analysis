@@ -1,0 +1,91 @@
+{
+  "batch": 41,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 32804,
+  "corporate_action_events": 180,
+  "instruments": [
+    {
+      "insCode": "12387472624849835",
+      "symbol": "داسوه",
+      "asset_type": "share",
+      "rows": 5623,
+      "latest_date": "20261118",
+      "events": 22
+    },
+    {
+      "insCode": "60451823714332895",
+      "symbol": "دالبر",
+      "asset_type": "share",
+      "rows": 5137,
+      "latest_date": "20261118",
+      "events": 39
+    },
+    {
+      "insCode": "66726992874614788",
+      "symbol": "دتوزيع",
+      "asset_type": "share",
+      "rows": 1746,
+      "latest_date": "20261118",
+      "events": 9
+    },
+    {
+      "insCode": "69540585676934415",
+      "symbol": "ددانا",
+      "asset_type": "share",
+      "rows": 1355,
+      "latest_date": "20261118",
+      "events": 6
+    },
+    {
+      "insCode": "16567465928886309",
+      "symbol": "درازي",
+      "asset_type": "share",
+      "rows": 1259,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "13243992182070788",
+      "symbol": "درهآور",
+      "asset_type": "share",
+      "rows": 1786,
+      "latest_date": "20261118",
+      "events": 7
+    },
+    {
+      "insCode": "9917562130961534",
+      "symbol": "درپاد",
+      "asset_type": "share",
+      "rows": 380,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "43622578471330344",
+      "symbol": "دسبحا",
+      "asset_type": "share",
+      "rows": 5300,
+      "latest_date": "20261118",
+      "events": 33
+    },
+    {
+      "insCode": "49054891736433700",
+      "symbol": "دعبيد",
+      "asset_type": "share",
+      "rows": 5346,
+      "latest_date": "20261118",
+      "events": 30
+    },
+    {
+      "insCode": "18303237082155264",
+      "symbol": "دفرا",
+      "asset_type": "share",
+      "rows": 4872,
+      "latest_date": "20261118",
+      "events": 27
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T23:58:54.917038+00:00"
+}
