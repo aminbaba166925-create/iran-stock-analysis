@@ -1,0 +1,91 @@
+{
+  "batch": 59,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 27442,
+  "events": 83,
+  "instruments": [
+    {
+      "insCode": "17802352521411336",
+      "symbol": "اكستريم",
+      "asset_type": "fund",
+      "rows": 108,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "22382156782768756",
+      "symbol": "بكام",
+      "asset_type": "share",
+      "rows": 5064,
+      "latest_date": "20261118",
+      "events": 20
+    },
+    {
+      "insCode": "16662877137476564",
+      "symbol": "بكام3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "70474983732269112",
+      "symbol": "دپارس",
+      "asset_type": "share",
+      "rows": 5831,
+      "latest_date": "20261118",
+      "events": 31
+    },
+    {
+      "insCode": "48636523343139021",
+      "symbol": "زهلال",
+      "asset_type": "share",
+      "rows": 796,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "12710905407253526",
+      "symbol": "زهلال3",
+      "asset_type": "share",
+      "rows": 143,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "27922860956133067",
+      "symbol": "مبين",
+      "asset_type": "share",
+      "rows": 2831,
+      "latest_date": "20261118",
+      "events": 15
+    },
+    {
+      "insCode": "19834890400968993",
+      "symbol": "مبين3",
+      "asset_type": "share",
+      "rows": 2831,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "54362614710319812",
+      "symbol": "نيروانا",
+      "asset_type": "fund",
+      "rows": 233,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "41935584690956944",
+      "symbol": "پتاير",
+      "asset_type": "share",
+      "rows": 5275,
+      "latest_date": "20261118",
+      "events": 16
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:51:40.853163Z"
+}
