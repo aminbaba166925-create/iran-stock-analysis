@@ -11,7 +11,7 @@ DATA = Path("data")
 SCREENER = DATA / "market_screener.csv"
 OUT = DATA / "market_history_parallel_v2"
 SHARDS = 24
-WORKERS = 10
+WORKERS = 4
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36",
     "Accept": "application/json, text/plain, */*",
@@ -19,17 +19,17 @@ HEADERS = {
 }
 FIELDS = ["symbol", "name", "asset_type", "insCode", "date", "open", "high", "low", "close", "last", "volume", "value"]
 
-def get_json(url, attempts=2):
+def get_json(url, attempts=3):
     last = None
     for n in range(attempts):
         try:
             req = urllib.request.Request(url, headers=HEADERS)
-            with urllib.request.urlopen(req, timeout=18) as response:
+            with urllib.request.urlopen(req, timeout=12) as response:
                 return json.loads(response.read().decode("utf-8-sig"))
         except Exception as exc:
             last = exc
             if n + 1 < attempts:
-                time.sleep(0.8 * (n + 1))
+                time.sleep(1.0 * (2 ** n))
     raise RuntimeError(str(last))
 
 def rows_from(payload, preferred):
@@ -224,7 +224,7 @@ def main():
                     failures.append({"insCode": item.get("insCode", ""),
                                      "symbol": item.get("symbol", ""),
                                      "error": str(exc)[:300]})
-                if done % 10 == 0 or done == len(batch):
+                if True:
                     print("Batch %d/%d: %d/%d success=%d failed=%d" %
                           (batch_no + 1, len(batches), done, len(batch),
                            len(results), len(failures)), flush=True)
