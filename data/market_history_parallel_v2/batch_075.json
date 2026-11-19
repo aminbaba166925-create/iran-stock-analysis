@@ -1,0 +1,91 @@
+{
+  "batch": 75,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 16833,
+  "events": 2,
+  "instruments": [
+    {
+      "insCode": "58356374066358100",
+      "symbol": "اروند",
+      "asset_type": "share",
+      "rows": 1357,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "57896457971749928",
+      "symbol": "اسياتك3",
+      "asset_type": "share",
+      "rows": 2180,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "24651394045981418",
+      "symbol": "تاراز",
+      "asset_type": "fund",
+      "rows": 1154,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "13327012090180555",
+      "symbol": "عرش",
+      "asset_type": "fund",
+      "rows": 476,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "31787507070992420",
+      "symbol": "فارماني",
+      "asset_type": "fund",
+      "rows": 462,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "65249046611427924",
+      "symbol": "فردا",
+      "asset_type": "fund",
+      "rows": 1402,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "2151034470957050",
+      "symbol": "فمراد3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "34322849244939912",
+      "symbol": "كاشانه",
+      "asset_type": "fund",
+      "rows": 369,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "36210120445803868",
+      "symbol": "وكار3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "30762816122316539",
+      "symbol": "پتروصبا",
+      "asset_type": "fund",
+      "rows": 773,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T23:36:42.433804Z"
+}
