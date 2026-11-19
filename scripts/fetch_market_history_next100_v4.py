@@ -185,18 +185,28 @@ def main():
     if not SCREENER.exists():
         raise RuntimeError("Missing data/market_screener.csv; run scan_market.py first")
     OUT.mkdir(parents=True, exist_ok=True)
-    excluded_codes = set(json.loads(EXCLUDED_CODES.read_text(encoding="utf-8"))["insCodes"]) if EXCLUDED_CODES.exists() else set()
+    if not EXCLUDED_CODES.exists():
+        raise RuntimeError("Missing verified master exclusion list: " + str(EXCLUDED_CODES))
+    excluded_payload = json.loads(EXCLUDED_CODES.read_text(encoding="utf-8"))
+    if not isinstance(excluded_payload, dict) or not isinstance(excluded_payload.get("insCodes"), list):
+        raise RuntimeError("Invalid master exclusion-list schema; expected {insCodes: [...]}")
+    excluded_codes = {str(x).strip() for x in excluded_payload["insCodes"] if str(x).strip()}
+    if len(excluded_codes) < 100:
+        raise RuntimeError("Master exclusion list is unexpectedly small; refusing unsafe incremental fetch")
     items, seen = [], set()
-    with SCREENER.open("r", encoding="utf-8-sig", newline="") as handle:
-        for row in csv.DictReader(handle):
-            code = str(row.get("insCode", "")).strip()
-            if code and code not in seen and code not in excluded_codes and row.get("asset_type") in ("share", "fund") and not str(row.get("symbol", "")).strip().endswith("3"):
-                seen.add(code)
-                items.append(row)
-                if len(items) >= 100:
-                    break
+    screener_rows = 0
+    for row in csv.DictReader(SCREENER.open("r", encoding="utf-8-sig", newline="")):
+        screener_rows += 1
+        code = str(row.get("insCode", "")).strip()
+        symbol = str(row.get("symbol", "")).strip()
+        if code and code not in seen and code not in excluded_codes and row.get("asset_type") in ("share", "fund") and not symbol.endswith("3"):
+            seen.add(code)
+            items.append(row)
+    print("UNIVERSE CHECK: screener_rows=%d master_excluded=%d unseen_eligible=%d" %
+          (screener_rows, len(excluded_codes), len(items)), flush=True)
+    items = items[:100]
     if not items:
-        raise RuntimeError("No eligible instruments found in screener")
+        raise RuntimeError("No unseen eligible instruments remain after applying verified master exclusion list")
 
     if len(items) < 100:
         print("WARNING: fewer than 100 unseen eligible instruments remain", flush=True)
