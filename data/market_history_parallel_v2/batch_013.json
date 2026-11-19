@@ -1,0 +1,91 @@
+{
+  "batch": 13,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 29575,
+  "events": 128,
+  "instruments": [
+    {
+      "insCode": "34557241988629814",
+      "symbol": "بركت",
+      "asset_type": "share",
+      "rows": 2389,
+      "latest_date": "20261118",
+      "events": 14
+    },
+    {
+      "insCode": "30719054967088301",
+      "symbol": "تكمبا",
+      "asset_type": "share",
+      "rows": 5210,
+      "latest_date": "20261118",
+      "events": 8
+    },
+    {
+      "insCode": "33400731879150699",
+      "symbol": "خاور3",
+      "asset_type": "share",
+      "rows": 143,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "67261627618765635",
+      "symbol": "خودران",
+      "asset_type": "fund",
+      "rows": 683,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "48990026850202503",
+      "symbol": "خگستر",
+      "asset_type": "share",
+      "rows": 4430,
+      "latest_date": "20261118",
+      "events": 23
+    },
+    {
+      "insCode": "11427387039523955",
+      "symbol": "شفام",
+      "asset_type": "share",
+      "rows": 745,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "39116664428676213",
+      "symbol": "شلعاب",
+      "asset_type": "share",
+      "rows": 5010,
+      "latest_date": "20261118",
+      "events": 21
+    },
+    {
+      "insCode": "61102694810476197",
+      "symbol": "شپارس",
+      "asset_type": "share",
+      "rows": 4575,
+      "latest_date": "20261118",
+      "events": 21
+    },
+    {
+      "insCode": "55373808401388162",
+      "symbol": "فتوسا",
+      "asset_type": "share",
+      "rows": 1412,
+      "latest_date": "20261118",
+      "events": 10
+    },
+    {
+      "insCode": "30765727085936322",
+      "symbol": "فجام",
+      "asset_type": "share",
+      "rows": 4978,
+      "latest_date": "20261118",
+      "events": 27
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:15:06.258792Z"
+}
