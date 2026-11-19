@@ -1,0 +1,89 @@
+{
+  "batch": 48,
+  "success": 9,
+  "failed": 1,
+  "raw_rows": 24622,
+  "events": 30,
+  "instruments": [
+    {
+      "insCode": "39671697314746500",
+      "symbol": "بركت3",
+      "asset_type": "share",
+      "rows": 2389,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "49270349234092953",
+      "symbol": "خاور",
+      "asset_type": "share",
+      "rows": 865,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "48670335799816465",
+      "symbol": "خگستر3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "62794928774385833",
+      "symbol": "دارو3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "66726992874614788",
+      "symbol": "دتوزيع",
+      "asset_type": "share",
+      "rows": 1746,
+      "latest_date": "20261118",
+      "events": 9
+    },
+    {
+      "insCode": "21496274091613745",
+      "symbol": "دتوزيع3",
+      "asset_type": "share",
+      "rows": 1746,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "27218386411183410",
+      "symbol": "سدور",
+      "asset_type": "share",
+      "rows": 4844,
+      "latest_date": "20261118",
+      "events": 11
+    },
+    {
+      "insCode": "71530920269483031",
+      "symbol": "شلعاب3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "66025809087145106",
+      "symbol": "كيمازي",
+      "asset_type": "share",
+      "rows": 42,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [
+    {
+      "insCode": "51346017122365212",
+      "symbol": "كاريز",
+      "error": "daily history too short: 7"
+    }
+  ],
+  "saved_at_utc": "2026-11-19T22:11:00.678770Z"
+}
