@@ -81,12 +81,14 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--v2-dir", type=Path, required=True)
     ap.add_argument("--v3-dir", type=Path, required=True)
+    ap.add_argument("--v4-dir", type=Path, required=True)
     ap.add_argument("--out", type=Path, required=True)
     args = ap.parse_args()
 
     v2_records, v2_failures, v2_batches = inspect_batch(args.v2_dir, "market-history-checkpoints", "v2")
     v3_records, v3_failures, v3_batches = inspect_batch(args.v3_dir, "market-history-checkpoints-v3", "v3")
-    all_records = v2_records + v3_records
+    v4_records, v4_failures, v4_batches = inspect_batch(args.v4_dir, "market-history-checkpoints-v4", "v4")
+    all_records = v2_records + v3_records + v4_records
     grouped = defaultdict(list)
     for record in all_records:
         grouped[record["insCode"]].append(record)
@@ -113,7 +115,7 @@ def main():
     eligible.sort(key=lambda x: x["symbol"])
     after_hours.sort(key=lambda x: x["symbol"])
     failures_by_code = {}
-    for failure in v2_failures + v3_failures:
+    for failure in v2_failures + v3_failures + v4_failures:
         code = str(failure.get("insCode", "")).strip()
         key = code or (failure.get("symbol", ""), failure.get("error", ""))
         failures_by_code.setdefault(key, failure)
@@ -147,9 +149,10 @@ def main():
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
         "sources": [
             {"branch": "market-history-checkpoints", "dataset": "v2", "batches": v2_batches},
-            {"branch": "market-history-checkpoints-v3", "dataset": "v3", "batches": v3_batches}
+            {"branch": "market-history-checkpoints-v3", "dataset": "v3", "batches": v3_batches},
+            {"branch": "market-history-checkpoints-v4", "dataset": "v4", "batches": v4_batches}
         ],
-        "source_batch_count": len(v2_batches) + len(v3_batches),
+        "source_batch_count": len(v2_batches) + len(v3_batches) + len(v4_batches),
         "successful_instrument_records_across_sources": all_success_records,
         "unique_insCodes_across_sources": unique_codes,
         "duplicate_instrument_records": all_success_records - unique_codes,
@@ -176,7 +179,7 @@ def main():
     (args.out / "README.md").write_text(
         "# Master market-history index\n\n"
         "This directory is a verified, de-duplicated index of history archives stored on the "
-        "market-history-checkpoints and market-history-checkpoints-v3 branches.\n\n"
+        "market-history-checkpoints, market-history-checkpoints-v3 and market-history-checkpoints-v4 branches.\n\n"
         "- index.json: eligible unique ordinary shares and funds, excluding suffix-3 after-hours instruments.\n"
         "- eligible_codes.json: successful instrument codes, suitable as the exclusion list for the next incremental fetch.\n"
         "- after_hours_suffix3_excluded.json: suffix-3-only instruments excluded from analysis.\n"

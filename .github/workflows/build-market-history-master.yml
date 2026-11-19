@@ -29,15 +29,18 @@ jobs:
         run: |
           git fetch origin market-history-checkpoints:refs/remotes/origin/market-history-checkpoints
           git fetch origin market-history-checkpoints-v3:refs/remotes/origin/market-history-checkpoints-v3
-          mkdir -p /tmp/checkpoints/v2 /tmp/checkpoints/v3
+          git fetch origin market-history-checkpoints-v4:refs/remotes/origin/market-history-checkpoints-v4
+          mkdir -p /tmp/checkpoints/v2 /tmp/checkpoints/v3 /tmp/checkpoints/v4
           git archive origin/market-history-checkpoints data/market_history_parallel_v2 | tar -x -C /tmp/checkpoints/v2
           git archive origin/market-history-checkpoints-v3 data/market_history_parallel_v3 | tar -x -C /tmp/checkpoints/v3
+          git archive origin/market-history-checkpoints-v4 data/market_history | tar -x -C /tmp/checkpoints/v4
 
       - name: Verify archives and build master index
         run: |
           python scripts/build_market_history_master.py \
             --v2-dir /tmp/checkpoints/v2/data/market_history_parallel_v2 \
             --v3-dir /tmp/checkpoints/v3/data/market_history_parallel_v3 \
+            --v4-dir /tmp/checkpoints/v4/data/market_history \
             --out data/market_history_master
 
       - name: Publish master index on its own branch

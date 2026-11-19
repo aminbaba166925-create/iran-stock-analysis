@@ -124,12 +124,14 @@ def main():
             else:
                 excluded["outside_scope"] += 1
             continue
-        close = num(price, "pcl", "pdv", "pmd", "pClosing", "pc")
-        last = num(price, "pdv", "pmd", "pDrCotVal", "pl")
-        yesterday = num(price, "priceYesterday", "py")
-        volume = num(price, "qtj", "qTotTran5J", "tvol", "volume")
-        value = num(price, "qtc", "qTotCap", "tval", "value")
-        trades = num(price, "ztt", "zTotTran", "tno", "tradeCount")
+        # Use only documented TSETMC field names. Fuzzy aliases caused
+        # yesterday-price and close-price misreads in earlier snapshots.
+        close = num(price, "pClosing")
+        last = num(price, "pDrCotVal")
+        yesterday = num(price, "priceYesterday")
+        volume = num(price, "qTotTran5J")
+        value = num(price, "qTotCap")
+        trades = num(price, "zTotTran")
         buy_iv = num(ct, "buy_I_Volume")
         sell_iv = num(ct, "sell_I_Volume")
         buy_ic = num(ct, "buy_I_Count")
@@ -138,32 +140,37 @@ def main():
         sell_nv = num(ct, "sell_N_Volume")
         buy_value = num(ct, "buy_I_Value")
         sell_value = num(ct, "sell_I_Value")
-        net_real = buy_value - sell_value if ("buy_I_Value" in ct or "sell_I_Value" in ct) else (buy_iv - sell_iv) * close
-        buyer_power = ((buy_iv / buy_ic) / (sell_iv / sell_ic)) if buy_ic > 0 and sell_ic > 0 and sell_iv > 0 else None
-        change_pct = ((close / yesterday) - 1) * 100 if close > 0 and yesterday > 0 else None
-        base_vol = num(ins, "baseVol", "baseVolume")
+        buy_total = buy_iv + buy_nv
+        sell_total = sell_iv + sell_nv
+        client_type_valid = bool(ct) and buy_ic > 0 and sell_ic > 0 and volume > 0 and (
+            abs(buy_total - volume) / volume <= 0.10 and
+            abs(sell_total - volume) / volume <= 0.10
+        )
+        net_real = (buy_value - sell_value) if client_type_valid and ("buy_I_Value" in ct or "sell_I_Value" in ct) else (
+            (buy_iv - sell_iv) * close if client_type_valid and close > 0 else None
+        )
+        buyer_power = ((buy_iv / buy_ic) / (sell_iv / sell_ic)) if client_type_valid and buy_iv > 0 and sell_iv > 0 else None
+        raw_change_pct = ((close / yesterday) - 1) * 100 if close > 0 and yesterday > 0 else None
+        change_pct = raw_change_pct if raw_change_pct is not None and abs(raw_change_pct) <= 15 else None
+        base_vol = num(ins, "baseVol", "baseVolume") or num(item, "baseVol", "baseVolume")
         base_ratio = volume / base_vol if base_vol > 0 else None
-        # Transparent heuristic score: net retail flow, buyer power and price momentum.
-        score = 0.0
-        if net_real > 0: score += 2
-        if buyer_power is not None and buyer_power > 1.2: score += 2
-        if buyer_power is not None and buyer_power < 0.8: score -= 2
-        if change_pct is not None:
-            score += max(-1.5, min(1.5, change_pct / 3))
+        # Ranking is deliberately disabled until source fields pass live validation.
+        score = ""
         output.append({
             "symbol": symbol, "name": name, "asset_type": asset_type, "insCode": code,
-            "market": first(ins, "flowTitle", "marketName"),
-            "sector": first(ins, "lSecVal", "sectorName"),
+            "market": first(ins, "cgrValCotTitle", "flowTitle", "marketName"),
+            "sector": first(ins, "lSecValTitle", "lSecVal", "sectorName"),
             "close_rial": close, "last_rial": last, "change_pct": round(change_pct, 3) if change_pct is not None else "",
             "volume": int(volume), "trade_count": int(trades), "value_rial": int(value),
             "individual_buy_volume": int(buy_iv), "individual_sell_volume": int(sell_iv),
             "individual_buy_count": int(buy_ic), "individual_sell_count": int(sell_ic),
             "legal_buy_volume": int(buy_nv), "legal_sell_volume": int(sell_nv),
-            "net_individual_value_rial": int(net_real),
+            "net_individual_value_rial": int(net_real) if net_real is not None else "",
             "buyer_power": round(buyer_power, 3) if buyer_power is not None else "",
             "base_volume": int(base_vol), "volume_to_base": round(base_ratio, 3) if base_ratio is not None else "",
-            "screen_score": round(score, 3),
+            "screen_score": score,
             "client_type_available": bool(ct),
+            "client_type_valid": client_type_valid,
         })
 
     named = sum(1 for x in output if x["symbol"])
@@ -171,7 +178,8 @@ def main():
     if not output or named < len(output) * 0.5 or priced < len(output) * 0.5:
         sample = list(watch[0].keys()) if watch and isinstance(watch[0], dict) else []
         raise RuntimeError(f"MarketWatch field mapping validation failed: rows={len(output)}, named={named}, priced={priced}, sample_keys={sample}")
-    output.sort(key=lambda x: x["screen_score"], reverse=True)
+    # Do not present a ranking while price/client-type fields are unverified.
+    output.sort(key=lambda x: x["value_rial"], reverse=True)
     stamp = datetime.now(timezone.utc).isoformat()
     csv_path = OUT / "market_screener.csv"
     fields = list(output[0].keys())
@@ -192,14 +200,27 @@ def main():
         "symbols_with_price": priced,
         "client_type_rows": len(client_rows),
         "symbols_with_client_type": sum(1 for x in output if x["client_type_available"]),
-        "ranking_note": "Heuristic ranking only; not investment advice.",
+        "symbols_with_valid_client_type": sum(1 for x in output if x["client_type_valid"]),
+        "symbols_with_valid_change_pct": sum(1 for x in output if x["change_pct"] != ""),
+        "symbols_with_base_volume": sum(1 for x in output if x["base_volume"] > 0),
+        "ranking_enabled": False,
+        "ranking_note": "Disabled pending live validation of price, client-type and base-volume field mappings.",
         "limitations": [
             "Abnormal volume versus 20-day average is not yet calculated.",
             "Laggard detection requires multi-day history comparison and is not yet included.",
             "Client-type metrics are unavailable for symbols missing from the bulk client-type response.",
             "MarketWatch may represent latest available snapshot outside trading hours.",
-            "Instrument scope is filtered by ISIN prefix and Persian instrument-name/symbol exclusions; verify coverage against TSETMC instrument master."
+            "Instrument scope is filtered by ISIN prefix and Persian instrument-name/symbol exclusions; verify coverage against TSETMC instrument master.",
+            "Price change is omitted when the computed daily move exceeds 15% pending source-field validation.",
+            "Retail flow and buyer power are omitted unless both client sides reconcile to market volume within 10% and both buyer counts are positive.",
+            "Screen score is intentionally blank; no investment ranking is published until live field mappings are verified."
         ],
+        "schema_diagnostics": {
+            "marketwatch_sample_keys": list(watch[0].keys()) if watch and isinstance(watch[0], dict) else [],
+            "instrument_sample_keys": list((watch[0].get("instrument") or {}).keys()) if watch and isinstance(watch[0], dict) and isinstance(watch[0].get("instrument"), dict) else [],
+            "price_sample_keys": list((watch[0].get("closingPriceInfo") or {}).keys()) if watch and isinstance(watch[0], dict) and isinstance(watch[0].get("closingPriceInfo"), dict) else [],
+            "client_type_sample_keys": list(client_rows[0].keys()) if client_rows and isinstance(client_rows[0], dict) else []
+        },
         "top_20": output[:20],
     }
     (OUT / "market_screener_summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")

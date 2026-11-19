@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-19T22:16:37.000995+00:00",
+  "generated_at_utc": "2026-11-19T22:20:33.360309+00:00",
   "sources": [
     {
       "branch": "market-history-checkpoints",
@@ -346,6 +346,15 @@
           "adjusted_rows": 24394,
           "corporate_action_events": 109,
           "saved_at_utc": "2026-11-19T22:15:46.604289Z"
+        },
+        {
+          "batch": 38,
+          "success": 10,
+          "failed": 0,
+          "raw_rows": 18567,
+          "adjusted_rows": 18567,
+          "corporate_action_events": 71,
+          "saved_at_utc": "2026-11-19T22:18:12.495203Z"
         }
       ]
     },
@@ -444,12 +453,54 @@
           "saved_at_utc": "2026-11-19T21:53:14.694780Z"
         }
       ]
+    },
+    {
+      "branch": "market-history-checkpoints-v4",
+      "dataset": "v4",
+      "batches": [
+        {
+          "batch": 0,
+          "success": 50,
+          "failed": 0,
+          "raw_rows": 162287,
+          "adjusted_rows": 162287,
+          "corporate_action_events": 731,
+          "saved_at_utc": "2026-11-19T21:55:21.976889Z"
+        },
+        {
+          "batch": 1,
+          "success": 50,
+          "failed": 0,
+          "raw_rows": 151121,
+          "adjusted_rows": 151121,
+          "corporate_action_events": 711,
+          "saved_at_utc": "2026-11-19T22:00:31.384823Z"
+        },
+        {
+          "batch": 2,
+          "success": 50,
+          "failed": 0,
+          "raw_rows": 167523,
+          "adjusted_rows": 167523,
+          "corporate_action_events": 747,
+          "saved_at_utc": "2026-11-19T22:06:35.695633Z"
+        },
+        {
+          "batch": 3,
+          "success": 50,
+          "failed": 0,
+          "raw_rows": 143141,
+          "adjusted_rows": 143141,
+          "corporate_action_events": 630,
+          "saved_at_utc": "2026-11-19T22:12:42.184092Z"
+        }
+      ]
     }
   ],
-  "source_batch_count": 48,
-  "successful_instrument_records_across_sources": 476,
+  "source_batch_count": 53,
+  "successful_instrument_records_across_sources": 686,
   "unique_insCodes_across_sources": 446,
-  "duplicate_instrument_records": 30,
+  "duplicate_instrument_records": 240,
   "eligible_unique_instruments": 410,
   "after_hours_suffix3_unique_excluded": 36,
   "eligible_raw_rows": 1006044,

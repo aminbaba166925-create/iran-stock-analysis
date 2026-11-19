@@ -109,7 +109,7 @@
     "batch": 8,
     "raw_file": "market_history_parallel_v2/batch_008_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_008_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "37073830945037165",
@@ -179,7 +179,7 @@
     "batch": 12,
     "raw_file": "market_history_parallel_v2/batch_012_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_012_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "14886507586508567",
@@ -235,7 +235,7 @@
     "batch": 6,
     "raw_file": "market_history_parallel_v2/batch_006_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_006_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "27405735172634593",
@@ -249,7 +249,7 @@
     "batch": 3,
     "raw_file": "market_history_parallel_v2/batch_003_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_003_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "21731820344041381",
@@ -277,7 +277,7 @@
     "batch": 17,
     "raw_file": "market_history_parallel_v2/batch_017_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_017_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "67868738676326187",
@@ -291,7 +291,7 @@
     "batch": 17,
     "raw_file": "market_history_parallel_v2/batch_017_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_017_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "71945594172117613",
@@ -319,7 +319,7 @@
     "batch": 17,
     "raw_file": "market_history_parallel_v2/batch_017_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_017_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "8021561335311415",
@@ -375,7 +375,7 @@
     "batch": 14,
     "raw_file": "market_history_parallel_v2/batch_014_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_014_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "3846143218462419",
@@ -431,7 +431,7 @@
     "batch": 16,
     "raw_file": "market_history_parallel_v2/batch_016_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_016_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "70814244102598215",
@@ -501,7 +501,7 @@
     "batch": 9,
     "raw_file": "market_history_parallel_v2/batch_009_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_009_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "61483657213051835",
@@ -515,7 +515,7 @@
     "batch": 19,
     "raw_file": "market_history_parallel_v2/batch_019_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_019_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "8646067353086740",
@@ -543,7 +543,7 @@
     "batch": 3,
     "raw_file": "market_history_parallel_v2/batch_003_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_003_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "64899658576570461",
@@ -557,7 +557,7 @@
     "batch": 14,
     "raw_file": "market_history_parallel_v2/batch_014_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_014_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "37222720235819361",
@@ -585,7 +585,7 @@
     "batch": 13,
     "raw_file": "market_history_parallel_v2/batch_013_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_013_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "29882244560576007",
@@ -613,7 +613,7 @@
     "batch": 10,
     "raw_file": "market_history_parallel_v2/batch_010_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_010_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "69155867302158609",
@@ -655,7 +655,7 @@
     "batch": 2,
     "raw_file": "market_history_parallel_v2/batch_002_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_002_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "54493234408301135",
@@ -711,7 +711,7 @@
     "batch": 9,
     "raw_file": "market_history_parallel_v2/batch_009_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_009_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "50247622569476338",
@@ -753,7 +753,7 @@
     "batch": 2,
     "raw_file": "market_history_parallel_v2/batch_002_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_002_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "64619251116188373",
@@ -767,7 +767,7 @@
     "batch": 7,
     "raw_file": "market_history_parallel_v2/batch_007_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_007_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "71068313834275501",
@@ -823,7 +823,7 @@
     "batch": 18,
     "raw_file": "market_history_parallel_v2/batch_018_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_018_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "53204330224889981",
@@ -837,7 +837,7 @@
     "batch": 11,
     "raw_file": "market_history_parallel_v2/batch_011_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_011_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "1301069819790264",
@@ -851,7 +851,7 @@
     "batch": 11,
     "raw_file": "market_history_parallel_v2/batch_011_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_011_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "30507739597192201",
@@ -865,7 +865,7 @@
     "batch": 21,
     "raw_file": "market_history_parallel_v2/batch_021_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_021_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "39453972158399542",
@@ -935,7 +935,7 @@
     "batch": 15,
     "raw_file": "market_history_parallel_v2/batch_015_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_015_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "62258804563636993",
@@ -949,7 +949,7 @@
     "batch": 7,
     "raw_file": "market_history_parallel_v2/batch_007_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_007_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "30719054967088301",
@@ -963,7 +963,7 @@
     "batch": 13,
     "raw_file": "market_history_parallel_v2/batch_013_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_013_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "60162288821230099",
@@ -977,7 +977,7 @@
     "batch": 4,
     "raw_file": "market_history_parallel_v2/batch_004_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_004_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "56871139881800017",
@@ -1005,7 +1005,7 @@
     "batch": 10,
     "raw_file": "market_history_parallel_v2/batch_010_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_010_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "17800036702302776",
@@ -1019,7 +1019,7 @@
     "batch": 2,
     "raw_file": "market_history_parallel_v2/batch_002_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_002_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "18568733593280948",
@@ -1061,7 +1061,7 @@
     "batch": 6,
     "raw_file": "market_history_parallel_v2/batch_006_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_006_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "14744445176220774",
@@ -1075,7 +1075,7 @@
     "batch": 2,
     "raw_file": "market_history_parallel_v2/batch_002_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_002_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "20926459161497908",
@@ -1089,7 +1089,7 @@
     "batch": 1,
     "raw_file": "market_history_parallel_v2/batch_001_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_001_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "60887982279284651",
@@ -1173,7 +1173,7 @@
     "batch": 2,
     "raw_file": "market_history_parallel_v2/batch_002_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_002_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "15420554853151242",
@@ -1229,7 +1229,7 @@
     "batch": 15,
     "raw_file": "market_history_parallel_v2/batch_015_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_015_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "22260326095996531",
@@ -1243,7 +1243,7 @@
     "batch": 18,
     "raw_file": "market_history_parallel_v2/batch_018_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_018_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "25422370845365439",
@@ -1313,7 +1313,7 @@
     "batch": 16,
     "raw_file": "market_history_parallel_v2/batch_016_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_016_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "17256671865959496",
@@ -1355,7 +1355,7 @@
     "batch": 5,
     "raw_file": "market_history_parallel_v2/batch_005_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_005_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "50185721305191887",
@@ -1369,7 +1369,7 @@
     "batch": 15,
     "raw_file": "market_history_parallel_v2/batch_015_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_015_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "70289374539527245",
@@ -1383,7 +1383,7 @@
     "batch": 6,
     "raw_file": "market_history_parallel_v2/batch_006_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_006_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "38084304113529336",
@@ -1397,7 +1397,7 @@
     "batch": 18,
     "raw_file": "market_history_parallel_v2/batch_018_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_018_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "12752224677923341",
@@ -1411,7 +1411,7 @@
     "batch": 8,
     "raw_file": "market_history_parallel_v2/batch_008_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_008_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "45895339414786358",
@@ -1425,7 +1425,7 @@
     "batch": 1,
     "raw_file": "market_history_parallel_v2/batch_001_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_001_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "2589887561569709",
@@ -1439,7 +1439,7 @@
     "batch": 15,
     "raw_file": "market_history_parallel_v2/batch_015_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_015_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "65190029034514887",
@@ -1495,7 +1495,7 @@
     "batch": 19,
     "raw_file": "market_history_parallel_v2/batch_019_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_019_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "28033133021443774",
@@ -1509,7 +1509,7 @@
     "batch": 11,
     "raw_file": "market_history_parallel_v2/batch_011_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_011_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "58482817740704549",
@@ -1523,7 +1523,7 @@
     "batch": 9,
     "raw_file": "market_history_parallel_v2/batch_009_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_009_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "19257295292088310",
@@ -1537,7 +1537,7 @@
     "batch": 4,
     "raw_file": "market_history_parallel_v2/batch_004_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_004_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "14957056743925737",
@@ -1551,7 +1551,7 @@
     "batch": 9,
     "raw_file": "market_history_parallel_v2/batch_009_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_009_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "39436183727126211",
@@ -1565,7 +1565,7 @@
     "batch": 5,
     "raw_file": "market_history_parallel_v2/batch_005_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_005_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "7457232989848872",
@@ -1579,7 +1579,7 @@
     "batch": 10,
     "raw_file": "market_history_parallel_v2/batch_010_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_010_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "17330546482145553",
@@ -1593,7 +1593,7 @@
     "batch": 15,
     "raw_file": "market_history_parallel_v2/batch_015_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_015_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "57273529732791251",
@@ -1607,7 +1607,7 @@
     "batch": 21,
     "raw_file": "market_history_parallel_v2/batch_021_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_021_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "17834623106317041",
@@ -1621,7 +1621,7 @@
     "batch": 4,
     "raw_file": "market_history_parallel_v2/batch_004_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_004_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "67261627618765635",
@@ -1635,7 +1635,7 @@
     "batch": 13,
     "raw_file": "market_history_parallel_v2/batch_013_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_013_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "4523009251964699",
@@ -1663,7 +1663,7 @@
     "batch": 3,
     "raw_file": "market_history_parallel_v2/batch_003_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_003_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "22645269567765904",
@@ -1677,7 +1677,7 @@
     "batch": 18,
     "raw_file": "market_history_parallel_v2/batch_018_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_018_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "33783140337377394",
@@ -1691,7 +1691,7 @@
     "batch": 6,
     "raw_file": "market_history_parallel_v2/batch_006_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_006_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "48990026850202503",
@@ -1705,7 +1705,7 @@
     "batch": 13,
     "raw_file": "market_history_parallel_v2/batch_013_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_013_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "11996454048142959",
@@ -1719,7 +1719,7 @@
     "batch": 19,
     "raw_file": "market_history_parallel_v2/batch_019_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_019_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "62012736978844991",
@@ -1747,7 +1747,7 @@
     "batch": 14,
     "raw_file": "market_history_parallel_v2/batch_014_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_014_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "71076372178147339",
@@ -1775,7 +1775,7 @@
     "batch": 7,
     "raw_file": "market_history_parallel_v2/batch_007_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_007_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "67717913151786055",
@@ -1798,12 +1798,12 @@
     "rows": 1989,
     "latest_date": "20261118",
     "events": 13,
-    "branch": "market-history-checkpoints-v3",
-    "dataset": "v3",
-    "batch": 4,
-    "raw_file": "market_history_parallel_v3/batch_004_raw.csv.gz",
-    "adjusted_file": "market_history_parallel_v3/batch_004_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "branch": "market-history-checkpoints",
+    "dataset": "v2",
+    "batch": 38,
+    "raw_file": "market_history_parallel_v2/batch_038_raw.csv.gz",
+    "adjusted_file": "market_history_parallel_v2/batch_038_adjusted.csv.gz",
+    "duplicate_records_found": 1
   },
   {
     "insCode": "71510396252618330",
@@ -1817,7 +1817,7 @@
     "batch": 1,
     "raw_file": "market_history_parallel_v2/batch_001_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_001_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "34641719089573667",
@@ -1845,7 +1845,7 @@
     "batch": 6,
     "raw_file": "market_history_parallel_v2/batch_006_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_006_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "33406621820337161",
@@ -1873,7 +1873,7 @@
     "batch": 6,
     "raw_file": "market_history_parallel_v2/batch_006_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_006_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "22255783119783047",
@@ -1887,7 +1887,7 @@
     "batch": 5,
     "raw_file": "market_history_parallel_v2/batch_005_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_005_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "17248898258246807",
@@ -1957,7 +1957,7 @@
     "batch": 18,
     "raw_file": "market_history_parallel_v2/batch_018_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_018_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "47348197320716810",
@@ -1971,7 +1971,7 @@
     "batch": 8,
     "raw_file": "market_history_parallel_v2/batch_008_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_008_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "5866848234665627",
@@ -1985,7 +1985,7 @@
     "batch": 1,
     "raw_file": "market_history_parallel_v2/batch_001_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_001_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "11432067920374603",
@@ -1999,7 +1999,7 @@
     "batch": 5,
     "raw_file": "market_history_parallel_v2/batch_005_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_005_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "33603212156438463",
@@ -2013,7 +2013,7 @@
     "batch": 3,
     "raw_file": "market_history_parallel_v2/batch_003_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_003_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "56550776668133562",
@@ -2027,7 +2027,7 @@
     "batch": 4,
     "raw_file": "market_history_parallel_v2/batch_004_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_004_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "46801030346547943",
@@ -2041,7 +2041,7 @@
     "batch": 9,
     "raw_file": "market_history_parallel_v2/batch_009_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_009_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "23353689102956991",
@@ -2055,7 +2055,7 @@
     "batch": 0,
     "raw_file": "market_history_parallel_v2/batch_000_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_000_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "4384288570322406",
@@ -2069,7 +2069,7 @@
     "batch": 17,
     "raw_file": "market_history_parallel_v2/batch_017_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_017_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "66142616039907394",
@@ -2083,7 +2083,7 @@
     "batch": 21,
     "raw_file": "market_history_parallel_v2/batch_021_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_021_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "48322987151197734",
@@ -2139,7 +2139,7 @@
     "batch": 0,
     "raw_file": "market_history_parallel_v2/batch_000_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_000_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "71483646978964608",
@@ -2148,12 +2148,12 @@
     "rows": 1180,
     "latest_date": "20261118",
     "events": 3,
-    "branch": "market-history-checkpoints-v3",
-    "dataset": "v3",
-    "batch": 4,
-    "raw_file": "market_history_parallel_v3/batch_004_raw.csv.gz",
-    "adjusted_file": "market_history_parallel_v3/batch_004_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "branch": "market-history-checkpoints",
+    "dataset": "v2",
+    "batch": 38,
+    "raw_file": "market_history_parallel_v2/batch_038_raw.csv.gz",
+    "adjusted_file": "market_history_parallel_v2/batch_038_adjusted.csv.gz",
+    "duplicate_records_found": 1
   },
   {
     "insCode": "59894184850560807",
@@ -2237,7 +2237,7 @@
     "batch": 10,
     "raw_file": "market_history_parallel_v2/batch_010_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_010_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "33144542989832366",
@@ -2307,7 +2307,7 @@
     "batch": 16,
     "raw_file": "market_history_parallel_v2/batch_016_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_016_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "4507558419857064",
@@ -2321,7 +2321,7 @@
     "batch": 19,
     "raw_file": "market_history_parallel_v2/batch_019_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_019_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "64795751499397128",
@@ -2349,7 +2349,7 @@
     "batch": 1,
     "raw_file": "market_history_parallel_v2/batch_001_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_001_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "28551661889797217",
@@ -2372,12 +2372,12 @@
     "rows": 3418,
     "latest_date": "20261118",
     "events": 7,
-    "branch": "market-history-checkpoints-v3",
-    "dataset": "v3",
-    "batch": 3,
-    "raw_file": "market_history_parallel_v3/batch_003_raw.csv.gz",
-    "adjusted_file": "market_history_parallel_v3/batch_003_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "branch": "market-history-checkpoints",
+    "dataset": "v2",
+    "batch": 38,
+    "raw_file": "market_history_parallel_v2/batch_038_raw.csv.gz",
+    "adjusted_file": "market_history_parallel_v2/batch_038_adjusted.csv.gz",
+    "duplicate_records_found": 1
   },
   {
     "insCode": "62708526880913292",
@@ -2447,7 +2447,7 @@
     "batch": 15,
     "raw_file": "market_history_parallel_v2/batch_015_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_015_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "61310599391543522",
@@ -2503,7 +2503,7 @@
     "batch": 15,
     "raw_file": "market_history_parallel_v2/batch_015_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_015_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "32525655729432562",
@@ -2559,7 +2559,7 @@
     "batch": 4,
     "raw_file": "market_history_parallel_v2/batch_004_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_004_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "52220424531578944",
@@ -2610,12 +2610,12 @@
     "rows": 4416,
     "latest_date": "20261118",
     "events": 19,
-    "branch": "market-history-checkpoints-v3",
-    "dataset": "v3",
-    "batch": 3,
-    "raw_file": "market_history_parallel_v3/batch_003_raw.csv.gz",
-    "adjusted_file": "market_history_parallel_v3/batch_003_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "branch": "market-history-checkpoints",
+    "dataset": "v2",
+    "batch": 38,
+    "raw_file": "market_history_parallel_v2/batch_038_raw.csv.gz",
+    "adjusted_file": "market_history_parallel_v2/batch_038_adjusted.csv.gz",
+    "duplicate_records_found": 1
   },
   {
     "insCode": "51390991364277477",
@@ -2629,7 +2629,7 @@
     "batch": 12,
     "raw_file": "market_history_parallel_v2/batch_012_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_012_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "14258394084745667",
@@ -2643,7 +2643,7 @@
     "batch": 16,
     "raw_file": "market_history_parallel_v2/batch_016_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_016_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "17038760170440118",
@@ -2671,7 +2671,7 @@
     "batch": 21,
     "raw_file": "market_history_parallel_v2/batch_021_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_021_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "10171945867136336",
@@ -2699,7 +2699,7 @@
     "batch": 21,
     "raw_file": "market_history_parallel_v2/batch_021_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_021_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "47749661205825616",
@@ -2755,7 +2755,7 @@
     "batch": 5,
     "raw_file": "market_history_parallel_v2/batch_005_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_005_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "30199365830132996",
@@ -2811,7 +2811,7 @@
     "batch": 19,
     "raw_file": "market_history_parallel_v2/batch_019_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_019_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "35669480110084448",
@@ -2881,7 +2881,7 @@
     "batch": 6,
     "raw_file": "market_history_parallel_v2/batch_006_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_006_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "2161110547458064",
@@ -2923,7 +2923,7 @@
     "batch": 2,
     "raw_file": "market_history_parallel_v2/batch_002_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_002_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "16959429956899455",
@@ -2965,7 +2965,7 @@
     "batch": 20,
     "raw_file": "market_history_parallel_v2/batch_020_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_020_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "51617145873056483",
@@ -2979,7 +2979,7 @@
     "batch": 17,
     "raw_file": "market_history_parallel_v2/batch_017_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_017_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "6116572045021585",
@@ -2993,7 +2993,7 @@
     "batch": 5,
     "raw_file": "market_history_parallel_v2/batch_005_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_005_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "70934270174405743",
@@ -3021,7 +3021,7 @@
     "batch": 11,
     "raw_file": "market_history_parallel_v2/batch_011_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_011_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "44013656953678055",
@@ -3063,7 +3063,7 @@
     "batch": 16,
     "raw_file": "market_history_parallel_v2/batch_016_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_016_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "43781018754867729",
@@ -3077,7 +3077,7 @@
     "batch": 17,
     "raw_file": "market_history_parallel_v2/batch_017_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_017_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "11427387039523955",
@@ -3091,7 +3091,7 @@
     "batch": 13,
     "raw_file": "market_history_parallel_v2/batch_013_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_013_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "67241087413794092",
@@ -3133,7 +3133,7 @@
     "batch": 17,
     "raw_file": "market_history_parallel_v2/batch_017_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_017_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "62177651435283872",
@@ -3147,7 +3147,7 @@
     "batch": 0,
     "raw_file": "market_history_parallel_v2/batch_000_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_000_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "39116664428676213",
@@ -3161,7 +3161,7 @@
     "batch": 13,
     "raw_file": "market_history_parallel_v2/batch_013_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_013_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "59522975635235187",
@@ -3189,7 +3189,7 @@
     "batch": 9,
     "raw_file": "market_history_parallel_v2/batch_009_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_009_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "14073782708315535",
@@ -3203,7 +3203,7 @@
     "batch": 12,
     "raw_file": "market_history_parallel_v2/batch_012_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_012_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "35796086458096255",
@@ -3217,7 +3217,7 @@
     "batch": 8,
     "raw_file": "market_history_parallel_v2/batch_008_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_008_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "20292922178776915",
@@ -3259,7 +3259,7 @@
     "batch": 13,
     "raw_file": "market_history_parallel_v2/batch_013_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_013_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "35178706978554988",
@@ -3273,7 +3273,7 @@
     "batch": 17,
     "raw_file": "market_history_parallel_v2/batch_017_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_017_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "43203863097260295",
@@ -3301,7 +3301,7 @@
     "batch": 6,
     "raw_file": "market_history_parallel_v2/batch_006_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_006_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "52846735736632974",
@@ -3385,7 +3385,7 @@
     "batch": 11,
     "raw_file": "market_history_parallel_v2/batch_011_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_011_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "2254054929817435",
@@ -3399,7 +3399,7 @@
     "batch": 3,
     "raw_file": "market_history_parallel_v2/batch_003_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_003_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "71907403347534074",
@@ -3427,7 +3427,7 @@
     "batch": 11,
     "raw_file": "market_history_parallel_v2/batch_011_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_011_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "59461185672081215",
@@ -3441,7 +3441,7 @@
     "batch": 14,
     "raw_file": "market_history_parallel_v2/batch_014_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_014_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "48619517949257749",
@@ -3455,7 +3455,7 @@
     "batch": 19,
     "raw_file": "market_history_parallel_v2/batch_019_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_019_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "61978776664766359",
@@ -3469,7 +3469,7 @@
     "batch": 20,
     "raw_file": "market_history_parallel_v2/batch_020_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_020_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "18401147983387689",
@@ -3478,12 +3478,12 @@
     "rows": 5041,
     "latest_date": "20261118",
     "events": 29,
-    "branch": "market-history-checkpoints-v3",
-    "dataset": "v3",
-    "batch": 3,
-    "raw_file": "market_history_parallel_v3/batch_003_raw.csv.gz",
-    "adjusted_file": "market_history_parallel_v3/batch_003_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "branch": "market-history-checkpoints",
+    "dataset": "v2",
+    "batch": 38,
+    "raw_file": "market_history_parallel_v2/batch_038_raw.csv.gz",
+    "adjusted_file": "market_history_parallel_v2/batch_038_adjusted.csv.gz",
+    "duplicate_records_found": 1
   },
   {
     "insCode": "64843936383937546",
@@ -3497,7 +3497,7 @@
     "batch": 10,
     "raw_file": "market_history_parallel_v2/batch_010_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_010_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "56344907495802692",
@@ -3525,7 +3525,7 @@
     "batch": 11,
     "raw_file": "market_history_parallel_v2/batch_011_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_011_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "55373808401388162",
@@ -3539,7 +3539,7 @@
     "batch": 13,
     "raw_file": "market_history_parallel_v2/batch_013_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_013_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "30765727085936322",
@@ -3553,7 +3553,7 @@
     "batch": 13,
     "raw_file": "market_history_parallel_v2/batch_013_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_013_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "41302553376174581",
@@ -3567,7 +3567,7 @@
     "batch": 5,
     "raw_file": "market_history_parallel_v2/batch_005_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_005_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "45507655586782998",
@@ -3581,7 +3581,7 @@
     "batch": 20,
     "raw_file": "market_history_parallel_v2/batch_020_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_020_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "408934423224097",
@@ -3595,7 +3595,7 @@
     "batch": 15,
     "raw_file": "market_history_parallel_v2/batch_015_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_015_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "58741071099161284",
@@ -3609,7 +3609,7 @@
     "batch": 0,
     "raw_file": "market_history_parallel_v2/batch_000_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_000_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "54419429862704331",
@@ -3623,7 +3623,7 @@
     "batch": 3,
     "raw_file": "market_history_parallel_v2/batch_003_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_003_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "44846320603450383",
@@ -3637,7 +3637,7 @@
     "batch": 17,
     "raw_file": "market_history_parallel_v2/batch_017_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_017_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "69817338460284329",
@@ -3651,7 +3651,7 @@
     "batch": 18,
     "raw_file": "market_history_parallel_v2/batch_018_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_018_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "12874072841236826",
@@ -3665,7 +3665,7 @@
     "batch": 4,
     "raw_file": "market_history_parallel_v2/batch_004_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_004_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "23842604089739254",
@@ -3679,7 +3679,7 @@
     "batch": 8,
     "raw_file": "market_history_parallel_v2/batch_008_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_008_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "37284308569715577",
@@ -3693,7 +3693,7 @@
     "batch": 1,
     "raw_file": "market_history_parallel_v2/batch_001_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_001_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "56375665074210467",
@@ -3707,7 +3707,7 @@
     "batch": 1,
     "raw_file": "market_history_parallel_v2/batch_001_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_001_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "40467386864240950",
@@ -3721,7 +3721,7 @@
     "batch": 4,
     "raw_file": "market_history_parallel_v2/batch_004_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_004_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "25286509736208688",
@@ -3735,7 +3735,7 @@
     "batch": 19,
     "raw_file": "market_history_parallel_v2/batch_019_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_019_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "12840158707161274",
@@ -3758,12 +3758,12 @@
     "rows": 757,
     "latest_date": "20261118",
     "events": 0,
-    "branch": "market-history-checkpoints-v3",
-    "dataset": "v3",
-    "batch": 3,
-    "raw_file": "market_history_parallel_v3/batch_003_raw.csv.gz",
-    "adjusted_file": "market_history_parallel_v3/batch_003_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "branch": "market-history-checkpoints",
+    "dataset": "v2",
+    "batch": 38,
+    "raw_file": "market_history_parallel_v2/batch_038_raw.csv.gz",
+    "adjusted_file": "market_history_parallel_v2/batch_038_adjusted.csv.gz",
+    "duplicate_records_found": 1
   },
   {
     "insCode": "48623320733330408",
@@ -3777,7 +3777,7 @@
     "batch": 16,
     "raw_file": "market_history_parallel_v2/batch_016_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_016_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "18004480270695404",
@@ -3791,7 +3791,7 @@
     "batch": 10,
     "raw_file": "market_history_parallel_v2/batch_010_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_010_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "27276541005386425",
@@ -3805,7 +3805,7 @@
     "batch": 10,
     "raw_file": "market_history_parallel_v2/batch_010_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_010_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "58462435595049907",
@@ -3833,7 +3833,7 @@
     "batch": 16,
     "raw_file": "market_history_parallel_v2/batch_016_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_016_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "37297472492769191",
@@ -3847,7 +3847,7 @@
     "batch": 12,
     "raw_file": "market_history_parallel_v2/batch_012_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_012_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "14800142337291217",
@@ -3903,7 +3903,7 @@
     "batch": 2,
     "raw_file": "market_history_parallel_v2/batch_002_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_002_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "13140135188919199",
@@ -3917,7 +3917,7 @@
     "batch": 9,
     "raw_file": "market_history_parallel_v2/batch_009_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_009_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "39610074039667804",
@@ -3982,12 +3982,12 @@
     "rows": 110,
     "latest_date": "20261118",
     "events": 0,
-    "branch": "market-history-checkpoints-v3",
-    "dataset": "v3",
-    "batch": 3,
-    "raw_file": "market_history_parallel_v3/batch_003_raw.csv.gz",
-    "adjusted_file": "market_history_parallel_v3/batch_003_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "branch": "market-history-checkpoints",
+    "dataset": "v2",
+    "batch": 38,
+    "raw_file": "market_history_parallel_v2/batch_038_raw.csv.gz",
+    "adjusted_file": "market_history_parallel_v2/batch_038_adjusted.csv.gz",
+    "duplicate_records_found": 1
   },
   {
     "insCode": "63380098535169030",
@@ -4015,7 +4015,7 @@
     "batch": 4,
     "raw_file": "market_history_parallel_v2/batch_004_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_004_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "42670427020727409",
@@ -4085,7 +4085,7 @@
     "batch": 18,
     "raw_file": "market_history_parallel_v2/batch_018_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_018_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "4942127026063388",
@@ -4113,7 +4113,7 @@
     "batch": 0,
     "raw_file": "market_history_parallel_v2/batch_000_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_000_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "58810336532668771",
@@ -4127,7 +4127,7 @@
     "batch": 14,
     "raw_file": "market_history_parallel_v2/batch_014_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_014_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "43256212620530446",
@@ -4141,7 +4141,7 @@
     "batch": 14,
     "raw_file": "market_history_parallel_v2/batch_014_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_014_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "24085906177899789",
@@ -4155,7 +4155,7 @@
     "batch": 7,
     "raw_file": "market_history_parallel_v2/batch_007_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_007_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "65671173927025645",
@@ -4169,7 +4169,7 @@
     "batch": 4,
     "raw_file": "market_history_parallel_v2/batch_004_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_004_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "32257753560585502",
@@ -4183,7 +4183,7 @@
     "batch": 7,
     "raw_file": "market_history_parallel_v2/batch_007_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_007_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "3623921205367364",
@@ -4197,7 +4197,7 @@
     "batch": 20,
     "raw_file": "market_history_parallel_v2/batch_020_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_020_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "11326461864120062",
@@ -4211,7 +4211,7 @@
     "batch": 19,
     "raw_file": "market_history_parallel_v2/batch_019_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_019_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "25001509088465005",
@@ -4225,7 +4225,7 @@
     "batch": 2,
     "raw_file": "market_history_parallel_v2/batch_002_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_002_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "28325731560106431",
@@ -4239,7 +4239,7 @@
     "batch": 4,
     "raw_file": "market_history_parallel_v2/batch_004_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_004_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "4614779520007780",
@@ -4267,7 +4267,7 @@
     "batch": 15,
     "raw_file": "market_history_parallel_v2/batch_015_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_015_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "23837844039713715",
@@ -4281,7 +4281,7 @@
     "batch": 1,
     "raw_file": "market_history_parallel_v2/batch_001_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_001_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "1822787329898392",
@@ -4309,7 +4309,7 @@
     "batch": 20,
     "raw_file": "market_history_parallel_v2/batch_020_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_020_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "50633804639547462",
@@ -4323,7 +4323,7 @@
     "batch": 7,
     "raw_file": "market_history_parallel_v2/batch_007_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_007_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "34718633636164421",
@@ -4365,7 +4365,7 @@
     "batch": 2,
     "raw_file": "market_history_parallel_v2/batch_002_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_002_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "64380036977879368",
@@ -4379,7 +4379,7 @@
     "batch": 5,
     "raw_file": "market_history_parallel_v2/batch_005_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_005_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "43545527030854340",
@@ -4421,7 +4421,7 @@
     "batch": 3,
     "raw_file": "market_history_parallel_v2/batch_003_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_003_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "9698674686691945",
@@ -4435,7 +4435,7 @@
     "batch": 1,
     "raw_file": "market_history_parallel_v2/batch_001_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_001_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "36236701370110884",
@@ -4449,7 +4449,7 @@
     "batch": 7,
     "raw_file": "market_history_parallel_v2/batch_007_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_007_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "18027801615184692",
@@ -4463,7 +4463,7 @@
     "batch": 16,
     "raw_file": "market_history_parallel_v2/batch_016_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_016_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "62346804681275278",
@@ -4505,7 +4505,7 @@
     "batch": 8,
     "raw_file": "market_history_parallel_v2/batch_008_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_008_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "55897939403232751",
@@ -4519,7 +4519,7 @@
     "batch": 7,
     "raw_file": "market_history_parallel_v2/batch_007_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_007_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "59142194115401696",
@@ -4589,7 +4589,7 @@
     "batch": 3,
     "raw_file": "market_history_parallel_v2/batch_003_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_003_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "12490072956930435",
@@ -4603,7 +4603,7 @@
     "batch": 8,
     "raw_file": "market_history_parallel_v2/batch_008_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_008_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "24253947487334809",
@@ -4617,7 +4617,7 @@
     "batch": 20,
     "raw_file": "market_history_parallel_v2/batch_020_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_020_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "26543014712914772",
@@ -4696,12 +4696,12 @@
     "rows": 205,
     "latest_date": "20261118",
     "events": 0,
-    "branch": "market-history-checkpoints-v3",
-    "dataset": "v3",
-    "batch": 3,
-    "raw_file": "market_history_parallel_v3/batch_003_raw.csv.gz",
-    "adjusted_file": "market_history_parallel_v3/batch_003_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "branch": "market-history-checkpoints",
+    "dataset": "v2",
+    "batch": 38,
+    "raw_file": "market_history_parallel_v2/batch_038_raw.csv.gz",
+    "adjusted_file": "market_history_parallel_v2/batch_038_adjusted.csv.gz",
+    "duplicate_records_found": 1
   },
   {
     "insCode": "47717365931256099",
@@ -4738,12 +4738,12 @@
     "rows": 1409,
     "latest_date": "20261118",
     "events": 0,
-    "branch": "market-history-checkpoints-v3",
-    "dataset": "v3",
-    "batch": 3,
-    "raw_file": "market_history_parallel_v3/batch_003_raw.csv.gz",
-    "adjusted_file": "market_history_parallel_v3/batch_003_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "branch": "market-history-checkpoints",
+    "dataset": "v2",
+    "batch": 38,
+    "raw_file": "market_history_parallel_v2/batch_038_raw.csv.gz",
+    "adjusted_file": "market_history_parallel_v2/batch_038_adjusted.csv.gz",
+    "duplicate_records_found": 1
   },
   {
     "insCode": "32232147777592560",
@@ -4757,7 +4757,7 @@
     "batch": 0,
     "raw_file": "market_history_parallel_v2/batch_000_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_000_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "59866041653103343",
@@ -4771,7 +4771,7 @@
     "batch": 14,
     "raw_file": "market_history_parallel_v2/batch_014_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_014_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "20652241232631918",
@@ -4785,7 +4785,7 @@
     "batch": 18,
     "raw_file": "market_history_parallel_v2/batch_018_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_018_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "52587750999094180",
@@ -4799,7 +4799,7 @@
     "batch": 0,
     "raw_file": "market_history_parallel_v2/batch_000_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_000_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "30977409629493496",
@@ -4855,7 +4855,7 @@
     "batch": 12,
     "raw_file": "market_history_parallel_v2/batch_012_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_012_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "56712769076499345",
@@ -4976,12 +4976,12 @@
     "rows": 42,
     "latest_date": "20261118",
     "events": 0,
-    "branch": "market-history-checkpoints-v3",
-    "dataset": "v3",
-    "batch": 3,
-    "raw_file": "market_history_parallel_v3/batch_003_raw.csv.gz",
-    "adjusted_file": "market_history_parallel_v3/batch_003_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "branch": "market-history-checkpoints",
+    "dataset": "v2",
+    "batch": 38,
+    "raw_file": "market_history_parallel_v2/batch_038_raw.csv.gz",
+    "adjusted_file": "market_history_parallel_v2/batch_038_adjusted.csv.gz",
+    "duplicate_records_found": 1
   },
   {
     "insCode": "62845384302495432",
@@ -5009,7 +5009,7 @@
     "batch": 12,
     "raw_file": "market_history_parallel_v2/batch_012_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_012_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "18063426072758458",
@@ -5037,7 +5037,7 @@
     "batch": 20,
     "raw_file": "market_history_parallel_v2/batch_020_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_020_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "5920901446678689",
@@ -5051,7 +5051,7 @@
     "batch": 8,
     "raw_file": "market_history_parallel_v2/batch_008_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_008_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "68117765376081366",
@@ -5079,7 +5079,7 @@
     "batch": 1,
     "raw_file": "market_history_parallel_v2/batch_001_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_001_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "45050389997905274",
@@ -5163,7 +5163,7 @@
     "batch": 11,
     "raw_file": "market_history_parallel_v2/batch_011_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_011_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "31078457170311964",
@@ -5177,7 +5177,7 @@
     "batch": 0,
     "raw_file": "market_history_parallel_v2/batch_000_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_000_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "71744682148776880",
@@ -5191,7 +5191,7 @@
     "batch": 8,
     "raw_file": "market_history_parallel_v2/batch_008_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_008_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "61469668095573716",
@@ -5205,7 +5205,7 @@
     "batch": 3,
     "raw_file": "market_history_parallel_v2/batch_003_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_003_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "11403770140000603",
@@ -5219,7 +5219,7 @@
     "batch": 20,
     "raw_file": "market_history_parallel_v2/batch_020_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_020_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "5968811612822747",
@@ -5233,7 +5233,7 @@
     "batch": 14,
     "raw_file": "market_history_parallel_v2/batch_014_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_014_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "48241092863917835",
@@ -5247,7 +5247,7 @@
     "batch": 7,
     "raw_file": "market_history_parallel_v2/batch_007_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_007_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "30447901674051381",
@@ -5261,7 +5261,7 @@
     "batch": 18,
     "raw_file": "market_history_parallel_v2/batch_018_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_018_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "6847536925606808",
@@ -5275,7 +5275,7 @@
     "batch": 9,
     "raw_file": "market_history_parallel_v2/batch_009_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_009_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "41796741644273824",
@@ -5289,7 +5289,7 @@
     "batch": 11,
     "raw_file": "market_history_parallel_v2/batch_011_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_011_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "25336820825905643",
@@ -5317,7 +5317,7 @@
     "batch": 2,
     "raw_file": "market_history_parallel_v2/batch_002_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_002_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "59486059679335017",
@@ -5331,7 +5331,7 @@
     "batch": 14,
     "raw_file": "market_history_parallel_v2/batch_014_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_014_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "43951910415124966",
@@ -5345,7 +5345,7 @@
     "batch": 16,
     "raw_file": "market_history_parallel_v2/batch_016_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_016_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "45284811973404357",
@@ -5401,7 +5401,7 @@
     "batch": 12,
     "raw_file": "market_history_parallel_v2/batch_012_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_012_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "21334155996394219",
@@ -5415,7 +5415,7 @@
     "batch": 9,
     "raw_file": "market_history_parallel_v2/batch_009_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_009_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "63580313877463104",
@@ -5429,7 +5429,7 @@
     "batch": 3,
     "raw_file": "market_history_parallel_v2/batch_003_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_003_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "61920683599787147",
@@ -5471,7 +5471,7 @@
     "batch": 0,
     "raw_file": "market_history_parallel_v2/batch_000_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_000_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "6233172939132588",
@@ -5485,7 +5485,7 @@
     "batch": 5,
     "raw_file": "market_history_parallel_v2/batch_005_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_005_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "24079409192818584",
@@ -5499,7 +5499,7 @@
     "batch": 12,
     "raw_file": "market_history_parallel_v2/batch_012_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_012_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "71108387303091880",
@@ -5527,7 +5527,7 @@
     "batch": 10,
     "raw_file": "market_history_parallel_v2/batch_010_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_010_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "10120557300120078",
@@ -5541,7 +5541,7 @@
     "batch": 21,
     "raw_file": "market_history_parallel_v2/batch_021_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_021_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "7235435095059069",
@@ -5555,7 +5555,7 @@
     "batch": 10,
     "raw_file": "market_history_parallel_v2/batch_010_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_010_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "34552750623263639",
@@ -5597,7 +5597,7 @@
     "batch": 6,
     "raw_file": "market_history_parallel_v2/batch_006_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_006_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "41746336706469006",
@@ -5611,7 +5611,7 @@
     "batch": 19,
     "raw_file": "market_history_parallel_v2/batch_019_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_019_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "23936607891892333",
@@ -5625,7 +5625,7 @@
     "batch": 9,
     "raw_file": "market_history_parallel_v2/batch_009_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_009_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "18320128145045368",
@@ -5667,7 +5667,7 @@
     "batch": 7,
     "raw_file": "market_history_parallel_v2/batch_007_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_007_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "64358061873294912",
@@ -5681,7 +5681,7 @@
     "batch": 12,
     "raw_file": "market_history_parallel_v2/batch_012_raw.csv.gz",
     "adjusted_file": "market_history_parallel_v2/batch_012_adjusted.csv.gz",
-    "duplicate_records_found": 0
+    "duplicate_records_found": 1
   },
   {
     "insCode": "971068957336171",

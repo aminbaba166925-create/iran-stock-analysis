@@ -1,5 +1,1605 @@
 [
   {
+    "insCode": "23353689102956991",
+    "symbols": [
+      "دكوثر"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_000"
+  },
+  {
+    "insCode": "69090868458637360",
+    "symbols": [
+      "ديران"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_000"
+  },
+  {
+    "insCode": "62177651435283872",
+    "symbols": [
+      "شكلر"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_000"
+  },
+  {
+    "insCode": "58741071099161284",
+    "symbols": [
+      "فرابورس"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_000"
+  },
+  {
+    "insCode": "29712227786531574",
+    "symbols": [
+      "كاوان"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_000"
+  },
+  {
+    "insCode": "32232147777592560",
+    "symbols": [
+      "نور"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_000"
+  },
+  {
+    "insCode": "52587750999094180",
+    "symbols": [
+      "نيشكر"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_000"
+  },
+  {
+    "insCode": "31078457170311964",
+    "symbols": [
+      "ولشرق"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_000"
+  },
+  {
+    "insCode": "67675656072510693",
+    "symbols": [
+      "پالايش"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_000"
+  },
+  {
+    "insCode": "20926459161497908",
+    "symbols": [
+      "ثتران"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_001"
+  },
+  {
+    "insCode": "45895339414786358",
+    "symbols": [
+      "خرينگ"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_001"
+  },
+  {
+    "insCode": "71510396252618330",
+    "symbols": [
+      "دبالك"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_001"
+  },
+  {
+    "insCode": "5866848234665627",
+    "symbols": [
+      "دسبحان"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_001"
+  },
+  {
+    "insCode": "67170215467608124",
+    "symbols": [
+      "زنگان"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_001"
+  },
+  {
+    "insCode": "37284308569715577",
+    "symbols": [
+      "فسبزوار"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_001"
+  },
+  {
+    "insCode": "56375665074210467",
+    "symbols": [
+      "فسوژ"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_001"
+  },
+  {
+    "insCode": "23837844039713715",
+    "symbols": [
+      "كفرا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_001"
+  },
+  {
+    "insCode": "9698674686691945",
+    "symbols": [
+      "كپارس"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_001"
+  },
+  {
+    "insCode": "47232550823972469",
+    "symbols": [
+      "وتوكا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_001"
+  },
+  {
+    "insCode": "39807886630843041",
+    "symbols": [
+      "بمپنا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_002"
+  },
+  {
+    "insCode": "47973532381204870",
+    "symbols": [
+      "بيوتيك"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_002"
+  },
+  {
+    "insCode": "17800036702302776",
+    "symbols": [
+      "ثاخت"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_002"
+  },
+  {
+    "insCode": "14744445176220774",
+    "symbols": [
+      "ثبهساز"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_002"
+  },
+  {
+    "insCode": "30852391633490755",
+    "symbols": [
+      "ثفارس"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_002"
+  },
+  {
+    "insCode": "3407806799514469",
+    "symbols": [
+      "شاروم"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_002"
+  },
+  {
+    "insCode": "68488673556087148",
+    "symbols": [
+      "فپنتا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_002"
+  },
+  {
+    "insCode": "25001509088465005",
+    "symbols": [
+      "كساوه"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_002"
+  },
+  {
+    "insCode": "22275596386264204",
+    "symbols": [
+      "كوثر"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_002"
+  },
+  {
+    "insCode": "19348717261145458",
+    "symbols": [
+      "وهامون"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_002"
+  },
+  {
+    "insCode": "27405735172634593",
+    "symbols": [
+      "اتكام"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_003"
+  },
+  {
+    "insCode": "62952165421099192",
+    "symbols": [
+      "بالبر"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_003"
+  },
+  {
+    "insCode": "31879190587976736",
+    "symbols": [
+      "خوساز"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_003"
+  },
+  {
+    "insCode": "33603212156438463",
+    "symbols": [
+      "دشيمي"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_003"
+  },
+  {
+    "insCode": "2254054929817435",
+    "symbols": [
+      "غدام"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_003"
+  },
+  {
+    "insCode": "54419429862704331",
+    "symbols": [
+      "فروس"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_003"
+  },
+  {
+    "insCode": "38628771709301941",
+    "symbols": [
+      "كيسون"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_003"
+  },
+  {
+    "insCode": "65999092673039059",
+    "symbols": [
+      "مداران"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_003"
+  },
+  {
+    "insCode": "61469668095573716",
+    "symbols": [
+      "ولكار"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_003"
+  },
+  {
+    "insCode": "63580313877463104",
+    "symbols": [
+      "پاسا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_003"
+  },
+  {
+    "insCode": "60162288821230099",
+    "symbols": [
+      "تماوند"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_004"
+  },
+  {
+    "insCode": "19257295292088310",
+    "symbols": [
+      "خكمك"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_004"
+  },
+  {
+    "insCode": "17834623106317041",
+    "symbols": [
+      "خنصير"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_004"
+  },
+  {
+    "insCode": "56550776668133562",
+    "symbols": [
+      "دفارا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_004"
+  },
+  {
+    "insCode": "64341992373049080",
+    "symbols": [
+      "سدبير"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_004"
+  },
+  {
+    "insCode": "12874072841236826",
+    "symbols": [
+      "فسازان"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_004"
+  },
+  {
+    "insCode": "40467386864240950",
+    "symbols": [
+      "فكور"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_004"
+  },
+  {
+    "insCode": "67030488744129337",
+    "symbols": [
+      "قپيرا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_004"
+  },
+  {
+    "insCode": "65671173927025645",
+    "symbols": [
+      "كتوكا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_004"
+  },
+  {
+    "insCode": "28325731560106431",
+    "symbols": [
+      "كساپا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_004"
+  },
+  {
+    "insCode": "22903901709044823",
+    "symbols": [
+      "ختراك"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_005"
+  },
+  {
+    "insCode": "39436183727126211",
+    "symbols": [
+      "خمحركه"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_005"
+  },
+  {
+    "insCode": "22255783119783047",
+    "symbols": [
+      "درازك"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_005"
+  },
+  {
+    "insCode": "11432067920374603",
+    "symbols": [
+      "دسينا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_005"
+  },
+  {
+    "insCode": "28450080638096732",
+    "symbols": [
+      "سيمرغ"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_005"
+  },
+  {
+    "insCode": "6116572045021585",
+    "symbols": [
+      "شجم"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_005"
+  },
+  {
+    "insCode": "41302553376174581",
+    "symbols": [
+      "فجر"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_005"
+  },
+  {
+    "insCode": "64380036977879368",
+    "symbols": [
+      "كولان"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_005"
+  },
+  {
+    "insCode": "6233172939132588",
+    "symbols": [
+      "پتوسعه"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_005"
+  },
+  {
+    "insCode": "66305369579423152",
+    "symbols": [
+      "اتكاسا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_006"
+  },
+  {
+    "insCode": "68909035712962732",
+    "symbols": [
+      "ثباغ"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_006"
+  },
+  {
+    "insCode": "70289374539527245",
+    "symbols": [
+      "ختوقا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_006"
+  },
+  {
+    "insCode": "33783140337377394",
+    "symbols": [
+      "خچرخش"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_006"
+  },
+  {
+    "insCode": "18093681647131179",
+    "symbols": [
+      "دتوليد"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_006"
+  },
+  {
+    "insCode": "66450490505950110",
+    "symbols": [
+      "ددام"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_006"
+  },
+  {
+    "insCode": "29590002988360984",
+    "symbols": [
+      "سپيدار"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_006"
+  },
+  {
+    "insCode": "44153164692325703",
+    "symbols": [
+      "شگل"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_006"
+  },
+  {
+    "insCode": "26316376625263940",
+    "symbols": [
+      "پي پاد"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_006"
+  },
+  {
+    "insCode": "64619251116188373",
+    "symbols": [
+      "بپيوند"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_007"
+  },
+  {
+    "insCode": "62258804563636993",
+    "symbols": [
+      "تكشا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_007"
+  },
+  {
+    "insCode": "50100062518826135",
+    "symbols": [
+      "دامين"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_007"
+  },
+  {
+    "insCode": "24085906177899789",
+    "symbols": [
+      "كترام"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_007"
+  },
+  {
+    "insCode": "32257753560585502",
+    "symbols": [
+      "كحافظ"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_007"
+  },
+  {
+    "insCode": "50633804639547462",
+    "symbols": [
+      "كمرجان"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_007"
+  },
+  {
+    "insCode": "36236701370110884",
+    "symbols": [
+      "كپرسپوليس"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_007"
+  },
+  {
+    "insCode": "55897939403232751",
+    "symbols": [
+      "لسرما"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_007"
+  },
+  {
+    "insCode": "48241092863917835",
+    "symbols": [
+      "ولپارس"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_007"
+  },
+  {
+    "insCode": "41122066907413786",
+    "symbols": [
+      "چخزر"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_007"
+  },
+  {
+    "insCode": "51106317433079213",
+    "symbols": [
+      "آسيا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_008"
+  },
+  {
+    "insCode": "12752224677923341",
+    "symbols": [
+      "خريخت"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_008"
+  },
+  {
+    "insCode": "47348197320716810",
+    "symbols": [
+      "دسانكو"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_008"
+  },
+  {
+    "insCode": "35796086458096255",
+    "symbols": [
+      "شيران"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_008"
+  },
+  {
+    "insCode": "23842604089739254",
+    "symbols": [
+      "فساپ"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_008"
+  },
+  {
+    "insCode": "30650426998863332",
+    "symbols": [
+      "لبوتان"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_008"
+  },
+  {
+    "insCode": "12490072956930435",
+    "symbols": [
+      "مديريت"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_008"
+  },
+  {
+    "insCode": "5920901446678689",
+    "symbols": [
+      "وتعاون"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_008"
+  },
+  {
+    "insCode": "71744682148776880",
+    "symbols": [
+      "ولصنم"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_008"
+  },
+  {
+    "insCode": "49641108336531623",
+    "symbols": [
+      "انرژي"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_009"
+  },
+  {
+    "insCode": "60523145697836739",
+    "symbols": [
+      "بورس"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_009"
+  },
+  {
+    "insCode": "58482817740704549",
+    "symbols": [
+      "خكرمان"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_009"
+  },
+  {
+    "insCode": "14957056743925737",
+    "symbols": [
+      "خلنت"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_009"
+  },
+  {
+    "insCode": "46801030346547943",
+    "symbols": [
+      "دقاضي"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_009"
+  },
+  {
+    "insCode": "55862580907068610",
+    "symbols": [
+      "شملي"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_009"
+  },
+  {
+    "insCode": "13140135188919199",
+    "symbols": [
+      "قتربت"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_009"
+  },
+  {
+    "insCode": "6847536925606808",
+    "symbols": [
+      "ومعلم"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_009"
+  },
+  {
+    "insCode": "21334155996394219",
+    "symbols": [
+      "پاريز"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_009"
+  },
+  {
+    "insCode": "23936607891892333",
+    "symbols": [
+      "چافست"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_009"
+  },
+  {
+    "insCode": "62107151670661969",
+    "symbols": [
+      "بكابل"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_010"
+  },
+  {
+    "insCode": "66315581735594751",
+    "symbols": [
+      "توسن"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_010"
+  },
+  {
+    "insCode": "7457232989848872",
+    "symbols": [
+      "خمحور"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_010"
+  },
+  {
+    "insCode": "13235547361447092",
+    "symbols": [
+      "زاگرس"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_010"
+  },
+  {
+    "insCode": "64843936383937546",
+    "symbols": [
+      "غگلستا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_010"
+  },
+  {
+    "insCode": "18004480270695404",
+    "symbols": [
+      "فمراد"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_010"
+  },
+  {
+    "insCode": "27276541005386425",
+    "symbols": [
+      "فنر"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_010"
+  },
+  {
+    "insCode": "59607545337891226",
+    "symbols": [
+      "پرداخت"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_010"
+  },
+  {
+    "insCode": "7235435095059069",
+    "symbols": [
+      "پكوير"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_010"
+  },
+  {
+    "insCode": "53204330224889981",
+    "symbols": [
+      "تبرك"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_011"
+  },
+  {
+    "insCode": "1301069819790264",
+    "symbols": [
+      "تجلي"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_011"
+  },
+  {
+    "insCode": "28033133021443774",
+    "symbols": [
+      "خفنر"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_011"
+  },
+  {
+    "insCode": "40611478183231802",
+    "symbols": [
+      "شدوص"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_011"
+  },
+  {
+    "insCode": "24303422207378456",
+    "symbols": [
+      "غالبر"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_011"
+  },
+  {
+    "insCode": "31791737198597563",
+    "symbols": [
+      "غشان"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_011"
+  },
+  {
+    "insCode": "71571639927013317",
+    "symbols": [
+      "فالوم"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_011"
+  },
+  {
+    "insCode": "45174198424472334",
+    "symbols": [
+      "ولساپا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_011"
+  },
+  {
+    "insCode": "41796741644273824",
+    "symbols": [
+      "وملي"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_011"
+  },
+  {
+    "insCode": "18661507395759423",
+    "symbols": [
+      "آلومينا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_012"
+  },
+  {
+    "insCode": "51390991364277477",
+    "symbols": [
+      "سليم"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_012"
+  },
+  {
+    "insCode": "14073782708315535",
+    "symbols": [
+      "شنفت"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_012"
+  },
+  {
+    "insCode": "37297472492769191",
+    "symbols": [
+      "فهامون"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_012"
+  },
+  {
+    "insCode": "5317427172344706",
+    "symbols": [
+      "هجرت"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_012"
+  },
+  {
+    "insCode": "57944184894703821",
+    "symbols": [
+      "والبر"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_012"
+  },
+  {
+    "insCode": "9481703061634967",
+    "symbols": [
+      "پارسيان"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_012"
+  },
+  {
+    "insCode": "24079409192818584",
+    "symbols": [
+      "پدرخش"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_012"
+  },
+  {
+    "insCode": "64358061873294912",
+    "symbols": [
+      "چفيبر"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_012"
+  },
+  {
+    "insCode": "34557241988629814",
+    "symbols": [
+      "بركت"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_013"
+  },
+  {
+    "insCode": "30719054967088301",
+    "symbols": [
+      "تكمبا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_013"
+  },
+  {
+    "insCode": "67261627618765635",
+    "symbols": [
+      "خودران"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_013"
+  },
+  {
+    "insCode": "48990026850202503",
+    "symbols": [
+      "خگستر"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_013"
+  },
+  {
+    "insCode": "11427387039523955",
+    "symbols": [
+      "شفام"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_013"
+  },
+  {
+    "insCode": "39116664428676213",
+    "symbols": [
+      "شلعاب"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_013"
+  },
+  {
+    "insCode": "61102694810476197",
+    "symbols": [
+      "شپارس"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_013"
+  },
+  {
+    "insCode": "55373808401388162",
+    "symbols": [
+      "فتوسا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_013"
+  },
+  {
+    "insCode": "30765727085936322",
+    "symbols": [
+      "فجام"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_013"
+  },
+  {
+    "insCode": "52792903131341205",
+    "symbols": [
+      "افرا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_014"
+  },
+  {
+    "insCode": "64899658576570461",
+    "symbols": [
+      "بانيان"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_014"
+  },
+  {
+    "insCode": "67988012428906654",
+    "symbols": [
+      "دارو"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_014"
+  },
+  {
+    "insCode": "59461185672081215",
+    "symbols": [
+      "غمايه"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_014"
+  },
+  {
+    "insCode": "58810336532668771",
+    "symbols": [
+      "كايزد"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_014"
+  },
+  {
+    "insCode": "43256212620530446",
+    "symbols": [
+      "كبافق"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_014"
+  },
+  {
+    "insCode": "59866041653103343",
+    "symbols": [
+      "نوين"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_014"
+  },
+  {
+    "insCode": "5968811612822747",
+    "symbols": [
+      "ولنوين"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_014"
+  },
+  {
+    "insCode": "59486059679335017",
+    "symbols": [
+      "وپترو"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_014"
+  },
+  {
+    "insCode": "52932092555708556",
+    "symbols": [
+      "تكاردان"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_015"
+  },
+  {
+    "insCode": "21432551703060846",
+    "symbols": [
+      "حآفرين"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_015"
+  },
+  {
+    "insCode": "50185721305191887",
+    "symbols": [
+      "ختور"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_015"
+  },
+  {
+    "insCode": "2589887561569709",
+    "symbols": [
+      "خزاميا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_015"
+  },
+  {
+    "insCode": "17330546482145553",
+    "symbols": [
+      "خمهر"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_015"
+  },
+  {
+    "insCode": "64298008532791199",
+    "symbols": [
+      "ساينا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_015"
+  },
+  {
+    "insCode": "611986653700161",
+    "symbols": [
+      "سبزوا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_015"
+  },
+  {
+    "insCode": "408934423224097",
+    "symbols": [
+      "فرآور"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_015"
+  },
+  {
+    "insCode": "8977369674477111",
+    "symbols": [
+      "كطبس"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_015"
+  },
+  {
+    "insCode": "383529400851043",
+    "symbols": [
+      "الكتروماد"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_016"
+  },
+  {
+    "insCode": "42075223783409640",
+    "symbols": [
+      "خاذين"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_016"
+  },
+  {
+    "insCode": "7300125658580126",
+    "symbols": [
+      "زكشت"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_016"
+  },
+  {
+    "insCode": "14258394084745667",
+    "symbols": [
+      "سمتاز"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_016"
+  },
+  {
+    "insCode": "49188729526980541",
+    "symbols": [
+      "شسپا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_016"
+  },
+  {
+    "insCode": "48623320733330408",
+    "symbols": [
+      "فلوله"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_016"
+  },
+  {
+    "insCode": "56324206651661881",
+    "symbols": [
+      "فنورد"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_016"
+  },
+  {
+    "insCode": "18027801615184692",
+    "symbols": [
+      "كچاد"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_016"
+  },
+  {
+    "insCode": "43951910415124966",
+    "symbols": [
+      "وگستر"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_016"
+  },
+  {
+    "insCode": "20092044608974663",
+    "symbols": [
+      "احيا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_017"
+  },
+  {
+    "insCode": "67868738676326187",
+    "symbols": [
+      "اخشان"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_017"
+  },
+  {
+    "insCode": "14079693677610396",
+    "symbols": [
+      "اسياتك"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_017"
+  },
+  {
+    "insCode": "4384288570322406",
+    "symbols": [
+      "دلر"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_017"
+  },
+  {
+    "insCode": "51617145873056483",
+    "symbols": [
+      "شتران"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_017"
+  },
+  {
+    "insCode": "43781018754867729",
+    "symbols": [
+      "شفارس"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_017"
+  },
+  {
+    "insCode": "69446612239102459",
+    "symbols": [
+      "شكام"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_017"
+  },
+  {
+    "insCode": "35178706978554988",
+    "symbols": [
+      "شپاس"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_017"
+  },
+  {
+    "insCode": "44846320603450383",
+    "symbols": [
+      "فروسيل"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_017"
+  },
+  {
+    "insCode": "50002340308486819",
+    "symbols": [
+      "تاپكيش"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_018"
+  },
+  {
+    "insCode": "22260326095996531",
+    "symbols": [
+      "حتوكا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_018"
+  },
+  {
+    "insCode": "38084304113529336",
+    "symbols": [
+      "خديزل"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_018"
+  },
+  {
+    "insCode": "22645269567765904",
+    "symbols": [
+      "خيمن"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_018"
+  },
+  {
+    "insCode": "8915450910866216",
+    "symbols": [
+      "دزهراوي"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_018"
+  },
+  {
+    "insCode": "69817338460284329",
+    "symbols": [
+      "فروژ"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_018"
+  },
+  {
+    "insCode": "44549439964296944",
+    "symbols": [
+      "كالا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_018"
+  },
+  {
+    "insCode": "20652241232631918",
+    "symbols": [
+      "نيان"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_018"
+  },
+  {
+    "insCode": "30447901674051381",
+    "symbols": [
+      "ومدير"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_018"
+  },
+  {
+    "insCode": "61483657213051835",
+    "symbols": [
+      "بازبيمه"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_019"
+  },
+  {
+    "insCode": "63915926161403347",
+    "symbols": [
+      "خشرق"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_019"
+  },
+  {
+    "insCode": "11996454048142959",
+    "symbols": [
+      "داترا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_019"
+  },
+  {
+    "insCode": "4507558419857064",
+    "symbols": [
+      "زماهان"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_019"
+  },
+  {
+    "insCode": "71856634742001725",
+    "symbols": [
+      "سپ"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_019"
+  },
+  {
+    "insCode": "48619517949257749",
+    "symbols": [
+      "غنوش"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_019"
+  },
+  {
+    "insCode": "25286509736208688",
+    "symbols": [
+      "فلامي"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_019"
+  },
+  {
+    "insCode": "11326461864120062",
+    "symbols": [
+      "كربن"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_019"
+  },
+  {
+    "insCode": "41746336706469006",
+    "symbols": [
+      "پيروز"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_019"
+  },
+  {
+    "insCode": "68517032834363488",
+    "symbols": [
+      "شبصير"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_020"
+  },
+  {
+    "insCode": "61978776664766359",
+    "symbols": [
+      "غپونه"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_020"
+  },
+  {
+    "insCode": "45507655586782998",
+    "symbols": [
+      "فجهان"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_020"
+  },
+  {
+    "insCode": "3623921205367364",
+    "symbols": [
+      "كدما"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_020"
+  },
+  {
+    "insCode": "32678431934327184",
+    "symbols": [
+      "كلوند"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_020"
+  },
+  {
+    "insCode": "24253947487334809",
+    "symbols": [
+      "معين"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_020"
+  },
+  {
+    "insCode": "11773403764702778",
+    "symbols": [
+      "وبيمه"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_020"
+  },
+  {
+    "insCode": "11403770140000603",
+    "symbols": [
+      "ولملت"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_020"
+  },
+  {
+    "insCode": "30507739597192201",
+    "symbols": [
+      "تخت گاز"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_021"
+  },
+  {
+    "insCode": "57273529732791251",
+    "symbols": [
+      "خموتور"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_021"
+  },
+  {
+    "insCode": "66142616039907394",
+    "symbols": [
+      "دماوند"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_021"
+  },
+  {
+    "insCode": "46741025610365786",
+    "symbols": [
+      "سمگا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_021"
+  },
+  {
+    "insCode": "37281199178613855",
+    "symbols": [
+      "سيدكو"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_021"
+  },
+  {
+    "insCode": "10120557300120078",
+    "symbols": [
+      "پسهند"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_021"
+  },
+  {
     "insCode": "20244389840999638",
     "symbols": [
       "رز ترنج"
@@ -238,5 +1838,85 @@
     ],
     "occurrences": 2,
     "kept_source": "v2/batch_037"
+  },
+  {
+    "insCode": "5305844922895340",
+    "symbols": [
+      "داوه"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_038"
+  },
+  {
+    "insCode": "71483646978964608",
+    "symbols": [
+      "ذوب"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_038"
+  },
+  {
+    "insCode": "70883594945615893",
+    "symbols": [
+      "سآبيك"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_038"
+  },
+  {
+    "insCode": "65321970913593427",
+    "symbols": [
+      "سكرد"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_038"
+  },
+  {
+    "insCode": "18401147983387689",
+    "symbols": [
+      "غپينو"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_038"
+  },
+  {
+    "insCode": "43664630566988630",
+    "symbols": [
+      "فلزفارابي"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_038"
+  },
+  {
+    "insCode": "20611778787745873",
+    "symbols": [
+      "قلك گلد"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_038"
+  },
+  {
+    "insCode": "41483334879559487",
+    "symbols": [
+      "نقران"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_038"
+  },
+  {
+    "insCode": "12913156843322499",
+    "symbols": [
+      "نهال"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_038"
+  },
+  {
+    "insCode": "60406254194457384",
+    "symbols": [
+      "هيرا"
+    ],
+    "occurrences": 2,
+    "kept_source": "v2/batch_038"
   }
 ]

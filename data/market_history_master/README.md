@@ -1,6 +1,6 @@
 # Master market-history index
 
-This directory is a verified, de-duplicated index of history archives stored on the market-history-checkpoints and market-history-checkpoints-v3 branches.
+This directory is a verified, de-duplicated index of history archives stored on the market-history-checkpoints, market-history-checkpoints-v3 and market-history-checkpoints-v4 branches.
 
 - index.json: eligible unique ordinary shares and funds, excluding suffix-3 after-hours instruments.
 - eligible_codes.json: successful instrument codes, suitable as the exclusion list for the next incremental fetch.
