@@ -15,6 +15,8 @@ def load_rows():
     rows.sort(key=lambda r: r["date"])
     out = []
     for r in rows:
+        if r.get("symbol") != SYMBOL:
+            continue
         try:
             d = datetime.strptime(r["date"], "%Y%m%d").date()
             c, h, l, v = float(r["close"]), float(r["high"]), float(r["low"]), float(r["volume"])
