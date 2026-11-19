@@ -1,0 +1,91 @@
+{
+  "batch": 64,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 16064,
+  "events": 56,
+  "instruments": [
+    {
+      "insCode": "17617474823279712",
+      "symbol": "آ س پ",
+      "asset_type": "share",
+      "rows": 3713,
+      "latest_date": "20261118",
+      "events": 17
+    },
+    {
+      "insCode": "25855824481936305",
+      "symbol": "آ س پ3",
+      "asset_type": "share",
+      "rows": 3713,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "5599691633622269",
+      "symbol": "بخاور",
+      "asset_type": "share",
+      "rows": 1542,
+      "latest_date": "20261118",
+      "events": 11
+    },
+    {
+      "insCode": "47869517171846157",
+      "symbol": "بخاور3",
+      "asset_type": "share",
+      "rows": 1542,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "9098178887955847",
+      "symbol": "شهر",
+      "asset_type": "share",
+      "rows": 873,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "5160189347182842",
+      "symbol": "شهر3",
+      "asset_type": "share",
+      "rows": 147,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "33441514568901717",
+      "symbol": "ميدكو",
+      "asset_type": "share",
+      "rows": 1284,
+      "latest_date": "20261118",
+      "events": 9
+    },
+    {
+      "insCode": "22501232035732859",
+      "symbol": "وثنو",
+      "asset_type": "share",
+      "rows": 357,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "3736165593739575",
+      "symbol": "وثنو3",
+      "asset_type": "share",
+      "rows": 143,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "25215182208950217",
+      "symbol": "وهور",
+      "asset_type": "share",
+      "rows": 2750,
+      "latest_date": "20261118",
+      "events": 14
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:38:06.366751Z"
+}
