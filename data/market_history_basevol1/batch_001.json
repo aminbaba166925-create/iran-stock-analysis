@@ -1,0 +1,91 @@
+{
+  "batch": 1,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 8940,
+  "corporate_action_events": 6,
+  "instruments": [
+    {
+      "insCode": "36592972482259020",
+      "symbol": "آسام",
+      "asset_type": "fund",
+      "rows": 3197,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "65640021232361587",
+      "symbol": "آسان",
+      "asset_type": "fund",
+      "rows": 451,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "25643887236448721",
+      "symbol": "آسود2",
+      "asset_type": "fund",
+      "rows": 504,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "490987973229371",
+      "symbol": "آكام",
+      "asset_type": "fund",
+      "rows": 841,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "19828734979381742",
+      "symbol": "آلا",
+      "asset_type": "fund",
+      "rows": 815,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "15432794844050822",
+      "symbol": "آلا2",
+      "asset_type": "fund",
+      "rows": 815,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "28374437855144739",
+      "symbol": "آلتون",
+      "asset_type": "fund",
+      "rows": 875,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "52497713622747990",
+      "symbol": "آلياژ",
+      "asset_type": "fund",
+      "rows": 498,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "51354976404265922",
+      "symbol": "آلياژ2",
+      "asset_type": "fund",
+      "rows": 498,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "41350070322027412",
+      "symbol": "آميتيس",
+      "asset_type": "fund",
+      "rows": 446,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:41:11.827803+00:00"
+}
