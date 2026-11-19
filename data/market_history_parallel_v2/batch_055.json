@@ -1,0 +1,91 @@
+{
+  "batch": 55,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 33443,
+  "events": 100,
+  "instruments": [
+    {
+      "insCode": "61628842086443317",
+      "symbol": "احيا3",
+      "asset_type": "share",
+      "rows": 143,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "20013308222150455",
+      "symbol": "تاپكيش3",
+      "asset_type": "share",
+      "rows": 2117,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "58695040447675899",
+      "symbol": "خيمن3",
+      "asset_type": "share",
+      "rows": 2081,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "41048299027409941",
+      "symbol": "رتاپ",
+      "asset_type": "share",
+      "rows": 3672,
+      "latest_date": "20261118",
+      "events": 26
+    },
+    {
+      "insCode": "5054819322815158",
+      "symbol": "زمگسا",
+      "asset_type": "share",
+      "rows": 4482,
+      "latest_date": "20261118",
+      "events": 21
+    },
+    {
+      "insCode": "68366254579129829",
+      "symbol": "زمگسا3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "20865316761157979",
+      "symbol": "فاراك",
+      "asset_type": "share",
+      "rows": 5122,
+      "latest_date": "20261118",
+      "events": 21
+    },
+    {
+      "insCode": "26657289776837276",
+      "symbol": "فاراك3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "34673681828119297",
+      "symbol": "فاما",
+      "asset_type": "share",
+      "rows": 5295,
+      "latest_date": "20261118",
+      "events": 32
+    },
+    {
+      "insCode": "26351139613589387",
+      "symbol": "كالا3",
+      "asset_type": "share",
+      "rows": 1871,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:23:26.645163Z"
+}
