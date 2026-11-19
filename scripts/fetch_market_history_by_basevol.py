@@ -16,8 +16,9 @@ LABEL = "basevol1" if MODE == "eq1" else "basevol_gt1"
 OUT = Path("data") / ("market_history_" + LABEL)
 MASTER = Path("data/market_history_master/eligible_codes.json")
 CHECKPOINT_BRANCH = os.getenv("CHECKPOINT_BRANCH", "market-history-" + LABEL + "-checkpoints")
-BATCH_SIZE = 10
-WORKERS = 4
+# One instrument per checkpoint; at most the current symbol can be lost on interruption.
+BATCH_SIZE = 1
+WORKERS = 1
 
 def git_checkpoint(paths, message):
     subprocess.run(["git", "add", *[str(p) for p in paths]], check=True)
