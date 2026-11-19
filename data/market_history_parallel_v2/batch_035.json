@@ -1,0 +1,91 @@
+{
+  "batch": 35,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 18546,
+  "events": 65,
+  "instruments": [
+    {
+      "insCode": "20244389840999638",
+      "symbol": "رز ترنج",
+      "asset_type": "fund",
+      "rows": 351,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "33144542989832366",
+      "symbol": "زرفام",
+      "asset_type": "fund",
+      "rows": 1073,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "16817885126368964",
+      "symbol": "زرگر",
+      "asset_type": "fund",
+      "rows": 297,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "64795751499397128",
+      "symbol": "زمرد",
+      "asset_type": "fund",
+      "rows": 429,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "52220424531578944",
+      "symbol": "سغرب",
+      "asset_type": "share",
+      "rows": 5059,
+      "latest_date": "20261118",
+      "events": 23
+    },
+    {
+      "insCode": "47749661205825616",
+      "symbol": "سيستم",
+      "asset_type": "share",
+      "rows": 2406,
+      "latest_date": "20261118",
+      "events": 15
+    },
+    {
+      "insCode": "59522975635235187",
+      "symbol": "شمس",
+      "asset_type": "share",
+      "rows": 635,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "67206358287598044",
+      "symbol": "كهمدا",
+      "asset_type": "share",
+      "rows": 5161,
+      "latest_date": "20261118",
+      "events": 25
+    },
+    {
+      "insCode": "4626686276232042",
+      "symbol": "نفيس",
+      "asset_type": "fund",
+      "rows": 983,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "12390706505809150",
+      "symbol": "گوهر",
+      "asset_type": "fund",
+      "rows": 2152,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:11:32.677506Z"
+}
