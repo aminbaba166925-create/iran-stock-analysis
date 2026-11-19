@@ -22,7 +22,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -39,6 +39,11 @@ jobs:
 
       - name: Scan all market symbols
         run: python scripts/scan_market.py
+
+      - name: Configure checkpoint commits
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Fetch all symbols historical prices
         run: python scripts/fetch_market_history.py
