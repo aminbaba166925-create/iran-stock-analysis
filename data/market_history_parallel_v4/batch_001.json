@@ -1,0 +1,89 @@
+{
+  "batch": 1,
+  "success": 9,
+  "failed": 1,
+  "raw_rows": 24217,
+  "events": 92,
+  "instruments": [
+    {
+      "insCode": "49270349234092953",
+      "symbol": "خاور",
+      "asset_type": "share",
+      "rows": 865,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "65883838195688438",
+      "symbol": "خودرو",
+      "asset_type": "share",
+      "rows": 5924,
+      "latest_date": "20261118",
+      "events": 13
+    },
+    {
+      "insCode": "66726992874614788",
+      "symbol": "دتوزيع",
+      "asset_type": "share",
+      "rows": 1746,
+      "latest_date": "20261118",
+      "events": 9
+    },
+    {
+      "insCode": "69540585676934415",
+      "symbol": "ددانا",
+      "asset_type": "share",
+      "rows": 1355,
+      "latest_date": "20261118",
+      "events": 6
+    },
+    {
+      "insCode": "27218386411183410",
+      "symbol": "سدور",
+      "asset_type": "share",
+      "rows": 4844,
+      "latest_date": "20261118",
+      "events": 11
+    },
+    {
+      "insCode": "51017863148152520",
+      "symbol": "فرود",
+      "asset_type": "share",
+      "rows": 1262,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "40808043719554948",
+      "symbol": "فولاژ",
+      "asset_type": "share",
+      "rows": 3830,
+      "latest_date": "20261118",
+      "events": 32
+    },
+    {
+      "insCode": "66025809087145106",
+      "symbol": "كيمازي",
+      "asset_type": "share",
+      "rows": 42,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "57722642338781674",
+      "symbol": "پلاسك",
+      "asset_type": "share",
+      "rows": 4349,
+      "latest_date": "20261118",
+      "events": 11
+    }
+  ],
+  "failures": [
+    {
+      "insCode": "51346017122365212",
+      "symbol": "كاريز",
+      "error": "daily history too short: 7"
+    }
+  ],
+  "saved_at_utc": "2026-11-19T22:21:43.256605Z"
+}
