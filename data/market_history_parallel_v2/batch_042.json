@@ -1,0 +1,91 @@
+{
+  "batch": 42,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 25280,
+  "events": 68,
+  "instruments": [
+    {
+      "insCode": "53999651992586159",
+      "symbol": "ثپرديس",
+      "asset_type": "share",
+      "rows": 3028,
+      "latest_date": "20261118",
+      "events": 17
+    },
+    {
+      "insCode": "61954477957575378",
+      "symbol": "دسبحان3",
+      "asset_type": "share",
+      "rows": 2574,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "41227201752535311",
+      "symbol": "سفار",
+      "asset_type": "share",
+      "rows": 4486,
+      "latest_date": "20261118",
+      "events": 18
+    },
+    {
+      "insCode": "26156579524965401",
+      "symbol": "سفار3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "3927545069816217",
+      "symbol": "سپينود",
+      "asset_type": "fund",
+      "rows": 640,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "16959429956899455",
+      "symbol": "شاملا",
+      "asset_type": "share",
+      "rows": 4856,
+      "latest_date": "20261118",
+      "events": 22
+    },
+    {
+      "insCode": "57157873359416943",
+      "symbol": "شرنگي",
+      "asset_type": "share",
+      "rows": 564,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "20292922178776915",
+      "symbol": "شيفته",
+      "asset_type": "share",
+      "rows": 236,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "24997669147927322",
+      "symbol": "شيفته3",
+      "asset_type": "share",
+      "rows": 236,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "26836707342371045",
+      "symbol": "كفرا3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 6
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:16:34.439239Z"
+}
