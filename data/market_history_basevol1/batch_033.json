@@ -1,0 +1,91 @@
+{
+  "batch": 33,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 11302,
+  "corporate_action_events": 36,
+  "instruments": [
+    {
+      "insCode": "17617474823279712",
+      "symbol": "آ س پ",
+      "asset_type": "share",
+      "rows": 3713,
+      "latest_date": "20261118",
+      "events": 17
+    },
+    {
+      "insCode": "37661500521100963",
+      "symbol": "آبادا",
+      "asset_type": "share",
+      "rows": 1528,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "9956888831468521",
+      "symbol": "آردينه",
+      "asset_type": "share",
+      "rows": 768,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "55127657985997520",
+      "symbol": "آريا",
+      "asset_type": "share",
+      "rows": 1603,
+      "latest_date": "20261118",
+      "events": 10
+    },
+    {
+      "insCode": "60235881999727383",
+      "symbol": "آكو",
+      "asset_type": "share",
+      "rows": 140,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "48968268685622891",
+      "symbol": "گلدا",
+      "asset_type": "fund",
+      "rows": 276,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "2066976169139083",
+      "symbol": "گلدا2",
+      "asset_type": "fund",
+      "rows": 276,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "68376789401977331",
+      "symbol": "گلديس",
+      "asset_type": "fund",
+      "rows": 432,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "58514988269776425",
+      "symbol": "گنج",
+      "asset_type": "fund",
+      "rows": 959,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "10628305906504872",
+      "symbol": "گنجين4",
+      "asset_type": "fund",
+      "rows": 1607,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T23:43:04.807698+00:00"
+}
