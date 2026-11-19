@@ -7,6 +7,8 @@ on:
       - 'scripts/fetch_market_history_by_basevol.py'
       - '.github/workflows/market-history-basevol-gt1.yml'
   workflow_dispatch:
+  schedule:
+    - cron: '17 0 * * *' # resume daily from the last per-symbol checkpoint
 
 permissions:
   contents: write
