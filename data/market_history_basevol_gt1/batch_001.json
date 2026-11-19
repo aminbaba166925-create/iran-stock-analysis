@@ -1,0 +1,19 @@
+{
+  "batch": 1,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 757,
+  "corporate_action_events": 5,
+  "instruments": [
+    {
+      "insCode": "24696953498398744",
+      "symbol": "شگستر",
+      "asset_type": "share",
+      "rows": 757,
+      "latest_date": "20261118",
+      "events": 5
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:41:28.420645+00:00"
+}
