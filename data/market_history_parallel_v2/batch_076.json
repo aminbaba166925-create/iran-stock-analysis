@@ -1,0 +1,91 @@
+{
+  "batch": 76,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 38279,
+  "events": 11,
+  "instruments": [
+    {
+      "insCode": "23920902178649011",
+      "symbol": "بفجر3",
+      "asset_type": "share",
+      "rows": 2676,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "60148153641790288",
+      "symbol": "تايرا3",
+      "asset_type": "share",
+      "rows": 4329,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "15699960917398204",
+      "symbol": "تكمبا3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "5561929580646205",
+      "symbol": "ثمسكن3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "24061336725809755",
+      "symbol": "حتوكا3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "8914645550717367",
+      "symbol": "رانفور3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "7093655625757378",
+      "symbol": "رتاپ3",
+      "asset_type": "share",
+      "rows": 3672,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "62539634098245906",
+      "symbol": "غگل3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "53929238485050304",
+      "symbol": "كحافظ3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "57585821705408565",
+      "symbol": "ونچر",
+      "asset_type": "fund",
+      "rows": 1622,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T23:25:14.925842Z"
+}
