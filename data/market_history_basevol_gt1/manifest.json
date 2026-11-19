@@ -1,0 +1,17 @@
+{
+  "generated_at_utc": "2026-11-19T22:37:44.204552+00:00",
+  "cohort": "basevol_gt1",
+  "filter": "baseVol > 1",
+  "observed_live_universe": 2,
+  "expected_count_user_reported": 33,
+  "already_covered_by_master": 0,
+  "new_candidates": 2,
+  "succeeded": 2,
+  "failed": 0,
+  "raw_rows": 1128,
+  "corporate_action_events": 6,
+  "workers": 4,
+  "batch_size": 10,
+  "failures": [],
+  "note": "Master-covered instruments are listed in universe.json and not downloaded again; all new data is saved separately pending master deduplication."
+}
