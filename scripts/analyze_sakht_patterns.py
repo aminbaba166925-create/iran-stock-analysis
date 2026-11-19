@@ -51,70 +51,80 @@ def line_y(p1, p2, x):
 
 def scan(rows, pv):
     found=[]
-    # Double tops/bottoms and head-and-shoulders from 5 alternating pivots.
-    for j in range(4, len(pv)):
-        a,b,c,d,e = pv[j-4:j+1]
-        vals=[a[2],b[2],c[2],d[2],e[2]]
-        dates=[rows[x[0]]["date"] for x in (a,b,c,d,e)]
-        if [x[1] for x in (a,b,c,d,e)] == ["L","H","L","H","L"]:
-            similarity=abs(a[2]-e[2])/((a[2]+e[2])/2)
-            if similarity <= .06 and c[2] > max(a[2],e[2])*1.045:
-                neck=(b[2]+d[2])/2
-                status="تأیید شکست" if rows[-1]["close"] > neck else ("در حال تشکیل" if e[0] >= len(rows)-25 else "بدون شکست")
-                found.append(dict(pattern="کف سه‌قلو / سر و شانه معکوس احتمالی", dates=dates, level=neck, status=status, end_index=e[0], quality=round((1-similarity)*100,1)))
-            if similarity <= .035 and b[2] > max(a[2],e[2])*1.05:
-                neck=(b[2]+d[2])/2
-                status="تأیید شکست" if rows[-1]["close"] > neck else ("در حال تشکیل" if e[0] >= len(rows)-25 else "بدون شکست")
-                found.append(dict(pattern="کف دوقلو", dates=[dates[0],dates[1],dates[2]], level=neck, status=status, end_index=c[0], quality=round((1-similarity)*100,1)))
-        if [x[1] for x in (a,b,c,d,e)] == ["H","L","H","L","H"]:
-            similarity=abs(a[2]-e[2])/((a[2]+e[2])/2)
-            if similarity <= .06 and c[2] < min(a[2],e[2])*.955:
-                neck=(b[2]+d[2])/2
-                status="تأیید شکست نزولی" if rows[-1]["close"] < neck else ("در حال تشکیل" if e[0] >= len(rows)-25 else "بدون شکست")
-                found.append(dict(pattern="سقف سه‌قلو / سر و شانه احتمالی", dates=dates, level=neck, status=status, end_index=e[0], quality=round((1-similarity)*100,1)))
-            if similarity <= .035 and b[2] < min(a[2],e[2])*.95:
-                neck=(b[2]+d[2])/2
-                status="تأیید شکست نزولی" if rows[-1]["close"] < neck else ("در حال تشکیل" if e[0] >= len(rows)-25 else "بدون شکست")
-                found.append(dict(pattern="سقف دوقلو", dates=[dates[0],dates[1],dates[2]], level=neck, status=status, end_index=c[0], quality=round((1-similarity)*100,1)))
-    # Converging triangle: last 6 alternating pivots with descending highs and ascending lows.
-    for j in range(5, len(pv)):
-        q=pv[j-5:j+1]
-        highs=[x for x in q if x[1]=="H"]; lows=[x for x in q if x[1]=="L"]
+    def add(name, pts, neckline, direction, quality):
+        end_i=pts[-1][0]
+        breakout=None
+        for k in range(end_i+1, min(len(rows), end_i+31)):
+            close=rows[k]["close"]
+            if (direction=="up" and close>neckline*1.01) or (direction=="down" and close<neckline*.99):
+                breakout=k; break
+        if breakout is not None:
+            status="شکست صعودی تأییدشده" if direction=="up" else "شکست نزولی تأییدشده"
+            base=breakout
+        else:
+            status="در حال تشکیل" if len(rows)-1-end_i<=20 else "بدون شکست در ۳۰ جلسه بعد"
+            base=end_i
+        rets={}
+        if breakout is not None:
+            for n in (5,10,20):
+                if breakout+n<len(rows):
+                    rets[str(n)]=round((rows[breakout+n]["close"]/rows[breakout]["close"]-1)*100,2)
+        found.append({"pattern":name,"dates":[rows[p[0]]["date"] for p in pts],
+          "pivot_prices":[round(p[2],2) for p in pts],"level":round(neckline,2),
+          "status":status,"quality":round(quality,1),"formation_date":rows[end_i]["date"],
+          "breakout_date":rows[breakout]["date"] if breakout is not None else None,
+          "forward_returns_pct":rets,"end_index":end_i,"base_index":base})
+    for j in range(2,len(pv)):
+        a,b,c=pv[j-2:j+1]
+        if [x[1] for x in (a,b,c)]==["H","L","H"]:
+            sim=abs(a[2]-c[2])/((a[2]+c[2])/2)
+            if sim<=.04 and 1-b[2]/min(a[2],c[2])>=.05:
+                add("سقف دوقلو",[a,b,c],b[2],"down",(1-sim)*100)
+        if [x[1] for x in (a,b,c)]==["L","H","L"]:
+            sim=abs(a[2]-c[2])/((a[2]+c[2])/2)
+            if sim<=.04 and b[2]/max(a[2],c[2])-1>=.05:
+                add("کف دوقلو",[a,b,c],b[2],"up",(1-sim)*100)
+    for j in range(4,len(pv)):
+        a,b,c,d,e=pv[j-4:j+1]
+        if [x[1] for x in (a,b,c,d,e)]==["H","L","H","L","H"]:
+            sim=abs(a[2]-e[2])/((a[2]+e[2])/2)
+            if sim<=.08 and c[2]>=max(a[2],e[2])*1.03:
+                add("سر و شانه",[a,b,c,d,e],(b[2]+d[2])/2,"down",(1-sim)*100)
+        if [x[1] for x in (a,b,c,d,e)]==["L","H","L","H","L"]:
+            sim=abs(a[2]-e[2])/((a[2]+e[2])/2)
+            if sim<=.08 and c[2]<=min(a[2],e[2])*.97:
+                add("سر و شانه معکوس",[a,b,c,d,e],(b[2]+d[2])/2,"up",(1-sim)*100)
+    for j in range(5,len(pv)):
+        q=pv[j-5:j+1]; highs=[x for x in q if x[1]=="H"]; lows=[x for x in q if x[1]=="L"]
         if len(highs)==3 and len(lows)==3:
-            hs=highs[-1][2]/highs[0][2]-1
-            ls=lows[-1][2]/lows[0][2]-1
-            if hs < -.025 and ls > .025 and highs[-1][0] > highs[0][0] and lows[-1][0] > lows[0][0]:
-                upper=line_y(highs[0],highs[-1],len(rows)-1)
-                lower=line_y(lows[0],lows[-1],len(rows)-1)
-                if upper > lower:
-                    status="نزدیک رأس؛ نیازمند شکست" if len(rows)-1 > q[-1][0] else "در حال تشکیل"
-                    found.append(dict(pattern="مثلث متقارن", dates=[rows[q[0][0]]["date"],rows[q[-1][0]]["date"]], level=round((upper+lower)/2,2), status=status, end_index=q[-1][0], quality=round(min(abs(hs),abs(ls))*100,1)))
-    # Deduplicate same pattern around same ending pivot.
+            hs=highs[-1][2]/highs[0][2]-1; ls=lows[-1][2]/lows[0][2]-1
+            if hs<-.025 and ls>.025:
+                upper=line_y(highs[0],highs[-1],len(rows)-1); lower=line_y(lows[0],lows[-1],len(rows)-1)
+                if upper>lower:
+                    found.append({"pattern":"مثلث متقارن","dates":[rows[q[0][0]]["date"],rows[q[-1][0]]["date"]],
+                      "pivot_prices":[round(x[2],2) for x in q],"level":round((upper+lower)/2,2),
+                      "status":"در حال فشردگی؛ منتظر شکست","quality":round(min(abs(hs),abs(ls))*100,1),
+                      "formation_date":rows[q[-1][0]]["date"],"breakout_date":None,"forward_returns_pct":{},
+                      "end_index":q[-1][0],"base_index":q[-1][0]})
     unique={}
     for x in found:
-        k=(x["pattern"],x["end_index"])
-        if k not in unique or x["quality"]>unique[k]["quality"]: unique[k]=x
-    return sorted(unique.values(), key=lambda x:x["end_index"])
+        key=(x["pattern"],x["end_index"])
+        if key not in unique or x["quality"]>unique[key]["quality"]: unique[key]=x
+    return sorted(unique.values(),key=lambda x:x["end_index"])
 
 def main():
     rows=load_rows(); pv=pivots(rows); patterns=scan(rows,pv)
     last=rows[-1]; recent=[p for p in patterns if p["end_index"] >= len(rows)-180]
     # Forward returns after detected structural breakout; close-to-close, no look-ahead claim.
     for p in patterns:
-        idx=p["end_index"]
-        p["pattern_date"]=rows[idx]["date"]
-        p["forward_returns_pct"]={}
-        for n in (5,10,20):
-            if idx+n < len(rows):
-                p["forward_returns_pct"][str(n)]=round((rows[idx+n]["close"]/rows[idx]["close"]-1)*100,2)
-        p.pop("end_index",None)
+        p.pop("end_index",None); p.pop("base_index",None)
     OUT.mkdir(exist_ok=True)
     report={"symbol":SYMBOL,"source_branch":BRANCH,"source_file":SOURCE,"timeframe":"daily","price_series":"corporate-action adjusted close","rows":len(rows),"first_date":rows[0]["date"],"latest_date":last["date"],"latest_close":last["close"],"pivot_count":len(pv),"pattern_count":len(patterns),"recent_patterns":recent,"all_patterns":patterns[-100:]}
     (OUT/"sakht_patterns.json").write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8")
     md=[f"# گزارش الگوهای تکنیکال {SYMBOL}","",f"- داده: {len(rows)} جلسه، از {rows[0]['date']} تا {last['date']}","- آخرین قیمت پایانی تعدیل‌شده: "+f"{last['close']:,.2f}",f"- نقاط چرخش استخراج‌شده: {len(pv)}",f"- الگوهای تاریخی شناسایی‌شده: {len(patterns)}","","> این خروجی غربال الگوریتمی است؛ الگوها باید با نمودار و حجم معاملات بازبینی شوند. شکست فقط با بسته‌شدن قیمت تأیید می‌شود.","","## الگوهای نزدیک به وضعیت فعلی"]
     if not recent: md.append("در پنجره ۱۸۰ جلسه اخیر الگویی با معیارهای فعلی شناسایی نشد.")
     for p in recent[-15:]:
-        md += [f"### {p['pattern']} — {p['pattern_date']}",f"- وضعیت: {p['status']}",f"- سطح مرجع: {p['level']:,.2f}",f"- کیفیت هندسی تقریبی: {p['quality']}%",f"- بازده بعد از ۵/۱۰/۲۰ جلسه: {p.get('forward_returns_pct',{})}",""]
+        md += [f"### {p['pattern']} — {p['formation_date']}",f"- وضعیت: {p['status']}",f"- سطح مرجع: {p['level']:,.2f}",f"- کیفیت هندسی تقریبی: {p['quality']}%",f"- بازده بعد از ۵/۱۰/۲۰ جلسه: {p.get('forward_returns_pct',{})}",""]
     md += ["## آخرین الگوهای تاریخی"]
     for p in patterns[-30:]:
         md.append(f"- {p['pattern']} | {p['pattern_date']} | {p['status']} | سطح {p['level']:,.2f} | بازده‌ها {p.get('forward_returns_pct',{})}")
