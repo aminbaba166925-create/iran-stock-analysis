@@ -188,7 +188,7 @@ def main():
     with SCREENER.open("r", encoding="utf-8-sig", newline="") as handle:
         for row in csv.DictReader(handle):
             code = str(row.get("insCode", "")).strip()
-            if code and code not in seen and row.get("asset_type") in ("share", "fund"):
+            if code and code not in seen and row.get("asset_type") in ("share", "fund") and not str(row.get("symbol", "")).strip().endswith("3"):
                 seen.add(code)
                 items.append(row)
     if not items:
