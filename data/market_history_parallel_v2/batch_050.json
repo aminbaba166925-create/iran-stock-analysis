@@ -1,0 +1,91 @@
+{
+  "batch": 50,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 28497,
+  "events": 106,
+  "instruments": [
+    {
+      "insCode": "22427720900616335",
+      "symbol": "خزاميا3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "43622578471330344",
+      "symbol": "دسبحا",
+      "asset_type": "share",
+      "rows": 5300,
+      "latest_date": "20261118",
+      "events": 33
+    },
+    {
+      "insCode": "29247915161590165",
+      "symbol": "دلقما",
+      "asset_type": "share",
+      "rows": 5330,
+      "latest_date": "20261118",
+      "events": 25
+    },
+    {
+      "insCode": "21772258644715569",
+      "symbol": "شغدير",
+      "asset_type": "share",
+      "rows": 1347,
+      "latest_date": "20261118",
+      "events": 6
+    },
+    {
+      "insCode": "14202799350296568",
+      "symbol": "شغدير3",
+      "asset_type": "share",
+      "rows": 1347,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "44850033148208596",
+      "symbol": "غچين",
+      "asset_type": "share",
+      "rows": 4607,
+      "latest_date": "20261118",
+      "events": 22
+    },
+    {
+      "insCode": "43488647260895517",
+      "symbol": "كايزد3",
+      "asset_type": "share",
+      "rows": 1207,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "28291104595448527",
+      "symbol": "كزغال",
+      "asset_type": "share",
+      "rows": 1405,
+      "latest_date": "20261118",
+      "events": 8
+    },
+    {
+      "insCode": "58772638864783929",
+      "symbol": "كزغال3",
+      "asset_type": "share",
+      "rows": 1405,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "43362635835198978",
+      "symbol": "هاي وب",
+      "asset_type": "share",
+      "rows": 2219,
+      "latest_date": "20261118",
+      "events": 12
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:33:57.246073Z"
+}
