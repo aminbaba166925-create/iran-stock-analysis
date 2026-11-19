@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - '.github/workflows/test.yml'
+      - 'scripts/scan_market.py'
   schedule:
     # Saturday through Wednesday, 13:45 Tehran time.
     - cron: "15 10 * * 0-3,6"
