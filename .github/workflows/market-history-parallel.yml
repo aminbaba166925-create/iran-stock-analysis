@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: iran-market-history-parallel
+  group: iran-market-history-parallel-v2
   cancel-in-progress: false
 
 jobs:
@@ -35,5 +35,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git switch -c "parallel-market-history-${GITHUB_RUN_ID}"
 
-      - name: Fetch market history without Foolad pre-step
+      - name: Fetch market history with 10-symbol durable checkpoints
         run: python scripts/fetch_market_history_parallel.py
