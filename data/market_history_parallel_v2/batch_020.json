@@ -1,0 +1,91 @@
+{
+  "batch": 20,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 31907,
+  "events": 94,
+  "instruments": [
+    {
+      "insCode": "68517032834363488",
+      "symbol": "شبصير",
+      "asset_type": "share",
+      "rows": 3070,
+      "latest_date": "20261118",
+      "events": 13
+    },
+    {
+      "insCode": "61978776664766359",
+      "symbol": "غپونه",
+      "asset_type": "share",
+      "rows": 1065,
+      "latest_date": "20261118",
+      "events": 9
+    },
+    {
+      "insCode": "45507655586782998",
+      "symbol": "فجهان",
+      "asset_type": "share",
+      "rows": 1326,
+      "latest_date": "20261118",
+      "events": 13
+    },
+    {
+      "insCode": "3623921205367364",
+      "symbol": "كدما",
+      "asset_type": "share",
+      "rows": 4861,
+      "latest_date": "20261118",
+      "events": 10
+    },
+    {
+      "insCode": "32678431934327184",
+      "symbol": "كلوند",
+      "asset_type": "share",
+      "rows": 4746,
+      "latest_date": "20261118",
+      "events": 19
+    },
+    {
+      "insCode": "24253947487334809",
+      "symbol": "معين",
+      "asset_type": "share",
+      "rows": 779,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "14273430536039831",
+      "symbol": "وبانك3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "11773403764702778",
+      "symbol": "وبيمه",
+      "asset_type": "share",
+      "rows": 5549,
+      "latest_date": "20261118",
+      "events": 17
+    },
+    {
+      "insCode": "11403770140000603",
+      "symbol": "ولملت",
+      "asset_type": "share",
+      "rows": 2619,
+      "latest_date": "20261118",
+      "events": 9
+    },
+    {
+      "insCode": "4348495547631071",
+      "symbol": "پارسان3",
+      "asset_type": "share",
+      "rows": 3562,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:35:11.763706Z"
+}
