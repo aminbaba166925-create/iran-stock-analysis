@@ -1,0 +1,91 @@
+{
+  "batch": 53,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 30631,
+  "events": 81,
+  "instruments": [
+    {
+      "insCode": "27582294173719823",
+      "symbol": "اخشان3",
+      "asset_type": "share",
+      "rows": 143,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "62235397452612911",
+      "symbol": "دارا يكم",
+      "asset_type": "fund",
+      "rows": 1571,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "15472396110662150",
+      "symbol": "سكرما",
+      "asset_type": "share",
+      "rows": 5271,
+      "latest_date": "20261118",
+      "events": 26
+    },
+    {
+      "insCode": "4998669738488897",
+      "symbol": "سكرما3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "14180001151225582",
+      "symbol": "شتران3",
+      "asset_type": "share",
+      "rows": 2419,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "8234855558996646",
+      "symbol": "غدانه",
+      "asset_type": "share",
+      "rows": 1260,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "43266130310312073",
+      "symbol": "غدانه3",
+      "asset_type": "share",
+      "rows": 1260,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "31024260997481994",
+      "symbol": "غگرجي",
+      "asset_type": "share",
+      "rows": 4847,
+      "latest_date": "20261118",
+      "events": 20
+    },
+    {
+      "insCode": "46982154647719707",
+      "symbol": "وصنا",
+      "asset_type": "share",
+      "rows": 5200,
+      "latest_date": "20261118",
+      "events": 30
+    },
+    {
+      "insCode": "32868673449406770",
+      "symbol": "وصنا3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:50:08.242720Z"
+}
