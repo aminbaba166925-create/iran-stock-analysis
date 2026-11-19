@@ -1,0 +1,91 @@
+{
+  "batch": 74,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 11755,
+  "events": 18,
+  "instruments": [
+    {
+      "insCode": "490987973229371",
+      "symbol": "آكام",
+      "asset_type": "fund",
+      "rows": 841,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "31366347648583654",
+      "symbol": "ارمغان",
+      "asset_type": "fund",
+      "rows": 1707,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "26411683389097008",
+      "symbol": "اروند3",
+      "asset_type": "share",
+      "rows": 1357,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "50243708970398750",
+      "symbol": "اطمينان",
+      "asset_type": "fund",
+      "rows": 558,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "4769396408895066",
+      "symbol": "بلوط",
+      "asset_type": "fund",
+      "rows": 458,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "11129387075131725",
+      "symbol": "تملت",
+      "asset_type": "share",
+      "rows": 1609,
+      "latest_date": "20261118",
+      "events": 10
+    },
+    {
+      "insCode": "51484472119281591",
+      "symbol": "تملت3",
+      "asset_type": "share",
+      "rows": 1609,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "33527290777160784",
+      "symbol": "رابين",
+      "asset_type": "fund",
+      "rows": 915,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "64659064562132185",
+      "symbol": "شميم",
+      "asset_type": "fund",
+      "rows": 563,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "2992846609726856",
+      "symbol": "فيروزا4",
+      "asset_type": "fund",
+      "rows": 2138,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T23:20:28.978486Z"
+}
