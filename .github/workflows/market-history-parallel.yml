@@ -12,7 +12,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: iran-market-history-parallel-v3
+  group: iran-market-history-parallel-v4
   cancel-in-progress: false
 
 jobs:
