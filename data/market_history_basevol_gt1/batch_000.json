@@ -1,0 +1,27 @@
+{
+  "batch": 0,
+  "success": 2,
+  "failed": 0,
+  "raw_rows": 1128,
+  "corporate_action_events": 6,
+  "instruments": [
+    {
+      "insCode": "27695838950009037",
+      "symbol": "شارپيلن",
+      "asset_type": "share",
+      "rows": 371,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "24696953498398744",
+      "symbol": "شگستر",
+      "asset_type": "share",
+      "rows": 757,
+      "latest_date": "20261118",
+      "events": 5
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:37:42.080294+00:00"
+}
