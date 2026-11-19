@@ -1,0 +1,91 @@
+{
+  "batch": 11,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 37165,
+  "events": 145,
+  "instruments": [
+    {
+      "insCode": "53204330224889981",
+      "symbol": "تبرك",
+      "asset_type": "share",
+      "rows": 2141,
+      "latest_date": "20261118",
+      "events": 9
+    },
+    {
+      "insCode": "1301069819790264",
+      "symbol": "تجلي",
+      "asset_type": "share",
+      "rows": 1245,
+      "latest_date": "20261118",
+      "events": 9
+    },
+    {
+      "insCode": "28033133021443774",
+      "symbol": "خفنر",
+      "asset_type": "share",
+      "rows": 5211,
+      "latest_date": "20261118",
+      "events": 23
+    },
+    {
+      "insCode": "40611478183231802",
+      "symbol": "شدوص",
+      "asset_type": "share",
+      "rows": 4945,
+      "latest_date": "20261118",
+      "events": 15
+    },
+    {
+      "insCode": "24303422207378456",
+      "symbol": "غالبر",
+      "asset_type": "share",
+      "rows": 4570,
+      "latest_date": "20261118",
+      "events": 24
+    },
+    {
+      "insCode": "31791737198597563",
+      "symbol": "غشان",
+      "asset_type": "share",
+      "rows": 4594,
+      "latest_date": "20261118",
+      "events": 21
+    },
+    {
+      "insCode": "71571639927013317",
+      "symbol": "فالوم",
+      "asset_type": "share",
+      "rows": 652,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "45174198424472334",
+      "symbol": "ولساپا",
+      "asset_type": "share",
+      "rows": 4881,
+      "latest_date": "20261118",
+      "events": 27
+    },
+    {
+      "insCode": "9682986263857372",
+      "symbol": "ولساپا3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "41796741644273824",
+      "symbol": "وملي",
+      "asset_type": "share",
+      "rows": 4596,
+      "latest_date": "20261118",
+      "events": 14
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:21:45.985655Z"
+}
