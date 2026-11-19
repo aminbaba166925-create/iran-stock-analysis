@@ -1,0 +1,91 @@
+{
+  "batch": 0,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 23437,
+  "events": 108,
+  "instruments": [
+    {
+      "insCode": "23353689102956991",
+      "symbol": "دكوثر",
+      "asset_type": "share",
+      "rows": 5731,
+      "latest_date": "20261118",
+      "events": 23
+    },
+    {
+      "insCode": "69090868458637360",
+      "symbol": "ديران",
+      "asset_type": "share",
+      "rows": 4812,
+      "latest_date": "20261118",
+      "events": 32
+    },
+    {
+      "insCode": "62177651435283872",
+      "symbol": "شكلر",
+      "asset_type": "share",
+      "rows": 4916,
+      "latest_date": "20261118",
+      "events": 27
+    },
+    {
+      "insCode": "58741071099161284",
+      "symbol": "فرابورس",
+      "asset_type": "share",
+      "rows": 1745,
+      "latest_date": "20261118",
+      "events": 13
+    },
+    {
+      "insCode": "21492040057001953",
+      "symbol": "فرابورس3",
+      "asset_type": "share",
+      "rows": 1745,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "29712227786531574",
+      "symbol": "كاوان",
+      "asset_type": "share",
+      "rows": 33,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "32232147777592560",
+      "symbol": "نور",
+      "asset_type": "fund",
+      "rows": 55,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "52587750999094180",
+      "symbol": "نيشكر",
+      "asset_type": "share",
+      "rows": 636,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "31078457170311964",
+      "symbol": "ولشرق",
+      "asset_type": "share",
+      "rows": 2271,
+      "latest_date": "20261118",
+      "events": 11
+    },
+    {
+      "insCode": "67675656072510693",
+      "symbol": "پالايش",
+      "asset_type": "fund",
+      "rows": 1493,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T20:54:10.675030Z"
+}
