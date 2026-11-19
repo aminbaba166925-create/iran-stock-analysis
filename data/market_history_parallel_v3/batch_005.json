@@ -1,0 +1,91 @@
+{
+  "batch": 5,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 26244,
+  "events": 107,
+  "instruments": [
+    {
+      "insCode": "40262275031537922",
+      "symbol": "دروز",
+      "asset_type": "share",
+      "rows": 4584,
+      "latest_date": "20261118",
+      "events": 17
+    },
+    {
+      "insCode": "28328083629154916",
+      "symbol": "سجام",
+      "asset_type": "share",
+      "rows": 801,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "5286237676293152",
+      "symbol": "سيسكو",
+      "asset_type": "share",
+      "rows": 646,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "30199365830132996",
+      "symbol": "سيمكات",
+      "asset_type": "share",
+      "rows": 444,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "45519261544951819",
+      "symbol": "سپيد",
+      "asset_type": "share",
+      "rows": 1474,
+      "latest_date": "20261118",
+      "events": 8
+    },
+    {
+      "insCode": "14800142337291217",
+      "symbol": "فولاي",
+      "asset_type": "share",
+      "rows": 3820,
+      "latest_date": "20261118",
+      "events": 22
+    },
+    {
+      "insCode": "39610074039667804",
+      "symbol": "قرن",
+      "asset_type": "share",
+      "rows": 1618,
+      "latest_date": "20261118",
+      "events": 12
+    },
+    {
+      "insCode": "15259343650667588",
+      "symbol": "قزوين",
+      "asset_type": "share",
+      "rows": 4734,
+      "latest_date": "20261118",
+      "events": 20
+    },
+    {
+      "insCode": "52212680371338653",
+      "symbol": "كاوه3",
+      "asset_type": "share",
+      "rows": 2931,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "62346804681275278",
+      "symbol": "كگاز",
+      "asset_type": "share",
+      "rows": 5192,
+      "latest_date": "20261118",
+      "events": 21
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:39:03.312025Z"
+}
