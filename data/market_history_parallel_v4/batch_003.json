@@ -1,0 +1,91 @@
+{
+  "batch": 3,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 27612,
+  "events": 130,
+  "instruments": [
+    {
+      "insCode": "59266699437480384",
+      "symbol": "ارفع",
+      "asset_type": "share",
+      "rows": 3059,
+      "latest_date": "20261118",
+      "events": 18
+    },
+    {
+      "insCode": "16383091566030431",
+      "symbol": "امتياز",
+      "asset_type": "fund",
+      "rows": 204,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "63830424809501048",
+      "symbol": "اپرداز",
+      "asset_type": "share",
+      "rows": 2522,
+      "latest_date": "20261118",
+      "events": 14
+    },
+    {
+      "insCode": "62235397452612911",
+      "symbol": "دارا يكم",
+      "asset_type": "fund",
+      "rows": 1571,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "31024260997481994",
+      "symbol": "غگرجي",
+      "asset_type": "share",
+      "rows": 4847,
+      "latest_date": "20261118",
+      "events": 20
+    },
+    {
+      "insCode": "16422980660132735",
+      "symbol": "لطيف",
+      "asset_type": "share",
+      "rows": 1352,
+      "latest_date": "20261118",
+      "events": 6
+    },
+    {
+      "insCode": "46982154647719707",
+      "symbol": "وصنا",
+      "asset_type": "share",
+      "rows": 5200,
+      "latest_date": "20261118",
+      "events": 30
+    },
+    {
+      "insCode": "62603302940123327",
+      "symbol": "ونيرو",
+      "asset_type": "share",
+      "rows": 4892,
+      "latest_date": "20261118",
+      "events": 24
+    },
+    {
+      "insCode": "32784604551756178",
+      "symbol": "پيزد",
+      "asset_type": "share",
+      "rows": 1659,
+      "latest_date": "20261118",
+      "events": 10
+    },
+    {
+      "insCode": "66599109405217136",
+      "symbol": "گكوثر",
+      "asset_type": "share",
+      "rows": 2306,
+      "latest_date": "20261118",
+      "events": 8
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:25:44.779260Z"
+}
