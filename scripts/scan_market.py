@@ -58,6 +58,21 @@ def first(d, *keys, default=""):
             return d[k]
     return default
 
+def classify_instrument(ins, item, symbol, name):
+    """Keep only ordinary listed shares (TSE/IFB) and investment funds."""
+    isin = str(first(ins, "insID", "cIsin", "isin", default=first(item, "insID", "cIsin", "isin"))).upper().strip()
+    sym = str(symbol).strip()
+    label = (str(name) + " " + sym).replace("\\u200c", " ")
+    # Rights, options, futures and other derivatives are explicitly out of scope.
+    derivative_terms = ("حق تقدم", "اختیار خرید", "اختیار فروش", "قرارداد آتی", "آتی", "گواهی سپرده")
+    if sym.endswith("ح") or any(term in label for term in derivative_terms) or isin.startswith("IRO9"):
+        return None
+    if isin.startswith(("IRO1", "IRO3")):
+        return "share"
+    if isin.startswith("IRT") or "صندوق" in label:
+        return "fund"
+    return None
+
 def main():
     OUT.mkdir(exist_ok=True)
     # Market watch endpoint returns the live/latest market snapshot.
@@ -83,6 +98,7 @@ def main():
             client_by_code[code] = row
 
     output = []
+    excluded = {"outside_scope": 0, "rights_and_derivatives": 0}
     for item in watch:
         if not isinstance(item, dict):
             continue
@@ -95,6 +111,15 @@ def main():
         ct = client_by_code.get(code, {})
         symbol = first(ins, "lva", "lVal18AFC", "lVal18", "symbol", "ticker", default=first(ins, "lvc", "lVal30", "name"))
         name = first(ins, "lvc", "lVal30", "name", "companyName", default=symbol)
+        asset_type = classify_instrument(ins, item, symbol, name)
+        if asset_type is None:
+            isin = str(first(ins, "insID", "cIsin", "isin", default=first(item, "insID", "cIsin", "isin"))).upper()
+            label = (str(name) + " " + str(symbol)).replace("\\u200c", " ")
+            if str(symbol).strip().endswith("ح") or isin.startswith("IRO9") or any(t in label for t in ("حق تقدم", "اختیار خرید", "اختیار فروش", "قرارداد آتی", "آتی", "گواهی سپرده")):
+                excluded["rights_and_derivatives"] += 1
+            else:
+                excluded["outside_scope"] += 1
+            continue
         close = num(price, "pcl", "pdv", "pmd", "pClosing", "pc")
         last = num(price, "pdv", "pmd", "pDrCotVal", "pl")
         yesterday = num(price, "priceYesterday", "py")
@@ -122,7 +147,7 @@ def main():
         if change_pct is not None:
             score += max(-1.5, min(1.5, change_pct / 3))
         output.append({
-            "symbol": symbol, "name": name, "insCode": code,
+            "symbol": symbol, "name": name, "asset_type": asset_type, "insCode": code,
             "market": first(ins, "flowTitle", "marketName"),
             "sector": first(ins, "lSecVal", "sectorName"),
             "close_rial": close, "last_rial": last, "change_pct": round(change_pct, 3) if change_pct is not None else "",
@@ -155,6 +180,10 @@ def main():
         "source": "TSETMC CDN API",
         "marketwatch_rows": len(watch),
         "symbols_saved": len(output),
+        "shares_saved": sum(1 for x in output if x["asset_type"] == "share"),
+        "funds_saved": sum(1 for x in output if x["asset_type"] == "fund"),
+        "excluded": excluded,
+        "scope": "Only ordinary TSE/IFB shares and investment funds; rights and derivatives excluded.",
         "symbols_with_name": named,
         "symbols_with_price": priced,
         "client_type_rows": len(client_rows),
@@ -164,7 +193,8 @@ def main():
             "Abnormal volume versus 20-day average is not yet calculated.",
             "Laggard detection requires multi-day history comparison and is not yet included.",
             "Client-type metrics are unavailable for symbols missing from the bulk client-type response.",
-            "MarketWatch may represent latest available snapshot outside trading hours."
+            "MarketWatch may represent latest available snapshot outside trading hours.",
+            "Instrument scope is filtered by ISIN prefix and Persian instrument-name/symbol exclusions; verify coverage against TSETMC instrument master."
         ],
         "top_20": output[:20],
     }
