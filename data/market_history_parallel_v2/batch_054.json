@@ -1,0 +1,91 @@
+{
+  "batch": 54,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 27078,
+  "events": 63,
+  "instruments": [
+    {
+      "insCode": "61332057061846617",
+      "symbol": "دابور",
+      "asset_type": "share",
+      "rows": 4802,
+      "latest_date": "20261118",
+      "events": 27
+    },
+    {
+      "insCode": "27585674857461132",
+      "symbol": "دابور3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "2434703913394836",
+      "symbol": "غدشت",
+      "asset_type": "share",
+      "rows": 5005,
+      "latest_date": "20261118",
+      "events": 17
+    },
+    {
+      "insCode": "1662931506892107",
+      "symbol": "غدشت3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "29974853866926823",
+      "symbol": "فروي",
+      "asset_type": "share",
+      "rows": 1688,
+      "latest_date": "20261118",
+      "events": 10
+    },
+    {
+      "insCode": "9009595095086077",
+      "symbol": "فروي3",
+      "asset_type": "share",
+      "rows": 1688,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "25781045590676551",
+      "symbol": "فروژ3",
+      "asset_type": "share",
+      "rows": 1209,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "46878429508891351",
+      "symbol": "نخريس",
+      "asset_type": "share",
+      "rows": 984,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "28957320033282870",
+      "symbol": "چكاپا",
+      "asset_type": "share",
+      "rows": 1521,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "59389973989609370",
+      "symbol": "چكاپا3",
+      "asset_type": "share",
+      "rows": 1521,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:52:09.577617Z"
+}
