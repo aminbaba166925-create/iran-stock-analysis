@@ -1,0 +1,37 @@
+{
+  "generated_at_utc": "2026-11-19T22:37:25.224763+00:00",
+  "filter": "baseVol > 1",
+  "expected_count_user_reported": 33,
+  "observed_live_count": 2,
+  "new_to_fetch_count": 2,
+  "already_covered_by_master_count": 0,
+  "already_covered_by_master": [],
+  "candidates": [
+    {
+      "symbol": "شارپيلن",
+      "name": "پتروشيمي ارغوان گسترايلام",
+      "asset_type": "share",
+      "insCode": "27695838950009037",
+      "baseVol": 11600000.0
+    },
+    {
+      "symbol": "شگستر",
+      "name": "گسترش سوخت سبززاگرس(سهامي عام)",
+      "asset_type": "share",
+      "insCode": "24696953498398744",
+      "baseVol": 16393788.0
+    }
+  ],
+  "base_volume_histogram": {
+    "1": 1071,
+    "16393788": 1,
+    "11600000": 1
+  },
+  "skipped": {
+    "suffix3": 597,
+    "out_of_scope": 2108,
+    "missing_code": 0,
+    "missing_basevol": 0,
+    "wrong_basevol": 1071
+  }
+}
