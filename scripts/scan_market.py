@@ -86,18 +86,18 @@ def main():
         info = item.get("instrument") if isinstance(item.get("instrument"), dict) else {}
         price = item.get("closingPriceInfo") if isinstance(item.get("closingPriceInfo"), dict) else item
         ins = info or item
-        code = str(first(ins, "insCode", "inscode", default=first(price, "insCode", "inscode")))
+        code = str(first(ins, "insCode", "inscode", "ins_code", default=first(price, "insCode", "inscode", "ins_code")))
         if not code or code == "0":
             continue
         ct = client_by_code.get(code, {})
-        symbol = first(ins, "lVal18AFC", "symbol", default=first(ins, "lVal30", "name"))
-        name = first(ins, "lVal30", "name", default=symbol)
+        symbol = first(ins, "lVal18AFC", "lVal18", "symbol", "ticker", default=first(ins, "lVal30", "name"))
+        name = first(ins, "lVal30", "name", "companyName", default=symbol)
         close = num(price, "pClosing", "pc")
         last = num(price, "pDrCotVal", "pl")
         yesterday = num(price, "priceYesterday", "py")
-        volume = num(price, "qTotTran5J", "tvol")
-        value = num(price, "qTotCap", "tval")
-        trades = num(price, "zTotTran", "tno")
+        volume = num(price, "qTotTran5J", "tvol", "volume")
+        value = num(price, "qTotCap", "tval", "value")
+        trades = num(price, "zTotTran", "tno", "tradeCount")
         buy_iv = num(ct, "buy_I_Volume")
         sell_iv = num(ct, "sell_I_Volume")
         buy_ic = num(ct, "buy_I_Count")
@@ -134,6 +134,11 @@ def main():
             "client_type_available": bool(ct),
         })
 
+    named = sum(1 for x in output if x["symbol"])
+    priced = sum(1 for x in output if x["close_rial"] > 0)
+    if not output or named < len(output) * 0.5 or priced < len(output) * 0.5:
+        sample = list(watch[0].keys()) if watch and isinstance(watch[0], dict) else []
+        raise RuntimeError(f"MarketWatch field mapping validation failed: rows={len(output)}, named={named}, priced={priced}, sample_keys={sample}")
     output.sort(key=lambda x: x["screen_score"], reverse=True)
     stamp = datetime.now(timezone.utc).isoformat()
     csv_path = OUT / "market_screener.csv"
@@ -147,6 +152,8 @@ def main():
         "source": "TSETMC CDN API",
         "marketwatch_rows": len(watch),
         "symbols_saved": len(output),
+        "symbols_with_name": named,
+        "symbols_with_price": priced,
         "client_type_rows": len(client_rows),
         "symbols_with_client_type": sum(1 for x in output if x["client_type_available"]),
         "ranking_note": "Heuristic ranking only; not investment advice.",
