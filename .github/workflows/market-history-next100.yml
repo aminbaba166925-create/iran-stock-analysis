@@ -1,0 +1,40 @@
+name: Next 100 unseen Iran market histories
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/market-history-next100.yml'
+      - 'scripts/fetch_market_history_next100.py'
+      - 'data/market_history_parallel_v3_excluded_codes.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: iran-market-history-parallel-v5
+  cancel-in-progress: false
+
+jobs:
+  history:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      CHECKPOINT_BRANCH: market-history-checkpoints-v3
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure independent checkpoint branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin market-history-checkpoints-v3
+          git switch -c "parallel-market-history-next100-${GITHUB_RUN_ID}" FETCH_HEAD
+          git merge --no-edit origin/main
+
+      - name: Fetch next 100 unseen instruments with 2 workers
+        run: python scripts/fetch_market_history_next100.py
