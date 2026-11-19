@@ -1,0 +1,91 @@
+{
+  "batch": 56,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 31138,
+  "events": 125,
+  "instruments": [
+    {
+      "insCode": "47377315952751604",
+      "symbol": "بسويچ",
+      "asset_type": "share",
+      "rows": 4688,
+      "latest_date": "20261118",
+      "events": 33
+    },
+    {
+      "insCode": "30714151942396396",
+      "symbol": "تابان",
+      "asset_type": "share",
+      "rows": 76,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "33624002914177192",
+      "symbol": "تابان3",
+      "asset_type": "share",
+      "rows": 76,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "60451823714332895",
+      "symbol": "دالبر",
+      "asset_type": "share",
+      "rows": 5137,
+      "latest_date": "20261118",
+      "events": 39
+    },
+    {
+      "insCode": "12849474961258246",
+      "symbol": "دالبر3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "12255063015224971",
+      "symbol": "غنوش3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "22299894048845903",
+      "symbol": "غگل",
+      "asset_type": "share",
+      "rows": 4704,
+      "latest_date": "20261118",
+      "events": 28
+    },
+    {
+      "insCode": "20560887114747719",
+      "symbol": "كسرام",
+      "asset_type": "share",
+      "rows": 4830,
+      "latest_date": "20261118",
+      "events": 12
+    },
+    {
+      "insCode": "30703140537034664",
+      "symbol": "كگهر",
+      "asset_type": "share",
+      "rows": 1926,
+      "latest_date": "20261118",
+      "events": 12
+    },
+    {
+      "insCode": "48532473276927829",
+      "symbol": "نيان3",
+      "asset_type": "share",
+      "rows": 1041,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:56:49.173869Z"
+}
