@@ -1,0 +1,91 @@
+{
+  "batch": 60,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 19091,
+  "events": 61,
+  "instruments": [
+    {
+      "insCode": "63520812390415652",
+      "symbol": "بتهران",
+      "asset_type": "share",
+      "rows": 183,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "33629260529503413",
+      "symbol": "بجهرم",
+      "asset_type": "share",
+      "rows": 1780,
+      "latest_date": "20261118",
+      "events": 9
+    },
+    {
+      "insCode": "28253678449273505",
+      "symbol": "حخزر",
+      "asset_type": "share",
+      "rows": 3080,
+      "latest_date": "20261118",
+      "events": 16
+    },
+    {
+      "insCode": "33417650963311336",
+      "symbol": "حخزر3",
+      "asset_type": "share",
+      "rows": 3080,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "61128203133478104",
+      "symbol": "فجهان3",
+      "asset_type": "share",
+      "rows": 1326,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "8602793697394313",
+      "symbol": "فرصت",
+      "asset_type": "fund",
+      "rows": 560,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "8725363201030474",
+      "symbol": "فگستر",
+      "asset_type": "share",
+      "rows": 1411,
+      "latest_date": "20261118",
+      "events": 10
+    },
+    {
+      "insCode": "27816189759082849",
+      "symbol": "فگستر3",
+      "asset_type": "share",
+      "rows": 1411,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "35831329532779850",
+      "symbol": "نارنج اهرم",
+      "asset_type": "fund",
+      "rows": 580,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "57309221039930244",
+      "symbol": "وصنعت",
+      "asset_type": "share",
+      "rows": 5680,
+      "latest_date": "20261118",
+      "events": 25
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:31:26.841958Z"
+}
