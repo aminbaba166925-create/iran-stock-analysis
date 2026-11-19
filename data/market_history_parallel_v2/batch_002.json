@@ -1,0 +1,91 @@
+{
+  "batch": 2,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 31357,
+  "events": 151,
+  "instruments": [
+    {
+      "insCode": "39807886630843041",
+      "symbol": "بمپنا",
+      "asset_type": "share",
+      "rows": 3429,
+      "latest_date": "20261118",
+      "events": 14
+    },
+    {
+      "insCode": "47973532381204870",
+      "symbol": "بيوتيك",
+      "asset_type": "share",
+      "rows": 1248,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "17800036702302776",
+      "symbol": "ثاخت",
+      "asset_type": "share",
+      "rows": 4648,
+      "latest_date": "20261118",
+      "events": 19
+    },
+    {
+      "insCode": "14744445176220774",
+      "symbol": "ثبهساز",
+      "asset_type": "share",
+      "rows": 1512,
+      "latest_date": "20261118",
+      "events": 6
+    },
+    {
+      "insCode": "30852391633490755",
+      "symbol": "ثفارس",
+      "asset_type": "share",
+      "rows": 5082,
+      "latest_date": "20261118",
+      "events": 24
+    },
+    {
+      "insCode": "3407806799514469",
+      "symbol": "شاروم",
+      "asset_type": "share",
+      "rows": 1516,
+      "latest_date": "20261118",
+      "events": 8
+    },
+    {
+      "insCode": "68488673556087148",
+      "symbol": "فپنتا",
+      "asset_type": "share",
+      "rows": 4923,
+      "latest_date": "20261118",
+      "events": 19
+    },
+    {
+      "insCode": "25001509088465005",
+      "symbol": "كساوه",
+      "asset_type": "share",
+      "rows": 4967,
+      "latest_date": "20261118",
+      "events": 30
+    },
+    {
+      "insCode": "22275596386264204",
+      "symbol": "كوثر",
+      "asset_type": "share",
+      "rows": 2708,
+      "latest_date": "20261118",
+      "events": 18
+    },
+    {
+      "insCode": "19348717261145458",
+      "symbol": "وهامون",
+      "asset_type": "share",
+      "rows": 1324,
+      "latest_date": "20261118",
+      "events": 8
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:01:33.286505Z"
+}
