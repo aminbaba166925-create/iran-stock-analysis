@@ -1,0 +1,91 @@
+{
+  "batch": 65,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 19078,
+  "events": 46,
+  "instruments": [
+    {
+      "insCode": "65473703162196532",
+      "symbol": "ابتكار",
+      "asset_type": "fund",
+      "rows": 458,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "39751275523025334",
+      "symbol": "اتكاي",
+      "asset_type": "share",
+      "rows": 2854,
+      "latest_date": "20261118",
+      "events": 21
+    },
+    {
+      "insCode": "44729747359596032",
+      "symbol": "ثشاهد3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "38713440086361985",
+      "symbol": "ثهام",
+      "asset_type": "fund",
+      "rows": 1335,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "71266020070603888",
+      "symbol": "سهامدار",
+      "asset_type": "fund",
+      "rows": 411,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "54053494441473772",
+      "symbol": "غزنجان3",
+      "asset_type": "share",
+      "rows": 211,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "57639364758870873",
+      "symbol": "كپشير",
+      "asset_type": "share",
+      "rows": 4817,
+      "latest_date": "20261118",
+      "events": 25
+    },
+    {
+      "insCode": "51539428563965515",
+      "symbol": "كپشير3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "12656026382252667",
+      "symbol": "ولتاژ",
+      "asset_type": "fund",
+      "rows": 189,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "67988539999257602",
+      "symbol": "پلاست3",
+      "asset_type": "share",
+      "rows": 143,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T23:15:39.683471Z"
+}
