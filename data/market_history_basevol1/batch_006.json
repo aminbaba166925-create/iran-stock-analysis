@@ -1,0 +1,91 @@
+{
+  "batch": 6,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 4472,
+  "corporate_action_events": 1,
+  "instruments": [
+    {
+      "insCode": "8890187633205068",
+      "symbol": "بازبيمه2",
+      "asset_type": "fund",
+      "rows": 666,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "34856765062083074",
+      "symbol": "بازده",
+      "asset_type": "fund",
+      "rows": 956,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "63555882930905460",
+      "symbol": "بامداد",
+      "asset_type": "fund",
+      "rows": 255,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "37120336886630649",
+      "symbol": "بانكا",
+      "asset_type": "fund",
+      "rows": 382,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "36097802106344978",
+      "symbol": "بانكا2",
+      "asset_type": "fund",
+      "rows": 382,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "63507121552152989",
+      "symbol": "بانكدار",
+      "asset_type": "fund",
+      "rows": 359,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "25163849522701102",
+      "symbol": "بانكو",
+      "asset_type": "fund",
+      "rows": 179,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "62478276461613732",
+      "symbol": "بانكيا",
+      "asset_type": "fund",
+      "rows": 177,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "5092823031617455",
+      "symbol": "بانكپاد",
+      "asset_type": "fund",
+      "rows": 68,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "4216536645718658",
+      "symbol": "برليان",
+      "asset_type": "fund",
+      "rows": 1048,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:50:55.995416+00:00"
+}
