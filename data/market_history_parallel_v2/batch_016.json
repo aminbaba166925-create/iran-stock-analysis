@@ -1,0 +1,91 @@
+{
+  "batch": 16,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 36095,
+  "events": 132,
+  "instruments": [
+    {
+      "insCode": "383529400851043",
+      "symbol": "الكتروماد",
+      "asset_type": "share",
+      "rows": 531,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "42075223783409640",
+      "symbol": "خاذين",
+      "asset_type": "share",
+      "rows": 5650,
+      "latest_date": "20261118",
+      "events": 6
+    },
+    {
+      "insCode": "7300125658580126",
+      "symbol": "زكشت",
+      "asset_type": "share",
+      "rows": 2033,
+      "latest_date": "20261118",
+      "events": 12
+    },
+    {
+      "insCode": "14258394084745667",
+      "symbol": "سمتاز",
+      "asset_type": "share",
+      "rows": 313,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "49188729526980541",
+      "symbol": "شسپا",
+      "asset_type": "share",
+      "rows": 3091,
+      "latest_date": "20261118",
+      "events": 15
+    },
+    {
+      "insCode": "48623320733330408",
+      "symbol": "فلوله",
+      "asset_type": "share",
+      "rows": 5698,
+      "latest_date": "20261118",
+      "events": 23
+    },
+    {
+      "insCode": "56324206651661881",
+      "symbol": "فنورد",
+      "asset_type": "share",
+      "rows": 5262,
+      "latest_date": "20261118",
+      "events": 22
+    },
+    {
+      "insCode": "18027801615184692",
+      "symbol": "كچاد",
+      "asset_type": "share",
+      "rows": 5354,
+      "latest_date": "20261118",
+      "events": 40
+    },
+    {
+      "insCode": "62527258390241937",
+      "symbol": "كچاد3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "43951910415124966",
+      "symbol": "وگستر",
+      "asset_type": "share",
+      "rows": 3833,
+      "latest_date": "20261118",
+      "events": 9
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:28:07.953756Z"
+}
