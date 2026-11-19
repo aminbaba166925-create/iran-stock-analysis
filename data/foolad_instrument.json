@@ -56,6 +56,158 @@
     "cgrValCotTitle": "بازار اول (تابلوی اصلی) بورس"
   },
   "daily_api": "https://cdn.tsetmc.com/api/ClosingPrice/GetClosingPriceDailyList/46348559193224090/0",
-  "rows_in_latest_response": 4684,
-  "rows_saved": 4684
+  "raw_rows": 4684,
+  "adjusted_rows": 4684,
+  "price_adjust_events": 23,
+  "share_change_events_unique": 12,
+  "merged_events": 29,
+  "adjustment_method": "TSETMC PriceAdjustList ratio pClosing/pClosingNotAdjusted plus uncovered share changes old/new; share events within 7 calendar days of a price-adjust event are deduplicated",
+  "warning": "Adjusted OHLC values are calculated from TSETMC corporate-action events. Verify event coverage against charting provider before using automated trade signals.",
+  "adjustment_events": [
+    {
+      "date": 20090623,
+      "ratio": 0.7172478793590952,
+      "source": "price_adjust"
+    },
+    {
+      "date": 20100707,
+      "ratio": 0.793046357615894,
+      "source": "price_adjust"
+    },
+    {
+      "date": 20110214,
+      "ratio": 0.7068805924097501,
+      "source": "price_adjust"
+    },
+    {
+      "date": 20110720,
+      "ratio": 0.9009247027741083,
+      "source": "price_adjust"
+    },
+    {
+      "date": 20120729,
+      "ratio": 0.8762376237623762,
+      "source": "price_adjust"
+    },
+    {
+      "date": 20130722,
+      "ratio": 0.8699739947989598,
+      "source": "price_adjust"
+    },
+    {
+      "date": 20130727,
+      "ratio": 0.7433892848930789,
+      "source": "price_adjust"
+    },
+    {
+      "date": 20140721,
+      "ratio": 0.8337531486146096,
+      "source": "price_adjust"
+    },
+    {
+      "date": 20140806,
+      "ratio": 0.7941701368233195,
+      "source": "price_adjust"
+    },
+    {
+      "date": 20150725,
+      "ratio": 0.7560975609756098,
+      "source": "price_adjust"
+    },
+    {
+      "date": 20151018,
+      "ratio": 0.8958691910499139,
+      "source": "price_adjust"
+    },
+    {
+      "date": 20160723,
+      "ratio": 0.9603803486529319,
+      "source": "price_adjust"
+    },
+    {
+      "date": 20170723,
+      "ratio": 0.9368288060644346,
+      "source": "price_adjust"
+    },
+    {
+      "date": 20180723,
+      "ratio": 0.9340369393139841,
+      "source": "price_adjust"
+    },
+    {
+      "date": 20190219,
+      "ratio": 0.5769230769230769,
+      "source": "price_adjust"
+    },
+    {
+      "date": 20190722,
+      "ratio": 0.9301838491971143,
+      "source": "price_adjust"
+    },
+    {
+      "date": 20200112,
+      "ratio": 0.6220095693779905,
+      "source": "share_change"
+    },
+    {
+      "date": 20200805,
+      "ratio": 0.9892575793745524,
+      "source": "price_adjust"
+    },
+    {
+      "date": 20210524,
+      "ratio": 0.7133105802047781,
+      "source": "share_change"
+    },
+    {
+      "date": 20210803,
+      "ratio": 0.9634703196347032,
+      "source": "price_adjust"
+    },
+    {
+      "date": 20220803,
+      "ratio": 0.8478066248880931,
+      "source": "price_adjust"
+    },
+    {
+      "date": 20230319,
+      "ratio": 0.6625,
+      "source": "share_change"
+    },
+    {
+      "date": 20230722,
+      "ratio": 0.9084249084249084,
+      "source": "price_adjust"
+    },
+    {
+      "date": 20240227,
+      "ratio": 0.7407407407407407,
+      "source": "share_change"
+    },
+    {
+      "date": 20240721,
+      "ratio": 0.9230769230769231,
+      "source": "price_adjust"
+    },
+    {
+      "date": 20250312,
+      "ratio": 0.72,
+      "source": "share_change"
+    },
+    {
+      "date": 20250804,
+      "ratio": 0.9020979020979021,
+      "source": "price_adjust"
+    },
+    {
+      "date": 20260330,
+      "ratio": 0.7751937984496124,
+      "source": "share_change"
+    },
+    {
+      "date": 20260803,
+      "ratio": 0.9788786482334869,
+      "source": "price_adjust"
+    }
+  ]
 }
