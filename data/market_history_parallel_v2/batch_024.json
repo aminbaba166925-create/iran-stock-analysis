@@ -1,0 +1,91 @@
+{
+  "batch": 24,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 9838,
+  "events": 31,
+  "instruments": [
+    {
+      "insCode": "11540236653207133",
+      "symbol": "اندوخته داريوش",
+      "asset_type": "fund",
+      "rows": 420,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "29882244560576007",
+      "symbol": "بزاگرس",
+      "asset_type": "share",
+      "rows": 1914,
+      "latest_date": "20261118",
+      "events": 8
+    },
+    {
+      "insCode": "28551661889797217",
+      "symbol": "زيتون",
+      "asset_type": "fund",
+      "rows": 1223,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "62708526880913292",
+      "symbol": "ساحل",
+      "asset_type": "fund",
+      "rows": 1030,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "43203863097260295",
+      "symbol": "شگامرن",
+      "asset_type": "share",
+      "rows": 21,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "12840158707161274",
+      "symbol": "فلزا",
+      "asset_type": "fund",
+      "rows": 361,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "27797446447955609",
+      "symbol": "نخل",
+      "asset_type": "fund",
+      "rows": 1044,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "48932793456289874",
+      "symbol": "هيبريد",
+      "asset_type": "fund",
+      "rows": 504,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "48287670503317419",
+      "symbol": "ولبهمن",
+      "asset_type": "share",
+      "rows": 2944,
+      "latest_date": "20261118",
+      "events": 19
+    },
+    {
+      "insCode": "71108387303091880",
+      "symbol": "پرتوسا",
+      "asset_type": "fund",
+      "rows": 377,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:48:17.598066Z"
+}
