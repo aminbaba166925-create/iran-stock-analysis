@@ -1,0 +1,91 @@
+{
+  "batch": 36,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 34025,
+  "corporate_action_events": 163,
+  "instruments": [
+    {
+      "insCode": "69454539056549106",
+      "symbol": "بشهاب",
+      "asset_type": "share",
+      "rows": 4745,
+      "latest_date": "20261118",
+      "events": 26
+    },
+    {
+      "insCode": "46178280540110577",
+      "symbol": "بفجر",
+      "asset_type": "share",
+      "rows": 2676,
+      "latest_date": "20261118",
+      "events": 14
+    },
+    {
+      "insCode": "70219663893822560",
+      "symbol": "بكاب",
+      "asset_type": "share",
+      "rows": 5385,
+      "latest_date": "20261118",
+      "events": 23
+    },
+    {
+      "insCode": "22382156782768756",
+      "symbol": "بكام",
+      "asset_type": "share",
+      "rows": 5064,
+      "latest_date": "20261118",
+      "events": 20
+    },
+    {
+      "insCode": "22086876724551482",
+      "symbol": "بموتو",
+      "asset_type": "share",
+      "rows": 5708,
+      "latest_date": "20261118",
+      "events": 23
+    },
+    {
+      "insCode": "48261930411425125",
+      "symbol": "بمولد",
+      "asset_type": "share",
+      "rows": 1066,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "20453828618330936",
+      "symbol": "بنيرو",
+      "asset_type": "share",
+      "rows": 5218,
+      "latest_date": "20261118",
+      "events": 24
+    },
+    {
+      "insCode": "51971068201094874",
+      "symbol": "بپاس",
+      "asset_type": "share",
+      "rows": 3578,
+      "latest_date": "20261118",
+      "events": 28
+    },
+    {
+      "insCode": "30714151942396396",
+      "symbol": "تابان",
+      "asset_type": "share",
+      "rows": 76,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "31116454489395198",
+      "symbol": "تاديكو",
+      "asset_type": "share",
+      "rows": 509,
+      "latest_date": "20261118",
+      "events": 1
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T23:48:32.257500+00:00"
+}
