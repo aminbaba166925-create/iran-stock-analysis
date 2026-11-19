@@ -1,0 +1,91 @@
+{
+  "batch": 78,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 34985,
+  "events": 25,
+  "instruments": [
+    {
+      "insCode": "34463147035531320",
+      "symbol": "افق3",
+      "asset_type": "share",
+      "rows": 1910,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "51436060154031280",
+      "symbol": "تكاردان3",
+      "asset_type": "share",
+      "rows": 147,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "45957386076757593",
+      "symbol": "خكار3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "27863975165896992",
+      "symbol": "دلر3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "36859999022477632",
+      "symbol": "سخزر3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "11964419322927535",
+      "symbol": "سرود",
+      "asset_type": "share",
+      "rows": 5330,
+      "latest_date": "20261118",
+      "events": 25
+    },
+    {
+      "insCode": "17579399810753655",
+      "symbol": "غشصفا3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "36518502827416468",
+      "symbol": "غمهرا3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "16452902450894786",
+      "symbol": "قرن3",
+      "asset_type": "share",
+      "rows": 1618,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "28167611041180045",
+      "symbol": "كسرام3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T23:29:23.300387Z"
+}
