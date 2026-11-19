@@ -1,4 +1,4 @@
-name: Update Foolad daily history
+name: Update Iran stock market data
 
 on:
   workflow_dispatch:
@@ -7,20 +7,20 @@ on:
       - 'scripts/**'
       - '.github/workflows/test.yml'
   schedule:
-    # 13:45 Tehran time, Saturday through Wednesday (Iran trading week).
+    # Saturday through Wednesday, 13:45 Tehran time.
     - cron: "15 10 * * 0-3,6"
 
 permissions:
   contents: write
 
 concurrency:
-  group: foolad-daily-update
+  group: iran-stock-market-update
   cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 30
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -30,17 +30,20 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Download TSETMC daily history
+      - name: Update Foolad historical prices
         run: python scripts/fetch_foolad.py
 
-      - name: Commit updated data
+      - name: Scan all market symbols
+        run: python scripts/scan_market.py
+
+      - name: Commit updated datasets
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/foolad_daily.csv data/foolad_instrument.json
+          git add data/
           if git diff --cached --quiet; then
             echo "No data changes."
           else
-            git commit -m "Update Foolad daily price history"
+            git commit -m "Update Iran stock market datasets"
             git push
           fi
