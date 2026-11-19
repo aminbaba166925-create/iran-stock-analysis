@@ -1,0 +1,91 @@
+{
+  "batch": 18,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 24616,
+  "events": 101,
+  "instruments": [
+    {
+      "insCode": "50002340308486819",
+      "symbol": "تاپكيش",
+      "asset_type": "share",
+      "rows": 2117,
+      "latest_date": "20261118",
+      "events": 12
+    },
+    {
+      "insCode": "22260326095996531",
+      "symbol": "حتوكا",
+      "asset_type": "share",
+      "rows": 5031,
+      "latest_date": "20261118",
+      "events": 22
+    },
+    {
+      "insCode": "38084304113529336",
+      "symbol": "خديزل",
+      "asset_type": "share",
+      "rows": 2796,
+      "latest_date": "20261118",
+      "events": 18
+    },
+    {
+      "insCode": "22645269567765904",
+      "symbol": "خيمن",
+      "asset_type": "share",
+      "rows": 2081,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "8915450910866216",
+      "symbol": "دزهراوي",
+      "asset_type": "share",
+      "rows": 5176,
+      "latest_date": "20261118",
+      "events": 16
+    },
+    {
+      "insCode": "69817338460284329",
+      "symbol": "فروژ",
+      "asset_type": "share",
+      "rows": 1209,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "44549439964296944",
+      "symbol": "كالا",
+      "asset_type": "share",
+      "rows": 1871,
+      "latest_date": "20261118",
+      "events": 12
+    },
+    {
+      "insCode": "9360656247065901",
+      "symbol": "كگهر3",
+      "asset_type": "share",
+      "rows": 1926,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "20652241232631918",
+      "symbol": "نيان",
+      "asset_type": "share",
+      "rows": 1041,
+      "latest_date": "20261118",
+      "events": 7
+    },
+    {
+      "insCode": "30447901674051381",
+      "symbol": "ومدير",
+      "asset_type": "share",
+      "rows": 1368,
+      "latest_date": "20261118",
+      "events": 6
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:31:38.330335Z"
+}
