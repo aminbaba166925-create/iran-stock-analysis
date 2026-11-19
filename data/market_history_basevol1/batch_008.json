@@ -1,0 +1,91 @@
+{
+  "batch": 8,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 9927,
+  "corporate_action_events": 1,
+  "instruments": [
+    {
+      "insCode": "34539190646780083",
+      "symbol": "تاراز2",
+      "asset_type": "fund",
+      "rows": 1154,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "962999057395038",
+      "symbol": "تخت گاز4",
+      "asset_type": "fund",
+      "rows": 653,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "36657164096233359",
+      "symbol": "تداوم4",
+      "asset_type": "fund",
+      "rows": 2821,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "42705920381780437",
+      "symbol": "ترمه",
+      "asset_type": "fund",
+      "rows": 965,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "50264175787486822",
+      "symbol": "ترنج ثابت",
+      "asset_type": "fund",
+      "rows": 562,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "16128056659300776",
+      "symbol": "ترنج ثابت2",
+      "asset_type": "fund",
+      "rows": 562,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "1825060609227181",
+      "symbol": "تكپاد",
+      "asset_type": "fund",
+      "rows": 666,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "30950197622714356",
+      "symbol": "تكپاد2",
+      "asset_type": "fund",
+      "rows": 666,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "53145304508578701",
+      "symbol": "تمشك",
+      "asset_type": "fund",
+      "rows": 939,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "47127311832445560",
+      "symbol": "تمشك2",
+      "asset_type": "fund",
+      "rows": 939,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:54:27.036907+00:00"
+}
