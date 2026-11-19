@@ -5,7 +5,7 @@ from datetime import datetime
 from pathlib import Path
 
 BRANCH = "market-history-checkpoints"
-SOURCE = "market_history_parallel_v2/batch_002_adjusted.csv.gz"
+SOURCE = "data/market_history_parallel_v2/batch_002_adjusted.csv.gz"
 OUT = Path("reports")
 SYMBOL = "ثاخت"
 
