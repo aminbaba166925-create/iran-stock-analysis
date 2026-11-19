@@ -1,0 +1,411 @@
+{
+  "batch": 14,
+  "success": 50,
+  "failed": 0,
+  "raw_rows": 63010,
+  "events": 100,
+  "instruments": [
+    {
+      "insCode": "47492157735162813",
+      "symbol": "آتيه ملت",
+      "asset_type": "fund",
+      "rows": 590,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "65640021232361587",
+      "symbol": "آسان",
+      "asset_type": "fund",
+      "rows": 451,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "490987973229371",
+      "symbol": "آكام",
+      "asset_type": "fund",
+      "rows": 841,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "19828734979381742",
+      "symbol": "آلا",
+      "asset_type": "fund",
+      "rows": 815,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "12629673694762396",
+      "symbol": "اركيده",
+      "asset_type": "fund",
+      "rows": 559,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "31366347648583654",
+      "symbol": "ارمغان",
+      "asset_type": "fund",
+      "rows": 1707,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "26411683389097008",
+      "symbol": "اروند3",
+      "asset_type": "share",
+      "rows": 1357,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "50243708970398750",
+      "symbol": "اطمينان",
+      "asset_type": "fund",
+      "rows": 558,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "71523045480231681",
+      "symbol": "اعتماد4",
+      "asset_type": "fund",
+      "rows": 2813,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "57761388729898548",
+      "symbol": "اوصتا",
+      "asset_type": "fund",
+      "rows": 1992,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "42662558291119602",
+      "symbol": "اوصتا4",
+      "asset_type": "fund",
+      "rows": 1992,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "23498719713662118",
+      "symbol": "اونيكس",
+      "asset_type": "fund",
+      "rows": 782,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "12209858318273950",
+      "symbol": "بالاس3",
+      "asset_type": "share",
+      "rows": 3928,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "70219663893822560",
+      "symbol": "بكاب",
+      "asset_type": "share",
+      "rows": 5385,
+      "latest_date": "20261118",
+      "events": 23
+    },
+    {
+      "insCode": "4769396408895066",
+      "symbol": "بلوط",
+      "asset_type": "fund",
+      "rows": 458,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "36657164096233359",
+      "symbol": "تداوم4",
+      "asset_type": "fund",
+      "rows": 2821,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "50264175787486822",
+      "symbol": "ترنج ثابت",
+      "asset_type": "fund",
+      "rows": 562,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "11129387075131725",
+      "symbol": "تملت",
+      "asset_type": "share",
+      "rows": 1609,
+      "latest_date": "20261118",
+      "events": 10
+    },
+    {
+      "insCode": "51484472119281591",
+      "symbol": "تملت3",
+      "asset_type": "share",
+      "rows": 1609,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "8688959373404772",
+      "symbol": "توانا",
+      "asset_type": "fund",
+      "rows": 30,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "49531112577387255",
+      "symbol": "جاودان",
+      "asset_type": "fund",
+      "rows": 709,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "70427653845237273",
+      "symbol": "خزانه ملت4",
+      "asset_type": "fund",
+      "rows": 542,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "43009306066217458",
+      "symbol": "دامون",
+      "asset_type": "fund",
+      "rows": 736,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "33527290777160784",
+      "symbol": "رابين",
+      "asset_type": "fund",
+      "rows": 915,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "25728853053886443",
+      "symbol": "رايبد",
+      "asset_type": "fund",
+      "rows": 222,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "66105959479616770",
+      "symbol": "رايكا",
+      "asset_type": "fund",
+      "rows": 988,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "48287767791629523",
+      "symbol": "رشد",
+      "asset_type": "fund",
+      "rows": 1101,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "57191287546444240",
+      "symbol": "زمرد كوروش",
+      "asset_type": "fund",
+      "rows": 498,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "68663404861394640",
+      "symbol": "زمرد كوروش4",
+      "asset_type": "fund",
+      "rows": 498,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "60208880953788584",
+      "symbol": "ستاره4",
+      "asset_type": "fund",
+      "rows": 475,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "59598536122397373",
+      "symbol": "سخند",
+      "asset_type": "fund",
+      "rows": 2742,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "31913287805282551",
+      "symbol": "سيناد",
+      "asset_type": "fund",
+      "rows": 1293,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "31379272181300633",
+      "symbol": "سپنتارود",
+      "asset_type": "fund",
+      "rows": 475,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "39329349079135923",
+      "symbol": "سپيدما4",
+      "asset_type": "fund",
+      "rows": 1356,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "64659064562132185",
+      "symbol": "شميم",
+      "asset_type": "fund",
+      "rows": 563,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "45205530868811305",
+      "symbol": "صايند",
+      "asset_type": "fund",
+      "rows": 2763,
+      "latest_date": "20261118",
+      "events": 14
+    },
+    {
+      "insCode": "2992846609726856",
+      "symbol": "فيروزا4",
+      "asset_type": "fund",
+      "rows": 2138,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "7803396484851273",
+      "symbol": "كارآمد",
+      "asset_type": "fund",
+      "rows": 521,
+      "latest_date": "20261118",
+      "events": 6
+    },
+    {
+      "insCode": "33015297618582406",
+      "symbol": "كارما",
+      "asset_type": "fund",
+      "rows": 627,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "16040900750729921",
+      "symbol": "كامياب",
+      "asset_type": "fund",
+      "rows": 1293,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "18623561935932625",
+      "symbol": "كيان4",
+      "asset_type": "fund",
+      "rows": 2406,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "10458396610199724",
+      "symbol": "ماهور",
+      "asset_type": "fund",
+      "rows": 725,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "1241998328504490",
+      "symbol": "نشان",
+      "asset_type": "fund",
+      "rows": 1086,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "30150802188959856",
+      "symbol": "نويد",
+      "asset_type": "fund",
+      "rows": 58,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "38732168937429122",
+      "symbol": "نيلي4",
+      "asset_type": "fund",
+      "rows": 893,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "41286608288791633",
+      "symbol": "وبازار",
+      "asset_type": "fund",
+      "rows": 1383,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "70595828753641750",
+      "symbol": "پارند",
+      "asset_type": "fund",
+      "rows": 2496,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "55070742656326885",
+      "symbol": "پايا",
+      "asset_type": "fund",
+      "rows": 934,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "56650067865905863",
+      "symbol": "پايدار",
+      "asset_type": "fund",
+      "rows": 108,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "10628305906504872",
+      "symbol": "گنجين4",
+      "asset_type": "fund",
+      "rows": 1607,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:58:41.226535Z"
+}
