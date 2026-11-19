@@ -1,0 +1,91 @@
+{
+  "batch": 67,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 36421,
+  "events": 99,
+  "instruments": [
+    {
+      "insCode": "62945240926992257",
+      "symbol": "امگا",
+      "asset_type": "fund",
+      "rows": 192,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "20453828618330936",
+      "symbol": "بنيرو",
+      "asset_type": "share",
+      "rows": 5218,
+      "latest_date": "20261118",
+      "events": 24
+    },
+    {
+      "insCode": "18092687666565282",
+      "symbol": "خساپا3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "26547785441834730",
+      "symbol": "زشريف",
+      "asset_type": "share",
+      "rows": 1872,
+      "latest_date": "20261118",
+      "events": 7
+    },
+    {
+      "insCode": "26997316501080743",
+      "symbol": "سشرق",
+      "asset_type": "share",
+      "rows": 5633,
+      "latest_date": "20261118",
+      "events": 19
+    },
+    {
+      "insCode": "49716396555783214",
+      "symbol": "سشمال2",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "29747059672582491",
+      "symbol": "سهرمز",
+      "asset_type": "share",
+      "rows": 4590,
+      "latest_date": "20261118",
+      "events": 26
+    },
+    {
+      "insCode": "27695838950009037",
+      "symbol": "شارپيلن",
+      "asset_type": "share",
+      "rows": 371,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "37204371816016200",
+      "symbol": "وصندوق",
+      "asset_type": "share",
+      "rows": 5555,
+      "latest_date": "20261118",
+      "events": 22
+    },
+    {
+      "insCode": "52508470851011956",
+      "symbol": "وصندوق3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:43:09.909677Z"
+}
