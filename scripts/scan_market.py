@@ -62,6 +62,8 @@ def classify_instrument(ins, item, symbol, name):
     """Keep only ordinary listed shares (TSE/IFB) and investment funds."""
     isin = str(first(ins, "insID", "cIsin", "isin", default=first(item, "insID", "cIsin", "isin"))).upper().strip()
     sym = str(symbol).strip()
+    if sym.endswith("3"):
+        return None
     label = (str(name) + " " + sym).replace("\\u200c", " ")
     # Rights, options, futures and other derivatives are explicitly out of scope.
     derivative_terms = ("حق تقدم", "اختیار خرید", "اختیار فروش", "قرارداد آتی", "آتی", "گواهی سپرده")
@@ -98,7 +100,7 @@ def main():
             client_by_code[code] = row
 
     output = []
-    excluded = {"outside_scope": 0, "rights_and_derivatives": 0}
+    excluded = {"outside_scope": 0, "rights_and_derivatives": 0, "after_hours_suffix_3": 0}
     for item in watch:
         if not isinstance(item, dict):
             continue
@@ -115,7 +117,9 @@ def main():
         if asset_type is None:
             isin = str(first(ins, "insID", "cIsin", "isin", default=first(item, "insID", "cIsin", "isin"))).upper()
             label = (str(name) + " " + str(symbol)).replace("\\u200c", " ")
-            if str(symbol).strip().endswith("ح") or isin.startswith("IRO9") or any(t in label for t in ("حق تقدم", "اختیار خرید", "اختیار فروش", "قرارداد آتی", "آتی", "گواهی سپرده")):
+            if str(symbol).strip().endswith("3"):
+                excluded["after_hours_suffix_3"] += 1
+            elif str(symbol).strip().endswith("ح") or isin.startswith("IRO9") or any(t in label for t in ("حق تقدم", "اختیار خرید", "اختیار فروش", "قرارداد آتی", "آتی", "گواهی سپرده")):
                 excluded["rights_and_derivatives"] += 1
             else:
                 excluded["outside_scope"] += 1
