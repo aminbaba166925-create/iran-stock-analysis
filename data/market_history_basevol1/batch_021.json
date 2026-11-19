@@ -1,0 +1,91 @@
+{
+  "batch": 21,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 10049,
+  "corporate_action_events": 9,
+  "instruments": [
+    {
+      "insCode": "8602793697394313",
+      "symbol": "فرصت",
+      "asset_type": "fund",
+      "rows": 560,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "2992846609726856",
+      "symbol": "فيروزا4",
+      "asset_type": "fund",
+      "rows": 2138,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "6237807001018762",
+      "symbol": "قيراط",
+      "asset_type": "fund",
+      "rows": 450,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "36847745437379950",
+      "symbol": "كاج2",
+      "asset_type": "fund",
+      "rows": 992,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "71595553356620707",
+      "symbol": "كاخ",
+      "asset_type": "fund",
+      "rows": 178,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "7803396484851273",
+      "symbol": "كارآمد",
+      "asset_type": "fund",
+      "rows": 521,
+      "latest_date": "20261118",
+      "events": 6
+    },
+    {
+      "insCode": "48240748007949910",
+      "symbol": "كارآمد2",
+      "asset_type": "fund",
+      "rows": 521,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "10368700486623325",
+      "symbol": "كارا2",
+      "asset_type": "fund",
+      "rows": 1228,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "65023851436340574",
+      "symbol": "كاردان",
+      "asset_type": "fund",
+      "rows": 2834,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "33015297618582406",
+      "symbol": "كارما",
+      "asset_type": "fund",
+      "rows": 627,
+      "latest_date": "20261118",
+      "events": 3
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T23:20:40.481271+00:00"
+}
