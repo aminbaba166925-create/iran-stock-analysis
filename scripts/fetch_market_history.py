@@ -10,8 +10,8 @@ BASE = "https://cdn.tsetmc.com/api"
 DATA = Path("data")
 SCREENER = DATA / "market_screener.csv"
 OUT = DATA / "market_history"
-SHARDS = 16
-WORKERS = 4
+SHARDS = 24
+WORKERS = 10
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36",
     "Accept": "application/json, text/plain, */*",
@@ -19,17 +19,17 @@ HEADERS = {
 }
 FIELDS = ["symbol", "name", "asset_type", "insCode", "date", "open", "high", "low", "close", "last", "volume", "value"]
 
-def get_json(url, attempts=3):
+def get_json(url, attempts=2):
     last = None
     for n in range(attempts):
         try:
             req = urllib.request.Request(url, headers=HEADERS)
-            with urllib.request.urlopen(req, timeout=25) as response:
+            with urllib.request.urlopen(req, timeout=18) as response:
                 return json.loads(response.read().decode("utf-8-sig"))
         except Exception as exc:
             last = exc
             if n + 1 < attempts:
-                time.sleep(1.5 * (n + 1))
+                time.sleep(0.8 * (n + 1))
     raise RuntimeError(str(last))
 
 def rows_from(payload, preferred):
@@ -146,7 +146,7 @@ def main():
         raise RuntimeError("No eligible instruments found in screener")
     raw_paths = [OUT / ("raw_%02d.csv.gz" % i) for i in range(SHARDS)]
     adj_paths = [OUT / ("adjusted_%02d.csv.gz" % i) for i in range(SHARDS)]
-    raw_files = [gzip.open(p, "wt", encoding="utf-8", newline="", compresslevel=6) for p in raw_paths]
+    raw_files = [gzip.open(p, "wt", encoding="utf-8", newline="", compresslevel=3) for p in raw_paths]
     adj_files = [gzip.open(p, "wt", encoding="utf-8", newline="", compresslevel=6) for p in adj_paths]
     raw_writers = [csv.DictWriter(f, fieldnames=FIELDS) for f in raw_files]
     adj_writers = [csv.DictWriter(f, fieldnames=FIELDS) for f in adj_files]
@@ -185,7 +185,7 @@ def main():
         "instruments_requested": len(items), "instruments_succeeded": len(ok),
         "instruments_failed": len(failed), "raw_rows": total_rows, "adjusted_rows": total_rows,
         "corporate_action_events": total_events, "latest_date": latest, "workers": WORKERS,
-        "shards": SHARDS, "format": "gzip-compressed CSV; 16 deterministic shards; raw and adjusted OHLCV stored separately",
+        "shards": SHARDS, "format": "gzip-compressed CSV; 24 deterministic shards; raw and adjusted OHLCV stored separately",
         "adjustment_method": "TSETMC PriceAdjustList pClosing/pClosingNotAdjusted plus uncovered share-change old/new ratios; events within 7 calendar days are deduplicated",
         "warning": "Adjusted history requires successful retrieval of both corporate-action endpoints for each symbol. Failed instruments are excluded from adjusted shards and listed in failures.json.",
         "instruments": ok, "failures": failed}
