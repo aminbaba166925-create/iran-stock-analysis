@@ -1,0 +1,91 @@
+{
+  "batch": 62,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 34547,
+  "events": 90,
+  "instruments": [
+    {
+      "insCode": "52382684379473036",
+      "symbol": "دكپسول",
+      "asset_type": "share",
+      "rows": 1813,
+      "latest_date": "20261118",
+      "events": 9
+    },
+    {
+      "insCode": "48405354611439815",
+      "symbol": "دكپسول3",
+      "asset_type": "share",
+      "rows": 1813,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "71899719328152003",
+      "symbol": "شبصير3",
+      "asset_type": "share",
+      "rows": 3070,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "38547060135156069",
+      "symbol": "فاذر",
+      "asset_type": "share",
+      "rows": 5274,
+      "latest_date": "20261118",
+      "events": 8
+    },
+    {
+      "insCode": "66772024744156373",
+      "symbol": "فباهنر",
+      "asset_type": "share",
+      "rows": 5409,
+      "latest_date": "20261118",
+      "events": 24
+    },
+    {
+      "insCode": "26147216960584371",
+      "symbol": "فباهنر3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "70515583859928047",
+      "symbol": "متال",
+      "asset_type": "fund",
+      "rows": 757,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "7183333492448248",
+      "symbol": "وپخش",
+      "asset_type": "share",
+      "rows": 5475,
+      "latest_date": "20261118",
+      "events": 20
+    },
+    {
+      "insCode": "12638840758449459",
+      "symbol": "پخش",
+      "asset_type": "share",
+      "rows": 3303,
+      "latest_date": "20261118",
+      "events": 25
+    },
+    {
+      "insCode": "68928111889585263",
+      "symbol": "پخش3",
+      "asset_type": "share",
+      "rows": 3303,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:56:44.672637Z"
+}
