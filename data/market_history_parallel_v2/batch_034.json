@@ -1,0 +1,91 @@
+{
+  "batch": 34,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 20461,
+  "events": 86,
+  "instruments": [
+    {
+      "insCode": "55254206302462116",
+      "symbol": "آپ",
+      "asset_type": "share",
+      "rows": 2436,
+      "latest_date": "20261118",
+      "events": 14
+    },
+    {
+      "insCode": "25422370845365439",
+      "symbol": "حديد",
+      "asset_type": "fund",
+      "rows": 50,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "26824673819862694",
+      "symbol": "خبهمن",
+      "asset_type": "share",
+      "rows": 5899,
+      "latest_date": "20261118",
+      "events": 21
+    },
+    {
+      "insCode": "17248898258246807",
+      "symbol": "درنا",
+      "asset_type": "fund",
+      "rows": 308,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "51200575796028449",
+      "symbol": "سافرون",
+      "asset_type": "fund",
+      "rows": 1406,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "61310599391543522",
+      "symbol": "سباقر",
+      "asset_type": "share",
+      "rows": 440,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "32525655729432562",
+      "symbol": "سبهان",
+      "asset_type": "share",
+      "rows": 4954,
+      "latest_date": "20261118",
+      "events": 19
+    },
+    {
+      "insCode": "17038760170440118",
+      "symbol": "سمهريز",
+      "asset_type": "share",
+      "rows": 235,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "47717365931256099",
+      "symbol": "نقرسا",
+      "asset_type": "fund",
+      "rows": 130,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "45050389997905274",
+      "symbol": "وسينا",
+      "asset_type": "share",
+      "rows": 4603,
+      "latest_date": "20261118",
+      "events": 30
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:48:42.748362Z"
+}
