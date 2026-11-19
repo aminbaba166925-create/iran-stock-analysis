@@ -1,0 +1,91 @@
+{
+  "batch": 5,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 31303,
+  "events": 138,
+  "instruments": [
+    {
+      "insCode": "22903901709044823",
+      "symbol": "ختراك",
+      "asset_type": "share",
+      "rows": 5284,
+      "latest_date": "20261118",
+      "events": 22
+    },
+    {
+      "insCode": "39436183727126211",
+      "symbol": "خمحركه",
+      "asset_type": "share",
+      "rows": 5693,
+      "latest_date": "20261118",
+      "events": 23
+    },
+    {
+      "insCode": "22255783119783047",
+      "symbol": "درازك",
+      "asset_type": "share",
+      "rows": 5755,
+      "latest_date": "20261118",
+      "events": 28
+    },
+    {
+      "insCode": "11432067920374603",
+      "symbol": "دسينا",
+      "asset_type": "share",
+      "rows": 5229,
+      "latest_date": "20261118",
+      "events": 29
+    },
+    {
+      "insCode": "28450080638096732",
+      "symbol": "سيمرغ",
+      "asset_type": "share",
+      "rows": 1887,
+      "latest_date": "20261118",
+      "events": 7
+    },
+    {
+      "insCode": "6116572045021585",
+      "symbol": "شجم",
+      "asset_type": "share",
+      "rows": 1243,
+      "latest_date": "20261118",
+      "events": 6
+    },
+    {
+      "insCode": "41302553376174581",
+      "symbol": "فجر",
+      "asset_type": "share",
+      "rows": 5023,
+      "latest_date": "20261118",
+      "events": 21
+    },
+    {
+      "insCode": "64380036977879368",
+      "symbol": "كولان",
+      "asset_type": "share",
+      "rows": 217,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "32462496659462712",
+      "symbol": "كولان3",
+      "asset_type": "share",
+      "rows": 217,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "6233172939132588",
+      "symbol": "پتوسعه",
+      "asset_type": "share",
+      "rows": 755,
+      "latest_date": "20261118",
+      "events": 1
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:08:13.887270Z"
+}
