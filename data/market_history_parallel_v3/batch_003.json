@@ -1,0 +1,91 @@
+{
+  "batch": 3,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 17342,
+  "events": 63,
+  "instruments": [
+    {
+      "insCode": "70883594945615893",
+      "symbol": "سآبيك",
+      "asset_type": "share",
+      "rows": 3418,
+      "latest_date": "20261118",
+      "events": 7
+    },
+    {
+      "insCode": "65321970913593427",
+      "symbol": "سكرد",
+      "asset_type": "share",
+      "rows": 4416,
+      "latest_date": "20261118",
+      "events": 19
+    },
+    {
+      "insCode": "10171945867136336",
+      "symbol": "سيتا",
+      "asset_type": "share",
+      "rows": 1535,
+      "latest_date": "20261118",
+      "events": 8
+    },
+    {
+      "insCode": "18401147983387689",
+      "symbol": "غپينو",
+      "asset_type": "share",
+      "rows": 5041,
+      "latest_date": "20261118",
+      "events": 29
+    },
+    {
+      "insCode": "43664630566988630",
+      "symbol": "فلزفارابي",
+      "asset_type": "fund",
+      "rows": 757,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "20611778787745873",
+      "symbol": "قلك گلد",
+      "asset_type": "fund",
+      "rows": 110,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "41483334879559487",
+      "symbol": "نقران",
+      "asset_type": "fund",
+      "rows": 205,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "12913156843322499",
+      "symbol": "نهال",
+      "asset_type": "fund",
+      "rows": 1409,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "37920364612147195",
+      "symbol": "هوشمند",
+      "asset_type": "fund",
+      "rows": 409,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "60406254194457384",
+      "symbol": "هيرا",
+      "asset_type": "fund",
+      "rows": 42,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:32:40.018371Z"
+}
