@@ -1,0 +1,91 @@
+{
+  "batch": 23,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 9432,
+  "corporate_action_events": 2,
+  "instruments": [
+    {
+      "insCode": "18377845653697190",
+      "symbol": "كوانتوم",
+      "asset_type": "fund",
+      "rows": 264,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "53254637903825194",
+      "symbol": "كيان2",
+      "asset_type": "fund",
+      "rows": 2406,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "18623561935932625",
+      "symbol": "كيان4",
+      "asset_type": "fund",
+      "rows": 2406,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "7376158544119907",
+      "symbol": "لذيذ",
+      "asset_type": "fund",
+      "rows": 290,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "37118058361762279",
+      "symbol": "مالك آتيه",
+      "asset_type": "fund",
+      "rows": 617,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "32941062994509455",
+      "symbol": "مانا",
+      "asset_type": "fund",
+      "rows": 556,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "10458396610199724",
+      "symbol": "ماهور",
+      "asset_type": "fund",
+      "rows": 725,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "70515583859928047",
+      "symbol": "متال",
+      "asset_type": "fund",
+      "rows": 757,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "32469128621155736",
+      "symbol": "مثقال",
+      "asset_type": "fund",
+      "rows": 1183,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "31278515339080281",
+      "symbol": "مختلط",
+      "asset_type": "fund",
+      "rows": 228,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T23:24:15.706699+00:00"
+}
