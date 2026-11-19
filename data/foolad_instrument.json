@@ -1,0 +1,61 @@
+{
+  "symbol": "فولاد",
+  "insCode": "46348559193224090",
+  "instrument_info": {
+    "eps": {
+      "epsValue": null,
+      "estimatedEPS": "693",
+      "sectorPE": 11.23,
+      "psr": 2541.02
+    },
+    "sector": {
+      "dEven": 0,
+      "cSecVal": "27 ",
+      "lSecVal": "فلزات اساسي"
+    },
+    "staticThreshold": {
+      "insCode": null,
+      "dEven": 0,
+      "hEven": 0,
+      "psGelStaMax": 5300.0,
+      "psGelStaMin": 5000.0
+    },
+    "minWeek": 5000.0,
+    "maxWeek": 5320.0,
+    "minYear": 2182.0,
+    "maxYear": 5320.0,
+    "qTotTran5JAvg": 2404068403.0,
+    "kAjCapValCpsIdx": "36",
+    "dEven": 0,
+    "topInst": 1,
+    "faraDesc": "",
+    "contractSize": 0,
+    "nav": 0.0,
+    "underSupervision": 0,
+    "etfIssuedUnit": 0.0,
+    "etfUnitDeven": 0,
+    "cValMne": null,
+    "lVal18": "S*Mobarakeh Steel",
+    "cSocCSAC": null,
+    "lSoc30": null,
+    "yMarNSC": null,
+    "yVal": "300",
+    "insCode": "46348559193224090",
+    "lVal30": "فولاد مباركه اصفهان",
+    "lVal18AFC": "فولاد",
+    "flow": 1,
+    "cIsin": "IRO1FOLD0009",
+    "zTitad": 1935000000000.0,
+    "baseVol": 1,
+    "instrumentID": "IRO1FOLD0001",
+    "cgrValCot": "N1",
+    "cComVal": "1",
+    "lastDate": 0,
+    "sourceID": 1,
+    "flowTitle": "بازار بورس",
+    "cgrValCotTitle": "بازار اول (تابلوی اصلی) بورس"
+  },
+  "daily_api": "https://cdn.tsetmc.com/api/ClosingPrice/GetClosingPriceDailyList/46348559193224090/0",
+  "rows_in_latest_response": 4684,
+  "rows_saved": 4684
+}
