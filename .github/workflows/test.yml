@@ -1,4 +1,4 @@
-name: Update Iran stock market data
+name: Update Iran stock market data # schema diagnostic run
 
 on:
   workflow_dispatch:
