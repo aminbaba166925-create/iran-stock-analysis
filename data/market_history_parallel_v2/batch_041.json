@@ -1,0 +1,91 @@
+{
+  "batch": 41,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 32867,
+  "events": 144,
+  "instruments": [
+    {
+      "insCode": "63314930621247311",
+      "symbol": "آريا3",
+      "asset_type": "share",
+      "rows": 1603,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "50247622569476338",
+      "symbol": "بوعلي",
+      "asset_type": "share",
+      "rows": 1439,
+      "latest_date": "20261118",
+      "events": 8
+    },
+    {
+      "insCode": "60247433951600827",
+      "symbol": "شاوان",
+      "asset_type": "share",
+      "rows": 3402,
+      "latest_date": "20261118",
+      "events": 12
+    },
+    {
+      "insCode": "39549984459336635",
+      "symbol": "شبندر3",
+      "asset_type": "share",
+      "rows": 3518,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "70934270174405743",
+      "symbol": "شخارك",
+      "asset_type": "share",
+      "rows": 5778,
+      "latest_date": "20261118",
+      "events": 20
+    },
+    {
+      "insCode": "35158826900216508",
+      "symbol": "غاذر",
+      "asset_type": "share",
+      "rows": 4670,
+      "latest_date": "20261118",
+      "events": 29
+    },
+    {
+      "insCode": "37631109616997982",
+      "symbol": "قشهد",
+      "asset_type": "share",
+      "rows": 4494,
+      "latest_date": "20261118",
+      "events": 23
+    },
+    {
+      "insCode": "4614779520007780",
+      "symbol": "كسرا",
+      "asset_type": "share",
+      "rows": 4695,
+      "latest_date": "20261118",
+      "events": 28
+    },
+    {
+      "insCode": "62786156501584862",
+      "symbol": "پاكشو",
+      "asset_type": "share",
+      "rows": 3052,
+      "latest_date": "20261118",
+      "events": 20
+    },
+    {
+      "insCode": "18320128145045368",
+      "symbol": "چاپ",
+      "asset_type": "share",
+      "rows": 216,
+      "latest_date": "20261118",
+      "events": 2
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:00:03.155678Z"
+}
