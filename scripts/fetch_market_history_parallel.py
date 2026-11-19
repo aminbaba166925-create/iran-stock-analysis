@@ -171,7 +171,11 @@ def write_batch(batch_no, results, failures):
     changed = subprocess.run(["git", "diff", "--cached", "--quiet"]).returncode != 0
     if changed:
         subprocess.run(["git", "commit", "-m", "Checkpoint market history batch %03d" % batch_no], check=True)
-        subprocess.run(["git", "push", "origin", "HEAD:parallel-market-history-" + os.getenv("GITHUB_RUN_ID", "local")], check=True)
+        checkpoint_branch = os.getenv("CHECKPOINT_BRANCH", "market-history-checkpoints")
+        subprocess.run(["git", "push", "origin", "HEAD:" + checkpoint_branch], check=True)
+        run_id = os.getenv("GITHUB_RUN_ID")
+        if run_id:
+            subprocess.run(["git", "push", "origin", "HEAD:parallel-market-history-" + run_id], check=True)
     print("CHECKPOINT SAVED: batch=%d success=%d failed=%d" %
           (batch_no, len(results), len(failures)), flush=True)
 
@@ -275,7 +279,11 @@ def main():
     subprocess.run(["git", "add", str(OUT / "manifest.json")], check=True)
     if subprocess.run(["git", "diff", "--cached", "--quiet"]).returncode != 0:
         subprocess.run(["git", "commit", "-m", "Finalize market history manifest"], check=True)
-        subprocess.run(["git", "push", "origin", "HEAD:parallel-market-history-" + os.getenv("GITHUB_RUN_ID", "local")], check=True)
+        checkpoint_branch = os.getenv("CHECKPOINT_BRANCH", "market-history-checkpoints")
+        subprocess.run(["git", "push", "origin", "HEAD:" + checkpoint_branch], check=True)
+        run_id = os.getenv("GITHUB_RUN_ID")
+        if run_id:
+            subprocess.run(["git", "push", "origin", "HEAD:parallel-market-history-" + run_id], check=True)
     print("COMPLETE: requested=%d success=%d failed=%d rows=%d latest=%s" %
           (len(items), len(all_ok), len(all_failed), total_rows, latest), flush=True)
 
