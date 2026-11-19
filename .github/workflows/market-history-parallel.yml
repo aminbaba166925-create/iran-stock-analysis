@@ -1,0 +1,39 @@
+name: Parallel Iran market history (skip Foolad)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/market-history-parallel.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: iran-market-history-parallel
+  cancel-in-progress: false
+
+jobs:
+  history:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Configure checkpoint commits
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "parallel-market-history-${GITHUB_RUN_ID}"
+
+      - name: Fetch market history without Foolad pre-step
+        run: python scripts/fetch_market_history_parallel.py
