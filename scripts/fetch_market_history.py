@@ -68,14 +68,12 @@ def fetch_one(item):
     code = str(item["insCode"]).strip()
     symbol = str(item.get("symbol", ""))
     name = str(item.get("name", ""))
-    base = BASE
-    daily_url = base + "/ClosingPrice/GetClosingPriceDailyList/" + code + "/0"
-    adjust_url = base + "/ClosingPrice/GetPriceAdjustList/" + code
-    shares_url = base + "/Instrument/GetInstrumentShareChange/" + code
+    daily_url = BASE + "/ClosingPrice/GetClosingPriceDailyList/" + code + "/0"
+    adjust_url = BASE + "/ClosingPrice/GetPriceAdjustList/" + code
+    shares_url = BASE + "/Instrument/GetInstrumentShareChange/" + code
     daily = rows_from(get_json(daily_url), ("closingPriceDaily",))
     if len(daily) < 20:
         raise RuntimeError("daily history too short: " + str(len(daily)))
-    # Both event endpoints are required before a chart is labelled adjusted.
     adjustments = rows_from(get_json(adjust_url), ("priceAdjust",))
     share_changes = rows_from(get_json(shares_url), ("instrumentShareChange",))
     unique_shares = {}
@@ -106,12 +104,9 @@ def fetch_one(item):
         values = {
             "symbol": symbol, "name": name, "asset_type": item.get("asset_type", ""),
             "insCode": code, "date": str(d),
-            "open": number(row.get("priceFirst")),
-            "high": number(row.get("priceMax")),
-            "low": number(row.get("priceMin")),
-            "close": number(row.get("pClosing")),
-            "last": number(row.get("pDrCotVal")),
-            "volume": int(number(row.get("qTotTran5J"))),
+            "open": number(row.get("priceFirst")), "high": number(row.get("priceMax")),
+            "low": number(row.get("priceMin")), "close": number(row.get("pClosing")),
+            "last": number(row.get("pDrCotVal")), "volume": int(number(row.get("qTotTran5J"))),
             "value": int(number(row.get("qTotCap"))),
         }
         if values["close"] > 0:
@@ -129,11 +124,9 @@ def fetch_one(item):
         for key in ("open", "high", "low", "close", "last"):
             out[key] = out[key] * factor
         adjusted.append(out)
-    return {
-        "code": code, "raw": clean, "adjusted": adjusted,
-        "events": len(events), "price_adjust_events": len(adjustments),
-        "share_change_events": len(unique_shares), "latest_date": clean[-1]["date"],
-    }
+    return {"code": code, "raw": clean, "adjusted": adjusted, "events": len(events),
+            "price_adjust_events": len(adjustments), "share_change_events": len(unique_shares),
+            "latest_date": clean[-1]["date"]}
 
 def shard_for(code):
     return int(hashlib.sha1(code.encode("utf-8")).hexdigest()[:8], 16) % SHARDS
@@ -141,7 +134,6 @@ def shard_for(code):
 def main():
     if not SCREENER.exists():
         raise RuntimeError("Missing data/market_screener.csv; run scan_market.py first")
-    OUT.mkdir(parents=True, exist_ok=True)
     OUT.mkdir(parents=True, exist_ok=True)
     items, seen = [], set()
     with SCREENER.open("r", encoding="utf-8-sig", newline="") as handle:
@@ -152,11 +144,10 @@ def main():
                 items.append(row)
     if not items:
         raise RuntimeError("No eligible instruments found in screener")
-    OUT.mkdir(parents=True, exist_ok=True)
     raw_paths = [OUT / ("raw_%02d.csv.gz" % i) for i in range(SHARDS)]
     adj_paths = [OUT / ("adjusted_%02d.csv.gz" % i) for i in range(SHARDS)]
     raw_files = [gzip.open(p, "wt", encoding="utf-8", newline="", compresslevel=6) for p in raw_paths]
-    adj_files = [gzip.open(p, "wt", encoding="utf-8", newline="", compresslevel=6, mtime=0) for p in adj_paths]
+    adj_files = [gzip.open(p, "wt", encoding="utf-8", newline="", compresslevel=6) for p in adj_paths]
     raw_writers = [csv.DictWriter(f, fieldnames=FIELDS) for f in raw_files]
     adj_writers = [csv.DictWriter(f, fieldnames=FIELDS) for f in adj_files]
     for writer in raw_writers + adj_writers:
@@ -177,12 +168,9 @@ def main():
                     total_rows += len(result["raw"])
                     total_events += result["events"]
                     latest = max(latest, result["latest_date"])
-                    ok.append({
-                        "insCode": result["code"], "symbol": item.get("symbol", ""),
-                        "asset_type": item.get("asset_type", ""),
-                        "rows": len(result["raw"]), "latest_date": result["latest_date"],
-                        "events": result["events"], "shard": shard,
-                    })
+                    ok.append({"insCode": result["code"], "symbol": item.get("symbol", ""),
+                               "asset_type": item.get("asset_type", ""), "rows": len(result["raw"]),
+                               "latest_date": result["latest_date"], "events": result["events"], "shard": shard})
                 except Exception as exc:
                     failed.append({"insCode": item.get("insCode", ""), "symbol": item.get("symbol", ""), "error": str(exc)[:300]})
                 if done % 50 == 0 or done == len(items):
@@ -193,23 +181,14 @@ def main():
     ok.sort(key=lambda x: x["symbol"])
     failed.sort(key=lambda x: x["symbol"])
     manifest = {
-        "generated_at_utc": datetime.utcnow().isoformat() + "Z",
-        "source": "TSETMC CDN API",
-        "instruments_requested": len(items),
-        "instruments_succeeded": len(ok),
-        "instruments_failed": len(failed),
-        "raw_rows": total_rows,
-        "adjusted_rows": total_rows,
-        "corporate_action_events": total_events,
-        "latest_date": latest,
-        "workers": WORKERS,
-        "shards": SHARDS,
-        "format": "gzip-compressed CSV; 16 deterministic shards; raw and adjusted OHLCV stored separately",
+        "generated_at_utc": datetime.utcnow().isoformat() + "Z", "source": "TSETMC CDN API",
+        "instruments_requested": len(items), "instruments_succeeded": len(ok),
+        "instruments_failed": len(failed), "raw_rows": total_rows, "adjusted_rows": total_rows,
+        "corporate_action_events": total_events, "latest_date": latest, "workers": WORKERS,
+        "shards": SHARDS, "format": "gzip-compressed CSV; 16 deterministic shards; raw and adjusted OHLCV stored separately",
         "adjustment_method": "TSETMC PriceAdjustList pClosing/pClosingNotAdjusted plus uncovered share-change old/new ratios; events within 7 calendar days are deduplicated",
         "warning": "Adjusted history requires successful retrieval of both corporate-action endpoints for each symbol. Failed instruments are excluded from adjusted shards and listed in failures.json.",
-        "instruments": ok,
-        "failures": failed,
-    }
+        "instruments": ok, "failures": failed}
     (OUT / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
     print("COMPLETE: requested=%d success=%d failed=%d rows=%d latest=%s" % (len(items), len(ok), len(failed), total_rows, latest))
 
