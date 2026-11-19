@@ -1,0 +1,91 @@
+{
+  "batch": 28,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 9900,
+  "events": 14,
+  "instruments": [
+    {
+      "insCode": "16582961426722208",
+      "symbol": "آسود",
+      "asset_type": "fund",
+      "rows": 504,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "26780282166315918",
+      "symbol": "ثبات",
+      "asset_type": "fund",
+      "rows": 1249,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "15420554853151242",
+      "symbol": "ثمر",
+      "asset_type": "fund",
+      "rows": 299,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "18865325633315847",
+      "symbol": "خاتم",
+      "asset_type": "fund",
+      "rows": 1454,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "52846735736632974",
+      "symbol": "صنهال",
+      "asset_type": "fund",
+      "rows": 881,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "56344907495802692",
+      "symbol": "فاخر",
+      "asset_type": "fund",
+      "rows": 810,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "71843282162462661",
+      "symbol": "كارا",
+      "asset_type": "fund",
+      "rows": 1228,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "50503654866742146",
+      "symbol": "هامرز",
+      "asset_type": "fund",
+      "rows": 1154,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "49681831162536304",
+      "symbol": "همگام",
+      "asset_type": "fund",
+      "rows": 620,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "47101579271117172",
+      "symbol": "گنجينه",
+      "asset_type": "fund",
+      "rows": 1701,
+      "latest_date": "20261118",
+      "events": 3
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:39:25.543534Z"
+}
