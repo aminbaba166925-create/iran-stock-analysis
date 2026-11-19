@@ -1,0 +1,91 @@
+{
+  "batch": 19,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 26357,
+  "events": 95,
+  "instruments": [
+    {
+      "insCode": "61483657213051835",
+      "symbol": "بازبيمه",
+      "asset_type": "fund",
+      "rows": 666,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "63915926161403347",
+      "symbol": "خشرق",
+      "asset_type": "share",
+      "rows": 5222,
+      "latest_date": "20261118",
+      "events": 25
+    },
+    {
+      "insCode": "11996454048142959",
+      "symbol": "داترا",
+      "asset_type": "share",
+      "rows": 432,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "4507558419857064",
+      "symbol": "زماهان",
+      "asset_type": "share",
+      "rows": 1899,
+      "latest_date": "20261118",
+      "events": 6
+    },
+    {
+      "insCode": "71856634742001725",
+      "symbol": "سپ",
+      "asset_type": "share",
+      "rows": 2138,
+      "latest_date": "20261118",
+      "events": 13
+    },
+    {
+      "insCode": "48619517949257749",
+      "symbol": "غنوش",
+      "asset_type": "share",
+      "rows": 5117,
+      "latest_date": "20261118",
+      "events": 19
+    },
+    {
+      "insCode": "42711713063216333",
+      "symbol": "فخوز3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "25286509736208688",
+      "symbol": "فلامي",
+      "asset_type": "share",
+      "rows": 5159,
+      "latest_date": "20261118",
+      "events": 22
+    },
+    {
+      "insCode": "11326461864120062",
+      "symbol": "كربن",
+      "asset_type": "share",
+      "rows": 636,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "41746336706469006",
+      "symbol": "پيروز",
+      "asset_type": "fund",
+      "rows": 758,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:24:45.191540Z"
+}
