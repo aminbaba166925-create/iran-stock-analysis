@@ -1,0 +1,91 @@
+{
+  "batch": 36,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 17927,
+  "events": 66,
+  "instruments": [
+    {
+      "insCode": "9089296888187061",
+      "symbol": "تابش",
+      "asset_type": "fund",
+      "rows": 726,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "4142914008323611",
+      "symbol": "تراست",
+      "asset_type": "fund",
+      "rows": 83,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "18568733593280948",
+      "symbol": "ثاميد",
+      "asset_type": "share",
+      "rows": 1496,
+      "latest_date": "20261118",
+      "events": 7
+    },
+    {
+      "insCode": "60610861509165508",
+      "symbol": "حكشتي",
+      "asset_type": "share",
+      "rows": 4439,
+      "latest_date": "20261118",
+      "events": 22
+    },
+    {
+      "insCode": "34890845654517313",
+      "symbol": "ساربيل",
+      "asset_type": "share",
+      "rows": 4502,
+      "latest_date": "20261118",
+      "events": 22
+    },
+    {
+      "insCode": "33761569293467411",
+      "symbol": "سيمين",
+      "asset_type": "fund",
+      "rows": 220,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "10098482000925815",
+      "symbol": "سيگلو",
+      "asset_type": "fund",
+      "rows": 110,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "59142194115401696",
+      "symbol": "لوتوس",
+      "asset_type": "share",
+      "rows": 1888,
+      "latest_date": "20261118",
+      "events": 15
+    },
+    {
+      "insCode": "30714541738317499",
+      "symbol": "نقرفام",
+      "asset_type": "fund",
+      "rows": 133,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "15395217608228230",
+      "symbol": "وسپه3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:51:37.685969Z"
+}
