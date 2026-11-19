@@ -1,0 +1,411 @@
+{
+  "batch": 16,
+  "success": 50,
+  "failed": 0,
+  "raw_rows": 170441,
+  "events": 37,
+  "instruments": [
+    {
+      "insCode": "63600824877528094",
+      "symbol": "البرز3",
+      "asset_type": "share",
+      "rows": 4132,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "11749484356732328",
+      "symbol": "اپال3",
+      "asset_type": "share",
+      "rows": 1466,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "63555882930905460",
+      "symbol": "بامداد",
+      "asset_type": "fund",
+      "rows": 255,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "32445921896646652",
+      "symbol": "بنيرو3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "51971068201094874",
+      "symbol": "بپاس",
+      "asset_type": "share",
+      "rows": 3578,
+      "latest_date": "20261118",
+      "events": 28
+    },
+    {
+      "insCode": "62940838026283460",
+      "symbol": "توريل2",
+      "asset_type": "share",
+      "rows": 3538,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "3839324986781871",
+      "symbol": "تپسي",
+      "asset_type": "share",
+      "rows": 1189,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "3958706486436215",
+      "symbol": "تپمپي3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "33691604510941113",
+      "symbol": "ثامان3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "27812005859539773",
+      "symbol": "ثروت",
+      "asset_type": "fund",
+      "rows": 1424,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "67611694215241852",
+      "symbol": "جم پيلن3",
+      "asset_type": "share",
+      "rows": 1836,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "50039238182430288",
+      "symbol": "جم3",
+      "asset_type": "share",
+      "rows": 2720,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "21674353215379910",
+      "symbol": "ختور3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "9642452316520919",
+      "symbol": "خزر3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "24435936971070577",
+      "symbol": "خمحركه3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "9781695326258674",
+      "symbol": "دزهراوي3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "4968705640678138",
+      "symbol": "دسبحا3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "26547362091465395",
+      "symbol": "ديوان",
+      "asset_type": "fund",
+      "rows": 1204,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "15124889255100138",
+      "symbol": "رويش",
+      "asset_type": "fund",
+      "rows": 2379,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "53393468648784277",
+      "symbol": "سخاش3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "61104433730048912",
+      "symbol": "سشمال3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "3139229518524651",
+      "symbol": "سيلام3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "11892449447452574",
+      "symbol": "سپاها3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "10738897598547398",
+      "symbol": "شفارس3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "10539309828675064",
+      "symbol": "غالبر3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "52587702130425802",
+      "symbol": "غدام3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "45351719508336831",
+      "symbol": "غشهد3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "40149571318090913",
+      "symbol": "غپاك3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "45658674082033179",
+      "symbol": "فاذر3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "11426217028122315",
+      "symbol": "فجام3",
+      "asset_type": "share",
+      "rows": 4329,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "28522629288512213",
+      "symbol": "فلامي3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "23195060136357594",
+      "symbol": "فنوال3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "55128878093228671",
+      "symbol": "فولاژ3",
+      "asset_type": "share",
+      "rows": 3830,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "65166813612670443",
+      "symbol": "قنيشا3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "71595553356620707",
+      "symbol": "كاخ",
+      "asset_type": "fund",
+      "rows": 178,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "34702374984856002",
+      "symbol": "كبافق3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "2190132536413193",
+      "symbol": "كساپا3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "60298476338592154",
+      "symbol": "كلوند3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "58965710006903807",
+      "symbol": "كمان",
+      "asset_type": "fund",
+      "rows": 1281,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "7181890548313534",
+      "symbol": "ملت3",
+      "asset_type": "share",
+      "rows": 3490,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "28295696926054253",
+      "symbol": "مهر3",
+      "asset_type": "share",
+      "rows": 143,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "58375368401823035",
+      "symbol": "نمرينو3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "9375107506435996",
+      "symbol": "هوشيار",
+      "asset_type": "fund",
+      "rows": 769,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "67502717939791589",
+      "symbol": "وبوعلي3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "65725312449287622",
+      "symbol": "وبيمه3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "32558370076411121",
+      "symbol": "وتوشه3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "41568878665604313",
+      "symbol": "ومدير3",
+      "asset_type": "share",
+      "rows": 1368,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "47915296881164515",
+      "symbol": "پرديس3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "38914218471764487",
+      "symbol": "پلاسك3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "48970598895465763",
+      "symbol": "پويا",
+      "asset_type": "fund",
+      "rows": 1432,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:10:11.103566Z"
+}
