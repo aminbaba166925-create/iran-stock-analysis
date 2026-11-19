@@ -127,7 +127,7 @@ def main():
         md += [f"### {p['pattern']} — {p['formation_date']}",f"- وضعیت: {p['status']}",f"- سطح مرجع: {p['level']:,.2f}",f"- کیفیت هندسی تقریبی: {p['quality']}%",f"- بازده بعد از ۵/۱۰/۲۰ جلسه: {p.get('forward_returns_pct',{})}",""]
     md += ["## آخرین الگوهای تاریخی"]
     for p in patterns[-30:]:
-        md.append(f"- {p['pattern']} | {p['pattern_date']} | {p['status']} | سطح {p['level']:,.2f} | بازده‌ها {p.get('forward_returns_pct',{})}")
+        md.append(f"- {p['pattern']} | {p['formation_date']} | {p['status']} | سطح {p['level']:,.2f} | بازده‌ها {p.get('forward_returns_pct',{})}")
     (OUT/"sakht_patterns.md").write_text("\n".join(md),encoding="utf-8")
     print(json.dumps({"rows":len(rows),"first":rows[0]["date"],"latest":last["date"],"close":last["close"],"pivots":len(pv),"patterns":len(patterns),"recent":recent[-10:]},ensure_ascii=False))
 if __name__=="__main__": main()
