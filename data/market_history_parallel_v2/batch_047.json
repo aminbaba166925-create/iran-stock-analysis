@@ -1,0 +1,91 @@
+{
+  "batch": 47,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 17827,
+  "events": 63,
+  "instruments": [
+    {
+      "insCode": "60037054541957690",
+      "symbol": "شنفت3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "4369934250728330",
+      "symbol": "غزر",
+      "asset_type": "share",
+      "rows": 1558,
+      "latest_date": "20261118",
+      "events": 13
+    },
+    {
+      "insCode": "41250567677482189",
+      "symbol": "غزر3",
+      "asset_type": "share",
+      "rows": 1558,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "51017863148152520",
+      "symbol": "فرود",
+      "asset_type": "share",
+      "rows": 1262,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "40808043719554948",
+      "symbol": "فولاژ",
+      "asset_type": "share",
+      "rows": 3830,
+      "latest_date": "20261118",
+      "events": 32
+    },
+    {
+      "insCode": "29875801858560476",
+      "symbol": "مهرگان",
+      "asset_type": "share",
+      "rows": 511,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "28423782357613560",
+      "symbol": "مهرگان3",
+      "asset_type": "share",
+      "rows": 147,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "2160777579058191",
+      "symbol": "وفيروزه",
+      "asset_type": "share",
+      "rows": 141,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "18243817760805436",
+      "symbol": "وفيروزه3",
+      "asset_type": "share",
+      "rows": 141,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "57722642338781674",
+      "symbol": "پلاسك",
+      "asset_type": "share",
+      "rows": 4349,
+      "latest_date": "20261118",
+      "events": 11
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:37:53.134225Z"
+}
