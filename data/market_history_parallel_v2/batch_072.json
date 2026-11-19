@@ -1,0 +1,91 @@
+{
+  "batch": 72,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 6988,
+  "events": 15,
+  "instruments": [
+    {
+      "insCode": "65640021232361587",
+      "symbol": "آسان",
+      "asset_type": "fund",
+      "rows": 451,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "12629673694762396",
+      "symbol": "اركيده",
+      "asset_type": "fund",
+      "rows": 559,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "43009306066217458",
+      "symbol": "دامون",
+      "asset_type": "fund",
+      "rows": 736,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "25728853053886443",
+      "symbol": "رايبد",
+      "asset_type": "fund",
+      "rows": 222,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "60208880953788584",
+      "symbol": "ستاره4",
+      "asset_type": "fund",
+      "rows": 475,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "16040900750729921",
+      "symbol": "كامياب",
+      "asset_type": "fund",
+      "rows": 1293,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "10458396610199724",
+      "symbol": "ماهور",
+      "asset_type": "fund",
+      "rows": 725,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "1241998328504490",
+      "symbol": "نشان",
+      "asset_type": "fund",
+      "rows": 1086,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "30150802188959856",
+      "symbol": "نويد",
+      "asset_type": "fund",
+      "rows": 58,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "41286608288791633",
+      "symbol": "وبازار",
+      "asset_type": "fund",
+      "rows": 1383,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T23:16:48.057263Z"
+}
