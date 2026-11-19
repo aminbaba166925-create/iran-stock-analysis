@@ -1,0 +1,91 @@
+{
+  "batch": 25,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 11231,
+  "events": 55,
+  "instruments": [
+    {
+      "insCode": "29833953891226346",
+      "symbol": "آبي",
+      "asset_type": "fund",
+      "rows": 71,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "26393127587277568",
+      "symbol": "آسا",
+      "asset_type": "fund",
+      "rows": 309,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "31039212000825988",
+      "symbol": "آوند",
+      "asset_type": "fund",
+      "rows": 1044,
+      "latest_date": "20261118",
+      "events": 11
+    },
+    {
+      "insCode": "70814244102598215",
+      "symbol": "امين شهر",
+      "asset_type": "fund",
+      "rows": 700,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "8646067353086740",
+      "symbol": "بالاس",
+      "asset_type": "share",
+      "rows": 3928,
+      "latest_date": "20261118",
+      "events": 21
+    },
+    {
+      "insCode": "65190029034514887",
+      "symbol": "خزانه ملت",
+      "asset_type": "fund",
+      "rows": 542,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "62012736978844991",
+      "symbol": "دارا",
+      "asset_type": "fund",
+      "rows": 1740,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "71076372178147339",
+      "symbol": "داريك",
+      "asset_type": "fund",
+      "rows": 1526,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "55308018877404137",
+      "symbol": "سام",
+      "asset_type": "fund",
+      "rows": 909,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "61920683599787147",
+      "symbol": "پاسارگاد",
+      "asset_type": "fund",
+      "rows": 462,
+      "latest_date": "20261118",
+      "events": 15
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:50:18.580578Z"
+}
