@@ -1,0 +1,91 @@
+{
+  "batch": 21,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 31968,
+  "events": 150,
+  "instruments": [
+    {
+      "insCode": "71945594172117613",
+      "symbol": "ارزش مسكن",
+      "asset_type": "fund",
+      "rows": 985,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "30507739597192201",
+      "symbol": "تخت گاز",
+      "asset_type": "fund",
+      "rows": 653,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "32821908911812078",
+      "symbol": "خزر",
+      "asset_type": "share",
+      "rows": 4775,
+      "latest_date": "20261118",
+      "events": 17
+    },
+    {
+      "insCode": "57273529732791251",
+      "symbol": "خموتور",
+      "asset_type": "share",
+      "rows": 5092,
+      "latest_date": "20261118",
+      "events": 25
+    },
+    {
+      "insCode": "66142616039907394",
+      "symbol": "دماوند",
+      "asset_type": "share",
+      "rows": 2677,
+      "latest_date": "20261118",
+      "events": 14
+    },
+    {
+      "insCode": "46741025610365786",
+      "symbol": "سمگا",
+      "asset_type": "share",
+      "rows": 3757,
+      "latest_date": "20261118",
+      "events": 26
+    },
+    {
+      "insCode": "37281199178613855",
+      "symbol": "سيدكو",
+      "asset_type": "share",
+      "rows": 2906,
+      "latest_date": "20261118",
+      "events": 16
+    },
+    {
+      "insCode": "49353447565507376",
+      "symbol": "كاذر",
+      "asset_type": "share",
+      "rows": 5328,
+      "latest_date": "20261118",
+      "events": 22
+    },
+    {
+      "insCode": "10120557300120078",
+      "symbol": "پسهند",
+      "asset_type": "share",
+      "rows": 5472,
+      "latest_date": "20261118",
+      "events": 27
+    },
+    {
+      "insCode": "34552750623263639",
+      "symbol": "پلاست",
+      "asset_type": "share",
+      "rows": 323,
+      "latest_date": "20261118",
+      "events": 3
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:28:16.872471Z"
+}
