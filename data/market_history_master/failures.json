@@ -1,0 +1,16 @@
+[
+  {
+    "insCode": "25187135698923656",
+    "symbol": "انرژيك",
+    "error": "daily history too short: 3",
+    "branch": "market-history-checkpoints",
+    "batch": 31
+  },
+  {
+    "insCode": "24721740603180411",
+    "symbol": "انرژينو",
+    "error": "daily history too short: 3",
+    "branch": "market-history-checkpoints",
+    "batch": 31
+  }
+]
