@@ -72,9 +72,9 @@ def main():
         if asset_type not in ("share", "fund"):
             skipped["out_of_scope"] += 1
             continue
-        base_vol = scan_market.num(source, "baseVol", "baseVolume")
+        base_vol = scan_market.num(source, "baseVol", "baseVolume", "bv")
         if not base_vol:
-            base_vol = scan_market.num(item, "baseVol", "baseVolume")
+            base_vol = scan_market.num(item, "baseVol", "baseVolume", "bv")
         if base_vol <= 0:
             skipped["missing_basevol"] += 1
             continue

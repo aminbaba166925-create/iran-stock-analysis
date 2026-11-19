@@ -126,12 +126,12 @@ def main():
             continue
         # Use only documented TSETMC field names. Fuzzy aliases caused
         # yesterday-price and close-price misreads in earlier snapshots.
-        close = num(price, "pClosing")
-        last = num(price, "pDrCotVal")
-        yesterday = num(price, "priceYesterday")
-        volume = num(price, "qTotTran5J")
-        value = num(price, "qTotCap")
-        trades = num(price, "zTotTran")
+        close = num(price, "pClosing", "pcl")
+        last = num(price, "pDrCotVal", "pdv")
+        yesterday = num(price, "priceYesterday", "py")
+        volume = num(price, "qTotTran5J", "qtj")
+        value = num(price, "qTotCap", "qtc")
+        trades = num(price, "zTotTran", "ztt")
         buy_iv = num(ct, "buy_I_Volume")
         sell_iv = num(ct, "sell_I_Volume")
         buy_ic = num(ct, "buy_I_Count")
@@ -152,13 +152,13 @@ def main():
         buyer_power = ((buy_iv / buy_ic) / (sell_iv / sell_ic)) if client_type_valid and buy_iv > 0 and sell_iv > 0 else None
         raw_change_pct = ((close / yesterday) - 1) * 100 if close > 0 and yesterday > 0 else None
         change_pct = raw_change_pct if raw_change_pct is not None and abs(raw_change_pct) <= 15 else None
-        base_vol = num(ins, "baseVol", "baseVolume") or num(item, "baseVol", "baseVolume")
+        base_vol = num(ins, "baseVol", "baseVolume", "bv") or num(item, "baseVol", "baseVolume", "bv")
         base_ratio = volume / base_vol if base_vol > 0 else None
         # Ranking is deliberately disabled until source fields pass live validation.
         score = ""
         output.append({
             "symbol": symbol, "name": name, "asset_type": asset_type, "insCode": code,
-            "market": first(ins, "cgrValCotTitle", "flowTitle", "marketName"),
+            "market": first(ins, "cgrValCotTitle", "flowTitle", "marketName", "cGrValCot", "flow"),
             "sector": first(ins, "lSecValTitle", "lSecVal", "sectorName"),
             "close_rial": close, "last_rial": last, "change_pct": round(change_pct, 3) if change_pct is not None else "",
             "volume": int(volume), "trade_count": int(trades), "value_rial": int(value),
