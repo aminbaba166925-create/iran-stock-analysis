@@ -1,0 +1,91 @@
+{
+  "batch": 11,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 9641,
+  "corporate_action_events": 4,
+  "instruments": [
+    {
+      "insCode": "26458514535443899",
+      "symbol": "خليج",
+      "asset_type": "fund",
+      "rows": 712,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "55376739611383226",
+      "symbol": "خوشه",
+      "asset_type": "fund",
+      "rows": 563,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "34728319594918952",
+      "symbol": "خوشه2",
+      "asset_type": "fund",
+      "rows": 563,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "62235397452612911",
+      "symbol": "دارا يكم",
+      "asset_type": "fund",
+      "rows": 1571,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "43478160629821469",
+      "symbol": "دارا يكم2",
+      "asset_type": "fund",
+      "rows": 1571,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "24854455175613815",
+      "symbol": "دارا2",
+      "asset_type": "fund",
+      "rows": 1740,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "34074071043606558",
+      "symbol": "دارونو",
+      "asset_type": "fund",
+      "rows": 476,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "58789178087946067",
+      "symbol": "داريوش",
+      "asset_type": "fund",
+      "rows": 1241,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "43009306066217458",
+      "symbol": "دامون",
+      "asset_type": "fund",
+      "rows": 736,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "61805666737517582",
+      "symbol": "درخشان",
+      "asset_type": "fund",
+      "rows": 468,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T23:00:46.483030+00:00"
+}
