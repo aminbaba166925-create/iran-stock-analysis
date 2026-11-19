@@ -1,0 +1,91 @@
+{
+  "batch": 30,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 12230,
+  "events": 17,
+  "instruments": [
+    {
+      "insCode": "30282299500988269",
+      "symbol": "آكورد",
+      "asset_type": "fund",
+      "rows": 2597,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "8021561335311415",
+      "symbol": "اصيل",
+      "asset_type": "fund",
+      "rows": 638,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "4523009251964699",
+      "symbol": "خورشيد",
+      "asset_type": "fund",
+      "rows": 787,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "44558786393585356",
+      "symbol": "روال",
+      "asset_type": "fund",
+      "rows": 767,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "17226661368470120",
+      "symbol": "سپر",
+      "asset_type": "fund",
+      "rows": 1518,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "38356837895042988",
+      "symbol": "ضمان",
+      "asset_type": "fund",
+      "rows": 1003,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "10795723506538053",
+      "symbol": "فيروزا",
+      "asset_type": "fund",
+      "rows": 2138,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "31569200988534548",
+      "symbol": "لبخند",
+      "asset_type": "fund",
+      "rows": 1012,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "30977409629493496",
+      "symbol": "نيك گستر",
+      "asset_type": "fund",
+      "rows": 612,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "45284811973404357",
+      "symbol": "يارا",
+      "asset_type": "fund",
+      "rows": 1158,
+      "latest_date": "20261118",
+      "events": 3
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:42:18.040724Z"
+}
