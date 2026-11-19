@@ -1,0 +1,91 @@
+{
+  "batch": 52,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 29654,
+  "events": 50,
+  "instruments": [
+    {
+      "insCode": "59266699437480384",
+      "symbol": "ارفع",
+      "asset_type": "share",
+      "rows": 3059,
+      "latest_date": "20261118",
+      "events": 18
+    },
+    {
+      "insCode": "33572783159887732",
+      "symbol": "الكتروماد3",
+      "asset_type": "share",
+      "rows": 143,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "67323019483083232",
+      "symbol": "خاذين3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "17168651758599916",
+      "symbol": "زكشت3",
+      "asset_type": "share",
+      "rows": 2033,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "53234601465283496",
+      "symbol": "فنورد3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "16422980660132735",
+      "symbol": "لطيف",
+      "asset_type": "share",
+      "rows": 1352,
+      "latest_date": "20261118",
+      "events": 6
+    },
+    {
+      "insCode": "36499839999966933",
+      "symbol": "لطيف3",
+      "asset_type": "share",
+      "rows": 1352,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "62603302940123327",
+      "symbol": "ونيرو",
+      "asset_type": "share",
+      "rows": 4892,
+      "latest_date": "20261118",
+      "events": 24
+    },
+    {
+      "insCode": "31465577703694433",
+      "symbol": "ونيرو3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "55420381220358747",
+      "symbol": "وگستر3",
+      "asset_type": "share",
+      "rows": 3833,
+      "latest_date": "20261118",
+      "events": 2
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:48:07.693017Z"
+}
