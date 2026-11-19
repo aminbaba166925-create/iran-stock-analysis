@@ -1,0 +1,91 @@
+{
+  "batch": 17,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 22230,
+  "events": 104,
+  "instruments": [
+    {
+      "insCode": "20092044608974663",
+      "symbol": "احيا",
+      "asset_type": "share",
+      "rows": 636,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "67868738676326187",
+      "symbol": "اخشان",
+      "asset_type": "share",
+      "rows": 755,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "14079693677610396",
+      "symbol": "اسياتك",
+      "asset_type": "share",
+      "rows": 2180,
+      "latest_date": "20261118",
+      "events": 10
+    },
+    {
+      "insCode": "4384288570322406",
+      "symbol": "دلر",
+      "asset_type": "share",
+      "rows": 5190,
+      "latest_date": "20261118",
+      "events": 20
+    },
+    {
+      "insCode": "66645431583903636",
+      "symbol": "سمتاز3",
+      "asset_type": "share",
+      "rows": 143,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "51617145873056483",
+      "symbol": "شتران",
+      "asset_type": "share",
+      "rows": 2419,
+      "latest_date": "20261118",
+      "events": 19
+    },
+    {
+      "insCode": "43781018754867729",
+      "symbol": "شفارس",
+      "asset_type": "share",
+      "rows": 4911,
+      "latest_date": "20261118",
+      "events": 22
+    },
+    {
+      "insCode": "69446612239102459",
+      "symbol": "شكام",
+      "asset_type": "share",
+      "rows": 1306,
+      "latest_date": "20261118",
+      "events": 9
+    },
+    {
+      "insCode": "35178706978554988",
+      "symbol": "شپاس",
+      "asset_type": "share",
+      "rows": 3333,
+      "latest_date": "20261118",
+      "events": 15
+    },
+    {
+      "insCode": "44846320603450383",
+      "symbol": "فروسيل",
+      "asset_type": "share",
+      "rows": 1357,
+      "latest_date": "20261118",
+      "events": 6
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T21:30:06.087095Z"
+}
