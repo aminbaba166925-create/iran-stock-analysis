@@ -1,0 +1,91 @@
+{
+  "batch": 66,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 14929,
+  "events": 16,
+  "instruments": [
+    {
+      "insCode": "66682662312253625",
+      "symbol": "آساس",
+      "asset_type": "fund",
+      "rows": 3123,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "6328167131743522",
+      "symbol": "اتوآگاه",
+      "asset_type": "fund",
+      "rows": 720,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "10236455588057352",
+      "symbol": "انتخاب",
+      "asset_type": "share",
+      "rows": 1326,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "26656080901712513",
+      "symbol": "انتخاب3",
+      "asset_type": "share",
+      "rows": 1326,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "14825677919842501",
+      "symbol": "تكيميا",
+      "asset_type": "share",
+      "rows": 470,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "27096851668435724",
+      "symbol": "جم پيلن",
+      "asset_type": "share",
+      "rows": 1836,
+      "latest_date": "20261118",
+      "events": 8
+    },
+    {
+      "insCode": "26458514535443899",
+      "symbol": "خليج",
+      "asset_type": "fund",
+      "rows": 712,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "61699125428735997",
+      "symbol": "سشرق3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "45292762906823004",
+      "symbol": "كليد",
+      "asset_type": "fund",
+      "rows": 523,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "41549354947422432",
+      "symbol": "پتروفارس",
+      "asset_type": "fund",
+      "rows": 563,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T23:04:58.451450Z"
+}
