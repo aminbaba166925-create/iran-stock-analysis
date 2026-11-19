@@ -1,0 +1,91 @@
+{
+  "batch": 68,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 18873,
+  "events": 26,
+  "instruments": [
+    {
+      "insCode": "41963936424187357",
+      "symbol": "آرتان",
+      "asset_type": "fund",
+      "rows": 30,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "4216536645718658",
+      "symbol": "برليان",
+      "asset_type": "fund",
+      "rows": 1048,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "66754435527963467",
+      "symbol": "كاما3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "18377845653697190",
+      "symbol": "كوانتوم",
+      "asset_type": "fund",
+      "rows": 264,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "31278515339080281",
+      "symbol": "مختلط",
+      "asset_type": "fund",
+      "rows": 228,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "4247709727327181",
+      "symbol": "مفاخر",
+      "asset_type": "share",
+      "rows": 3160,
+      "latest_date": "20261118",
+      "events": 6
+    },
+    {
+      "insCode": "17528249960294496",
+      "symbol": "وتوسم",
+      "asset_type": "share",
+      "rows": 4950,
+      "latest_date": "20261118",
+      "events": 20
+    },
+    {
+      "insCode": "26074657094339395",
+      "symbol": "وتوسم3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "34472339105893593",
+      "symbol": "يلدا",
+      "asset_type": "fund",
+      "rows": 321,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "8040378907652400",
+      "symbol": "يوتيليتي",
+      "asset_type": "fund",
+      "rows": 212,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T23:08:40.377167Z"
+}
