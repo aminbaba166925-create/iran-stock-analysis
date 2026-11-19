@@ -1,0 +1,91 @@
+{
+  "batch": 35,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 24777,
+  "corporate_action_events": 144,
+  "instruments": [
+    {
+      "insCode": "10236455588057352",
+      "symbol": "انتخاب",
+      "asset_type": "share",
+      "rows": 1326,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "69847139870135237",
+      "symbol": "اوان",
+      "asset_type": "share",
+      "rows": 2435,
+      "latest_date": "20261118",
+      "events": 12
+    },
+    {
+      "insCode": "655060129740445",
+      "symbol": "اپال",
+      "asset_type": "share",
+      "rows": 1466,
+      "latest_date": "20261118",
+      "events": 6
+    },
+    {
+      "insCode": "63830424809501048",
+      "symbol": "اپرداز",
+      "asset_type": "share",
+      "rows": 2522,
+      "latest_date": "20261118",
+      "events": 14
+    },
+    {
+      "insCode": "46752599569017089",
+      "symbol": "بترانس",
+      "asset_type": "share",
+      "rows": 5302,
+      "latest_date": "20261118",
+      "events": 29
+    },
+    {
+      "insCode": "63520812390415652",
+      "symbol": "بتهران",
+      "asset_type": "share",
+      "rows": 183,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "33629260529503413",
+      "symbol": "بجهرم",
+      "asset_type": "share",
+      "rows": 1780,
+      "latest_date": "20261118",
+      "events": 9
+    },
+    {
+      "insCode": "5599691633622269",
+      "symbol": "بخاور",
+      "asset_type": "share",
+      "rows": 1542,
+      "latest_date": "20261118",
+      "events": 11
+    },
+    {
+      "insCode": "41625340598198551",
+      "symbol": "بساما",
+      "asset_type": "share",
+      "rows": 3533,
+      "latest_date": "20261118",
+      "events": 24
+    },
+    {
+      "insCode": "47377315952751604",
+      "symbol": "بسويچ",
+      "asset_type": "share",
+      "rows": 4688,
+      "latest_date": "20261118",
+      "events": 33
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T23:47:03.055767+00:00"
+}
