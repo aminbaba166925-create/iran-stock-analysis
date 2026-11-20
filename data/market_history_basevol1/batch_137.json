@@ -1,0 +1,19 @@
+{
+  "batch": 137,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1101,
+  "corporate_action_events": 5,
+  "instruments": [
+    {
+      "insCode": "48287767791629523",
+      "symbol": "رشد",
+      "asset_type": "fund",
+      "rows": 1101,
+      "latest_date": "20261118",
+      "events": 5
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T02:26:56.621458+00:00"
+}
