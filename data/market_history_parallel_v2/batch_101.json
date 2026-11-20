@@ -1,0 +1,91 @@
+{
+  "batch": 101,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 8041,
+  "events": 0,
+  "instruments": [
+    {
+      "insCode": "14592453058536390",
+      "symbol": "اعتبارسهام2",
+      "asset_type": "fund",
+      "rows": 335,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "34728319594918952",
+      "symbol": "خوشه2",
+      "asset_type": "fund",
+      "rows": 563,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "3786026493546675",
+      "symbol": "رشدي كيان2",
+      "asset_type": "fund",
+      "rows": 523,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "53363812948280634",
+      "symbol": "شميم2",
+      "asset_type": "fund",
+      "rows": 563,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "11072322261418930",
+      "symbol": "صنهال2",
+      "asset_type": "fund",
+      "rows": 881,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "53254637903825194",
+      "symbol": "كيان2",
+      "asset_type": "fund",
+      "rows": 2406,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "53882645739315163",
+      "symbol": "هم ارز2",
+      "asset_type": "fund",
+      "rows": 247,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "29884261753438378",
+      "symbol": "ياقوت2",
+      "asset_type": "fund",
+      "rows": 1602,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "70698197503236949",
+      "symbol": "پتروپاداش2",
+      "asset_type": "fund",
+      "rows": 553,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "28280189352163772",
+      "symbol": "پيشران",
+      "asset_type": "fund",
+      "rows": 368,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:39:01.463845Z"
+}
