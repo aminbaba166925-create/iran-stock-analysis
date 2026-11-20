@@ -1,0 +1,91 @@
+{
+  "batch": 95,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 22489,
+  "events": 122,
+  "instruments": [
+    {
+      "insCode": "55127657985997520",
+      "symbol": "آريا",
+      "asset_type": "share",
+      "rows": 1603,
+      "latest_date": "20261118",
+      "events": 10
+    },
+    {
+      "insCode": "60235881999727383",
+      "symbol": "آكو",
+      "asset_type": "share",
+      "rows": 140,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "23293437377896568",
+      "symbol": "تاصيكو",
+      "asset_type": "share",
+      "rows": 1830,
+      "latest_date": "20261118",
+      "events": 12
+    },
+    {
+      "insCode": "17939384202383793",
+      "symbol": "ثغرب",
+      "asset_type": "share",
+      "rows": 3372,
+      "latest_date": "20261118",
+      "events": 16
+    },
+    {
+      "insCode": "14916489896692147",
+      "symbol": "زملارد",
+      "asset_type": "share",
+      "rows": 1514,
+      "latest_date": "20261118",
+      "events": 9
+    },
+    {
+      "insCode": "33808206014018431",
+      "symbol": "سمازن",
+      "asset_type": "share",
+      "rows": 4561,
+      "latest_date": "20261118",
+      "events": 24
+    },
+    {
+      "insCode": "204092872752957",
+      "symbol": "شصدف",
+      "asset_type": "share",
+      "rows": 1722,
+      "latest_date": "20261118",
+      "events": 8
+    },
+    {
+      "insCode": "25244329144808274",
+      "symbol": "فارس",
+      "asset_type": "share",
+      "rows": 3301,
+      "latest_date": "20261118",
+      "events": 21
+    },
+    {
+      "insCode": "13666407494621646",
+      "symbol": "فراز",
+      "asset_type": "fund",
+      "rows": 1378,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "62977319271289925",
+      "symbol": "كي بي سي",
+      "asset_type": "share",
+      "rows": 3068,
+      "latest_date": "20261118",
+      "events": 21
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:26:25.631937Z"
+}
