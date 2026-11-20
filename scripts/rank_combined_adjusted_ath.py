@@ -50,7 +50,9 @@ master_by_file={}
 for item in master:
     code=str(item.get("insCode",""))
     if code in base_codes and item.get("adjusted_file") and item.get("branch"):
-        key=(item["branch"],item["adjusted_file"])
+        path=item["adjusted_file"]
+        if not path.startswith("data/"): path="data/"+path
+        key=(item["branch"],path)
         master_by_file.setdefault(key,set()).add(code)
 for (branch,path),codes in master_by_file.items():
     rows=read_gz_bytes(git_bytes(branch,path))
