@@ -1,0 +1,19 @@
+{
+  "batch": 307,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 934,
+  "corporate_action_events": 3,
+  "instruments": [
+    {
+      "insCode": "55070742656326885",
+      "symbol": "پايا",
+      "asset_type": "fund",
+      "rows": 934,
+      "latest_date": "20261118",
+      "events": 3
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T04:20:41.963189+00:00"
+}
