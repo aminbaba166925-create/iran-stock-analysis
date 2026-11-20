@@ -1,0 +1,19 @@
+{
+  "batch": 648,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5275,
+  "corporate_action_events": 16,
+  "instruments": [
+    {
+      "insCode": "41935584690956944",
+      "symbol": "پتاير",
+      "asset_type": "share",
+      "rows": 5275,
+      "latest_date": "20261118",
+      "events": 16
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T08:26:51.685139+00:00"
+}
