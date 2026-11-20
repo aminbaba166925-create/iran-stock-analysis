@@ -1,91 +1,19 @@
 {
   "batch": 47,
-  "success": 10,
+  "success": 1,
   "failed": 0,
-  "raw_rows": 33411,
-  "corporate_action_events": 148,
+  "raw_rows": 108,
+  "corporate_action_events": 0,
   "instruments": [
     {
-      "insCode": "41284516796232939",
-      "symbol": "سهگمت",
-      "asset_type": "share",
-      "rows": 4910,
+      "insCode": "17802352521411336",
+      "symbol": "اكستريم",
+      "asset_type": "fund",
+      "rows": 108,
       "latest_date": "20261118",
-      "events": 18
-    },
-    {
-      "insCode": "14617104402836487",
-      "symbol": "سيلام",
-      "asset_type": "share",
-      "rows": 4634,
-      "latest_date": "20261118",
-      "events": 18
-    },
-    {
-      "insCode": "7711282667602555",
-      "symbol": "شاراك",
-      "asset_type": "share",
-      "rows": 5882,
-      "latest_date": "20261118",
-      "events": 24
-    },
-    {
-      "insCode": "48753732042176709",
-      "symbol": "شبريز",
-      "asset_type": "share",
-      "rows": 3991,
-      "latest_date": "20261118",
-      "events": 19
-    },
-    {
-      "insCode": "35366681030756042",
-      "symbol": "شبندر",
-      "asset_type": "share",
-      "rows": 3518,
-      "latest_date": "20261118",
-      "events": 17
-    },
-    {
-      "insCode": "14031158866706953",
-      "symbol": "شراز",
-      "asset_type": "share",
-      "rows": 816,
-      "latest_date": "20261118",
-      "events": 4
-    },
-    {
-      "insCode": "2400322364771558",
-      "symbol": "شستا",
-      "asset_type": "share",
-      "rows": 1585,
-      "latest_date": "20261118",
-      "events": 9
-    },
-    {
-      "insCode": "30974710508383145",
-      "symbol": "شسينا",
-      "asset_type": "share",
-      "rows": 5006,
-      "latest_date": "20261118",
-      "events": 25
-    },
-    {
-      "insCode": "204092872752957",
-      "symbol": "شصدف",
-      "asset_type": "share",
-      "rows": 1722,
-      "latest_date": "20261118",
-      "events": 8
-    },
-    {
-      "insCode": "21772258644715569",
-      "symbol": "شغدير",
-      "asset_type": "share",
-      "rows": 1347,
-      "latest_date": "20261118",
-      "events": 6
+      "events": 0
     }
   ],
   "failures": [],
-  "saved_at_utc": "2026-11-20T00:12:10.389506+00:00"
+  "saved_at_utc": "2026-11-20T01:22:58.819423+00:00"
 }
