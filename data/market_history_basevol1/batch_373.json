@@ -1,0 +1,19 @@
+{
+  "batch": 373,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 470,
+  "corporate_action_events": 3,
+  "instruments": [
+    {
+      "insCode": "14825677919842501",
+      "symbol": "تكيميا",
+      "asset_type": "share",
+      "rows": 470,
+      "latest_date": "20261118",
+      "events": 3
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:08:17.617190+00:00"
+}
