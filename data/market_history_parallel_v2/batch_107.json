@@ -1,0 +1,35 @@
+{
+  "batch": 107,
+  "success": 3,
+  "failed": 0,
+  "raw_rows": 3049,
+  "events": 0,
+  "instruments": [
+    {
+      "insCode": "26958329630564882",
+      "symbol": "ارزش2",
+      "asset_type": "fund",
+      "rows": 1545,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "70766443960930830",
+      "symbol": "بهين رو2",
+      "asset_type": "fund",
+      "rows": 768,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "24634634008171593",
+      "symbol": "جواهر2",
+      "asset_type": "fund",
+      "rows": 736,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:51:26.094069Z"
+}
