@@ -1,0 +1,19 @@
+{
+  "batch": 617,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 2814,
+  "corporate_action_events": 18,
+  "instruments": [
+    {
+      "insCode": "47333458678352378",
+      "symbol": "وخاور",
+      "asset_type": "share",
+      "rows": 2814,
+      "latest_date": "20261118",
+      "events": 18
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T08:03:45.136322+00:00"
+}
