@@ -1,17 +1,17 @@
 {
-  "generated_at_utc": "2026-11-20T00:48:56.100741+00:00",
+  "generated_at_utc": "2026-11-20T08:36:15.309602+00:00",
   "cohort": "basevol1",
   "filter": "baseVol == 1",
   "observed_live_universe": 1071,
   "expected_count_user_reported": 952,
   "already_covered_by_master": 410,
   "new_candidates": 661,
-  "succeeded": 656,
+  "succeeded": 665,
   "failed": 5,
-  "raw_rows": 1264375,
+  "raw_rows": 1273332,
   "corporate_action_events": 4819,
-  "workers": 4,
-  "batch_size": 10,
+  "workers": 1,
+  "batch_size": 1,
   "failures": [
     {
       "insCode": "25187135698923656",
