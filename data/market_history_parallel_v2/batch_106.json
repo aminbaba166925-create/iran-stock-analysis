@@ -1,0 +1,91 @@
+{
+  "batch": 106,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 9357,
+  "events": 1,
+  "instruments": [
+    {
+      "insCode": "48702596863145683",
+      "symbol": "آگاس2",
+      "asset_type": "fund",
+      "rows": 2660,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "7907432614475432",
+      "symbol": "ارمغان2",
+      "asset_type": "fund",
+      "rows": 1707,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "55537729602532087",
+      "symbol": "اصيل2",
+      "asset_type": "fund",
+      "rows": 638,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "47127311832445560",
+      "symbol": "تمشك2",
+      "asset_type": "fund",
+      "rows": 939,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "55835993914721095",
+      "symbol": "رايبد2",
+      "asset_type": "fund",
+      "rows": 222,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "10495792182142221",
+      "symbol": "زيتون2",
+      "asset_type": "fund",
+      "rows": 1223,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "23614259119330713",
+      "symbol": "سيمان2",
+      "asset_type": "fund",
+      "rows": 74,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "16219781535211997",
+      "symbol": "نويد2",
+      "asset_type": "fund",
+      "rows": 58,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "52806889703092757",
+      "symbol": "پايا2",
+      "asset_type": "fund",
+      "rows": 934,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "57233073645766428",
+      "symbol": "پتروآگاه2",
+      "asset_type": "fund",
+      "rows": 902,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:50:20.940204Z"
+}
