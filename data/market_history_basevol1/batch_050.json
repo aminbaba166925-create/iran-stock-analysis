@@ -1,0 +1,91 @@
+{
+  "batch": 50,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 32141,
+  "corporate_action_events": 142,
+  "instruments": [
+    {
+      "insCode": "20487994977117557",
+      "symbol": "غشهد",
+      "asset_type": "share",
+      "rows": 5741,
+      "latest_date": "20261118",
+      "events": 10
+    },
+    {
+      "insCode": "33611155027418901",
+      "symbol": "غشهداب",
+      "asset_type": "share",
+      "rows": 2370,
+      "latest_date": "20261118",
+      "events": 18
+    },
+    {
+      "insCode": "71758511001096824",
+      "symbol": "غصينو",
+      "asset_type": "share",
+      "rows": 1465,
+      "latest_date": "20261118",
+      "events": 12
+    },
+    {
+      "insCode": "16410724132711490",
+      "symbol": "غفارس",
+      "asset_type": "share",
+      "rows": 2909,
+      "latest_date": "20261118",
+      "events": 10
+    },
+    {
+      "insCode": "62404730109947970",
+      "symbol": "غكورش",
+      "asset_type": "share",
+      "rows": 1508,
+      "latest_date": "20261118",
+      "events": 9
+    },
+    {
+      "insCode": "6131290133202745",
+      "symbol": "غمهرا",
+      "asset_type": "share",
+      "rows": 5079,
+      "latest_date": "20261118",
+      "events": 25
+    },
+    {
+      "insCode": "5516102131364383",
+      "symbol": "غمينو",
+      "asset_type": "share",
+      "rows": 3112,
+      "latest_date": "20261118",
+      "events": 21
+    },
+    {
+      "insCode": "37842793167868642",
+      "symbol": "غويتا",
+      "asset_type": "share",
+      "rows": 1768,
+      "latest_date": "20261118",
+      "events": 10
+    },
+    {
+      "insCode": "45518744711972166",
+      "symbol": "غپآذر",
+      "asset_type": "share",
+      "rows": 2719,
+      "latest_date": "20261118",
+      "events": 11
+    },
+    {
+      "insCode": "34032872653290886",
+      "symbol": "غپاك",
+      "asset_type": "share",
+      "rows": 5470,
+      "latest_date": "20261118",
+      "events": 16
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:17:08.043806+00:00"
+}
