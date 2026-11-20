@@ -1,0 +1,19 @@
+{
+  "batch": 635,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4984,
+  "corporate_action_events": 19,
+  "instruments": [
+    {
+      "insCode": "23086515493897579",
+      "symbol": "ولغدر",
+      "asset_type": "share",
+      "rows": 4984,
+      "latest_date": "20261118",
+      "events": 19
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T08:17:48.492266+00:00"
+}
