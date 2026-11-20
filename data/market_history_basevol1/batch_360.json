@@ -1,0 +1,19 @@
+{
+  "batch": 360,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4745,
+  "corporate_action_events": 26,
+  "instruments": [
+    {
+      "insCode": "69454539056549106",
+      "symbol": "بشهاب",
+      "asset_type": "share",
+      "rows": 4745,
+      "latest_date": "20261118",
+      "events": 26
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T04:58:02.027803+00:00"
+}
