@@ -1,165 +1,9 @@
 {
   "method": "(1 - latest adjusted close / maximum adjusted daily high) * 100",
-  "source": "adjusted daily OHLC archive for baseVol==1 cohort",
+  "source": "adjusted daily OHLC archive for baseVol==1 ordinary shares; funds, series under 200 rows, stale records excluded",
   "archive_as_of": "2026-11-18",
-  "symbols_with_valid_data": 514,
+  "symbols_with_valid_data": 169,
   "top50": [
-    {
-      "insCode": "43478160629821469",
-      "symbol": "دارا يكم2",
-      "name": "صندوق واسطه گري مالي يكم-سهام",
-      "asset_type": "fund",
-      "rows": 70,
-      "peak": 100000.0,
-      "peak_date": "20200526",
-      "latest_date": "20261118",
-      "latest_close": 1.0,
-      "distance_pct": 100.0
-    },
-    {
-      "insCode": "36273975537785965",
-      "symbol": "سرو2",
-      "name": "صندوق س سروسودمند مدبران-سهام",
-      "asset_type": "fund",
-      "rows": 1048,
-      "peak": 37410.0,
-      "peak_date": "20200526",
-      "latest_date": "20261118",
-      "latest_close": 1.0,
-      "distance_pct": 100.0
-    },
-    {
-      "insCode": "53254637903825194",
-      "symbol": "كيان2",
-      "name": "صندوق س. با درآمد ثابت كيان",
-      "asset_type": "fund",
-      "rows": 1633,
-      "peak": 22611.0,
-      "peak_date": "20200526",
-      "latest_date": "20261118",
-      "latest_close": 1.0,
-      "distance_pct": 100.0
-    },
-    {
-      "insCode": "7907432614475432",
-      "symbol": "ارمغان2",
-      "name": "ص سرمايه گذاري ارمغان ايرانيان",
-      "asset_type": "fund",
-      "rows": 300,
-      "peak": 10057.0,
-      "peak_date": "20200526",
-      "latest_date": "20261118",
-      "latest_close": 1.0,
-      "distance_pct": 99.99
-    },
-    {
-      "insCode": "64701620739344512",
-      "symbol": "افران2",
-      "name": "صندوق س افرا نماد پايدار-ثابت",
-      "asset_type": "fund",
-      "rows": 1333,
-      "peak": 10827.0,
-      "peak_date": "20200526",
-      "latest_date": "20261118",
-      "latest_close": 1.0,
-      "distance_pct": 99.99
-    },
-    {
-      "insCode": "71516048161401340",
-      "symbol": "كمند2",
-      "name": "صندوق س. با درآمد ثابت كمند",
-      "asset_type": "fund",
-      "rows": 1429,
-      "peak": 10266.0,
-      "peak_date": "20200526",
-      "latest_date": "20261118",
-      "latest_close": 1.0,
-      "distance_pct": 99.99
-    },
-    {
-      "insCode": "29884261753438378",
-      "symbol": "ياقوت2",
-      "name": "صندوق س ياقوت آگاه-ثابت",
-      "asset_type": "fund",
-      "rows": 1130,
-      "peak": 10620.0,
-      "peak_date": "20200526",
-      "latest_date": "20261118",
-      "latest_close": 1.0,
-      "distance_pct": 99.99
-    },
-    {
-      "insCode": "39710474979238367",
-      "symbol": "سها",
-      "name": "صندوق س مشترك مبين سرمايه-سهام",
-      "asset_type": "fund",
-      "rows": 200,
-      "peak": 1688642.0,
-      "peak_date": "20261014",
-      "latest_date": "20261118",
-      "latest_close": 15860.0,
-      "distance_pct": 99.06
-    },
-    {
-      "insCode": "67522512921942106",
-      "symbol": "پادا",
-      "name": "صندوق س.پاداش سرمايه پارس-س",
-      "asset_type": "fund",
-      "rows": 1203,
-      "peak": 474781.0,
-      "peak_date": "20260908",
-      "latest_date": "20261118",
-      "latest_close": 17875.0,
-      "distance_pct": 96.24
-    },
-    {
-      "insCode": "32941062994509455",
-      "symbol": "مانا",
-      "name": "صندوق س.مانا الگوريتم-سهام",
-      "asset_type": "fund",
-      "rows": 465,
-      "peak": 890830.0,
-      "peak_date": "20240922",
-      "latest_date": "20261118",
-      "latest_close": 34036.0,
-      "distance_pct": 96.18
-    },
-    {
-      "insCode": "46700660505281786",
-      "symbol": "طلا",
-      "name": "صندوق س. كالاي پارسيان",
-      "asset_type": "fund",
-      "rows": 2211,
-      "peak": 1919980.0,
-      "peak_date": "20261004",
-      "latest_date": "20261118",
-      "latest_close": 168468.0,
-      "distance_pct": 91.23
-    },
-    {
-      "insCode": "65023851436340574",
-      "symbol": "كاردان",
-      "name": "صندوق س تجارت شاخصي كاردان",
-      "asset_type": "fund",
-      "rows": 2131,
-      "peak": 409480.0,
-      "peak_date": "20230506",
-      "latest_date": "20261118",
-      "latest_close": 38269.0,
-      "distance_pct": 90.65
-    },
-    {
-      "insCode": "27639047710974505",
-      "symbol": "خبرگان",
-      "name": "صندوق س انديشه خبرگان-سهام",
-      "asset_type": "fund",
-      "rows": 494,
-      "peak": 453650.0,
-      "peak_date": "20250510",
-      "latest_date": "20261118",
-      "latest_close": 78265.0,
-      "distance_pct": 82.75
-    },
     {
       "insCode": "33611155027418901",
       "symbol": "غشهداب",
@@ -183,18 +27,6 @@
       "latest_date": "20261118",
       "latest_close": 5050.0,
       "distance_pct": 79.03
-    },
-    {
-      "insCode": "28788598290160782",
-      "symbol": "الماس",
-      "name": "صندوق س.امين تدبيرگران فردا-س",
-      "asset_type": "fund",
-      "rows": 2272,
-      "peak": 248377.0,
-      "peak_date": "20250111",
-      "latest_date": "20261118",
-      "latest_close": 58959.0,
-      "distance_pct": 76.26
     },
     {
       "insCode": "11622051128546106",
@@ -233,18 +65,6 @@
       "distance_pct": 73.16
     },
     {
-      "insCode": "64942549055019553",
-      "symbol": "سرو",
-      "name": "صندوق س سروسودمند مدبران-سهام",
-      "asset_type": "fund",
-      "rows": 1706,
-      "peak": 151990.0,
-      "peak_date": "20230507",
-      "latest_date": "20261118",
-      "latest_close": 49157.0,
-      "distance_pct": 67.66
-    },
-    {
       "insCode": "66456062140680461",
       "symbol": "ثامان",
       "name": "سامان‌ گستراصفهان‌",
@@ -269,42 +89,6 @@
       "distance_pct": 64.53
     },
     {
-      "insCode": "66682662312253625",
-      "symbol": "آساس",
-      "name": "صندوق س.آسمان آرماني سهام-س",
-      "asset_type": "fund",
-      "rows": 5526,
-      "peak": 384950.0,
-      "peak_date": "20231218",
-      "latest_date": "20261118",
-      "latest_close": 140625.0,
-      "distance_pct": 63.47
-    },
-    {
-      "insCode": "69067576215760005",
-      "symbol": "كاريس",
-      "name": "صندوق س.سپند كاريزما-س",
-      "asset_type": "fund",
-      "rows": 2640,
-      "peak": 247980.0,
-      "peak_date": "20200831",
-      "latest_date": "20261118",
-      "latest_close": 93772.0,
-      "distance_pct": 62.19
-    },
-    {
-      "insCode": "11427939669935844",
-      "symbol": "اطلس",
-      "name": "صندوق س.توسعه اطلس مفيد-س",
-      "asset_type": "fund",
-      "rows": 2929,
-      "peak": 502899.0,
-      "peak_date": "20230507",
-      "latest_date": "20261118",
-      "latest_close": 191490.0,
-      "distance_pct": 61.92
-    },
-    {
       "insCode": "49270349234092953",
       "symbol": "خاور",
       "name": "ايران خودرو ديزل",
@@ -317,18 +101,6 @@
       "distance_pct": 61.21
     },
     {
-      "insCode": "45452221088910484",
-      "symbol": "عقيق",
-      "name": "صندوق سرمايه گذاري عقيق-سهام",
-      "asset_type": "fund",
-      "rows": 933,
-      "peak": 99000.0,
-      "peak_date": "20230506",
-      "latest_date": "20261118",
-      "latest_close": 39866.0,
-      "distance_pct": 59.73
-    },
-    {
       "insCode": "20453828618330936",
       "symbol": "بنيرو",
       "name": "نيروترانس‌",
@@ -339,18 +111,6 @@
       "latest_date": "20261118",
       "latest_close": 4350.0,
       "distance_pct": 59.72
-    },
-    {
-      "insCode": "49782064767608295",
-      "symbol": "دي سهام",
-      "name": "صندوق س.دي سهام-سهام",
-      "asset_type": "fund",
-      "rows": 394,
-      "peak": 74710.0,
-      "peak_date": "20250111",
-      "latest_date": "20261118",
-      "latest_close": 31061.0,
-      "distance_pct": 58.42
     },
     {
       "insCode": "27952969918967492",
@@ -401,18 +161,6 @@
       "distance_pct": 54.75
     },
     {
-      "insCode": "36592972482259020",
-      "symbol": "آسام",
-      "name": "صندوق س.آرمان سپهر آتي-م",
-      "asset_type": "fund",
-      "rows": 2429,
-      "peak": 156990.0,
-      "peak_date": "20200801",
-      "latest_date": "20261118",
-      "latest_close": 71090.0,
-      "distance_pct": 54.72
-    },
-    {
       "insCode": "17617474823279712",
       "symbol": "آ س پ",
       "name": "آ.س.پ",
@@ -435,18 +183,6 @@
       "latest_date": "20261118",
       "latest_close": 5820.0,
       "distance_pct": 48.86
-    },
-    {
-      "insCode": "62940838026283460",
-      "symbol": "توريل2",
-      "name": "توكاريل",
-      "asset_type": "share",
-      "rows": 25,
-      "peak": 7931.0,
-      "peak_date": "20140512",
-      "latest_date": "20261118",
-      "latest_close": 4100.0,
-      "distance_pct": 48.3
     },
     {
       "insCode": "27000326841257664",
@@ -483,18 +219,6 @@
       "latest_date": "20261118",
       "latest_close": 2907.0,
       "distance_pct": 45.57
-    },
-    {
-      "insCode": "15124889255100138",
-      "symbol": "رويش",
-      "name": "ص.س.جسورانه رويش لوتوس",
-      "asset_type": "fund",
-      "rows": 140,
-      "peak": 4780000.0,
-      "peak_date": "20230501",
-      "latest_date": "20260913",
-      "latest_close": 2660000.0,
-      "distance_pct": 44.35
     },
     {
       "insCode": "70219663893822560",
@@ -569,18 +293,6 @@
       "distance_pct": 36.06
     },
     {
-      "insCode": "12590355983583239",
-      "symbol": "نقرين",
-      "name": "صندوق س.كالاي نوويرا1",
-      "asset_type": "fund",
-      "rows": 135,
-      "peak": 13600.0,
-      "peak_date": "20260511",
-      "latest_date": "20261118",
-      "latest_close": 8830.0,
-      "distance_pct": 35.07
-    },
-    {
       "insCode": "33420285433308219",
       "symbol": "زپارس",
       "name": "ملي كشت و صنعت و دامپروري پارس",
@@ -593,16 +305,304 @@
       "distance_pct": 35.02
     },
     {
-      "insCode": "49716396555783214",
-      "symbol": "سشمال2",
+      "insCode": "17059960254855208",
+      "symbol": "غبهنوش",
+      "name": "بهنوش‌ ايران‌",
+      "asset_type": "share",
+      "rows": 4205,
+      "peak": 148819.5505,
+      "peak_date": "20201220",
+      "latest_date": "20261118",
+      "latest_close": 103300.0,
+      "distance_pct": 30.59
+    },
+    {
+      "insCode": "11129387075131725",
+      "symbol": "تملت",
+      "name": "تامين سرمايه بانك ملت",
+      "asset_type": "share",
+      "rows": 1471,
+      "peak": 3496.5359,
+      "peak_date": "20200815",
+      "latest_date": "20261118",
+      "latest_close": 2515.0,
+      "distance_pct": 28.07
+    },
+    {
+      "insCode": "69847139870135237",
+      "symbol": "اوان",
+      "name": "مبين وان كيش",
+      "asset_type": "share",
+      "rows": 2047,
+      "peak": 20676.5686,
+      "peak_date": "20200628",
+      "latest_date": "20261118",
+      "latest_close": 14890.0,
+      "distance_pct": 27.99
+    },
+    {
+      "insCode": "46178280540110577",
+      "symbol": "بفجر",
+      "name": "فجر انرژي خليج فارس",
+      "asset_type": "share",
+      "rows": 2143,
+      "peak": 15492.9264,
+      "peak_date": "20260110",
+      "latest_date": "20261118",
+      "latest_close": 11160.0,
+      "distance_pct": 27.97
+    },
+    {
+      "insCode": "41625340598198551",
+      "symbol": "بساما",
+      "name": "بيمه سامان",
+      "asset_type": "share",
+      "rows": 3023,
+      "peak": 15990.0,
+      "peak_date": "20260927",
+      "latest_date": "20261118",
+      "latest_close": 11570.0,
+      "distance_pct": 27.64
+    },
+    {
+      "insCode": "14617104402836487",
+      "symbol": "سيلام",
+      "name": "سيمان‌ ايلام‌",
+      "asset_type": "share",
+      "rows": 3084,
+      "peak": 29417.4745,
+      "peak_date": "20230710",
+      "latest_date": "20261118",
+      "latest_close": 22540.0,
+      "distance_pct": 23.38
+    },
+    {
+      "insCode": "18599703143458101",
+      "symbol": "اميد",
+      "name": "تامين سرمايه اميد",
+      "asset_type": "share",
+      "rows": 1995,
+      "peak": 5715.4034,
+      "peak_date": "20200818",
+      "latest_date": "20261118",
+      "latest_close": 4420.0,
+      "distance_pct": 22.67
+    },
+    {
+      "insCode": "33938004134399485",
+      "symbol": "صبا",
+      "name": "گروه مالي صبا تامين",
+      "asset_type": "share",
+      "rows": 628,
+      "peak": 12910.0,
+      "peak_date": "20261020",
+      "latest_date": "20261118",
+      "latest_close": 10050.0,
+      "distance_pct": 22.15
+    },
+    {
+      "insCode": "23293437377896568",
+      "symbol": "تاصيكو",
+      "name": "سرمايه گذاري صدرتامين",
+      "asset_type": "share",
+      "rows": 1693,
+      "peak": 45950.0,
+      "peak_date": "20261020",
+      "latest_date": "20261118",
+      "latest_close": 35890.0,
+      "distance_pct": 21.89
+    },
+    {
+      "insCode": "13243992182070788",
+      "symbol": "درهآور",
+      "name": "دارويي ره آورد تامين",
+      "asset_type": "share",
+      "rows": 1647,
+      "peak": 17880.0,
+      "peak_date": "20260908",
+      "latest_date": "20261118",
+      "latest_close": 14000.0,
+      "distance_pct": 21.7
+    },
+    {
+      "insCode": "65883838195688438",
+      "symbol": "خودرو",
+      "name": "ايران‌ خودرو",
+      "asset_type": "share",
+      "rows": 5324,
+      "peak": 946.0043,
+      "peak_date": "20200728",
+      "latest_date": "20261118",
+      "latest_close": 743.0,
+      "distance_pct": 21.46
+    },
+    {
+      "insCode": "47756003257788498",
+      "symbol": "حگهر",
+      "name": "حمل و نقل گهرترابر سيرجان",
+      "asset_type": "share",
+      "rows": 922,
+      "peak": 4112.0902,
+      "peak_date": "20250428",
+      "latest_date": "20261118",
+      "latest_close": 3230.0,
+      "distance_pct": 21.45
+    },
+    {
+      "insCode": "57300230097485720",
+      "symbol": "غگيلا",
+      "name": "شيرپاستوريزه پگاه گيلان",
+      "asset_type": "share",
+      "rows": 1434,
+      "peak": 45240.0,
+      "peak_date": "20261007",
+      "latest_date": "20261118",
+      "latest_close": 35600.0,
+      "distance_pct": 21.31
+    },
+    {
+      "insCode": "60654872678917533",
+      "symbol": "سقاين",
+      "name": "سيمان‌ قائن‌",
+      "asset_type": "share",
+      "rows": 3305,
+      "peak": 40870.0,
+      "peak_date": "20261020",
+      "latest_date": "20261118",
+      "latest_close": 32230.0,
+      "distance_pct": 21.14
+    },
+    {
+      "insCode": "8234855558996646",
+      "symbol": "غدانه",
+      "name": "پنبه و دانه هاي روغني خراسان",
+      "asset_type": "share",
+      "rows": 760,
+      "peak": 21870.0,
+      "peak_date": "20261013",
+      "latest_date": "20261118",
+      "latest_close": 17410.0,
+      "distance_pct": 20.39
+    },
+    {
+      "insCode": "29747059672582491",
+      "symbol": "سهرمز",
+      "name": "سيمان‌هرمزگان‌",
+      "asset_type": "share",
+      "rows": 3282,
+      "peak": 26500.0,
+      "peak_date": "20260620",
+      "latest_date": "20261118",
+      "latest_close": 21200.0,
+      "distance_pct": 20.0
+    },
+    {
+      "insCode": "35366681030756042",
+      "symbol": "شبندر",
+      "name": "پالايش نفت بندرعباس",
+      "asset_type": "share",
+      "rows": 2819,
+      "peak": 16310.0,
+      "peak_date": "20260919",
+      "latest_date": "20261118",
+      "latest_close": 13150.0,
+      "distance_pct": 19.37
+    },
+    {
+      "insCode": "67327029014085707",
+      "symbol": "سخزر",
+      "name": "سيمان‌ خزر",
+      "asset_type": "share",
+      "rows": 3969,
+      "peak": 9600.0,
+      "peak_date": "20261024",
+      "latest_date": "20261118",
+      "latest_close": 7800.0,
+      "distance_pct": 18.75
+    },
+    {
+      "insCode": "12387472624849835",
+      "symbol": "داسوه",
+      "name": "داروسازي‌ اسوه‌",
+      "asset_type": "share",
+      "rows": 5016,
+      "peak": 142300.0,
+      "peak_date": "20261027",
+      "latest_date": "20261118",
+      "latest_close": 115800.0,
+      "distance_pct": 18.62
+    },
+    {
+      "insCode": "6757220448540984",
+      "symbol": "سشمال",
       "name": "سيمان‌ شمال‌",
       "asset_type": "share",
-      "rows": 34,
-      "peak": 32300.0,
-      "peak_date": "20250524",
+      "rows": 4639,
+      "peak": 26380.0,
+      "peak_date": "20261021",
       "latest_date": "20261118",
-      "latest_close": 21630.0,
-      "distance_pct": 33.03
+      "latest_close": 21510.0,
+      "distance_pct": 18.46
+    },
+    {
+      "insCode": "69454539056549106",
+      "symbol": "بشهاب",
+      "name": "لامپ‌  پارس‌ شهاب‌",
+      "asset_type": "share",
+      "rows": 3737,
+      "peak": 12650.0,
+      "peak_date": "20261026",
+      "latest_date": "20261118",
+      "latest_close": 10360.0,
+      "distance_pct": 18.1
+    },
+    {
+      "insCode": "49054891736433700",
+      "symbol": "دعبيد",
+      "name": "لابراتوارداروسازي‌  دكترعبيدي‌",
+      "asset_type": "share",
+      "rows": 4324,
+      "peak": 31000.0,
+      "peak_date": "20261010",
+      "latest_date": "20261118",
+      "latest_close": 25520.0,
+      "distance_pct": 17.68
+    },
+    {
+      "insCode": "22811176775480091",
+      "symbol": "اخابر",
+      "name": "مخابرات ايران",
+      "asset_type": "share",
+      "rows": 3836,
+      "peak": 1588.9665,
+      "peak_date": "20200812",
+      "latest_date": "20261118",
+      "latest_close": 1309.0,
+      "distance_pct": 17.62
+    },
+    {
+      "insCode": "36899214178084525",
+      "symbol": "شفا",
+      "name": "سرمايه گذاري شفادارو",
+      "asset_type": "share",
+      "rows": 1920,
+      "peak": 88990.0,
+      "peak_date": "20261028",
+      "latest_date": "20261118",
+      "latest_close": 73470.0,
+      "distance_pct": 17.44
+    },
+    {
+      "insCode": "10568944722570445",
+      "symbol": "سصفها",
+      "name": "سيمان‌اصفهان‌",
+      "asset_type": "share",
+      "rows": 3047,
+      "peak": 2121.0,
+      "peak_date": "20261014",
+      "latest_date": "20261118",
+      "latest_close": 1754.0,
+      "distance_pct": 17.3
     }
   ]
 }
