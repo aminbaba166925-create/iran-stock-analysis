@@ -1,0 +1,16 @@
+{
+  "batch": 481,
+  "success": 0,
+  "failed": 1,
+  "raw_rows": 0,
+  "corporate_action_events": 0,
+  "instruments": [],
+  "failures": [
+    {
+      "insCode": "69243469815198168",
+      "symbol": "شكبير",
+      "error": "daily history too short: 8"
+    }
+  ],
+  "saved_at_utc": "2026-11-20T06:24:46.787845+00:00"
+}
