@@ -1,0 +1,19 @@
+{
+  "batch": 628,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5680,
+  "corporate_action_events": 25,
+  "instruments": [
+    {
+      "insCode": "57309221039930244",
+      "symbol": "وصنعت",
+      "asset_type": "share",
+      "rows": 5680,
+      "latest_date": "20261118",
+      "events": 25
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T08:11:48.436460+00:00"
+}
