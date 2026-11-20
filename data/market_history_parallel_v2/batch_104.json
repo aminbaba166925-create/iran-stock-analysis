@@ -1,0 +1,91 @@
+{
+  "batch": 104,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 7190,
+  "events": 0,
+  "instruments": [
+    {
+      "insCode": "15432794844050822",
+      "symbol": "آلا2",
+      "asset_type": "fund",
+      "rows": 815,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "8890187633205068",
+      "symbol": "بازبيمه2",
+      "asset_type": "fund",
+      "rows": 666,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "20390798161678622",
+      "symbol": "رادان2",
+      "asset_type": "fund",
+      "rows": 241,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "64819278905724553",
+      "symbol": "فاخر2",
+      "asset_type": "fund",
+      "rows": 810,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "8336106940667502",
+      "symbol": "فارما كيان2",
+      "asset_type": "fund",
+      "rows": 668,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "10368700486623325",
+      "symbol": "كارا2",
+      "asset_type": "fund",
+      "rows": 1228,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "71516048161401340",
+      "symbol": "كمند2",
+      "asset_type": "fund",
+      "rows": 2239,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "7850711562566658",
+      "symbol": "نفتوداريوش2",
+      "asset_type": "fund",
+      "rows": 194,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "47200039431982622",
+      "symbol": "نقرا2",
+      "asset_type": "fund",
+      "rows": 53,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "2066976169139083",
+      "symbol": "گلدا2",
+      "asset_type": "fund",
+      "rows": 276,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:45:22.889095Z"
+}
