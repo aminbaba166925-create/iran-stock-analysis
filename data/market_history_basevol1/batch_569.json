@@ -1,0 +1,19 @@
+{
+  "batch": 569,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5595,
+  "corporate_action_events": 22,
+  "instruments": [
+    {
+      "insCode": "63363116407864462",
+      "symbol": "لابسا",
+      "asset_type": "share",
+      "rows": 5595,
+      "latest_date": "20261118",
+      "events": 22
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:22:48.342275+00:00"
+}
