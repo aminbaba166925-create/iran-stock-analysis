@@ -1,0 +1,19 @@
+{
+  "batch": 585,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1067,
+  "corporate_action_events": 4,
+  "instruments": [
+    {
+      "insCode": "10411249540376641",
+      "symbol": "ناما",
+      "asset_type": "share",
+      "rows": 1067,
+      "latest_date": "20261118",
+      "events": 4
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:36:33.066495+00:00"
+}
