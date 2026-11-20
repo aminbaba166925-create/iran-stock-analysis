@@ -1,0 +1,19 @@
+{
+  "batch": 385,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 3372,
+  "corporate_action_events": 16,
+  "instruments": [
+    {
+      "insCode": "17939384202383793",
+      "symbol": "ثغرب",
+      "asset_type": "share",
+      "rows": 3372,
+      "latest_date": "20261118",
+      "events": 16
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:17:17.908905+00:00"
+}

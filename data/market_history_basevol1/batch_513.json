@@ -1,0 +1,19 @@
+{
+  "batch": 513,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 2455,
+  "corporate_action_events": 12,
+  "instruments": [
+    {
+      "insCode": "14312030900097668",
+      "symbol": "غگلپا",
+      "asset_type": "share",
+      "rows": 2455,
+      "latest_date": "20261118",
+      "events": 12
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:45:38.143706+00:00"
+}

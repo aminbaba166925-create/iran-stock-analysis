@@ -1,0 +1,19 @@
+{
+  "batch": 259,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 194,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "15437111449299444",
+      "symbol": "نفتوداريوش",
+      "asset_type": "fund",
+      "rows": 194,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T03:49:07.225568+00:00"
+}

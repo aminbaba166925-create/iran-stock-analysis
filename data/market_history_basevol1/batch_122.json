@@ -1,0 +1,19 @@
+{
+  "batch": 122,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 116,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "13117618204212939",
+      "symbol": "دفينه",
+      "asset_type": "fund",
+      "rows": 116,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T02:15:24.595831+00:00"
+}

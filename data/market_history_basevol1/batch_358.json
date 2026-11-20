@@ -1,0 +1,19 @@
+{
+  "batch": 358,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 3533,
+  "corporate_action_events": 24,
+  "instruments": [
+    {
+      "insCode": "41625340598198551",
+      "symbol": "بساما",
+      "asset_type": "share",
+      "rows": 3533,
+      "latest_date": "20261118",
+      "events": 24
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T04:57:00.920978+00:00"
+}

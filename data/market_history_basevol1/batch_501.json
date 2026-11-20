@@ -1,0 +1,19 @@
+{
+  "batch": 501,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 2370,
+  "corporate_action_events": 18,
+  "instruments": [
+    {
+      "insCode": "33611155027418901",
+      "symbol": "غشهداب",
+      "asset_type": "share",
+      "rows": 2370,
+      "latest_date": "20261118",
+      "events": 18
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:36:24.572197+00:00"
+}

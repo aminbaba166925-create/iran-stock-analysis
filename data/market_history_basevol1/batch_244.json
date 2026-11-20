@@ -1,0 +1,19 @@
+{
+  "batch": 244,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 105,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "36255121262639515",
+      "symbol": "مسگون",
+      "asset_type": "fund",
+      "rows": 105,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T03:41:12.262079+00:00"
+}

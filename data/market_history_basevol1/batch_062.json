@@ -1,0 +1,19 @@
+{
+  "batch": 62,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 255,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "63555882930905460",
+      "symbol": "بامداد",
+      "asset_type": "fund",
+      "rows": 255,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T01:33:28.250992+00:00"
+}

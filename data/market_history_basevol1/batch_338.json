@@ -1,0 +1,19 @@
+{
+  "batch": 338,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1603,
+  "corporate_action_events": 10,
+  "instruments": [
+    {
+      "insCode": "55127657985997520",
+      "symbol": "آريا",
+      "asset_type": "share",
+      "rows": 1603,
+      "latest_date": "20261118",
+      "events": 10
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T04:39:29.172076+00:00"
+}

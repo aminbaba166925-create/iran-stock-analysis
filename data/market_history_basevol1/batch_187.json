@@ -1,0 +1,19 @@
+{
+  "batch": 187,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 837,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "64216772923447100",
+      "symbol": "شتاب",
+      "asset_type": "fund",
+      "rows": 837,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T03:02:59.354252+00:00"
+}

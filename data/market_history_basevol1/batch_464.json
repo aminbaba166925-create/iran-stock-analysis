@@ -1,0 +1,19 @@
+{
+  "batch": 464,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4137,
+  "corporate_action_events": 21,
+  "instruments": [
+    {
+      "insCode": "4528607775462304",
+      "symbol": "سفانو",
+      "asset_type": "share",
+      "rows": 4137,
+      "latest_date": "20261118",
+      "events": 21
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:13:17.229198+00:00"
+}

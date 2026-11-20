@@ -1,0 +1,19 @@
+{
+  "batch": 115,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1740,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "24854455175613815",
+      "symbol": "دارا2",
+      "asset_type": "fund",
+      "rows": 1740,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T02:11:10.968433+00:00"
+}

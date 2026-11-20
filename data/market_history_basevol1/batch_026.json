@@ -1,0 +1,19 @@
+{
+  "batch": 26,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 458,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "65473703162196532",
+      "symbol": "ابتكار",
+      "asset_type": "fund",
+      "rows": 458,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T01:09:54.145715+00:00"
+}

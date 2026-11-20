@@ -1,0 +1,19 @@
+{
+  "batch": 194,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 3104,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "68203878405672734",
+      "symbol": "صنوين",
+      "asset_type": "fund",
+      "rows": 3104,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T03:08:02.831189+00:00"
+}

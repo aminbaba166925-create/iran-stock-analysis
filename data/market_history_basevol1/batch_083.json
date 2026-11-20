@@ -1,0 +1,19 @@
+{
+  "batch": 83,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 965,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "42705920381780437",
+      "symbol": "ترمه",
+      "asset_type": "fund",
+      "rows": 965,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T01:48:55.095037+00:00"
+}

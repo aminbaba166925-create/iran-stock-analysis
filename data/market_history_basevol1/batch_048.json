@@ -1,0 +1,19 @@
+{
+  "batch": 48,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 2956,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "28788598290160782",
+      "symbol": "الماس",
+      "asset_type": "fund",
+      "rows": 2956,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T01:23:28.830530+00:00"
+}

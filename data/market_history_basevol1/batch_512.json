@@ -1,0 +1,19 @@
+{
+  "batch": 512,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4704,
+  "corporate_action_events": 28,
+  "instruments": [
+    {
+      "insCode": "22299894048845903",
+      "symbol": "غگل",
+      "asset_type": "share",
+      "rows": 4704,
+      "latest_date": "20261118",
+      "events": 28
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:45:08.573775+00:00"
+}

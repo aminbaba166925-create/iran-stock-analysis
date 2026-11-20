@@ -1,0 +1,19 @@
+{
+  "batch": 478,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1722,
+  "corporate_action_events": 8,
+  "instruments": [
+    {
+      "insCode": "204092872752957",
+      "symbol": "شصدف",
+      "asset_type": "share",
+      "rows": 1722,
+      "latest_date": "20261118",
+      "events": 8
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:23:19.865475+00:00"
+}

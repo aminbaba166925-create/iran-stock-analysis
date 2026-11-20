@@ -1,0 +1,19 @@
+{
+  "batch": 460,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4330,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "49716396555783214",
+      "symbol": "سشمال2",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:11:05.880046+00:00"
+}

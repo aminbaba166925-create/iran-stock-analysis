@@ -1,0 +1,19 @@
+{
+  "batch": 174,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 71,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "52578796680038854",
+      "symbol": "سيلوا2",
+      "asset_type": "fund",
+      "rows": 71,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T02:55:39.005607+00:00"
+}

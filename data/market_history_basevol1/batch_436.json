@@ -1,0 +1,19 @@
+{
+  "batch": 436,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 2368,
+  "corporate_action_events": 10,
+  "instruments": [
+    {
+      "insCode": "26259366519412975",
+      "symbol": "زشگزا",
+      "asset_type": "share",
+      "rows": 2368,
+      "latest_date": "20261118",
+      "events": 10
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:53:50.865705+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "batch": 420,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5753,
+  "corporate_action_events": 19,
+  "instruments": [
+    {
+      "insCode": "20024911381434086",
+      "symbol": "دكيمي",
+      "asset_type": "share",
+      "rows": 5753,
+      "latest_date": "20261118",
+      "events": 19
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:42:01.463666+00:00"
+}

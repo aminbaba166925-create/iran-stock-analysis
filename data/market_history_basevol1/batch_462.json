@@ -1,0 +1,19 @@
+{
+  "batch": 462,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5169,
+  "corporate_action_events": 22,
+  "instruments": [
+    {
+      "insCode": "13227300125161435",
+      "symbol": "سصوفي",
+      "asset_type": "share",
+      "rows": 5169,
+      "latest_date": "20261118",
+      "events": 22
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:11:53.741591+00:00"
+}

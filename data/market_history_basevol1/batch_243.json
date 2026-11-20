@@ -1,0 +1,19 @@
+{
+  "batch": 243,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 388,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "20789606562681728",
+      "symbol": "مزه",
+      "asset_type": "fund",
+      "rows": 388,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T03:40:43.132814+00:00"
+}

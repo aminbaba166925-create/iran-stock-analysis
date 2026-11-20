@@ -1,0 +1,19 @@
+{
+  "batch": 410,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5623,
+  "corporate_action_events": 22,
+  "instruments": [
+    {
+      "insCode": "12387472624849835",
+      "symbol": "داسوه",
+      "asset_type": "share",
+      "rows": 5623,
+      "latest_date": "20261118",
+      "events": 22
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:34:14.739831+00:00"
+}

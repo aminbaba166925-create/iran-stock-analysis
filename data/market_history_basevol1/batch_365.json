@@ -1,0 +1,19 @@
+{
+  "batch": 365,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1066,
+  "corporate_action_events": 3,
+  "instruments": [
+    {
+      "insCode": "48261930411425125",
+      "symbol": "بمولد",
+      "asset_type": "share",
+      "rows": 1066,
+      "latest_date": "20261118",
+      "events": 3
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:02:43.238280+00:00"
+}
