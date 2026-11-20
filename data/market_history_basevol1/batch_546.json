@@ -1,0 +1,19 @@
+{
+  "batch": 546,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 3015,
+  "corporate_action_events": 14,
+  "instruments": [
+    {
+      "insCode": "28431095903407567",
+      "symbol": "كاسپين",
+      "asset_type": "share",
+      "rows": 3015,
+      "latest_date": "20261118",
+      "events": 14
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:08:18.367233+00:00"
+}
