@@ -1,0 +1,19 @@
+{
+  "batch": 619,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5837,
+  "corporate_action_events": 20,
+  "instruments": [
+    {
+      "insCode": "7385624172574740",
+      "symbol": "ورنا",
+      "asset_type": "share",
+      "rows": 5837,
+      "latest_date": "20261118",
+      "events": 20
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T08:04:22.945509+00:00"
+}
