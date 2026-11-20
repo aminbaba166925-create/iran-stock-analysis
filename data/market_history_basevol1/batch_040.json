@@ -1,91 +1,19 @@
 {
   "batch": 40,
-  "success": 10,
+  "success": 1,
   "failed": 0,
-  "raw_rows": 24928,
-  "corporate_action_events": 122,
+  "raw_rows": 558,
+  "corporate_action_events": 2,
   "instruments": [
     {
-      "insCode": "49270349234092953",
-      "symbol": "خاور",
-      "asset_type": "share",
-      "rows": 865,
-      "latest_date": "20261118",
-      "events": 5
-    },
-    {
-      "insCode": "25079426576214829",
-      "symbol": "خبرنا",
-      "asset_type": "share",
-      "rows": 691,
+      "insCode": "50243708970398750",
+      "symbol": "اطمينان",
+      "asset_type": "fund",
+      "rows": 558,
       "latest_date": "20261118",
       "events": 2
-    },
-    {
-      "insCode": "43552974795606067",
-      "symbol": "خراسان",
-      "asset_type": "share",
-      "rows": 1866,
-      "latest_date": "20261118",
-      "events": 8
-    },
-    {
-      "insCode": "59217041815333317",
-      "symbol": "خكار",
-      "asset_type": "share",
-      "rows": 4786,
-      "latest_date": "20261118",
-      "events": 35
-    },
-    {
-      "insCode": "33716211077781594",
-      "symbol": "خنور",
-      "asset_type": "share",
-      "rows": 756,
-      "latest_date": "20261118",
-      "events": 6
-    },
-    {
-      "insCode": "65883838195688438",
-      "symbol": "خودرو",
-      "asset_type": "share",
-      "rows": 5924,
-      "latest_date": "20261118",
-      "events": 13
-    },
-    {
-      "insCode": "4758266259250794",
-      "symbol": "خپويش",
-      "asset_type": "share",
-      "rows": 4453,
-      "latest_date": "20261118",
-      "events": 22
-    },
-    {
-      "insCode": "61332057061846617",
-      "symbol": "دابور",
-      "asset_type": "share",
-      "rows": 4802,
-      "latest_date": "20261118",
-      "events": 27
-    },
-    {
-      "insCode": "68863997659126807",
-      "symbol": "داتام",
-      "asset_type": "share",
-      "rows": 715,
-      "latest_date": "20261118",
-      "events": 4
-    },
-    {
-      "insCode": "7740831252462823",
-      "symbol": "داروند",
-      "asset_type": "share",
-      "rows": 70,
-      "latest_date": "20261118",
-      "events": 0
     }
   ],
   "failures": [],
-  "saved_at_utc": "2026-11-19T23:56:42.057550+00:00"
+  "saved_at_utc": "2026-11-20T01:18:21.871651+00:00"
 }
