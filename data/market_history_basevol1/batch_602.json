@@ -1,0 +1,19 @@
+{
+  "batch": 602,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 970,
+  "corporate_action_events": 5,
+  "instruments": [
+    {
+      "insCode": "36282416082320053",
+      "symbol": "والماس",
+      "asset_type": "share",
+      "rows": 970,
+      "latest_date": "20261118",
+      "events": 5
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:51:00.171308+00:00"
+}
