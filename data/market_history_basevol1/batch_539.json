@@ -1,0 +1,19 @@
+{
+  "batch": 539,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1411,
+  "corporate_action_events": 10,
+  "instruments": [
+    {
+      "insCode": "8725363201030474",
+      "symbol": "فگستر",
+      "asset_type": "share",
+      "rows": 1411,
+      "latest_date": "20261118",
+      "events": 10
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:03:44.389324+00:00"
+}
