@@ -1,0 +1,19 @@
+{
+  "batch": 323,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 433,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "7303159018400817",
+      "symbol": "پناه",
+      "asset_type": "fund",
+      "rows": 433,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T04:31:33.761892+00:00"
+}
