@@ -1,91 +1,16 @@
 {
   "batch": 52,
-  "success": 10,
-  "failed": 0,
-  "raw_rows": 33266,
-  "corporate_action_events": 164,
-  "instruments": [
+  "success": 0,
+  "failed": 1,
+  "raw_rows": 0,
+  "corporate_action_events": 0,
+  "instruments": [],
+  "failures": [
     {
-      "insCode": "66772024744156373",
-      "symbol": "فباهنر",
-      "asset_type": "share",
-      "rows": 5409,
-      "latest_date": "20261118",
-      "events": 24
-    },
-    {
-      "insCode": "4733285133017464",
-      "symbol": "فخاس",
-      "asset_type": "share",
-      "rows": 4553,
-      "latest_date": "20261118",
-      "events": 30
-    },
-    {
-      "insCode": "28864540805361867",
-      "symbol": "فخوز",
-      "asset_type": "share",
-      "rows": 4617,
-      "latest_date": "20261118",
-      "events": 29
-    },
-    {
-      "insCode": "51017863148152520",
-      "symbol": "فرود",
-      "asset_type": "share",
-      "rows": 1262,
-      "latest_date": "20261118",
-      "events": 5
-    },
-    {
-      "insCode": "29974853866926823",
-      "symbol": "فروي",
-      "asset_type": "share",
-      "rows": 1688,
-      "latest_date": "20261118",
-      "events": 10
-    },
-    {
-      "insCode": "8175784894140974",
-      "symbol": "فزر",
-      "asset_type": "share",
-      "rows": 1387,
-      "latest_date": "20261118",
-      "events": 6
-    },
-    {
-      "insCode": "43716452378323683",
-      "symbol": "فزرين",
-      "asset_type": "share",
-      "rows": 3423,
-      "latest_date": "20261118",
-      "events": 23
-    },
-    {
-      "insCode": "54277068923045214",
-      "symbol": "فسرب",
-      "asset_type": "share",
-      "rows": 5129,
-      "latest_date": "20261118",
-      "events": 8
-    },
-    {
-      "insCode": "8977441217024425",
-      "symbol": "فسپا",
-      "asset_type": "share",
-      "rows": 4864,
-      "latest_date": "20261118",
-      "events": 25
-    },
-    {
-      "insCode": "23557166059925779",
-      "symbol": "فصبا",
-      "asset_type": "share",
-      "rows": 934,
-      "latest_date": "20261118",
-      "events": 4
+      "insCode": "25187135698923656",
+      "symbol": "انرژيك",
+      "error": "daily history too short: 3"
     }
   ],
-  "failures": [],
-  "saved_at_utc": "2026-11-20T00:21:34.839173+00:00"
+  "saved_at_utc": "2026-11-20T01:25:58.910399+00:00"
 }
