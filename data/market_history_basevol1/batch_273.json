@@ -1,0 +1,19 @@
+{
+  "batch": 273,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 58,
+  "corporate_action_events": 2,
+  "instruments": [
+    {
+      "insCode": "30150802188959856",
+      "symbol": "نويد",
+      "asset_type": "fund",
+      "rows": 58,
+      "latest_date": "20261118",
+      "events": 2
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T03:58:30.687547+00:00"
+}
