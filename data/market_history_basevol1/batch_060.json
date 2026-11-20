@@ -1,0 +1,91 @@
+{
+  "batch": 60,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 38855,
+  "corporate_action_events": 190,
+  "instruments": [
+    {
+      "insCode": "33541897671561960",
+      "symbol": "واتي",
+      "asset_type": "share",
+      "rows": 4681,
+      "latest_date": "20261118",
+      "events": 22
+    },
+    {
+      "insCode": "47841327496247362",
+      "symbol": "واعتبار",
+      "asset_type": "share",
+      "rows": 4815,
+      "latest_date": "20261118",
+      "events": 26
+    },
+    {
+      "insCode": "36282416082320053",
+      "symbol": "والماس",
+      "asset_type": "share",
+      "rows": 970,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "52232388263291380",
+      "symbol": "واميد",
+      "asset_type": "share",
+      "rows": 4508,
+      "latest_date": "20261118",
+      "events": 24
+    },
+    {
+      "insCode": "4373573287489723",
+      "symbol": "وامين",
+      "asset_type": "share",
+      "rows": 754,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "3149396562827132",
+      "symbol": "وايران",
+      "asset_type": "share",
+      "rows": 3098,
+      "latest_date": "20261118",
+      "events": 14
+    },
+    {
+      "insCode": "48010225447410247",
+      "symbol": "وبانك",
+      "asset_type": "share",
+      "rows": 5659,
+      "latest_date": "20261118",
+      "events": 23
+    },
+    {
+      "insCode": "13937270451301973",
+      "symbol": "وبشهر",
+      "asset_type": "share",
+      "rows": 5875,
+      "latest_date": "20261118",
+      "events": 29
+    },
+    {
+      "insCode": "28320293733348826",
+      "symbol": "وبصادر",
+      "asset_type": "share",
+      "rows": 4211,
+      "latest_date": "20261118",
+      "events": 18
+    },
+    {
+      "insCode": "778253364357513",
+      "symbol": "وبملت",
+      "asset_type": "share",
+      "rows": 4284,
+      "latest_date": "20261118",
+      "events": 25
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:37:20.943851+00:00"
+}
