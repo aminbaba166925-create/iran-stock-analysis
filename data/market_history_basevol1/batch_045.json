@@ -1,91 +1,19 @@
 {
   "batch": 45,
-  "success": 10,
+  "success": 1,
   "failed": 0,
-  "raw_rows": 46325,
-  "corporate_action_events": 200,
+  "raw_rows": 1610,
+  "corporate_action_events": 0,
   "instruments": [
     {
-      "insCode": "30829203706095076",
-      "symbol": "ستران",
-      "asset_type": "share",
-      "rows": 5784,
+      "insCode": "64701620739344512",
+      "symbol": "افران2",
+      "asset_type": "fund",
+      "rows": 1610,
       "latest_date": "20261118",
-      "events": 19
-    },
-    {
-      "insCode": "4470657233334072",
-      "symbol": "سخاش",
-      "asset_type": "share",
-      "rows": 4776,
-      "latest_date": "20261118",
-      "events": 20
-    },
-    {
-      "insCode": "67327029014085707",
-      "symbol": "سخزر",
-      "asset_type": "share",
-      "rows": 5033,
-      "latest_date": "20261118",
-      "events": 24
-    },
-    {
-      "insCode": "41974758296041288",
-      "symbol": "سخوز",
-      "asset_type": "share",
-      "rows": 3037,
-      "latest_date": "20261118",
-      "events": 12
-    },
-    {
-      "insCode": "27000326841257664",
-      "symbol": "سدشت",
-      "asset_type": "share",
-      "rows": 4393,
-      "latest_date": "20261118",
-      "events": 28
-    },
-    {
-      "insCode": "27218386411183410",
-      "symbol": "سدور",
-      "asset_type": "share",
-      "rows": 4844,
-      "latest_date": "20261118",
-      "events": 11
-    },
-    {
-      "insCode": "11964419322927535",
-      "symbol": "سرود",
-      "asset_type": "share",
-      "rows": 5330,
-      "latest_date": "20261118",
-      "events": 25
-    },
-    {
-      "insCode": "35948133957468680",
-      "symbol": "سرچشمه",
-      "asset_type": "share",
-      "rows": 2311,
-      "latest_date": "20261118",
-      "events": 17
-    },
-    {
-      "insCode": "26997316501080743",
-      "symbol": "سشرق",
-      "asset_type": "share",
-      "rows": 5633,
-      "latest_date": "20261118",
-      "events": 19
-    },
-    {
-      "insCode": "6757220448540984",
-      "symbol": "سشمال",
-      "asset_type": "share",
-      "rows": 5184,
-      "latest_date": "20261118",
-      "events": 25
+      "events": 0
     }
   ],
   "failures": [],
-  "saved_at_utc": "2026-11-20T00:07:32.114518+00:00"
+  "saved_at_utc": "2026-11-20T01:21:48.794040+00:00"
 }
