@@ -1,0 +1,19 @@
+{
+  "batch": 554,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4843,
+  "corporate_action_events": 23,
+  "instruments": [
+    {
+      "insCode": "29122854902865456",
+      "symbol": "كسعدي",
+      "asset_type": "share",
+      "rows": 4843,
+      "latest_date": "20261118",
+      "events": 23
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:14:34.929898+00:00"
+}
