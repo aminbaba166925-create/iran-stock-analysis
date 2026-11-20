@@ -1,0 +1,91 @@
+{
+  "batch": 105,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 6876,
+  "events": 0,
+  "instruments": [
+    {
+      "insCode": "69798479922999677",
+      "symbol": "آوان2",
+      "asset_type": "fund",
+      "rows": 115,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "36097802106344978",
+      "symbol": "بانكا2",
+      "asset_type": "fund",
+      "rows": 382,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "30950197622714356",
+      "symbol": "تكپاد2",
+      "asset_type": "fund",
+      "rows": 666,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "43478160629821469",
+      "symbol": "دارا يكم2",
+      "asset_type": "fund",
+      "rows": 1571,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "24854455175613815",
+      "symbol": "دارا2",
+      "asset_type": "fund",
+      "rows": 1740,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "37680244836461090",
+      "symbol": "ساحل2",
+      "asset_type": "fund",
+      "rows": 1030,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "48240748007949910",
+      "symbol": "كارآمد2",
+      "asset_type": "fund",
+      "rows": 521,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "42307605893544563",
+      "symbol": "مهرگلد2",
+      "asset_type": "fund",
+      "rows": 101,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "38737017363366362",
+      "symbol": "هم تراز2",
+      "asset_type": "fund",
+      "rows": 288,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "53463652379781502",
+      "symbol": "پاسارگاد2",
+      "asset_type": "fund",
+      "rows": 462,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:47:57.326315Z"
+}
