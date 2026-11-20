@@ -1,0 +1,19 @@
+{
+  "batch": 536,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4684,
+  "corporate_action_events": 29,
+  "instruments": [
+    {
+      "insCode": "46348559193224090",
+      "symbol": "فولاد",
+      "asset_type": "share",
+      "rows": 4684,
+      "latest_date": "20261118",
+      "events": 29
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:01:12.553619+00:00"
+}
