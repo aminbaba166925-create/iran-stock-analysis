@@ -10,7 +10,7 @@ UNIVERSE=BASE/"universe.json"
 OUT=ROOT/"combined_adjusted_ath_ranking.json"
 MIN_ROWS=200
 LATEST_CUTOFF="20261110"
-START_DATE="13970301"
+START_DATE="20180321"
 
 def git_bytes(ref,path):
     p=subprocess.run(["git","show",f"origin/{ref}:{path}"],stdout=subprocess.PIPE,stderr=subprocess.PIPE)
@@ -74,7 +74,7 @@ for x in stats.values():
 items.sort(key=lambda z:z["distance_pct"],reverse=True)
 payload={"method":"(1 - latest adjusted close / maximum adjusted daily high) * 100",
 "data_source":"adjusted daily OHLC histories; baseVol==1 universe (including previously master-covered instruments) plus separately requested user symbols",
-"period_start":"1397-01-01","as_of":"2026-11-18","deduplication_key":"insCode","filters":"ordinary shares only; funds excluded; minimum 200 trading rows; latest data on or after 2026-11-10",
+"period_start":"2018-03-21 (1397-01-01)","as_of":"2026-11-18","deduplication_key":"insCode","filters":"ordinary shares only; funds excluded; minimum 200 trading rows; latest data on or after 2026-11-10",
 "basevol1_observed":universe.get("observed_live_count"),"basevol1_expected_user_reported":universe.get("expected_count_user_reported"),
 "basevol1_master_covered":len(base_codes),"basevol1_new_candidates":universe.get("new_to_fetch_count"),
 "separate_user_symbols_files":sources["user_supplied_symbols"],"unique_instruments_with_history":len(stats),
