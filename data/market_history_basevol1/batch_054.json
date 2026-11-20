@@ -1,89 +1,19 @@
 {
   "batch": 54,
-  "success": 9,
-  "failed": 1,
-  "raw_rows": 27365,
-  "corporate_action_events": 130,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1177,
+  "corporate_action_events": 0,
   "instruments": [
     {
-      "insCode": "34540569618314880",
-      "symbol": "قاسم",
-      "asset_type": "share",
-      "rows": 2933,
+      "insCode": "17914401175772326",
+      "symbol": "اهرم",
+      "asset_type": "fund",
+      "rows": 1177,
       "latest_date": "20261118",
-      "events": 20
-    },
-    {
-      "insCode": "71523986304961239",
-      "symbol": "قشير",
-      "asset_type": "share",
-      "rows": 3579,
-      "latest_date": "20261118",
-      "events": 9
-    },
-    {
-      "insCode": "40411537531154482",
-      "symbol": "قصفها",
-      "asset_type": "share",
-      "rows": 5044,
-      "latest_date": "20261118",
-      "events": 23
-    },
-    {
-      "insCode": "14398278072324784",
-      "symbol": "قهكمت",
-      "asset_type": "share",
-      "rows": 4658,
-      "latest_date": "20261118",
-      "events": 23
-    },
-    {
-      "insCode": "23600798892801694",
-      "symbol": "قچار",
-      "asset_type": "share",
-      "rows": 3407,
-      "latest_date": "20261118",
-      "events": 17
-    },
-    {
-      "insCode": "28431095903407567",
-      "symbol": "كاسپين",
-      "asset_type": "share",
-      "rows": 3015,
-      "latest_date": "20261118",
-      "events": 14
-    },
-    {
-      "insCode": "24653108506137885",
-      "symbol": "كانسار",
-      "asset_type": "share",
-      "rows": 525,
-      "latest_date": "20261118",
-      "events": 3
-    },
-    {
-      "insCode": "60350996279289099",
-      "symbol": "كاوه",
-      "asset_type": "share",
-      "rows": 2931,
-      "latest_date": "20261118",
-      "events": 18
-    },
-    {
-      "insCode": "23374429962331387",
-      "symbol": "كتوسعه",
-      "asset_type": "share",
-      "rows": 1273,
-      "latest_date": "20261118",
-      "events": 3
+      "events": 0
     }
   ],
-  "failures": [
-    {
-      "insCode": "51346017122365212",
-      "symbol": "كاريز",
-      "error": "daily history too short: 7"
-    }
-  ],
-  "saved_at_utc": "2026-11-20T00:25:05.995585+00:00"
+  "failures": [],
+  "saved_at_utc": "2026-11-20T01:26:31.532210+00:00"
 }
