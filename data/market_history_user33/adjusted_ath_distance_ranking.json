@@ -1,0 +1,150 @@
+{
+  "basis": "latest adjusted close versus maximum adjusted daily high",
+  "symbols_count": 16,
+  "results": [
+    {
+      "symbol": "ثنام",
+      "latest_date": "20261118",
+      "current_adjusted_close": 2841.0,
+      "adjusted_ath_high": 18144.1817,
+      "ath_date": "20200823",
+      "distance_from_ath_pct": 84.34,
+      "rows": 3304
+    },
+    {
+      "symbol": "فاهواز",
+      "latest_date": "20261118",
+      "current_adjusted_close": 8420.0,
+      "adjusted_ath_high": 28638.0,
+      "ath_date": "20200815",
+      "distance_from_ath_pct": 70.6,
+      "rows": 2614
+    },
+    {
+      "symbol": "خعمرا",
+      "latest_date": "20261118",
+      "current_adjusted_close": 9440.0,
+      "adjusted_ath_high": 30648.4695,
+      "ath_date": "20210712",
+      "distance_from_ath_pct": 69.2,
+      "rows": 2181
+    },
+    {
+      "symbol": "گشان",
+      "latest_date": "20261118",
+      "current_adjusted_close": 30320.0,
+      "adjusted_ath_high": 96247.3836,
+      "ath_date": "20200809",
+      "distance_from_ath_pct": 68.5,
+      "rows": 1658
+    },
+    {
+      "symbol": "داراب",
+      "latest_date": "20261118",
+      "current_adjusted_close": 1260.0,
+      "adjusted_ath_high": 3738.5091,
+      "ath_date": "20200803",
+      "distance_from_ath_pct": 66.3,
+      "rows": 3583
+    },
+    {
+      "symbol": "فسا",
+      "latest_date": "20261118",
+      "current_adjusted_close": 1410.0,
+      "adjusted_ath_high": 4092.1678,
+      "ath_date": "20200729",
+      "distance_from_ath_pct": 65.54,
+      "rows": 3583
+    },
+    {
+      "symbol": "خصدرا",
+      "latest_date": "20261118",
+      "current_adjusted_close": 2143.0,
+      "adjusted_ath_high": 4952.4388,
+      "ath_date": "20200803",
+      "distance_from_ath_pct": 56.73,
+      "rows": 3379
+    },
+    {
+      "symbol": "وملت",
+      "latest_date": "20261118",
+      "current_adjusted_close": 5700.0,
+      "adjusted_ath_high": 8644.2057,
+      "ath_date": "20200722",
+      "distance_from_ath_pct": 34.06,
+      "rows": 2024
+    },
+    {
+      "symbol": "شصفها",
+      "latest_date": "20261118",
+      "current_adjusted_close": 3560.0,
+      "adjusted_ath_high": 4911.7647,
+      "ath_date": "20231022",
+      "distance_from_ath_pct": 27.52,
+      "rows": 2818
+    },
+    {
+      "symbol": "شگستر",
+      "latest_date": "20261118",
+      "current_adjusted_close": 2430.0,
+      "adjusted_ath_high": 3166.0,
+      "ath_date": "20261021",
+      "distance_from_ath_pct": 23.25,
+      "rows": 757
+    },
+    {
+      "symbol": "ومشان",
+      "latest_date": "20261118",
+      "current_adjusted_close": 62420.0,
+      "adjusted_ath_high": 64719.9244,
+      "ath_date": "20230711",
+      "distance_from_ath_pct": 3.55,
+      "rows": 3264
+    },
+    {
+      "symbol": "قجام",
+      "latest_date": "20261118",
+      "current_adjusted_close": 16240.0,
+      "adjusted_ath_high": 16467.7262,
+      "ath_date": "20210112",
+      "distance_from_ath_pct": 1.38,
+      "rows": 3405
+    },
+    {
+      "symbol": "مرقام",
+      "latest_date": "20261118",
+      "current_adjusted_close": 17100.0,
+      "adjusted_ath_high": 17180.0,
+      "ath_date": "20261118",
+      "distance_from_ath_pct": 0.47,
+      "rows": 893
+    },
+    {
+      "symbol": "فجوش",
+      "latest_date": "20261118",
+      "current_adjusted_close": 6990.0,
+      "adjusted_ath_high": 7020.0,
+      "ath_date": "20261118",
+      "distance_from_ath_pct": 0.43,
+      "rows": 3186
+    },
+    {
+      "symbol": "آرمان",
+      "latest_date": "20261118",
+      "current_adjusted_close": 2467.0,
+      "adjusted_ath_high": 2467.0,
+      "ath_date": "20261118",
+      "distance_from_ath_pct": 0.0,
+      "rows": 3557
+    },
+    {
+      "symbol": "پلوله",
+      "latest_date": "20261118",
+      "current_adjusted_close": 17620.0,
+      "adjusted_ath_high": 17620.0,
+      "ath_date": "20261118",
+      "distance_from_ath_pct": 0.0,
+      "rows": 3251
+    }
+  ]
+}
