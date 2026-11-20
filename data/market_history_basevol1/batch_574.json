@@ -1,0 +1,19 @@
+{
+  "batch": 574,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 2042,
+  "corporate_action_events": 13,
+  "instruments": [
+    {
+      "insCode": "15917865009187760",
+      "symbol": "ماديرا",
+      "asset_type": "share",
+      "rows": 2042,
+      "latest_date": "20261118",
+      "events": 13
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:27:22.424621+00:00"
+}
