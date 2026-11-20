@@ -1,0 +1,91 @@
+{
+  "batch": 49,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 35411,
+  "corporate_action_events": 165,
+  "instruments": [
+    {
+      "insCode": "53350307353645375",
+      "symbol": "غانيزان",
+      "asset_type": "share",
+      "rows": 450,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "42387718866026650",
+      "symbol": "غبشهر",
+      "asset_type": "share",
+      "rows": 5570,
+      "latest_date": "20261118",
+      "events": 22
+    },
+    {
+      "insCode": "17059960254855208",
+      "symbol": "غبهنوش",
+      "asset_type": "share",
+      "rows": 5084,
+      "latest_date": "20261118",
+      "events": 33
+    },
+    {
+      "insCode": "8234855558996646",
+      "symbol": "غدانه",
+      "asset_type": "share",
+      "rows": 1260,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "2434703913394836",
+      "symbol": "غدشت",
+      "asset_type": "share",
+      "rows": 5005,
+      "latest_date": "20261118",
+      "events": 17
+    },
+    {
+      "insCode": "3492952121304423",
+      "symbol": "غديس",
+      "asset_type": "share",
+      "rows": 2587,
+      "latest_date": "20261118",
+      "events": 12
+    },
+    {
+      "insCode": "4369934250728330",
+      "symbol": "غزر",
+      "asset_type": "share",
+      "rows": 1558,
+      "latest_date": "20261118",
+      "events": 13
+    },
+    {
+      "insCode": "28672095850798501",
+      "symbol": "غسالم",
+      "asset_type": "share",
+      "rows": 4565,
+      "latest_date": "20261118",
+      "events": 24
+    },
+    {
+      "insCode": "59921975187856916",
+      "symbol": "غشاذر",
+      "asset_type": "share",
+      "rows": 4559,
+      "latest_date": "20261118",
+      "events": 14
+    },
+    {
+      "insCode": "61506294208022391",
+      "symbol": "غشصفا",
+      "asset_type": "share",
+      "rows": 4773,
+      "latest_date": "20261118",
+      "events": 22
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:15:34.147956+00:00"
+}
