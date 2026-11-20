@@ -1,0 +1,19 @@
+{
+  "batch": 88,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 939,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "53145304508578701",
+      "symbol": "تمشك",
+      "asset_type": "fund",
+      "rows": 939,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T01:52:22.603115+00:00"
+}
