@@ -1,0 +1,19 @@
+{
+  "batch": 369,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 509,
+  "corporate_action_events": 1,
+  "instruments": [
+    {
+      "insCode": "31116454489395198",
+      "symbol": "تاديكو",
+      "asset_type": "share",
+      "rows": 509,
+      "latest_date": "20261118",
+      "events": 1
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:05:29.725295+00:00"
+}
