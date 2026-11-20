@@ -1,0 +1,19 @@
+{
+  "batch": 405,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5924,
+  "corporate_action_events": 13,
+  "instruments": [
+    {
+      "insCode": "65883838195688438",
+      "symbol": "خودرو",
+      "asset_type": "share",
+      "rows": 5924,
+      "latest_date": "20261118",
+      "events": 13
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:31:22.286025+00:00"
+}
