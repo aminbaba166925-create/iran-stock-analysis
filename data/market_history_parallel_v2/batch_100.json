@@ -1,0 +1,91 @@
+{
+  "batch": 100,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 8292,
+  "events": 0,
+  "instruments": [
+    {
+      "insCode": "44028240495188776",
+      "symbol": "ابتكار2",
+      "asset_type": "fund",
+      "rows": 458,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "42927746927909254",
+      "symbol": "اوصتا2",
+      "asset_type": "fund",
+      "rows": 1992,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "29823003612377000",
+      "symbol": "بمان2",
+      "asset_type": "fund",
+      "rows": 711,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "6084374471113261",
+      "symbol": "دوام2",
+      "asset_type": "fund",
+      "rows": 54,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "39354015400238252",
+      "symbol": "رويش همراه2",
+      "asset_type": "fund",
+      "rows": 373,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "36273975537785965",
+      "symbol": "سرو2",
+      "asset_type": "fund",
+      "rows": 1790,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "17880257387458062",
+      "symbol": "كامياب2",
+      "asset_type": "fund",
+      "rows": 1293,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "67269004688649567",
+      "symbol": "نفيس2",
+      "asset_type": "fund",
+      "rows": 983,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "1866895338227997",
+      "symbol": "نقران2",
+      "asset_type": "fund",
+      "rows": 205,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "33903462343209810",
+      "symbol": "پناه2",
+      "asset_type": "fund",
+      "rows": 433,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:37:30.346767Z"
+}
