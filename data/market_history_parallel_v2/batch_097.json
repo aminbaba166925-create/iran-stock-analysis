@@ -1,0 +1,91 @@
+{
+  "batch": 97,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 8104,
+  "events": 0,
+  "instruments": [
+    {
+      "insCode": "63403944270294323",
+      "symbol": "اتوداريوش2",
+      "asset_type": "fund",
+      "rows": 437,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "15519769256883158",
+      "symbol": "اعتبار2",
+      "asset_type": "fund",
+      "rows": 945,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "19452192920639600",
+      "symbol": "بلوط2",
+      "asset_type": "fund",
+      "rows": 458,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "7681671915916933",
+      "symbol": "جهش",
+      "asset_type": "fund",
+      "rows": 829,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "37811898617906576",
+      "symbol": "دفينه2",
+      "asset_type": "fund",
+      "rows": 116,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "57479363687216607",
+      "symbol": "زرگر2",
+      "asset_type": "fund",
+      "rows": 297,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "69081464170052337",
+      "symbol": "سپيدما2",
+      "asset_type": "fund",
+      "rows": 1356,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "45928267225042656",
+      "symbol": "هماي2",
+      "asset_type": "fund",
+      "rows": 1286,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "10263462800402379",
+      "symbol": "پادا2",
+      "asset_type": "fund",
+      "rows": 1281,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "24198960406596014",
+      "symbol": "پاداش2",
+      "asset_type": "fund",
+      "rows": 1099,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:30:22.668375Z"
+}
