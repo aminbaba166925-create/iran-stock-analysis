@@ -1,0 +1,19 @@
+{
+  "batch": 537,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 3830,
+  "corporate_action_events": 32,
+  "instruments": [
+    {
+      "insCode": "40808043719554948",
+      "symbol": "فولاژ",
+      "asset_type": "share",
+      "rows": 3830,
+      "latest_date": "20261118",
+      "events": 32
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:02:08.155471+00:00"
+}
