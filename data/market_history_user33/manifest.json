@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-11-20T06:41:57.755489+00:00",
+  "generated_at_utc": "2026-11-20T06:47:04.969634+00:00",
   "requested": 33,
-  "matched_live_basevol_gt1": 10,
-  "succeeded": 10,
+  "matched_live_basevol_gt1": 16,
+  "succeeded": 16,
   "failed": 0,
   "missing_or_basevol_mismatch": [
     "بایکا",
@@ -10,23 +10,17 @@
     "زندگی",
     "بکهنوج",
     "بشام",
-    "پیلواله",
-    "ثام",
     "جوین",
     "حیات",
-    "خمعرا",
     "خکاوه",
     "خودکفا",
     "شارپیلن",
-    "شکستر",
-    "قوجش",
     "قیسنو",
     "کصدف",
-    "کفزوی",
+    "کقزوی",
     "کهرام",
-    "کشان",
     "لزما",
-    "لیام",
+    "لپیام",
     "لکما"
   ],
   "failures": [],
@@ -44,6 +38,28 @@
     },
     {
       "success": true,
+      "ordinal": 7,
+      "symbol": "پلوله",
+      "insCode": "29316948750916349",
+      "baseVol": 766163.0,
+      "rows": 3251,
+      "latest_date": "20261118",
+      "events": 5,
+      "saved_at_utc": "2026-11-20T06:42:33.323242+00:00"
+    },
+    {
+      "success": true,
+      "ordinal": 8,
+      "symbol": "ثنام",
+      "insCode": "831325835570803",
+      "baseVol": 6235916.0,
+      "rows": 3304,
+      "latest_date": "20261118",
+      "events": 12,
+      "saved_at_utc": "2026-11-20T06:43:14.814816+00:00"
+    },
+    {
+      "success": true,
       "ordinal": 11,
       "symbol": "خصدرا",
       "insCode": "2318736941376687",
@@ -52,6 +68,17 @@
       "latest_date": "20261118",
       "events": 3,
       "saved_at_utc": "2026-11-20T06:35:14.475900+00:00"
+    },
+    {
+      "success": true,
+      "ordinal": 12,
+      "symbol": "خعمرا",
+      "insCode": "6433335428452486",
+      "baseVol": 1390144.0,
+      "rows": 2181,
+      "latest_date": "20261118",
+      "events": 10,
+      "saved_at_utc": "2026-11-20T06:44:20.161628+00:00"
     },
     {
       "success": true,
@@ -77,6 +104,17 @@
     },
     {
       "success": true,
+      "ordinal": 18,
+      "symbol": "شگستر",
+      "insCode": "24696953498398744",
+      "baseVol": 16393788.0,
+      "rows": 757,
+      "latest_date": "20261118",
+      "events": 5,
+      "saved_at_utc": "2026-11-20T06:45:01.576995+00:00"
+    },
+    {
+      "success": true,
       "ordinal": 19,
       "symbol": "فاهواز",
       "insCode": "44296315953738727",
@@ -85,6 +123,17 @@
       "latest_date": "20261118",
       "events": 2,
       "saved_at_utc": "2026-11-20T06:37:17.906990+00:00"
+    },
+    {
+      "success": true,
+      "ordinal": 20,
+      "symbol": "فجوش",
+      "insCode": "64485827086284311",
+      "baseVol": 3049095.0,
+      "rows": 3186,
+      "latest_date": "20261118",
+      "events": 2,
+      "saved_at_utc": "2026-11-20T06:45:55.376282+00:00"
     },
     {
       "success": true,
@@ -107,6 +156,17 @@
       "latest_date": "20261118",
       "events": 5,
       "saved_at_utc": "2026-11-20T06:38:52.975488+00:00"
+    },
+    {
+      "success": true,
+      "ordinal": 27,
+      "symbol": "گشان",
+      "insCode": "70391097626818082",
+      "baseVol": 2756915.0,
+      "rows": 1658,
+      "latest_date": "20261118",
+      "events": 8,
+      "saved_at_utc": "2026-11-20T06:47:03.642078+00:00"
     },
     {
       "success": true,
