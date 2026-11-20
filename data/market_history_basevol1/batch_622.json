@@ -1,0 +1,19 @@
+{
+  "batch": 622,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 2710,
+  "corporate_action_events": 18,
+  "instruments": [
+    {
+      "insCode": "43283802997035462",
+      "symbol": "وسبحان",
+      "asset_type": "share",
+      "rows": 2710,
+      "latest_date": "20261118",
+      "events": 18
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T08:07:22.364615+00:00"
+}
