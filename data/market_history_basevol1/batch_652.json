@@ -1,0 +1,19 @@
+{
+  "batch": 652,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4349,
+  "corporate_action_events": 11,
+  "instruments": [
+    {
+      "insCode": "57722642338781674",
+      "symbol": "پلاسك",
+      "asset_type": "share",
+      "rows": 4349,
+      "latest_date": "20261118",
+      "events": 11
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T08:30:30.999767+00:00"
+}
