@@ -1,0 +1,19 @@
+{
+  "batch": 586,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 636,
+  "corporate_action_events": 2,
+  "instruments": [
+    {
+      "insCode": "8000351713789858",
+      "symbol": "نان",
+      "asset_type": "share",
+      "rows": 636,
+      "latest_date": "20261118",
+      "events": 2
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:37:15.108973+00:00"
+}
