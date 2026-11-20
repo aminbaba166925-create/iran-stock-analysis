@@ -1,0 +1,19 @@
+{
+  "batch": 238,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1183,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "32469128621155736",
+      "symbol": "مثقال",
+      "asset_type": "fund",
+      "rows": 1183,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T03:36:15.898780+00:00"
+}
