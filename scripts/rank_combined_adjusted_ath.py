@@ -10,6 +10,7 @@ UNIVERSE=BASE/"universe.json"
 OUT=ROOT/"combined_adjusted_ath_ranking.json"
 MIN_ROWS=200
 LATEST_CUTOFF="20261110"
+START_DATE="13970301"
 
 def git_bytes(ref,path):
     p=subprocess.run(["git","show",f"origin/{ref}:{path}"],stdout=subprocess.PIPE,stderr=subprocess.PIPE)
@@ -29,7 +30,7 @@ def merge_rows(stats, rows):
         try:
             high=float(r.get("high") or 0); close=float(r.get("close") or 0)
         except (ValueError,TypeError): continue
-        if not code or not sym or len(date)!=8 or high<=0 or close<=0: continue
+        if not code or not sym or len(date)!=8 or date<START_DATE or high<=0 or close<=0: continue
         x=stats.setdefault(code,{"insCode":code,"symbol":sym,"name":r.get("name",""),"asset_type":r.get("asset_type",""),"rows":0,"peak":0.0,"peak_date":"","latest_date":"","latest_close":0.0})
         x["rows"]+=1
         if high>x["peak"]: x["peak"],x["peak_date"]=high,date
@@ -73,7 +74,7 @@ for x in stats.values():
 items.sort(key=lambda z:z["distance_pct"],reverse=True)
 payload={"method":"(1 - latest adjusted close / maximum adjusted daily high) * 100",
 "data_source":"adjusted daily OHLC histories; baseVol==1 universe (including previously master-covered instruments) plus separately requested user symbols",
-"as_of":"2026-11-18","deduplication_key":"insCode","filters":"ordinary shares only; funds excluded; minimum 200 trading rows; latest data on or after 2026-11-10",
+"period_start":"1397-01-01","as_of":"2026-11-18","deduplication_key":"insCode","filters":"ordinary shares only; funds excluded; minimum 200 trading rows; latest data on or after 2026-11-10",
 "basevol1_observed":universe.get("observed_live_count"),"basevol1_expected_user_reported":universe.get("expected_count_user_reported"),
 "basevol1_master_covered":len(base_codes),"basevol1_new_candidates":universe.get("new_to_fetch_count"),
 "separate_user_symbols_files":sources["user_supplied_symbols"],"unique_instruments_with_history":len(stats),
@@ -81,7 +82,7 @@ payload={"method":"(1 - latest adjusted close / maximum adjusted daily high) * 1
 OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8")
 lines=["# رتبه‌بندی یکپارچه فاصله از سقف تاریخی تعدیل‌شده","",
 "مجموعه واحد: نمادهای حجم مبنای ۱ به‌علاوه ۱۶ نماد استخراج‌شده جداگانه؛ حذف تکراری‌ها با شناسه ابزار (insCode).",
-"فاصله = (۱ - آخرین پایانی تعدیل‌شده ÷ بیشترین سقف روزانه تعدیل‌شده) × ۱۰۰.",
+"بازه بررسی: از ابتدای ۱۳۹۷ تا 2026-11-18. فاصله = (۱ - آخرین پایانی تعدیل‌شده ÷ بیشترین سقف روزانه تعدیل‌شده) × ۱۰۰.",
 "فقط سهام عادی؛ صندوق‌ها و سابقه کمتر از ۲۰۰ روز معاملاتی یا داده قدیمی‌تر از 2026-11-10 حذف شده‌اند.",
 f"تاریخ داده: 2026-11-18 | تعداد سهام واجد شرایط: {len(items)}","",
 "| رتبه | نماد | فاصله از سقف | آخرین پایانی تعدیل‌شده | سقف تعدیل‌شده | تاریخ سقف | آخرین تاریخ | تعداد روز |",
