@@ -1,0 +1,91 @@
+{
+  "batch": 58,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 11572,
+  "corporate_action_events": 60,
+  "instruments": [
+    {
+      "insCode": "13611044044646901",
+      "symbol": "ملت",
+      "asset_type": "share",
+      "rows": 3490,
+      "latest_date": "20261118",
+      "events": 25
+    },
+    {
+      "insCode": "19239905145688600",
+      "symbol": "منجيل",
+      "asset_type": "share",
+      "rows": 205,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "20453559648564964",
+      "symbol": "مهر",
+      "asset_type": "share",
+      "rows": 400,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "29875801858560476",
+      "symbol": "مهرگان",
+      "asset_type": "share",
+      "rows": 511,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "33441514568901717",
+      "symbol": "ميدكو",
+      "asset_type": "share",
+      "rows": 1284,
+      "latest_date": "20261118",
+      "events": 9
+    },
+    {
+      "insCode": "10411249540376641",
+      "symbol": "ناما",
+      "asset_type": "share",
+      "rows": 1067,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "8000351713789858",
+      "symbol": "نان",
+      "asset_type": "share",
+      "rows": 636,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "46878429508891351",
+      "symbol": "نخريس",
+      "asset_type": "share",
+      "rows": 984,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "64699417405634265",
+      "symbol": "نطرين",
+      "asset_type": "share",
+      "rows": 2271,
+      "latest_date": "20261118",
+      "events": 12
+    },
+    {
+      "insCode": "65197850030400728",
+      "symbol": "نماد",
+      "asset_type": "share",
+      "rows": 724,
+      "latest_date": "20261118",
+      "events": 1
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:33:30.818944+00:00"
+}
