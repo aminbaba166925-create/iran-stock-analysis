@@ -1,0 +1,19 @@
+{
+  "batch": 447,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5042,
+  "corporate_action_events": 21,
+  "instruments": [
+    {
+      "insCode": "15949743338644220",
+      "symbol": "ساروم",
+      "asset_type": "share",
+      "rows": 5042,
+      "latest_date": "20261118",
+      "events": 21
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:02:20.185145+00:00"
+}

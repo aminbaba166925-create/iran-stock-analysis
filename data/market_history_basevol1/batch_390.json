@@ -1,0 +1,19 @@
+{
+  "batch": 390,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5065,
+  "corporate_action_events": 25,
+  "instruments": [
+    {
+      "insCode": "3722699128879020",
+      "symbol": "حتايد",
+      "asset_type": "share",
+      "rows": 5065,
+      "latest_date": "20261118",
+      "events": 25
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:20:49.762891+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "batch": 1,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 2545,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "22839330962768817",
+      "symbol": "آتيمس",
+      "asset_type": "fund",
+      "rows": 2545,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:51:16.617330+00:00"
+}

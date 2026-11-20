@@ -1,0 +1,19 @@
+{
+  "batch": 429,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 3562,
+  "corporate_action_events": 25,
+  "instruments": [
+    {
+      "insCode": "27952969918967492",
+      "symbol": "ركيش",
+      "asset_type": "share",
+      "rows": 3562,
+      "latest_date": "20261118",
+      "events": 25
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:48:20.928390+00:00"
+}

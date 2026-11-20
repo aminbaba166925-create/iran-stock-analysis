@@ -1,0 +1,19 @@
+{
+  "batch": 404,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 756,
+  "corporate_action_events": 6,
+  "instruments": [
+    {
+      "insCode": "33716211077781594",
+      "symbol": "خنور",
+      "asset_type": "share",
+      "rows": 756,
+      "latest_date": "20261118",
+      "events": 6
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:30:39.553341+00:00"
+}

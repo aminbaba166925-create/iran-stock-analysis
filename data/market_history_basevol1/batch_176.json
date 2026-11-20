@@ -1,0 +1,19 @@
+{
+  "batch": 176,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 74,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "19262304347711355",
+      "symbol": "سيمان",
+      "asset_type": "fund",
+      "rows": 74,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T02:56:24.335247+00:00"
+}

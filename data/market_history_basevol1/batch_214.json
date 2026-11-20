@@ -1,0 +1,19 @@
+{
+  "batch": 214,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 178,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "71595553356620707",
+      "symbol": "كاخ",
+      "asset_type": "fund",
+      "rows": 178,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T03:21:02.621346+00:00"
+}

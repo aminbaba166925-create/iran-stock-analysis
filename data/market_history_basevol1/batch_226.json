@@ -1,0 +1,19 @@
+{
+  "batch": 226,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1281,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "58965710006903807",
+      "symbol": "كمان",
+      "asset_type": "fund",
+      "rows": 1281,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T03:28:47.366514+00:00"
+}

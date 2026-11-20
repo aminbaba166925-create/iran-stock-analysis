@@ -1,0 +1,19 @@
+{
+  "batch": 506,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 3112,
+  "corporate_action_events": 21,
+  "instruments": [
+    {
+      "insCode": "5516102131364383",
+      "symbol": "غمينو",
+      "asset_type": "share",
+      "rows": 3112,
+      "latest_date": "20261118",
+      "events": 21
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:40:55.518356+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "batch": 395,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4184,
+  "corporate_action_events": 21,
+  "instruments": [
+    {
+      "insCode": "28809886765682162",
+      "symbol": "حفاري",
+      "asset_type": "share",
+      "rows": 4184,
+      "latest_date": "20261118",
+      "events": 21
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:24:20.658693+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "batch": 407,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4802,
+  "corporate_action_events": 27,
+  "instruments": [
+    {
+      "insCode": "61332057061846617",
+      "symbol": "دابور",
+      "asset_type": "share",
+      "rows": 4802,
+      "latest_date": "20261118",
+      "events": 27
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:32:22.017393+00:00"
+}

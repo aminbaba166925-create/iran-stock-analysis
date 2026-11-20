@@ -1,0 +1,19 @@
+{
+  "batch": 305,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 462,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "53463652379781502",
+      "symbol": "پاسارگاد2",
+      "asset_type": "fund",
+      "rows": 462,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T04:19:18.272904+00:00"
+}

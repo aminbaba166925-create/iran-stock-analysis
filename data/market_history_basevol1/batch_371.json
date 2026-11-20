@@ -1,0 +1,19 @@
+{
+  "batch": 371,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 3261,
+  "corporate_action_events": 17,
+  "instruments": [
+    {
+      "insCode": "22560050433388046",
+      "symbol": "تاپيكو",
+      "asset_type": "share",
+      "rows": 3261,
+      "latest_date": "20261118",
+      "events": 17
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:06:42.172855+00:00"
+}

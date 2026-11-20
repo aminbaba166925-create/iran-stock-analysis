@@ -1,0 +1,19 @@
+{
+  "batch": 233,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 290,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "7376158544119907",
+      "symbol": "لذيذ",
+      "asset_type": "fund",
+      "rows": 290,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T03:33:36.147436+00:00"
+}

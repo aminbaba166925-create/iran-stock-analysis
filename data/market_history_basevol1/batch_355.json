@@ -1,0 +1,19 @@
+{
+  "batch": 355,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 183,
+  "corporate_action_events": 1,
+  "instruments": [
+    {
+      "insCode": "63520812390415652",
+      "symbol": "بتهران",
+      "asset_type": "share",
+      "rows": 183,
+      "latest_date": "20261118",
+      "events": 1
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T04:54:55.550956+00:00"
+}

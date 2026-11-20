@@ -1,0 +1,19 @@
+{
+  "batch": 100,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1335,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "38713440086361985",
+      "symbol": "ثهام",
+      "asset_type": "fund",
+      "rows": 1335,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T02:00:38.692749+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "batch": 188,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 563,
+  "corporate_action_events": 5,
+  "instruments": [
+    {
+      "insCode": "64659064562132185",
+      "symbol": "شميم",
+      "asset_type": "fund",
+      "rows": 563,
+      "latest_date": "20261118",
+      "events": 5
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T03:03:40.874199+00:00"
+}

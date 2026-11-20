@@ -1,0 +1,19 @@
+{
+  "batch": 434,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1968,
+  "corporate_action_events": 9,
+  "instruments": [
+    {
+      "insCode": "25180702353416009",
+      "symbol": "زدشت",
+      "asset_type": "share",
+      "rows": 1968,
+      "latest_date": "20261118",
+      "events": 9
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:51:50.259139+00:00"
+}

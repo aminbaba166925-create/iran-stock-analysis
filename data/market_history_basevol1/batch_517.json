@@ -1,0 +1,19 @@
+{
+  "batch": 517,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 3301,
+  "corporate_action_events": 21,
+  "instruments": [
+    {
+      "insCode": "25244329144808274",
+      "symbol": "فارس",
+      "asset_type": "share",
+      "rows": 3301,
+      "latest_date": "20261118",
+      "events": 21
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:49:15.301343+00:00"
+}

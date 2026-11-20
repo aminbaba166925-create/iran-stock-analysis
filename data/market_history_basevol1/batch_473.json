@@ -1,0 +1,19 @@
+{
+  "batch": 473,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 3991,
+  "corporate_action_events": 19,
+  "instruments": [
+    {
+      "insCode": "48753732042176709",
+      "symbol": "شبريز",
+      "asset_type": "share",
+      "rows": 3991,
+      "latest_date": "20261118",
+      "events": 19
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:19:49.443478+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "batch": 296,
+  "success": 0,
+  "failed": 1,
+  "raw_rows": 0,
+  "corporate_action_events": 0,
+  "instruments": [],
+  "failures": [
+    {
+      "insCode": "35940246179256292",
+      "symbol": "يكان",
+      "error": "daily history too short: 17"
+    }
+  ],
+  "saved_at_utc": "2026-11-20T06:49:56.280539+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "batch": 216,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 521,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "48240748007949910",
+      "symbol": "كارآمد2",
+      "asset_type": "fund",
+      "rows": 521,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T03:22:37.285506+00:00"
+}

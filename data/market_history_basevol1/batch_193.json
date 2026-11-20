@@ -1,0 +1,19 @@
+{
+  "batch": 193,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 881,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "11072322261418930",
+      "symbol": "صنهال2",
+      "asset_type": "fund",
+      "rows": 881,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T03:07:20.427012+00:00"
+}

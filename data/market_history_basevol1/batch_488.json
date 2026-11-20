@@ -1,0 +1,19 @@
+{
+  "batch": 488,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 702,
+  "corporate_action_events": 3,
+  "instruments": [
+    {
+      "insCode": "33938004134399485",
+      "symbol": "صبا",
+      "asset_type": "share",
+      "rows": 702,
+      "latest_date": "20261118",
+      "events": 3
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:28:02.988210+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "batch": 339,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 140,
+  "corporate_action_events": 1,
+  "instruments": [
+    {
+      "insCode": "60235881999727383",
+      "symbol": "آكو",
+      "asset_type": "share",
+      "rows": 140,
+      "latest_date": "20261118",
+      "events": 1
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T04:40:33.908700+00:00"
+}

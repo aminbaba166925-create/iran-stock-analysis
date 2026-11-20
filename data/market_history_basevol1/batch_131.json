@@ -1,0 +1,19 @@
+{
+  "batch": 131,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 241,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "20390798161678622",
+      "symbol": "رادان2",
+      "asset_type": "fund",
+      "rows": 241,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T02:23:00.754178+00:00"
+}

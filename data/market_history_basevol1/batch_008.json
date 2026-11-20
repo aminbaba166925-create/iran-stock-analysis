@@ -1,0 +1,19 @@
+{
+  "batch": 8,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 309,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "53835366979083256",
+      "symbol": "آسا2",
+      "asset_type": "fund",
+      "rows": 309,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:56:15.567539+00:00"
+}

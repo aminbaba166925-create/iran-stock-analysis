@@ -1,0 +1,19 @@
+{
+  "batch": 266,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 205,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "1866895338227997",
+      "symbol": "نقران2",
+      "asset_type": "fund",
+      "rows": 205,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T03:54:53.927140+00:00"
+}

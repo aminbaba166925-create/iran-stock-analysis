@@ -1,0 +1,19 @@
+{
+  "batch": 40,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 558,
+  "corporate_action_events": 2,
+  "instruments": [
+    {
+      "insCode": "50243708970398750",
+      "symbol": "اطمينان",
+      "asset_type": "fund",
+      "rows": 558,
+      "latest_date": "20261118",
+      "events": 2
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T01:18:21.871651+00:00"
+}

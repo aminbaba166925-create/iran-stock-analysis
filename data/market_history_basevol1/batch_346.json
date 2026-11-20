@@ -1,0 +1,19 @@
+{
+  "batch": 346,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 3068,
+  "corporate_action_events": 23,
+  "instruments": [
+    {
+      "insCode": "36773155987365094",
+      "symbol": "اعتلا",
+      "asset_type": "share",
+      "rows": 3068,
+      "latest_date": "20261118",
+      "events": 23
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T04:47:03.486759+00:00"
+}

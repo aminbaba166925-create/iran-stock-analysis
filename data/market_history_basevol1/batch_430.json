@@ -1,0 +1,19 @@
+{
+  "batch": 430,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4554,
+  "corporate_action_events": 26,
+  "instruments": [
+    {
+      "insCode": "67126881188552864",
+      "symbol": "رمپنا",
+      "asset_type": "share",
+      "rows": 4554,
+      "latest_date": "20261118",
+      "events": 26
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:49:03.422671+00:00"
+}

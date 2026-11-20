@@ -1,0 +1,19 @@
+{
+  "batch": 11,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 451,
+  "corporate_action_events": 4,
+  "instruments": [
+    {
+      "insCode": "65640021232361587",
+      "symbol": "آسان",
+      "asset_type": "fund",
+      "rows": 451,
+      "latest_date": "20261118",
+      "events": 4
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:58:08.331719+00:00"
+}

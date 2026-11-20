@@ -1,0 +1,19 @@
+{
+  "batch": 256,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 245,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "7854238750997270",
+      "symbol": "نبات",
+      "asset_type": "fund",
+      "rows": 245,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T03:47:39.497140+00:00"
+}

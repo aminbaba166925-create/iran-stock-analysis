@@ -1,0 +1,19 @@
+{
+  "batch": 265,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 35,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "63283084239560679",
+      "symbol": "نقراتي",
+      "asset_type": "fund",
+      "rows": 35,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T03:53:49.117168+00:00"
+}
