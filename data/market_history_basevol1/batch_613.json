@@ -1,0 +1,19 @@
+{
+  "batch": 613,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5482,
+  "corporate_action_events": 26,
+  "instruments": [
+    {
+      "insCode": "54676885047867737",
+      "symbol": "وتوشه",
+      "asset_type": "share",
+      "rows": 5482,
+      "latest_date": "20261118",
+      "events": 26
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:59:16.708645+00:00"
+}
