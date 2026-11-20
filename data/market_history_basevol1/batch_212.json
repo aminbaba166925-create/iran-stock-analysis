@@ -1,0 +1,19 @@
+{
+  "batch": 212,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 450,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "6237807001018762",
+      "symbol": "قيراط",
+      "asset_type": "fund",
+      "rows": 450,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T03:20:04.008254+00:00"
+}
