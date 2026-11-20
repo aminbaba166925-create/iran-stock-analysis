@@ -1,0 +1,19 @@
+{
+  "batch": 526,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 3423,
+  "corporate_action_events": 23,
+  "instruments": [
+    {
+      "insCode": "43716452378323683",
+      "symbol": "فزرين",
+      "asset_type": "share",
+      "rows": 3423,
+      "latest_date": "20261118",
+      "events": 23
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:56:08.966245+00:00"
+}
