@@ -1,0 +1,19 @@
+{
+  "batch": 533,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 76,
+  "corporate_action_events": 1,
+  "instruments": [
+    {
+      "insCode": "35026822153186010",
+      "symbol": "فنقره",
+      "asset_type": "share",
+      "rows": 76,
+      "latest_date": "20261118",
+      "events": 1
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:59:17.430191+00:00"
+}
