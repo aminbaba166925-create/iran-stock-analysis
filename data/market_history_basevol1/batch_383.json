@@ -1,0 +1,19 @@
+{
+  "batch": 383,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5464,
+  "corporate_action_events": 19,
+  "instruments": [
+    {
+      "insCode": "66456062140680461",
+      "symbol": "ثامان",
+      "asset_type": "share",
+      "rows": 5464,
+      "latest_date": "20261118",
+      "events": 19
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:15:29.552814+00:00"
+}
