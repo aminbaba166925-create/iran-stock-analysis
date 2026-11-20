@@ -1,91 +1,19 @@
 {
   "batch": 37,
-  "success": 10,
+  "success": 1,
   "failed": 0,
-  "raw_rows": 26895,
-  "corporate_action_events": 110,
+  "raw_rows": 811,
+  "corporate_action_events": 0,
   "instruments": [
     {
-      "insCode": "23293437377896568",
-      "symbol": "تاصيكو",
-      "asset_type": "share",
-      "rows": 1830,
-      "latest_date": "20261118",
-      "events": 12
-    },
-    {
-      "insCode": "22560050433388046",
-      "symbol": "تاپيكو",
-      "asset_type": "share",
-      "rows": 3261,
-      "latest_date": "20261118",
-      "events": 17
-    },
-    {
-      "insCode": "3654864906585643",
-      "symbol": "تكنو",
-      "asset_type": "share",
-      "rows": 5024,
-      "latest_date": "20261118",
-      "events": 8
-    },
-    {
-      "insCode": "14825677919842501",
-      "symbol": "تكيميا",
-      "asset_type": "share",
-      "rows": 470,
-      "latest_date": "20261118",
-      "events": 3
-    },
-    {
-      "insCode": "41781090739318251",
-      "symbol": "تليسه",
-      "asset_type": "share",
-      "rows": 2609,
-      "latest_date": "20261118",
-      "events": 13
-    },
-    {
-      "insCode": "11129387075131725",
-      "symbol": "تملت",
-      "asset_type": "share",
-      "rows": 1609,
-      "latest_date": "20261118",
-      "events": 10
-    },
-    {
-      "insCode": "25357135030606405",
-      "symbol": "تنوين",
-      "asset_type": "share",
-      "rows": 1920,
-      "latest_date": "20261118",
-      "events": 12
-    },
-    {
-      "insCode": "37389789764168256",
-      "symbol": "توريل",
-      "asset_type": "share",
-      "rows": 3538,
-      "latest_date": "20261118",
-      "events": 19
-    },
-    {
-      "insCode": "62940838026283460",
-      "symbol": "توريل2",
-      "asset_type": "share",
-      "rows": 3538,
+      "insCode": "24907784641855842",
+      "symbol": "استيل",
+      "asset_type": "fund",
+      "rows": 811,
       "latest_date": "20261118",
       "events": 0
-    },
-    {
-      "insCode": "29758477602878557",
-      "symbol": "تيپيكو",
-      "asset_type": "share",
-      "rows": 3096,
-      "latest_date": "20261118",
-      "events": 16
     }
   ],
   "failures": [],
-  "saved_at_utc": "2026-11-19T23:50:12.625377+00:00"
+  "saved_at_utc": "2026-11-20T01:16:53.339405+00:00"
 }
