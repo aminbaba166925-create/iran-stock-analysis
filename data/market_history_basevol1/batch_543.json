@@ -1,0 +1,19 @@
+{
+  "batch": 543,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4658,
+  "corporate_action_events": 23,
+  "instruments": [
+    {
+      "insCode": "14398278072324784",
+      "symbol": "قهكمت",
+      "asset_type": "share",
+      "rows": 4658,
+      "latest_date": "20261118",
+      "events": 23
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:06:49.093418+00:00"
+}
