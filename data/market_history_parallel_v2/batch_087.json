@@ -1,0 +1,91 @@
+{
+  "batch": 87,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 32678,
+  "events": 2,
+  "instruments": [
+    {
+      "insCode": "28788598290160782",
+      "symbol": "الماس",
+      "asset_type": "fund",
+      "rows": 2956,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "56189844193337321",
+      "symbol": "جام سهند",
+      "asset_type": "fund",
+      "rows": 244,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "61721613753287033",
+      "symbol": "خشرق3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "28140705556632469",
+      "symbol": "خچرخش3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "41144123112442385",
+      "symbol": "دپارس3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "24652829408617871",
+      "symbol": "سكرد3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "23923962184779699",
+      "symbol": "شگل3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "53254721657145377",
+      "symbol": "غچين3",
+      "asset_type": "share",
+      "rows": 4330,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "20453559648564964",
+      "symbol": "مهر",
+      "asset_type": "share",
+      "rows": 400,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "51199016780782768",
+      "symbol": "وايران3",
+      "asset_type": "share",
+      "rows": 3098,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:03:30.426573Z"
+}
