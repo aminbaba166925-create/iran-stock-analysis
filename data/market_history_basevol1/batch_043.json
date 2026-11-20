@@ -1,0 +1,91 @@
+{
+  "batch": 43,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 20753,
+  "corporate_action_events": 99,
+  "instruments": [
+    {
+      "insCode": "67126881188552864",
+      "symbol": "رمپنا",
+      "asset_type": "share",
+      "rows": 4554,
+      "latest_date": "20261118",
+      "events": 26
+    },
+    {
+      "insCode": "33854964748757477",
+      "symbol": "رنيك",
+      "asset_type": "share",
+      "rows": 1786,
+      "latest_date": "20261118",
+      "events": 12
+    },
+    {
+      "insCode": "6478064539164167",
+      "symbol": "ريشمك",
+      "asset_type": "share",
+      "rows": 2275,
+      "latest_date": "20261118",
+      "events": 11
+    },
+    {
+      "insCode": "54482686501491508",
+      "symbol": "زبينا",
+      "asset_type": "share",
+      "rows": 2180,
+      "latest_date": "20261118",
+      "events": 10
+    },
+    {
+      "insCode": "25180702353416009",
+      "symbol": "زدشت",
+      "asset_type": "share",
+      "rows": 1968,
+      "latest_date": "20261118",
+      "events": 9
+    },
+    {
+      "insCode": "26547785441834730",
+      "symbol": "زشريف",
+      "asset_type": "share",
+      "rows": 1872,
+      "latest_date": "20261118",
+      "events": 7
+    },
+    {
+      "insCode": "26259366519412975",
+      "symbol": "زشگزا",
+      "asset_type": "share",
+      "rows": 2368,
+      "latest_date": "20261118",
+      "events": 10
+    },
+    {
+      "insCode": "9155145921347611",
+      "symbol": "زفارس",
+      "asset_type": "share",
+      "rows": 636,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "36844527173896115",
+      "symbol": "زفجر",
+      "asset_type": "share",
+      "rows": 1238,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "5427792638736934",
+      "symbol": "زفكا",
+      "asset_type": "share",
+      "rows": 1876,
+      "latest_date": "20261118",
+      "events": 8
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:03:18.560362+00:00"
+}
