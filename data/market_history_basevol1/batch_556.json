@@ -1,0 +1,19 @@
+{
+  "batch": 556,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5105,
+  "corporate_action_events": 21,
+  "instruments": [
+    {
+      "insCode": "67690708346979840",
+      "symbol": "كماسه",
+      "asset_type": "share",
+      "rows": 5105,
+      "latest_date": "20261118",
+      "events": 21
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:15:36.866136+00:00"
+}
