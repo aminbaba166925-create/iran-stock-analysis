@@ -1,0 +1,19 @@
+{
+  "batch": 576,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 3628,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "34480543403220870",
+      "symbol": "مارون2",
+      "asset_type": "share",
+      "rows": 3628,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:29:00.895999+00:00"
+}
