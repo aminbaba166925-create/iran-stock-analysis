@@ -1,0 +1,19 @@
+{
+  "batch": 455,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4844,
+  "corporate_action_events": 11,
+  "instruments": [
+    {
+      "insCode": "27218386411183410",
+      "symbol": "سدور",
+      "asset_type": "share",
+      "rows": 4844,
+      "latest_date": "20261118",
+      "events": 11
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:07:09.048171+00:00"
+}
