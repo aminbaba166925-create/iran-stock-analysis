@@ -1,91 +1,19 @@
 {
   "batch": 61,
-  "success": 10,
+  "success": 1,
   "failed": 0,
-  "raw_rows": 42231,
-  "corporate_action_events": 198,
+  "raw_rows": 956,
+  "corporate_action_events": 1,
   "instruments": [
     {
-      "insCode": "28328710198554144",
-      "symbol": "وبوعلي",
-      "asset_type": "share",
-      "rows": 5184,
-      "latest_date": "20261118",
-      "events": 23
-    },
-    {
-      "insCode": "63917421733088077",
-      "symbol": "وتجارت",
-      "asset_type": "share",
-      "rows": 4235,
-      "latest_date": "20261118",
-      "events": 26
-    },
-    {
-      "insCode": "17528249960294496",
-      "symbol": "وتوسم",
-      "asset_type": "share",
-      "rows": 4950,
-      "latest_date": "20261118",
-      "events": 20
-    },
-    {
-      "insCode": "54676885047867737",
-      "symbol": "وتوشه",
-      "asset_type": "share",
-      "rows": 5482,
-      "latest_date": "20261118",
-      "events": 26
-    },
-    {
-      "insCode": "2944500421562364",
-      "symbol": "وتوصا",
-      "asset_type": "share",
-      "rows": 5836,
-      "latest_date": "20261118",
-      "events": 28
-    },
-    {
-      "insCode": "22501232035732859",
-      "symbol": "وثنو",
-      "asset_type": "share",
-      "rows": 357,
+      "insCode": "34856765062083074",
+      "symbol": "بازده",
+      "asset_type": "fund",
+      "rows": 956,
       "latest_date": "20261118",
       "events": 1
-    },
-    {
-      "insCode": "7395271748414592",
-      "symbol": "وخارزم",
-      "asset_type": "share",
-      "rows": 3397,
-      "latest_date": "20261118",
-      "events": 19
-    },
-    {
-      "insCode": "47333458678352378",
-      "symbol": "وخاور",
-      "asset_type": "share",
-      "rows": 2814,
-      "latest_date": "20261118",
-      "events": 18
-    },
-    {
-      "insCode": "43966385447049549",
-      "symbol": "ودي",
-      "asset_type": "share",
-      "rows": 4139,
-      "latest_date": "20261118",
-      "events": 17
-    },
-    {
-      "insCode": "7385624172574740",
-      "symbol": "ورنا",
-      "asset_type": "share",
-      "rows": 5837,
-      "latest_date": "20261118",
-      "events": 20
     }
   ],
   "failures": [],
-  "saved_at_utc": "2026-11-20T00:39:23.407431+00:00"
+  "saved_at_utc": "2026-11-20T01:32:10.780028+00:00"
 }
