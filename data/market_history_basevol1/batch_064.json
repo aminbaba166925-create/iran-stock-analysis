@@ -1,91 +1,19 @@
 {
   "batch": 64,
-  "success": 10,
+  "success": 1,
   "failed": 0,
-  "raw_rows": 33224,
-  "corporate_action_events": 145,
+  "raw_rows": 382,
+  "corporate_action_events": 0,
   "instruments": [
     {
-      "insCode": "62603302940123327",
-      "symbol": "ونيرو",
-      "asset_type": "share",
-      "rows": 4892,
+      "insCode": "36097802106344978",
+      "symbol": "بانكا2",
+      "asset_type": "fund",
+      "rows": 382,
       "latest_date": "20261118",
-      "events": 24
-    },
-    {
-      "insCode": "25215182208950217",
-      "symbol": "وهور",
-      "asset_type": "share",
-      "rows": 2750,
-      "latest_date": "20261118",
-      "events": 14
-    },
-    {
-      "insCode": "67244978897607661",
-      "symbol": "وپايا",
-      "asset_type": "share",
-      "rows": 443,
-      "latest_date": "20261118",
-      "events": 2
-    },
-    {
-      "insCode": "7183333492448248",
-      "symbol": "وپخش",
-      "asset_type": "share",
-      "rows": 5475,
-      "latest_date": "20261118",
-      "events": 20
-    },
-    {
-      "insCode": "22087269603540841",
-      "symbol": "وپست",
-      "asset_type": "share",
-      "rows": 3871,
-      "latest_date": "20261118",
-      "events": 12
-    },
-    {
-      "insCode": "24785665268004766",
-      "symbol": "وپويا",
-      "asset_type": "share",
-      "rows": 2396,
-      "latest_date": "20261118",
-      "events": 8
-    },
-    {
-      "insCode": "6110133418282108",
-      "symbol": "پارس",
-      "asset_type": "share",
-      "rows": 2013,
-      "latest_date": "20261118",
-      "events": 11
-    },
-    {
-      "insCode": "23441366113375722",
-      "symbol": "پارسان",
-      "asset_type": "share",
-      "rows": 3562,
-      "latest_date": "20261118",
-      "events": 24
-    },
-    {
-      "insCode": "41935584690956944",
-      "symbol": "پتاير",
-      "asset_type": "share",
-      "rows": 5275,
-      "latest_date": "20261118",
-      "events": 16
-    },
-    {
-      "insCode": "69143674941561637",
-      "symbol": "پترول",
-      "asset_type": "share",
-      "rows": 2547,
-      "latest_date": "20261118",
-      "events": 14
+      "events": 0
     }
   ],
   "failures": [],
-  "saved_at_utc": "2026-11-20T00:45:49.351495+00:00"
+  "saved_at_utc": "2026-11-20T01:34:02.026694+00:00"
 }
