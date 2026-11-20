@@ -1,0 +1,91 @@
+{
+  "batch": 103,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 6308,
+  "events": 0,
+  "instruments": [
+    {
+      "insCode": "53835366979083256",
+      "symbol": "آسا2",
+      "asset_type": "fund",
+      "rows": 309,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "59713328419002402",
+      "symbol": "اتوآگاه2",
+      "asset_type": "fund",
+      "rows": 720,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "63842755043540108",
+      "symbol": "بنكر2",
+      "asset_type": "fund",
+      "rows": 286,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "5051727550286539",
+      "symbol": "ثبات2",
+      "asset_type": "fund",
+      "rows": 1249,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "58108537439201620",
+      "symbol": "دوايكس",
+      "asset_type": "fund",
+      "rows": 382,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "60996557641329487",
+      "symbol": "روال2",
+      "asset_type": "fund",
+      "rows": 767,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "36952679871949516",
+      "symbol": "ريتون2",
+      "asset_type": "fund",
+      "rows": 292,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "39477884263745277",
+      "symbol": "سمنتوداريوش2",
+      "asset_type": "fund",
+      "rows": 52,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "9602593150636254",
+      "symbol": "پالايش2",
+      "asset_type": "fund",
+      "rows": 1493,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "8261711970337244",
+      "symbol": "پيروز2",
+      "asset_type": "fund",
+      "rows": 758,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:43:23.865235Z"
+}
