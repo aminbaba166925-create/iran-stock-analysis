@@ -1,86 +1,19 @@
 {
   "batch": 5,
-  "success": 8,
-  "failed": 2,
-  "raw_rows": 9765,
-  "corporate_action_events": 6,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 30,
+  "corporate_action_events": 0,
   "instruments": [
     {
-      "insCode": "30895446582685604",
-      "symbol": "امرالد",
+      "insCode": "41963936424187357",
+      "symbol": "آرتان",
       "asset_type": "fund",
-      "rows": 414,
+      "rows": 30,
       "latest_date": "20261118",
       "events": 0
-    },
-    {
-      "insCode": "62945240926992257",
-      "symbol": "امگا",
-      "asset_type": "fund",
-      "rows": 192,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "17914401175772326",
-      "symbol": "اهرم",
-      "asset_type": "fund",
-      "rows": 1177,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "62575434414985179",
-      "symbol": "اوج",
-      "asset_type": "fund",
-      "rows": 1224,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "57761388729898548",
-      "symbol": "اوصتا",
-      "asset_type": "fund",
-      "rows": 1992,
-      "latest_date": "20261118",
-      "events": 1
-    },
-    {
-      "insCode": "42927746927909254",
-      "symbol": "اوصتا2",
-      "asset_type": "fund",
-      "rows": 1992,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "42662558291119602",
-      "symbol": "اوصتا4",
-      "asset_type": "fund",
-      "rows": 1992,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "23498719713662118",
-      "symbol": "اونيكس",
-      "asset_type": "fund",
-      "rows": 782,
-      "latest_date": "20261118",
-      "events": 5
     }
   ],
-  "failures": [
-    {
-      "insCode": "25187135698923656",
-      "symbol": "انرژيك",
-      "error": "daily history too short: 3"
-    },
-    {
-      "insCode": "24721740603180411",
-      "symbol": "انرژينو",
-      "error": "daily history too short: 3"
-    }
-  ],
-  "saved_at_utc": "2026-11-19T22:49:11.870646+00:00"
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:54:01.458371+00:00"
 }
