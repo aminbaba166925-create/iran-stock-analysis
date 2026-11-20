@@ -1,0 +1,19 @@
+{
+  "batch": 547,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 525,
+  "corporate_action_events": 3,
+  "instruments": [
+    {
+      "insCode": "24653108506137885",
+      "symbol": "كانسار",
+      "asset_type": "share",
+      "rows": 525,
+      "latest_date": "20261118",
+      "events": 3
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:09:24.586184+00:00"
+}
