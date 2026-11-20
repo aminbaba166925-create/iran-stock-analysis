@@ -1,0 +1,34 @@
+name: Verify base-volume-1 ATH ranking using official adjusted chart
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/rank_basevol1_official_adjusted_ath.py'
+      - '.github/workflows/rank-basevol1-official-adjusted-ath.yml'
+permissions:
+  contents: write
+concurrency:
+  group: basevol1-official-adjusted-ath
+  cancel-in-progress: false
+jobs:
+  rank:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Load base-volume-1 manifest
+        run: |
+          git fetch origin market-history-basevol1-cohort-checkpoints
+          git checkout FETCH_HEAD -- data/market_history_basevol1/manifest.json
+      - name: Calculate using TSETMC official adjusted chart
+        run: python scripts/rank_basevol1_official_adjusted_ath.py
+      - name: Commit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/basevol1_official_adjusted_ath.json reports/basevol1_official_adjusted_ath.md
+          git commit -m "Rank base volume 1 shares using official adjusted charts" || exit 0
+          git push origin HEAD:main
