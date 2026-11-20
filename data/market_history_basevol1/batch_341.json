@@ -1,0 +1,19 @@
+{
+  "batch": 341,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 2854,
+  "corporate_action_events": 21,
+  "instruments": [
+    {
+      "insCode": "39751275523025334",
+      "symbol": "اتكاي",
+      "asset_type": "share",
+      "rows": 2854,
+      "latest_date": "20261118",
+      "events": 21
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T04:42:08.975250+00:00"
+}
