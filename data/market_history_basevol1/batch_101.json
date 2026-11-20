@@ -1,0 +1,19 @@
+{
+  "batch": 101,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 244,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "56189844193337321",
+      "symbol": "جام سهند",
+      "asset_type": "fund",
+      "rows": 244,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T02:01:19.996610+00:00"
+}
