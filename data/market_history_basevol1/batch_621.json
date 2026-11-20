@@ -1,0 +1,19 @@
+{
+  "batch": 621,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4676,
+  "corporate_action_events": 26,
+  "instruments": [
+    {
+      "insCode": "37614886280396031",
+      "symbol": "وساپا",
+      "asset_type": "share",
+      "rows": 4676,
+      "latest_date": "20261118",
+      "events": 26
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T08:06:27.688901+00:00"
+}
