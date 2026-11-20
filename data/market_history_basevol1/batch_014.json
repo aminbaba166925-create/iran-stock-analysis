@@ -1,91 +1,19 @@
 {
   "batch": 14,
-  "success": 10,
+  "success": 1,
   "failed": 0,
-  "raw_rows": 8797,
-  "corporate_action_events": 0,
+  "raw_rows": 815,
+  "corporate_action_events": 1,
   "instruments": [
     {
-      "insCode": "50094941173290382",
-      "symbol": "رواج",
+      "insCode": "19828734979381742",
+      "symbol": "آلا",
       "asset_type": "fund",
-      "rows": 939,
+      "rows": 815,
       "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "60996557641329487",
-      "symbol": "روال2",
-      "asset_type": "fund",
-      "rows": 767,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "24744049494761785",
-      "symbol": "رونق",
-      "asset_type": "fund",
-      "rows": 432,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "15124889255100138",
-      "symbol": "رويش",
-      "asset_type": "fund",
-      "rows": 2379,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "20119181940051841",
-      "symbol": "رويش همراه",
-      "asset_type": "fund",
-      "rows": 373,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "39354015400238252",
-      "symbol": "رويش همراه2",
-      "asset_type": "fund",
-      "rows": 373,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "53059909885484371",
-      "symbol": "رويين",
-      "asset_type": "fund",
-      "rows": 757,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "14035144070182412",
-      "symbol": "ريتون",
-      "asset_type": "fund",
-      "rows": 292,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "36952679871949516",
-      "symbol": "ريتون2",
-      "asset_type": "fund",
-      "rows": 292,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "33254899395816171",
-      "symbol": "زر",
-      "asset_type": "fund",
-      "rows": 2193,
-      "latest_date": "20261118",
-      "events": 0
+      "events": 1
     }
   ],
   "failures": [],
-  "saved_at_utc": "2026-11-19T23:06:28.781058+00:00"
+  "saved_at_utc": "2026-11-20T01:00:24.230760+00:00"
 }
