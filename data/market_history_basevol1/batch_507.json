@@ -1,0 +1,19 @@
+{
+  "batch": 507,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1768,
+  "corporate_action_events": 10,
+  "instruments": [
+    {
+      "insCode": "37842793167868642",
+      "symbol": "غويتا",
+      "asset_type": "share",
+      "rows": 1768,
+      "latest_date": "20261118",
+      "events": 10
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:41:49.662675+00:00"
+}
