@@ -1,0 +1,19 @@
+{
+  "batch": 656,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5247,
+  "corporate_action_events": 14,
+  "instruments": [
+    {
+      "insCode": "24254843881948059",
+      "symbol": "چكاوه",
+      "asset_type": "share",
+      "rows": 5247,
+      "latest_date": "20261118",
+      "events": 14
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T08:32:58.569619+00:00"
+}
