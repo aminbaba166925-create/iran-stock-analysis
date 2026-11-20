@@ -1,0 +1,89 @@
+{
+  "batch": 48,
+  "success": 9,
+  "failed": 1,
+  "raw_rows": 22460,
+  "corporate_action_events": 99,
+  "instruments": [
+    {
+      "insCode": "36899214178084525",
+      "symbol": "شفا",
+      "asset_type": "share",
+      "rows": 2195,
+      "latest_date": "20261118",
+      "events": 10
+    },
+    {
+      "insCode": "27308217070238237",
+      "symbol": "شكربن",
+      "asset_type": "share",
+      "rows": 5773,
+      "latest_date": "20261118",
+      "events": 13
+    },
+    {
+      "insCode": "57848902730525508",
+      "symbol": "شكيميا",
+      "asset_type": "share",
+      "rows": 84,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "9098178887955847",
+      "symbol": "شهر",
+      "asset_type": "share",
+      "rows": 873,
+      "latest_date": "20261118",
+      "events": 4
+    },
+    {
+      "insCode": "11622051128546106",
+      "symbol": "شپاكسا",
+      "asset_type": "share",
+      "rows": 5708,
+      "latest_date": "20261118",
+      "events": 25
+    },
+    {
+      "insCode": "7745894403636165",
+      "symbol": "شپنا",
+      "asset_type": "share",
+      "rows": 4391,
+      "latest_date": "20261118",
+      "events": 28
+    },
+    {
+      "insCode": "5987841496184505",
+      "symbol": "شگويا",
+      "asset_type": "share",
+      "rows": 1607,
+      "latest_date": "20261118",
+      "events": 7
+    },
+    {
+      "insCode": "33938004134399485",
+      "symbol": "صبا",
+      "asset_type": "share",
+      "rows": 702,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "34213522001938649",
+      "symbol": "عاليس",
+      "asset_type": "share",
+      "rows": 1127,
+      "latest_date": "20261118",
+      "events": 8
+    }
+  ],
+  "failures": [
+    {
+      "insCode": "69243469815198168",
+      "symbol": "شكبير",
+      "error": "daily history too short: 8"
+    }
+  ],
+  "saved_at_utc": "2026-11-20T00:13:45.120782+00:00"
+}
