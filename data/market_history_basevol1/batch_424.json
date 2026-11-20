@@ -1,0 +1,19 @@
+{
+  "batch": 424,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 232,
+  "corporate_action_events": 1,
+  "instruments": [
+    {
+      "insCode": "66565762259123454",
+      "symbol": "ذرت",
+      "asset_type": "share",
+      "rows": 232,
+      "latest_date": "20261118",
+      "events": 1
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:45:26.268757+00:00"
+}
