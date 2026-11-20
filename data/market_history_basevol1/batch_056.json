@@ -1,91 +1,19 @@
 {
   "batch": 56,
-  "success": 10,
+  "success": 1,
   "failed": 0,
-  "raw_rows": 26849,
-  "corporate_action_events": 163,
+  "raw_rows": 1992,
+  "corporate_action_events": 1,
   "instruments": [
     {
-      "insCode": "62977319271289925",
-      "symbol": "كي بي سي",
-      "asset_type": "share",
-      "rows": 3068,
+      "insCode": "57761388729898548",
+      "symbol": "اوصتا",
+      "asset_type": "fund",
+      "rows": 1992,
       "latest_date": "20261118",
-      "events": 21
-    },
-    {
-      "insCode": "45353845483523901",
-      "symbol": "كيانا",
-      "asset_type": "share",
-      "rows": 1227,
-      "latest_date": "20261118",
-      "events": 4
-    },
-    {
-      "insCode": "66025809087145106",
-      "symbol": "كيمازي",
-      "asset_type": "share",
-      "rows": 42,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "14427168056799610",
-      "symbol": "كيميا",
-      "asset_type": "share",
-      "rows": 882,
-      "latest_date": "20261118",
-      "events": 6
-    },
-    {
-      "insCode": "39884565732277052",
-      "symbol": "كيمياتك",
-      "asset_type": "share",
-      "rows": 1376,
-      "latest_date": "20261118",
-      "events": 9
-    },
-    {
-      "insCode": "22941065011246116",
-      "symbol": "كپرور",
-      "asset_type": "share",
-      "rows": 2832,
-      "latest_date": "20261118",
-      "events": 15
-    },
-    {
-      "insCode": "57639364758870873",
-      "symbol": "كپشير",
-      "asset_type": "share",
-      "rows": 4817,
-      "latest_date": "20261118",
-      "events": 25
-    },
-    {
-      "insCode": "35700344742885862",
-      "symbol": "كگل",
-      "asset_type": "share",
-      "rows": 5084,
-      "latest_date": "20261118",
-      "events": 49
-    },
-    {
-      "insCode": "30703140537034664",
-      "symbol": "كگهر",
-      "asset_type": "share",
-      "rows": 1926,
-      "latest_date": "20261118",
-      "events": 12
-    },
-    {
-      "insCode": "63363116407864462",
-      "symbol": "لابسا",
-      "asset_type": "share",
-      "rows": 5595,
-      "latest_date": "20261118",
-      "events": 22
+      "events": 1
     }
   ],
   "failures": [],
-  "saved_at_utc": "2026-11-20T00:29:41.587920+00:00"
+  "saved_at_utc": "2026-11-20T01:28:06.686841+00:00"
 }
