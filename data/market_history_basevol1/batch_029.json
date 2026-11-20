@@ -1,89 +1,19 @@
 {
   "batch": 29,
-  "success": 9,
-  "failed": 1,
-  "raw_rows": 5579,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 720,
   "corporate_action_events": 0,
   "instruments": [
     {
-      "insCode": "12656026382252667",
-      "symbol": "ولتاژ",
+      "insCode": "59713328419002402",
+      "symbol": "اتوآگاه2",
       "asset_type": "fund",
-      "rows": 189,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "57585821705408565",
-      "symbol": "ونچر",
-      "asset_type": "fund",
-      "rows": 1622,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "58852293795036597",
-      "symbol": "ويستا",
-      "asset_type": "fund",
-      "rows": 1224,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "16240668736729756",
-      "symbol": "ياس",
-      "asset_type": "fund",
-      "rows": 66,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "38555325006585281",
-      "symbol": "ياس2",
-      "asset_type": "fund",
-      "rows": 66,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "29884261753438378",
-      "symbol": "ياقوت2",
-      "asset_type": "fund",
-      "rows": 1602,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "46719827689106480",
-      "symbol": "يكم",
-      "asset_type": "fund",
-      "rows": 277,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "34472339105893593",
-      "symbol": "يلدا",
-      "asset_type": "fund",
-      "rows": 321,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "8040378907652400",
-      "symbol": "يوتيليتي",
-      "asset_type": "fund",
-      "rows": 212,
+      "rows": 720,
       "latest_date": "20261118",
       "events": 0
     }
   ],
-  "failures": [
-    {
-      "insCode": "35940246179256292",
-      "symbol": "يكان",
-      "error": "daily history too short: 17"
-    }
-  ],
-  "saved_at_utc": "2026-11-19T23:35:33.148467+00:00"
+  "failures": [],
+  "saved_at_utc": "2026-11-20T01:11:45.223294+00:00"
 }
