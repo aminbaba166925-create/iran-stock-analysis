@@ -1,0 +1,19 @@
+{
+  "batch": 579,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 3160,
+  "corporate_action_events": 6,
+  "instruments": [
+    {
+      "insCode": "4247709727327181",
+      "symbol": "مفاخر",
+      "asset_type": "share",
+      "rows": 3160,
+      "latest_date": "20261118",
+      "events": 6
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:31:08.202131+00:00"
+}
