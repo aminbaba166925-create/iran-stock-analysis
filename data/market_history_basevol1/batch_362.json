@@ -1,0 +1,19 @@
+{
+  "batch": 362,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5385,
+  "corporate_action_events": 23,
+  "instruments": [
+    {
+      "insCode": "70219663893822560",
+      "symbol": "بكاب",
+      "asset_type": "share",
+      "rows": 5385,
+      "latest_date": "20261118",
+      "events": 23
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T04:59:25.427350+00:00"
+}
