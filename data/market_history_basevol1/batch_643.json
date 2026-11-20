@@ -1,0 +1,19 @@
+{
+  "batch": 643,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5475,
+  "corporate_action_events": 20,
+  "instruments": [
+    {
+      "insCode": "7183333492448248",
+      "symbol": "وپخش",
+      "asset_type": "share",
+      "rows": 5475,
+      "latest_date": "20261118",
+      "events": 20
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T08:23:54.549806+00:00"
+}
