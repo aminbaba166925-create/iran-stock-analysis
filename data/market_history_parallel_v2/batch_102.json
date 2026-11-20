@@ -1,0 +1,91 @@
+{
+  "batch": 102,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 11555,
+  "events": 0,
+  "instruments": [
+    {
+      "insCode": "64701620739344512",
+      "symbol": "افران2",
+      "asset_type": "fund",
+      "rows": 1610,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "17914401175772326",
+      "symbol": "اهرم",
+      "asset_type": "fund",
+      "rows": 1177,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "70814539916874907",
+      "symbol": "رابين2",
+      "asset_type": "fund",
+      "rows": 915,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "52578796680038854",
+      "symbol": "سيلوا2",
+      "asset_type": "fund",
+      "rows": 71,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "66220730726109607",
+      "symbol": "طلوع2",
+      "asset_type": "fund",
+      "rows": 800,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "67858991327059184",
+      "symbol": "كاريس2",
+      "asset_type": "fund",
+      "rows": 3178,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "44215112373339904",
+      "symbol": "كهربا2",
+      "asset_type": "fund",
+      "rows": 1285,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "67627153231395571",
+      "symbol": "نخل2",
+      "asset_type": "fund",
+      "rows": 1044,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "16417568146230314",
+      "symbol": "نهال2",
+      "asset_type": "fund",
+      "rows": 1409,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "38555325006585281",
+      "symbol": "ياس2",
+      "asset_type": "fund",
+      "rows": 66,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:41:13.416449Z"
+}
