@@ -1,0 +1,19 @@
+{
+  "batch": 578,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 482,
+  "corporate_action_events": 3,
+  "instruments": [
+    {
+      "insCode": "46934177065273437",
+      "symbol": "محتشم",
+      "asset_type": "share",
+      "rows": 482,
+      "latest_date": "20261118",
+      "events": 3
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:30:01.454729+00:00"
+}
