@@ -22,7 +22,7 @@ def read_gz_bytes(blob):
     with gzip.GzipFile(fileobj=io.BytesIO(blob),mode="rb") as gz:
         return list(csv.DictReader(io.TextIOWrapper(gz,encoding="utf-8-sig",newline="")))
 
-def merge_rows(stats, rows):
+def merge_rows(stats, rows, default_asset_type=""):
     for r in rows:
         code=(r.get("insCode") or "").strip()
         sym=(r.get("symbol") or "").strip()
@@ -31,7 +31,7 @@ def merge_rows(stats, rows):
             high=float(r.get("high") or 0); close=float(r.get("close") or 0)
         except (ValueError,TypeError): continue
         if not code or not sym or len(date)!=8 or date<START_DATE or high<=0 or close<=0: continue
-        x=stats.setdefault(code,{"insCode":code,"symbol":sym,"name":r.get("name",""),"asset_type":r.get("asset_type",""),"rows":0,"peak":0.0,"peak_date":"","latest_date":"","latest_close":0.0})
+        x=stats.setdefault(code,{"insCode":code,"symbol":sym,"name":r.get("name",""),"asset_type":(r.get("asset_type") or default_asset_type),"rows":0,"peak":0.0,"peak_date":"","latest_date":"","latest_close":0.0})
         x["rows"]+=1
         if high>x["peak"]: x["peak"],x["peak_date"]=high,date
         if date>=x["latest_date"]: x["latest_date"],x["latest_close"]=date,close
@@ -62,7 +62,7 @@ for (branch,path),codes in master_by_file.items():
 
 # Add the 16 separately requested symbols, deduplicating by instrument code.
 for fp in sorted(USER.glob("*_adjusted.csv.gz")):
-    with gzip.open(fp,"rt",encoding="utf-8-sig",newline="") as f: merge_rows(stats,csv.DictReader(f))
+    with gzip.open(fp,"rt",encoding="utf-8-sig",newline="") as f: merge_rows(stats,csv.DictReader(f),default_asset_type="share")
     sources["user_supplied_symbols"]+=1
 
 items=[]
