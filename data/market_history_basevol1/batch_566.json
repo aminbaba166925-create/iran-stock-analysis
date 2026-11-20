@@ -1,0 +1,19 @@
+{
+  "batch": 566,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4817,
+  "corporate_action_events": 25,
+  "instruments": [
+    {
+      "insCode": "57639364758870873",
+      "symbol": "كپشير",
+      "asset_type": "share",
+      "rows": 4817,
+      "latest_date": "20261118",
+      "events": 25
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:21:26.950702+00:00"
+}
