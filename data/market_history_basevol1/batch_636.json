@@ -1,0 +1,19 @@
+{
+  "batch": 636,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5752,
+  "corporate_action_events": 43,
+  "instruments": [
+    {
+      "insCode": "58931793851445922",
+      "symbol": "ومعادن",
+      "asset_type": "share",
+      "rows": 5752,
+      "latest_date": "20261118",
+      "events": 43
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T08:18:44.178706+00:00"
+}
