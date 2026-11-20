@@ -1,0 +1,91 @@
+{
+  "batch": 94,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 33005,
+  "events": 140,
+  "instruments": [
+    {
+      "insCode": "57719375038898675",
+      "symbol": "آوا4",
+      "asset_type": "fund",
+      "rows": 1526,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "13281937213456378",
+      "symbol": "حسير",
+      "asset_type": "share",
+      "rows": 2410,
+      "latest_date": "20261118",
+      "events": 12
+    },
+    {
+      "insCode": "28809886765682162",
+      "symbol": "حفاري",
+      "asset_type": "share",
+      "rows": 4184,
+      "latest_date": "20261118",
+      "events": 21
+    },
+    {
+      "insCode": "25180702353416009",
+      "symbol": "زدشت",
+      "asset_type": "share",
+      "rows": 1968,
+      "latest_date": "20261118",
+      "events": 9
+    },
+    {
+      "insCode": "26259366519412975",
+      "symbol": "زشگزا",
+      "asset_type": "share",
+      "rows": 2368,
+      "latest_date": "20261118",
+      "events": 10
+    },
+    {
+      "insCode": "33420285433308219",
+      "symbol": "زپارس",
+      "asset_type": "share",
+      "rows": 2054,
+      "latest_date": "20261118",
+      "events": 9
+    },
+    {
+      "insCode": "48753732042176709",
+      "symbol": "شبريز",
+      "asset_type": "share",
+      "rows": 3991,
+      "latest_date": "20261118",
+      "events": 19
+    },
+    {
+      "insCode": "65004959184388996",
+      "symbol": "فايرا",
+      "asset_type": "share",
+      "rows": 4573,
+      "latest_date": "20261118",
+      "events": 17
+    },
+    {
+      "insCode": "46348559193224090",
+      "symbol": "فولاد",
+      "asset_type": "share",
+      "rows": 4684,
+      "latest_date": "20261118",
+      "events": 29
+    },
+    {
+      "insCode": "24254843881948059",
+      "symbol": "چكاوه",
+      "asset_type": "share",
+      "rows": 5247,
+      "latest_date": "20261118",
+      "events": 14
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:24:40.211315Z"
+}
