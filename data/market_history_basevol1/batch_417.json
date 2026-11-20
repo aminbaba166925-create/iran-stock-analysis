@@ -1,0 +1,19 @@
+{
+  "batch": 417,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5300,
+  "corporate_action_events": 33,
+  "instruments": [
+    {
+      "insCode": "43622578471330344",
+      "symbol": "دسبحا",
+      "asset_type": "share",
+      "rows": 5300,
+      "latest_date": "20261118",
+      "events": 33
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:39:55.475629+00:00"
+}
