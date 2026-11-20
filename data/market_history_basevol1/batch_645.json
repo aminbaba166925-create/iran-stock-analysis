@@ -1,0 +1,19 @@
+{
+  "batch": 645,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 2396,
+  "corporate_action_events": 8,
+  "instruments": [
+    {
+      "insCode": "24785665268004766",
+      "symbol": "وپويا",
+      "asset_type": "share",
+      "rows": 2396,
+      "latest_date": "20261118",
+      "events": 8
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T08:24:55.512633+00:00"
+}
