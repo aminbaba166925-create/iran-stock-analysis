@@ -1,0 +1,19 @@
+{
+  "batch": 598,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 832,
+  "corporate_action_events": 7,
+  "instruments": [
+    {
+      "insCode": "589599697502308",
+      "symbol": "وآفري",
+      "asset_type": "share",
+      "rows": 832,
+      "latest_date": "20261118",
+      "events": 7
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:47:32.829402+00:00"
+}
