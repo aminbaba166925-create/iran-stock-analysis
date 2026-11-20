@@ -1,0 +1,91 @@
+{
+  "batch": 98,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 6480,
+  "events": 0,
+  "instruments": [
+    {
+      "insCode": "61708556710788742",
+      "symbol": "بزرگ2",
+      "asset_type": "fund",
+      "rows": 257,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "34539190646780083",
+      "symbol": "تاراز2",
+      "asset_type": "fund",
+      "rows": 1154,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "16128056659300776",
+      "symbol": "ترنج ثابت2",
+      "asset_type": "fund",
+      "rows": 562,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "27025263421446871",
+      "symbol": "زمرد كوروش2",
+      "asset_type": "fund",
+      "rows": 498,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "50358563627438461",
+      "symbol": "سپر2",
+      "asset_type": "fund",
+      "rows": 1518,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "36847745437379950",
+      "symbol": "كاج2",
+      "asset_type": "fund",
+      "rows": 992,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "38147023029867780",
+      "symbol": "مختلط2",
+      "asset_type": "fund",
+      "rows": 228,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "41874435286844039",
+      "symbol": "ناب2",
+      "asset_type": "fund",
+      "rows": 944,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "18467031337380456",
+      "symbol": "ناوگان2",
+      "asset_type": "fund",
+      "rows": 177,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "64755435377613454",
+      "symbol": "نقرين2",
+      "asset_type": "fund",
+      "rows": 150,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:32:45.429012Z"
+}
