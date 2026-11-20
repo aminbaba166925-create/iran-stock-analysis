@@ -1,91 +1,19 @@
 {
   "batch": 63,
-  "success": 10,
+  "success": 1,
   "failed": 0,
-  "raw_rows": 35207,
-  "corporate_action_events": 185,
+  "raw_rows": 382,
+  "corporate_action_events": 0,
   "instruments": [
     {
-      "insCode": "26014913469567886",
-      "symbol": "وغدير",
-      "asset_type": "share",
-      "rows": 5692,
+      "insCode": "37120336886630649",
+      "symbol": "بانكا",
+      "asset_type": "fund",
+      "rows": 382,
       "latest_date": "20261118",
-      "events": 26
-    },
-    {
-      "insCode": "2160777579058191",
-      "symbol": "وفيروزه",
-      "asset_type": "share",
-      "rows": 141,
-      "latest_date": "20261118",
-      "events": 1
-    },
-    {
-      "insCode": "47996917271187218",
-      "symbol": "وكار",
-      "asset_type": "share",
-      "rows": 5335,
-      "latest_date": "20261118",
-      "events": 28
-    },
-    {
-      "insCode": "40553302624764543",
-      "symbol": "وكغدير",
-      "asset_type": "share",
-      "rows": 1183,
-      "latest_date": "20261118",
-      "events": 6
-    },
-    {
-      "insCode": "50011948410571353",
-      "symbol": "ولتجار",
-      "asset_type": "share",
-      "rows": 675,
-      "latest_date": "20261118",
-      "events": 5
-    },
-    {
-      "insCode": "23086515493897579",
-      "symbol": "ولغدر",
-      "asset_type": "share",
-      "rows": 4984,
-      "latest_date": "20261118",
-      "events": 19
-    },
-    {
-      "insCode": "58931793851445922",
-      "symbol": "ومعادن",
-      "asset_type": "share",
-      "rows": 5752,
-      "latest_date": "20261118",
-      "events": 43
-    },
-    {
-      "insCode": "47026464823464687",
-      "symbol": "ومهان",
-      "asset_type": "share",
-      "rows": 882,
-      "latest_date": "20261118",
-      "events": 7
-    },
-    {
-      "insCode": "33931218652865616",
-      "symbol": "ونفت",
-      "asset_type": "share",
-      "rows": 5363,
-      "latest_date": "20261118",
-      "events": 25
-    },
-    {
-      "insCode": "47302318535715632",
-      "symbol": "ونوين",
-      "asset_type": "share",
-      "rows": 5200,
-      "latest_date": "20261118",
-      "events": 25
+      "events": 0
     }
   ],
   "failures": [],
-  "saved_at_utc": "2026-11-20T00:43:50.861131+00:00"
+  "saved_at_utc": "2026-11-20T01:33:45.442420+00:00"
 }
