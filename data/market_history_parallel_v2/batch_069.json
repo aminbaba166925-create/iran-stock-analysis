@@ -1,89 +1,91 @@
 {
   "batch": 69,
-  "success": 9,
-  "failed": 1,
-  "raw_rows": 11966,
-  "events": 17,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 18801,
+  "events": 46,
   "instruments": [
     {
-      "insCode": "34856765062083074",
-      "symbol": "بازده",
+      "insCode": "68536788290212877",
+      "symbol": "آويد",
       "asset_type": "fund",
-      "rows": 956,
+      "rows": 164,
       "latest_date": "20261118",
-      "events": 1
+      "events": 0
     },
     {
-      "insCode": "71300713908076074",
-      "symbol": "بهپاك3",
+      "insCode": "58789178087946067",
+      "symbol": "داريوش",
+      "asset_type": "fund",
+      "rows": 1241,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "6478064539164167",
+      "symbol": "ريشمك",
       "asset_type": "share",
-      "rows": 2353,
+      "rows": 2275,
       "latest_date": "20261118",
-      "events": 0
+      "events": 11
     },
     {
-      "insCode": "20119181940051841",
-      "symbol": "رويش همراه",
-      "asset_type": "fund",
-      "rows": 373,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "28652255236540917",
-      "symbol": "ساحل4",
-      "asset_type": "fund",
-      "rows": 1030,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "33923981945674722",
-      "symbol": "همتا",
-      "asset_type": "fund",
-      "rows": 465,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "70378695410609578",
-      "symbol": "وسرمايه2",
+      "insCode": "13227300125161435",
+      "symbol": "سصوفي",
       "asset_type": "share",
-      "rows": 79,
+      "rows": 5169,
       "latest_date": "20261118",
-      "events": 0
+      "events": 22
     },
     {
-      "insCode": "4957534863955555",
-      "symbol": "ولبهمن3",
-      "asset_type": "share",
-      "rows": 2944,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "7670135462634715",
-      "symbol": "پتروما",
+      "insCode": "68203878405672734",
+      "symbol": "صنوين",
       "asset_type": "fund",
-      "rows": 1184,
+      "rows": 3104,
       "latest_date": "20261118",
       "events": 0
     },
     {
-      "insCode": "65018804181564924",
-      "symbol": "گوهران",
-      "asset_type": "share",
-      "rows": 2582,
+      "insCode": "65576885779918210",
+      "symbol": "مدير",
+      "asset_type": "fund",
+      "rows": 1509,
       "latest_date": "20261118",
-      "events": 16
+      "events": 0
+    },
+    {
+      "insCode": "30430907997908005",
+      "symbol": "نارين",
+      "asset_type": "fund",
+      "rows": 683,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "70498485598181604",
+      "symbol": "هرمز",
+      "asset_type": "share",
+      "rows": 3099,
+      "latest_date": "20261118",
+      "events": 13
+    },
+    {
+      "insCode": "67522512921942106",
+      "symbol": "پادا",
+      "asset_type": "fund",
+      "rows": 1281,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "48968268685622891",
+      "symbol": "گلدا",
+      "asset_type": "fund",
+      "rows": 276,
+      "latest_date": "20261118",
+      "events": 0
     }
   ],
-  "failures": [
-    {
-      "insCode": "35940246179256292",
-      "symbol": "يكان",
-      "error": "daily history too short: 17"
-    }
-  ],
-  "saved_at_utc": "2026-11-19T23:23:29.158410Z"
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:14:14.146516Z"
 }
