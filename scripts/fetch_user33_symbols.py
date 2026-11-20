@@ -20,9 +20,21 @@ FIELDS = history.FIELDS
 
 def checkpoint(paths, message):
     subprocess.run(["git","add",*[str(p) for p in paths]],check=True)
-    if subprocess.run(["git","diff","--cached","--quiet"]).returncode != 0:
-        subprocess.run(["git","commit","-m",message],check=True)
-        subprocess.run(["git","push","origin","HEAD:"+BRANCH],check=True)
+    if subprocess.run(["git","diff","--cached","--quiet"]).returncode == 0:
+        return
+    subprocess.run(["git","commit","-m",message],check=True)
+    last_error = None
+    for attempt in range(1, 6):
+        try:
+            subprocess.run(["git","push","origin","HEAD:"+BRANCH],check=True)
+            return
+        except subprocess.CalledProcessError as exc:
+            last_error = exc
+            print(f"CHECKPOINT_PUSH_RETRY {attempt}/5; syncing checkpoint branch", flush=True)
+            subprocess.run(["git","fetch","origin",BRANCH],check=True)
+            # Rebase this symbol's commit(s) onto the latest shared checkpoint head.
+            subprocess.run(["git","rebase","FETCH_HEAD"],check=True)
+    raise RuntimeError(f"Could not persist checkpoint after 5 attempts: {message}") from last_error
 
 def main():
     params=["market=0"]+[f"paperTypes[{i}]={i+1}" for i in range(9)]
