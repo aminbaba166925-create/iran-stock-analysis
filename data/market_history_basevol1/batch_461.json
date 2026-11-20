@@ -1,0 +1,19 @@
+{
+  "batch": 461,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4704,
+  "corporate_action_events": 23,
+  "instruments": [
+    {
+      "insCode": "10568944722570445",
+      "symbol": "سصفها",
+      "asset_type": "share",
+      "rows": 4704,
+      "latest_date": "20261118",
+      "events": 23
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:11:36.128502+00:00"
+}
