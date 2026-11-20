@@ -1,0 +1,19 @@
+{
+  "batch": 352,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1466,
+  "corporate_action_events": 6,
+  "instruments": [
+    {
+      "insCode": "655060129740445",
+      "symbol": "اپال",
+      "asset_type": "share",
+      "rows": 1466,
+      "latest_date": "20261118",
+      "events": 6
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T04:52:26.548245+00:00"
+}
