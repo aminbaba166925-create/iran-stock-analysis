@@ -1,0 +1,19 @@
+{
+  "batch": 651,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4489,
+  "corporate_action_events": 31,
+  "instruments": [
+    {
+      "insCode": "15039949673085566",
+      "symbol": "پرديس",
+      "asset_type": "share",
+      "rows": 4489,
+      "latest_date": "20261118",
+      "events": 31
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T08:30:24.295836+00:00"
+}
