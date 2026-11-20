@@ -11,7 +11,7 @@
   "basevol1_new_candidates": 661,
   "separate_user_symbols_files": 16,
   "unique_instruments_with_history": 934,
-  "eligible_shares_ranked": 430,
+  "eligible_shares_ranked": 445,
   "sources": {
     "basevol1_batches": 520,
     "master_archive_files": 45,
@@ -55,6 +55,18 @@
       "distance_pct": 89.97
     },
     {
+      "insCode": "831325835570803",
+      "symbol": "ثنام",
+      "name": "س ساختماني ب نام آوران مهندسي",
+      "asset_type": "share",
+      "rows": 1688,
+      "peak": 18144.1817,
+      "peak_date": "20200823",
+      "latest_date": "20261118",
+      "latest_close": 2841.0,
+      "distance_pct": 84.34
+    },
+    {
       "insCode": "34557241988629814",
       "symbol": "بركت",
       "name": "گروه دارويي بركت",
@@ -199,6 +211,18 @@
       "distance_pct": 70.6
     },
     {
+      "insCode": "44296315953738727",
+      "symbol": "فاهواز",
+      "name": "نورد و لوله اهواز",
+      "asset_type": "share",
+      "rows": 1557,
+      "peak": 28638.0,
+      "peak_date": "20200815",
+      "latest_date": "20261118",
+      "latest_close": 8420.0,
+      "distance_pct": 70.6
+    },
+    {
       "insCode": "22903901709044823",
       "symbol": "ختراك",
       "name": "ريخته‌گري‌ تراكتورسازي‌ ايران‌",
@@ -223,6 +247,18 @@
       "distance_pct": 70.18
     },
     {
+      "insCode": "6433335428452486",
+      "symbol": "خعمرا",
+      "name": "توسعه و عمران شهرستان نائين",
+      "asset_type": "share",
+      "rows": 1433,
+      "peak": 30648.4695,
+      "peak_date": "20210712",
+      "latest_date": "20261118",
+      "latest_close": 9440.0,
+      "distance_pct": 69.2
+    },
+    {
       "insCode": "2254054929817435",
       "symbol": "غدام",
       "name": "خوراك‌  دام‌ پارس‌",
@@ -233,6 +269,18 @@
       "latest_date": "20261118",
       "latest_close": 67670.0,
       "distance_pct": 69.19
+    },
+    {
+      "insCode": "70391097626818082",
+      "symbol": "گشان",
+      "name": "توسعه بين المللي پديده شانديز",
+      "asset_type": "share",
+      "rows": 1202,
+      "peak": 96247.3836,
+      "peak_date": "20200809",
+      "latest_date": "20261118",
+      "latest_close": 30320.0,
+      "distance_pct": 68.5
     },
     {
       "insCode": "53999651992586159",
@@ -283,6 +331,18 @@
       "distance_pct": 66.85
     },
     {
+      "insCode": "27299841173245405",
+      "symbol": "داراب",
+      "name": "پتروشيمي داراب",
+      "asset_type": "share",
+      "rows": 1728,
+      "peak": 3738.5091,
+      "peak_date": "20200803",
+      "latest_date": "20261118",
+      "latest_close": 1260.0,
+      "distance_pct": 66.3
+    },
+    {
       "insCode": "66456062140680461",
       "symbol": "ثامان",
       "name": "سامان‌ گستراصفهان‌",
@@ -293,6 +353,18 @@
       "latest_date": "20261118",
       "latest_close": 26120.0,
       "distance_pct": 65.9
+    },
+    {
+      "insCode": "318005355896147",
+      "symbol": "فسا",
+      "name": "پتروشيمي فسا",
+      "asset_type": "share",
+      "rows": 1752,
+      "peak": 4092.1678,
+      "peak_date": "20200729",
+      "latest_date": "20261118",
+      "latest_close": 1410.0,
+      "distance_pct": 65.54
     },
     {
       "insCode": "17834623106317041",
@@ -511,6 +583,18 @@
       "distance_pct": 57.74
     },
     {
+      "insCode": "2318736941376687",
+      "symbol": "خصدرا",
+      "name": "صنعتي‌ دريايي‌ ايران‌",
+      "asset_type": "share",
+      "rows": 1656,
+      "peak": 4952.4388,
+      "peak_date": "20200803",
+      "latest_date": "20261118",
+      "latest_close": 2143.0,
+      "distance_pct": 56.73
+    },
+    {
       "insCode": "13281937213456378",
       "symbol": "حسير",
       "name": "ريل سير كوثر",
@@ -533,90 +617,6 @@
       "latest_date": "20261118",
       "latest_close": 9120.0,
       "distance_pct": 55.87
-    },
-    {
-      "insCode": "37661500521100963",
-      "symbol": "آبادا",
-      "name": "توليد نيروي برق آبادان",
-      "asset_type": "share",
-      "rows": 1398,
-      "peak": 30612.5658,
-      "peak_date": "20200823",
-      "latest_date": "20261118",
-      "latest_close": 13690.0,
-      "distance_pct": 55.28
-    },
-    {
-      "insCode": "3654864906585643",
-      "symbol": "تكنو",
-      "name": "تكنوتار",
-      "asset_type": "share",
-      "rows": 1820,
-      "peak": 9172.2391,
-      "peak_date": "20260617",
-      "latest_date": "20261118",
-      "latest_close": 4150.0,
-      "distance_pct": 54.75
-    },
-    {
-      "insCode": "19257295292088310",
-      "symbol": "خكمك",
-      "name": "كمك‌فنرايندامين‌",
-      "asset_type": "share",
-      "rows": 1913,
-      "peak": 6862.0992,
-      "peak_date": "20200810",
-      "latest_date": "20261118",
-      "latest_close": 3152.0,
-      "distance_pct": 54.07
-    },
-    {
-      "insCode": "12746730665870442",
-      "symbol": "بهپاك",
-      "name": "صنعتي بهپاك",
-      "asset_type": "share",
-      "rows": 1900,
-      "peak": 35080.8638,
-      "peak_date": "20200801",
-      "latest_date": "20261118",
-      "latest_close": 16140.0,
-      "distance_pct": 53.99
-    },
-    {
-      "insCode": "60523145697836739",
-      "symbol": "بورس",
-      "name": "بورس اوراق بهادار تهران",
-      "asset_type": "share",
-      "rows": 1805,
-      "peak": 12095.0027,
-      "peak_date": "20200715",
-      "latest_date": "20261118",
-      "latest_close": 5690.0,
-      "distance_pct": 52.96
-    },
-    {
-      "insCode": "18093681647131179",
-      "symbol": "دتوليد",
-      "name": "داروسازي توليد دارو",
-      "asset_type": "share",
-      "rows": 1912,
-      "peak": 22889.2715,
-      "peak_date": "20200708",
-      "latest_date": "20261118",
-      "latest_close": 10860.0,
-      "distance_pct": 52.55
-    },
-    {
-      "insCode": "17617474823279712",
-      "symbol": "آ س پ",
-      "name": "آ.س.پ",
-      "asset_type": "share",
-      "rows": 1922,
-      "peak": 35787.5043,
-      "peak_date": "20240214",
-      "latest_date": "20261118",
-      "latest_close": 17020.0,
-      "distance_pct": 52.44
     }
   ],
   "all_ranked": [
@@ -657,6 +657,18 @@
       "distance_pct": 89.97
     },
     {
+      "insCode": "831325835570803",
+      "symbol": "ثنام",
+      "name": "س ساختماني ب نام آوران مهندسي",
+      "asset_type": "share",
+      "rows": 1688,
+      "peak": 18144.1817,
+      "peak_date": "20200823",
+      "latest_date": "20261118",
+      "latest_close": 2841.0,
+      "distance_pct": 84.34
+    },
+    {
       "insCode": "34557241988629814",
       "symbol": "بركت",
       "name": "گروه دارويي بركت",
@@ -801,6 +813,18 @@
       "distance_pct": 70.6
     },
     {
+      "insCode": "44296315953738727",
+      "symbol": "فاهواز",
+      "name": "نورد و لوله اهواز",
+      "asset_type": "share",
+      "rows": 1557,
+      "peak": 28638.0,
+      "peak_date": "20200815",
+      "latest_date": "20261118",
+      "latest_close": 8420.0,
+      "distance_pct": 70.6
+    },
+    {
       "insCode": "22903901709044823",
       "symbol": "ختراك",
       "name": "ريخته‌گري‌ تراكتورسازي‌ ايران‌",
@@ -825,6 +849,18 @@
       "distance_pct": 70.18
     },
     {
+      "insCode": "6433335428452486",
+      "symbol": "خعمرا",
+      "name": "توسعه و عمران شهرستان نائين",
+      "asset_type": "share",
+      "rows": 1433,
+      "peak": 30648.4695,
+      "peak_date": "20210712",
+      "latest_date": "20261118",
+      "latest_close": 9440.0,
+      "distance_pct": 69.2
+    },
+    {
       "insCode": "2254054929817435",
       "symbol": "غدام",
       "name": "خوراك‌  دام‌ پارس‌",
@@ -835,6 +871,18 @@
       "latest_date": "20261118",
       "latest_close": 67670.0,
       "distance_pct": 69.19
+    },
+    {
+      "insCode": "70391097626818082",
+      "symbol": "گشان",
+      "name": "توسعه بين المللي پديده شانديز",
+      "asset_type": "share",
+      "rows": 1202,
+      "peak": 96247.3836,
+      "peak_date": "20200809",
+      "latest_date": "20261118",
+      "latest_close": 30320.0,
+      "distance_pct": 68.5
     },
     {
       "insCode": "53999651992586159",
@@ -885,6 +933,18 @@
       "distance_pct": 66.85
     },
     {
+      "insCode": "27299841173245405",
+      "symbol": "داراب",
+      "name": "پتروشيمي داراب",
+      "asset_type": "share",
+      "rows": 1728,
+      "peak": 3738.5091,
+      "peak_date": "20200803",
+      "latest_date": "20261118",
+      "latest_close": 1260.0,
+      "distance_pct": 66.3
+    },
+    {
       "insCode": "66456062140680461",
       "symbol": "ثامان",
       "name": "سامان‌ گستراصفهان‌",
@@ -895,6 +955,18 @@
       "latest_date": "20261118",
       "latest_close": 26120.0,
       "distance_pct": 65.9
+    },
+    {
+      "insCode": "318005355896147",
+      "symbol": "فسا",
+      "name": "پتروشيمي فسا",
+      "asset_type": "share",
+      "rows": 1752,
+      "peak": 4092.1678,
+      "peak_date": "20200729",
+      "latest_date": "20261118",
+      "latest_close": 1410.0,
+      "distance_pct": 65.54
     },
     {
       "insCode": "17834623106317041",
@@ -1111,6 +1183,18 @@
       "latest_date": "20261118",
       "latest_close": 5840.0,
       "distance_pct": 57.74
+    },
+    {
+      "insCode": "2318736941376687",
+      "symbol": "خصدرا",
+      "name": "صنعتي‌ دريايي‌ ايران‌",
+      "asset_type": "share",
+      "rows": 1656,
+      "peak": 4952.4388,
+      "peak_date": "20200803",
+      "latest_date": "20261118",
+      "latest_close": 2143.0,
+      "distance_pct": 56.73
     },
     {
       "insCode": "13281937213456378",
@@ -1557,6 +1641,18 @@
       "distance_pct": 34.76
     },
     {
+      "insCode": "10055255678920880",
+      "symbol": "وملت",
+      "name": "سرمايه گذاري ملت",
+      "asset_type": "share",
+      "rows": 1586,
+      "peak": 8644.2057,
+      "peak_date": "20200722",
+      "latest_date": "20261118",
+      "latest_close": 5700.0,
+      "distance_pct": 34.06
+    },
+    {
       "insCode": "68488673556087148",
       "symbol": "فپنتا",
       "name": "سپنتا",
@@ -1735,6 +1831,18 @@
       "latest_date": "20261118",
       "latest_close": 11570.0,
       "distance_pct": 27.64
+    },
+    {
+      "insCode": "18346219759153870",
+      "symbol": "شصفها",
+      "name": "پتروشيمي‌ اصفهان‌",
+      "asset_type": "share",
+      "rows": 1595,
+      "peak": 4911.7647,
+      "peak_date": "20231022",
+      "latest_date": "20261117",
+      "latest_close": 3560.0,
+      "distance_pct": 27.52
     },
     {
       "insCode": "18004480270695404",
@@ -4413,6 +4521,18 @@
       "distance_pct": 3.55
     },
     {
+      "insCode": "35369183060321179",
+      "symbol": "ومشان",
+      "name": "سرمايه گذاري مشانير",
+      "asset_type": "share",
+      "rows": 1481,
+      "peak": 64719.9244,
+      "peak_date": "20230711",
+      "latest_date": "20261118",
+      "latest_close": 62420.0,
+      "distance_pct": 3.55
+    },
+    {
       "insCode": "5968811612822747",
       "symbol": "ولنوين",
       "name": "ليزينگ اقتصاد نوين",
@@ -4797,6 +4917,18 @@
       "distance_pct": 1.44
     },
     {
+      "insCode": "28230238564334914",
+      "symbol": "قجام",
+      "name": "فرآوردههاي غذايي وقندتربت‌جام‌",
+      "asset_type": "share",
+      "rows": 1674,
+      "peak": 16467.7262,
+      "peak_date": "20210112",
+      "latest_date": "20261118",
+      "latest_close": 16240.0,
+      "distance_pct": 1.38
+    },
+    {
       "insCode": "49353447565507376",
       "symbol": "كاذر",
       "name": "فرآورده‌هاي‌نسوزآذر",
@@ -5061,6 +5193,18 @@
       "distance_pct": 0.48
     },
     {
+      "insCode": "25020657188512139",
+      "symbol": "مرقام",
+      "name": "ايران ارقام",
+      "asset_type": "share",
+      "rows": 545,
+      "peak": 17180.0,
+      "peak_date": "20261118",
+      "latest_date": "20261118",
+      "latest_close": 17100.0,
+      "distance_pct": 0.47
+    },
+    {
       "insCode": "408934423224097",
       "symbol": "فرآور",
       "name": "فرآوري‌موادمعدني‌ايران‌",
@@ -5082,6 +5226,18 @@
       "peak_date": "20261118",
       "latest_date": "20261118",
       "latest_close": 30100.0,
+      "distance_pct": 0.43
+    },
+    {
+      "insCode": "64485827086284311",
+      "symbol": "فجوش",
+      "name": "جوش‌ و اكسيژن‌ ايران‌",
+      "asset_type": "share",
+      "rows": 828,
+      "peak": 7020.0,
+      "peak_date": "20261118",
+      "latest_date": "20261118",
+      "latest_close": 6990.0,
       "distance_pct": 0.43
     },
     {
@@ -5778,6 +5934,30 @@
       "peak_date": "20261118",
       "latest_date": "20261118",
       "latest_close": 78990.0,
+      "distance_pct": 0.0
+    },
+    {
+      "insCode": "38738476064699383",
+      "symbol": "آرمان",
+      "name": "بيمه آرمان",
+      "asset_type": "share",
+      "rows": 1286,
+      "peak": 2467.0,
+      "peak_date": "20261118",
+      "latest_date": "20261118",
+      "latest_close": 2467.0,
+      "distance_pct": 0.0
+    },
+    {
+      "insCode": "29316948750916349",
+      "symbol": "پلوله",
+      "name": "توليدي گاز لوله",
+      "asset_type": "share",
+      "rows": 1662,
+      "peak": 17620.0,
+      "peak_date": "20261118",
+      "latest_date": "20261118",
+      "latest_close": 17620.0,
       "distance_pct": 0.0
     }
   ]
