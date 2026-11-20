@@ -1,0 +1,19 @@
+{
+  "batch": 524,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1688,
+  "corporate_action_events": 10,
+  "instruments": [
+    {
+      "insCode": "29974853866926823",
+      "symbol": "فروي",
+      "asset_type": "share",
+      "rows": 1688,
+      "latest_date": "20261118",
+      "events": 10
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:54:56.722613+00:00"
+}
