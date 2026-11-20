@@ -1,0 +1,19 @@
+{
+  "batch": 616,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 3397,
+  "corporate_action_events": 19,
+  "instruments": [
+    {
+      "insCode": "7395271748414592",
+      "symbol": "وخارزم",
+      "asset_type": "share",
+      "rows": 3397,
+      "latest_date": "20261118",
+      "events": 19
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T08:02:38.516678+00:00"
+}
