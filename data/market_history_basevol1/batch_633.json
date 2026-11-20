@@ -1,0 +1,19 @@
+{
+  "batch": 633,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1183,
+  "corporate_action_events": 6,
+  "instruments": [
+    {
+      "insCode": "40553302624764543",
+      "symbol": "وكغدير",
+      "asset_type": "share",
+      "rows": 1183,
+      "latest_date": "20261118",
+      "events": 6
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T08:16:24.348322+00:00"
+}
