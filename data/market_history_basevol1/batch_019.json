@@ -1,91 +1,19 @@
 {
   "batch": 19,
-  "success": 10,
+  "success": 1,
   "failed": 0,
-  "raw_rows": 12936,
-  "corporate_action_events": 14,
+  "raw_rows": 446,
+  "corporate_action_events": 0,
   "instruments": [
     {
-      "insCode": "45205530868811305",
-      "symbol": "صايند",
+      "insCode": "41350070322027412",
+      "symbol": "آميتيس",
       "asset_type": "fund",
-      "rows": 2763,
-      "latest_date": "20261118",
-      "events": 14
-    },
-    {
-      "insCode": "51285326016186930",
-      "symbol": "صدف",
-      "asset_type": "fund",
-      "rows": 778,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "47125023640770480",
-      "symbol": "صنم",
-      "asset_type": "fund",
-      "rows": 1150,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "11072322261418930",
-      "symbol": "صنهال2",
-      "asset_type": "fund",
-      "rows": 881,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "68203878405672734",
-      "symbol": "صنوين",
-      "asset_type": "fund",
-      "rows": 3104,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "31230051169165044",
-      "symbol": "طعام",
-      "asset_type": "fund",
-      "rows": 356,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "66294700705851469",
-      "symbol": "طعام2",
-      "asset_type": "fund",
-      "rows": 356,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "46700660505281786",
-      "symbol": "طلا",
-      "asset_type": "fund",
-      "rows": 2272,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "66220730726109607",
-      "symbol": "طلوع2",
-      "asset_type": "fund",
-      "rows": 800,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "13327012090180555",
-      "symbol": "عرش",
-      "asset_type": "fund",
-      "rows": 476,
+      "rows": 446,
       "latest_date": "20261118",
       "events": 0
     }
   ],
   "failures": [],
-  "saved_at_utc": "2026-11-19T23:17:09.428747+00:00"
+  "saved_at_utc": "2026-11-20T01:04:02.456170+00:00"
 }
