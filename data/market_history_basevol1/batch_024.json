@@ -1,91 +1,19 @@
 {
   "batch": 24,
-  "success": 10,
+  "success": 1,
   "failed": 0,
-  "raw_rows": 4892,
+  "raw_rows": 2660,
   "corporate_action_events": 0,
   "instruments": [
     {
-      "insCode": "38147023029867780",
-      "symbol": "مختلط2",
+      "insCode": "33887145736684266",
+      "symbol": "آگاس",
       "asset_type": "fund",
-      "rows": 228,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "65576885779918210",
-      "symbol": "مدير",
-      "asset_type": "fund",
-      "rows": 1509,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "31248540252187559",
-      "symbol": "مرواريد",
-      "asset_type": "fund",
-      "rows": 1129,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "20789606562681728",
-      "symbol": "مزه",
-      "asset_type": "fund",
-      "rows": 388,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "36255121262639515",
-      "symbol": "مسگون",
-      "asset_type": "fund",
-      "rows": 105,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "59641261891847088",
-      "symbol": "معدن",
-      "asset_type": "fund",
-      "rows": 414,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "48961821709187018",
-      "symbol": "مهرگلد",
-      "asset_type": "fund",
-      "rows": 101,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "42307605893544563",
-      "symbol": "مهرگلد2",
-      "asset_type": "fund",
-      "rows": 101,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "67141987086032267",
-      "symbol": "موج",
-      "asset_type": "fund",
-      "rows": 734,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "53633583359422860",
-      "symbol": "ميراث",
-      "asset_type": "fund",
-      "rows": 183,
+      "rows": 2660,
       "latest_date": "20261118",
       "events": 0
     }
   ],
   "failures": [],
-  "saved_at_utc": "2026-11-19T23:25:36.090762+00:00"
+  "saved_at_utc": "2026-11-20T01:08:43.028332+00:00"
 }
