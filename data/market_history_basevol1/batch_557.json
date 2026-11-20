@@ -1,0 +1,19 @@
+{
+  "batch": 557,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5304,
+  "corporate_action_events": 24,
+  "instruments": [
+    {
+      "insCode": "50341528161302545",
+      "symbol": "كمنگنز",
+      "asset_type": "share",
+      "rows": 5304,
+      "latest_date": "20261118",
+      "events": 24
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:16:07.384407+00:00"
+}
