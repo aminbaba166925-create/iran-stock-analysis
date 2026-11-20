@@ -1,0 +1,19 @@
+{
+  "batch": 335,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 3713,
+  "corporate_action_events": 17,
+  "instruments": [
+    {
+      "insCode": "17617474823279712",
+      "symbol": "آ س پ",
+      "asset_type": "share",
+      "rows": 3713,
+      "latest_date": "20261118",
+      "events": 17
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T04:38:12.490949+00:00"
+}
