@@ -1,0 +1,19 @@
+{
+  "batch": 573,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5254,
+  "corporate_action_events": 13,
+  "instruments": [
+    {
+      "insCode": "5187018329202415",
+      "symbol": "لپارس",
+      "asset_type": "share",
+      "rows": 5254,
+      "latest_date": "20261118",
+      "events": 13
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:26:39.479834+00:00"
+}
