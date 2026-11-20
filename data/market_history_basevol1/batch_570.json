@@ -1,0 +1,19 @@
+{
+  "batch": 570,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 101,
+  "corporate_action_events": 1,
+  "instruments": [
+    {
+      "insCode": "39485921411827022",
+      "symbol": "لبن",
+      "asset_type": "share",
+      "rows": 101,
+      "latest_date": "20261118",
+      "events": 1
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:23:42.688409+00:00"
+}
