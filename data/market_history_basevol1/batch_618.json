@@ -1,0 +1,19 @@
+{
+  "batch": 618,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4139,
+  "corporate_action_events": 17,
+  "instruments": [
+    {
+      "insCode": "43966385447049549",
+      "symbol": "ودي",
+      "asset_type": "share",
+      "rows": 4139,
+      "latest_date": "20261118",
+      "events": 17
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T08:04:03.368467+00:00"
+}
