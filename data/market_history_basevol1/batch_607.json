@@ -1,0 +1,19 @@
+{
+  "batch": 607,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5875,
+  "corporate_action_events": 29,
+  "instruments": [
+    {
+      "insCode": "13937270451301973",
+      "symbol": "وبشهر",
+      "asset_type": "share",
+      "rows": 5875,
+      "latest_date": "20261118",
+      "events": 29
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:55:33.513742+00:00"
+}
