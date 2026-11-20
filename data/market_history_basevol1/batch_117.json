@@ -1,0 +1,19 @@
+{
+  "batch": 117,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1241,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "58789178087946067",
+      "symbol": "داريوش",
+      "asset_type": "fund",
+      "rows": 1241,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T02:11:45.593114+00:00"
+}
