@@ -1,0 +1,19 @@
+{
+  "batch": 646,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 2013,
+  "corporate_action_events": 11,
+  "instruments": [
+    {
+      "insCode": "6110133418282108",
+      "symbol": "پارس",
+      "asset_type": "share",
+      "rows": 2013,
+      "latest_date": "20261118",
+      "events": 11
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T08:25:38.101308+00:00"
+}
