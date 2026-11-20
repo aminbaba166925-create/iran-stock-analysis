@@ -1,86 +1,91 @@
 {
   "batch": 31,
-  "success": 8,
-  "failed": 2,
-  "raw_rows": 14239,
-  "events": 55,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 20450,
+  "events": 80,
   "instruments": [
     {
-      "insCode": "10535841469368706",
-      "symbol": "آلكان",
+      "insCode": "21731820344041381",
+      "symbol": "اتوكار",
       "asset_type": "fund",
-      "rows": 285,
+      "rows": 81,
       "latest_date": "20261118",
       "events": 0
     },
     {
-      "insCode": "70270965300262393",
-      "symbol": "البرز",
+      "insCode": "54493234408301135",
+      "symbol": "بنو",
       "asset_type": "share",
-      "rows": 4132,
+      "rows": 1497,
       "latest_date": "20261118",
-      "events": 31
+      "events": 6
     },
     {
-      "insCode": "37222720235819361",
-      "symbol": "بذر",
-      "asset_type": "fund",
-      "rows": 1685,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "19298748452450329",
-      "symbol": "تايرا",
+      "insCode": "31400839654504249",
+      "symbol": "تفارس",
       "asset_type": "share",
-      "rows": 5607,
+      "rows": 355,
       "latest_date": "20261118",
-      "events": 21
+      "events": 3
     },
     {
-      "insCode": "67717913151786055",
-      "symbol": "دانيك",
-      "asset_type": "fund",
-      "rows": 797,
+      "insCode": "34641719089573667",
+      "symbol": "دتماد",
+      "asset_type": "share",
+      "rows": 4733,
       "latest_date": "20261118",
-      "events": 1
+      "events": 22
     },
     {
-      "insCode": "70698996132397388",
-      "symbol": "ديبا",
+      "insCode": "33406621820337161",
+      "symbol": "دجابر",
+      "asset_type": "share",
+      "rows": 5833,
+      "latest_date": "20261118",
+      "events": 24
+    },
+    {
+      "insCode": "43450146028916610",
+      "symbol": "دزاگرس",
+      "asset_type": "share",
+      "rows": 665,
+      "latest_date": "20261118",
+      "events": 3
+    },
+    {
+      "insCode": "6279426571085158",
+      "symbol": "ديار",
       "asset_type": "fund",
-      "rows": 930,
+      "rows": 409,
       "latest_date": "20261118",
       "events": 0
     },
     {
-      "insCode": "62869646049188469",
-      "symbol": "ماكان",
+      "insCode": "62845384302495432",
+      "symbol": "هيوا",
       "asset_type": "fund",
-      "rows": 404,
+      "rows": 1010,
       "latest_date": "20261118",
       "events": 0
     },
     {
-      "insCode": "56712769076499345",
-      "symbol": "هدف",
-      "asset_type": "fund",
-      "rows": 399,
+      "insCode": "18063426072758458",
+      "symbol": "وبهمن",
+      "asset_type": "share",
+      "rows": 5037,
       "latest_date": "20261118",
-      "events": 2
+      "events": 22
+    },
+    {
+      "insCode": "971068957336171",
+      "symbol": "گارانتي",
+      "asset_type": "fund",
+      "rows": 830,
+      "latest_date": "20261118",
+      "events": 0
     }
   ],
-  "failures": [
-    {
-      "insCode": "25187135698923656",
-      "symbol": "انرژيك",
-      "error": "daily history too short: 3"
-    },
-    {
-      "insCode": "24721740603180411",
-      "symbol": "انرژينو",
-      "error": "daily history too short: 3"
-    }
-  ],
-  "saved_at_utc": "2026-11-19T22:02:35.959581Z"
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:10:29.047825Z"
 }
