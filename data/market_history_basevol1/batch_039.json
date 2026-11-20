@@ -1,91 +1,19 @@
 {
   "batch": 39,
-  "success": 10,
+  "success": 1,
   "failed": 0,
-  "raw_rows": 31225,
-  "corporate_action_events": 147,
+  "raw_rows": 3114,
+  "corporate_action_events": 0,
   "instruments": [
     {
-      "insCode": "3722699128879020",
-      "symbol": "حتايد",
-      "asset_type": "share",
-      "rows": 5065,
+      "insCode": "11427939669935844",
+      "symbol": "اطلس",
+      "asset_type": "fund",
+      "rows": 3114,
       "latest_date": "20261118",
-      "events": 25
-    },
-    {
-      "insCode": "28253678449273505",
-      "symbol": "حخزر",
-      "asset_type": "share",
-      "rows": 3080,
-      "latest_date": "20261118",
-      "events": 16
-    },
-    {
-      "insCode": "13281937213456378",
-      "symbol": "حسير",
-      "asset_type": "share",
-      "rows": 2410,
-      "latest_date": "20261118",
-      "events": 12
-    },
-    {
-      "insCode": "1625149423498289",
-      "symbol": "حسينا",
-      "asset_type": "share",
-      "rows": 3214,
-      "latest_date": "20261118",
-      "events": 17
-    },
-    {
-      "insCode": "35424116338766901",
-      "symbol": "حفارس",
-      "asset_type": "share",
-      "rows": 3701,
-      "latest_date": "20261118",
-      "events": 5
-    },
-    {
-      "insCode": "28809886765682162",
-      "symbol": "حفاري",
-      "asset_type": "share",
-      "rows": 4184,
-      "latest_date": "20261118",
-      "events": 21
-    },
-    {
-      "insCode": "917857106093847",
-      "symbol": "حپارسا",
-      "asset_type": "share",
-      "rows": 2532,
-      "latest_date": "20261118",
-      "events": 12
-    },
-    {
-      "insCode": "16369313804633525",
-      "symbol": "حپترو",
-      "asset_type": "share",
-      "rows": 4841,
-      "latest_date": "20261118",
-      "events": 26
-    },
-    {
-      "insCode": "4885314541377431",
-      "symbol": "حپرتو",
-      "asset_type": "share",
-      "rows": 867,
-      "latest_date": "20261118",
-      "events": 5
-    },
-    {
-      "insCode": "47756003257788498",
-      "symbol": "حگهر",
-      "asset_type": "share",
-      "rows": 1331,
-      "latest_date": "20261118",
-      "events": 8
+      "events": 0
     }
   ],
   "failures": [],
-  "saved_at_utc": "2026-11-19T23:54:06.262954+00:00"
+  "saved_at_utc": "2026-11-20T01:18:04.386663+00:00"
 }
