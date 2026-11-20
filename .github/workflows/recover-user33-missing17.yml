@@ -1,0 +1,36 @@
+name: Recover 17 unmatched user symbols by instrument search
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/recover_user33_missing17.py'
+      - '.github/workflows/recover-user33-missing17.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: iran-market-history-user33-recovery
+  cancel-in-progress: false
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Configure checkpoint branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin market-history-user33-checkpoints || true
+          if git show-ref --verify --quiet refs/remotes/origin/market-history-user33-checkpoints; then
+            git switch -c "recover17-${{ github.run_id }}" FETCH_HEAD
+            git merge --no-edit origin/main
+          else
+            git switch -c "recover17-${{ github.run_id }}"
+          fi
+      - name: Search instruments and save each history independently
+        env:
+          CHECKPOINT_BRANCH: market-history-user33-checkpoints
+        run: python scripts/recover_user33_missing17.py
