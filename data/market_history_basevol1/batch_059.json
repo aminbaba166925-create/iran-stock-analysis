@@ -1,0 +1,91 @@
+{
+  "batch": 59,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 24128,
+  "corporate_action_events": 101,
+  "instruments": [
+    {
+      "insCode": "34397330698947448",
+      "symbol": "نماد2",
+      "asset_type": "share",
+      "rows": 724,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "30231789123900526",
+      "symbol": "نمرينو",
+      "asset_type": "share",
+      "rows": 5141,
+      "latest_date": "20261118",
+      "events": 19
+    },
+    {
+      "insCode": "19040514831923530",
+      "symbol": "نوري",
+      "asset_type": "share",
+      "rows": 1926,
+      "latest_date": "20261118",
+      "events": 10
+    },
+    {
+      "insCode": "41529644566373651",
+      "symbol": "هانيكو",
+      "asset_type": "share",
+      "rows": 396,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "43362635835198978",
+      "symbol": "هاي وب",
+      "asset_type": "share",
+      "rows": 2219,
+      "latest_date": "20261118",
+      "events": 12
+    },
+    {
+      "insCode": "70498485598181604",
+      "symbol": "هرمز",
+      "asset_type": "share",
+      "rows": 3099,
+      "latest_date": "20261118",
+      "events": 13
+    },
+    {
+      "insCode": "68635710163497089",
+      "symbol": "همراه",
+      "asset_type": "share",
+      "rows": 3196,
+      "latest_date": "20261118",
+      "events": 18
+    },
+    {
+      "insCode": "1358190916156744",
+      "symbol": "وآذر",
+      "asset_type": "share",
+      "rows": 4875,
+      "latest_date": "20261118",
+      "events": 11
+    },
+    {
+      "insCode": "589599697502308",
+      "symbol": "وآفري",
+      "asset_type": "share",
+      "rows": 832,
+      "latest_date": "20261118",
+      "events": 7
+    },
+    {
+      "insCode": "22490169030401337",
+      "symbol": "وآوا",
+      "asset_type": "share",
+      "rows": 1720,
+      "latest_date": "20261118",
+      "events": 9
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:35:34.481593+00:00"
+}
