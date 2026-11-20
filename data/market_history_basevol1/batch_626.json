@@ -1,0 +1,19 @@
+{
+  "batch": 626,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5200,
+  "corporate_action_events": 30,
+  "instruments": [
+    {
+      "insCode": "46982154647719707",
+      "symbol": "وصنا",
+      "asset_type": "share",
+      "rows": 5200,
+      "latest_date": "20261118",
+      "events": 30
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T08:10:09.922737+00:00"
+}
