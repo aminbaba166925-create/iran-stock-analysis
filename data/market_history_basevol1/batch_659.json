@@ -1,0 +1,19 @@
+{
+  "batch": 659,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 2306,
+  "corporate_action_events": 8,
+  "instruments": [
+    {
+      "insCode": "66599109405217136",
+      "symbol": "گكوثر",
+      "asset_type": "share",
+      "rows": 2306,
+      "latest_date": "20261118",
+      "events": 8
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T08:35:30.381572+00:00"
+}
