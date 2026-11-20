@@ -1,0 +1,19 @@
+{
+  "batch": 408,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 715,
+  "corporate_action_events": 4,
+  "instruments": [
+    {
+      "insCode": "68863997659126807",
+      "symbol": "داتام",
+      "asset_type": "share",
+      "rows": 715,
+      "latest_date": "20261118",
+      "events": 4
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:33:15.860300+00:00"
+}
