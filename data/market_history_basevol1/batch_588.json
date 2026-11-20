@@ -1,0 +1,19 @@
+{
+  "batch": 588,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 2271,
+  "corporate_action_events": 12,
+  "instruments": [
+    {
+      "insCode": "64699417405634265",
+      "symbol": "نطرين",
+      "asset_type": "share",
+      "rows": 2271,
+      "latest_date": "20261118",
+      "events": 12
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:39:03.420034+00:00"
+}
