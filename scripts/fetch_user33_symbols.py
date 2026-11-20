@@ -53,6 +53,12 @@ def main():
         item=found.get(sym)
         if not item:
             missing.append(sym)
+            meta=OUT/f"{i:02d}_{sym}.json"
+            record={"success":False,"status":"not_found_or_basevol_mismatch",
+                    "ordinal":i,"symbol":sym,
+                    "checked_at_utc":datetime.now(timezone.utc).isoformat()}
+            meta.write_text(json.dumps(record,ensure_ascii=False,indent=2),encoding="utf-8")
+            checkpoint([meta],f"Checkpoint user33 {i:02d} {sym} not found")
             print(f"NOT_FOUND_OR_BASEVOL_MISMATCH {i}/33 {sym}",flush=True)
             continue
         raw=OUT/f"{i:02d}_{sym}_raw.csv.gz"
