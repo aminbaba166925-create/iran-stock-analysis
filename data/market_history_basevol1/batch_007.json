@@ -1,91 +1,19 @@
 {
   "batch": 7,
-  "success": 10,
+  "success": 1,
   "failed": 0,
-  "raw_rows": 4988,
+  "raw_rows": 459,
   "corporate_action_events": 0,
   "instruments": [
     {
-      "insCode": "13286519531933238",
-      "symbol": "بزرگ",
+      "insCode": "10063040211859748",
+      "symbol": "آس",
       "asset_type": "fund",
-      "rows": 257,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "61708556710788742",
-      "symbol": "بزرگ2",
-      "asset_type": "fund",
-      "rows": 257,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "4769396408895066",
-      "symbol": "بلوط",
-      "asset_type": "fund",
-      "rows": 458,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "19452192920639600",
-      "symbol": "بلوط2",
-      "asset_type": "fund",
-      "rows": 458,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "29823003612377000",
-      "symbol": "بمان2",
-      "asset_type": "fund",
-      "rows": 711,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "65736765815044639",
-      "symbol": "بنكر",
-      "asset_type": "fund",
-      "rows": 286,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "63842755043540108",
-      "symbol": "بنكر2",
-      "asset_type": "fund",
-      "rows": 286,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "8456220681927384",
-      "symbol": "بنكوداريوش",
-      "asset_type": "fund",
-      "rows": 353,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "70766443960930830",
-      "symbol": "بهين رو2",
-      "asset_type": "fund",
-      "rows": 768,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "24651394045981418",
-      "symbol": "تاراز",
-      "asset_type": "fund",
-      "rows": 1154,
+      "rows": 459,
       "latest_date": "20261118",
       "events": 0
     }
   ],
   "failures": [],
-  "saved_at_utc": "2026-11-19T22:52:15.423388+00:00"
+  "saved_at_utc": "2026-11-20T00:55:58.933762+00:00"
 }
