@@ -1,0 +1,19 @@
+{
+  "batch": 553,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4830,
+  "corporate_action_events": 12,
+  "instruments": [
+    {
+      "insCode": "20560887114747719",
+      "symbol": "كسرام",
+      "asset_type": "share",
+      "rows": 4830,
+      "latest_date": "20261118",
+      "events": 12
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:13:40.381973+00:00"
+}
