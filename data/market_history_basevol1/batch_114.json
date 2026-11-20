@@ -1,0 +1,19 @@
+{
+  "batch": 114,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1571,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "43478160629821469",
+      "symbol": "دارا يكم2",
+      "asset_type": "fund",
+      "rows": 1571,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T02:10:17.192433+00:00"
+}
