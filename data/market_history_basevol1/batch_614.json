@@ -1,0 +1,19 @@
+{
+  "batch": 614,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5836,
+  "corporate_action_events": 28,
+  "instruments": [
+    {
+      "insCode": "2944500421562364",
+      "symbol": "وتوصا",
+      "asset_type": "share",
+      "rows": 5836,
+      "latest_date": "20261118",
+      "events": 28
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T08:00:24.336387+00:00"
+}
