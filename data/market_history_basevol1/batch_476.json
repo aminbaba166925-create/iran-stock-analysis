@@ -1,0 +1,19 @@
+{
+  "batch": 476,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1585,
+  "corporate_action_events": 9,
+  "instruments": [
+    {
+      "insCode": "2400322364771558",
+      "symbol": "شستا",
+      "asset_type": "share",
+      "rows": 1585,
+      "latest_date": "20261118",
+      "events": 9
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:21:43.969974+00:00"
+}
