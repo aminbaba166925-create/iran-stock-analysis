@@ -1,0 +1,91 @@
+{
+  "batch": 53,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 22803,
+  "corporate_action_events": 135,
+  "instruments": [
+    {
+      "insCode": "28147934478934110",
+      "symbol": "فغدير",
+      "asset_type": "share",
+      "rows": 1263,
+      "latest_date": "20261118",
+      "events": 7
+    },
+    {
+      "insCode": "35425587644337450",
+      "symbol": "فملي",
+      "asset_type": "share",
+      "rows": 4698,
+      "latest_date": "20261118",
+      "events": 30
+    },
+    {
+      "insCode": "69171897374421261",
+      "symbol": "فن افزار",
+      "asset_type": "share",
+      "rows": 916,
+      "latest_date": "20261118",
+      "events": 5
+    },
+    {
+      "insCode": "35026822153186010",
+      "symbol": "فنقره",
+      "asset_type": "share",
+      "rows": 76,
+      "latest_date": "20261118",
+      "events": 1
+    },
+    {
+      "insCode": "57875847776839336",
+      "symbol": "فنوال",
+      "asset_type": "share",
+      "rows": 5286,
+      "latest_date": "20261118",
+      "events": 19
+    },
+    {
+      "insCode": "21003176534704369",
+      "symbol": "فوكا",
+      "asset_type": "share",
+      "rows": 231,
+      "latest_date": "20261118",
+      "events": 2
+    },
+    {
+      "insCode": "46348559193224090",
+      "symbol": "فولاد",
+      "asset_type": "share",
+      "rows": 4684,
+      "latest_date": "20261118",
+      "events": 29
+    },
+    {
+      "insCode": "40808043719554948",
+      "symbol": "فولاژ",
+      "asset_type": "share",
+      "rows": 3830,
+      "latest_date": "20261118",
+      "events": 32
+    },
+    {
+      "insCode": "10979459081222858",
+      "symbol": "فپرديس",
+      "asset_type": "share",
+      "rows": 408,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "8725363201030474",
+      "symbol": "فگستر",
+      "asset_type": "share",
+      "rows": 1411,
+      "latest_date": "20261118",
+      "events": 10
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:23:31.652329+00:00"
+}
