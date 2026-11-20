@@ -1,91 +1,19 @@
 {
   "batch": 44,
-  "success": 10,
+  "success": 1,
   "failed": 0,
-  "raw_rows": 24462,
-  "corporate_action_events": 115,
+  "raw_rows": 2813,
+  "corporate_action_events": 0,
   "instruments": [
     {
-      "insCode": "14916489896692147",
-      "symbol": "زملارد",
-      "asset_type": "share",
-      "rows": 1514,
+      "insCode": "71523045480231681",
+      "symbol": "اعتماد4",
+      "asset_type": "fund",
+      "rows": 2813,
       "latest_date": "20261118",
-      "events": 9
-    },
-    {
-      "insCode": "5054819322815158",
-      "symbol": "زمگسا",
-      "asset_type": "share",
-      "rows": 4482,
-      "latest_date": "20261118",
-      "events": 21
-    },
-    {
-      "insCode": "48636523343139021",
-      "symbol": "زهلال",
-      "asset_type": "share",
-      "rows": 796,
-      "latest_date": "20261118",
-      "events": 1
-    },
-    {
-      "insCode": "33420285433308219",
-      "symbol": "زپارس",
-      "asset_type": "share",
-      "rows": 2054,
-      "latest_date": "20261118",
-      "events": 9
-    },
-    {
-      "insCode": "10024128313803797",
-      "symbol": "زگلدشت",
-      "asset_type": "share",
-      "rows": 2499,
-      "latest_date": "20261118",
-      "events": 12
-    },
-    {
-      "insCode": "4563413583000719",
-      "symbol": "ساراب",
-      "asset_type": "share",
-      "rows": 4549,
-      "latest_date": "20261118",
-      "events": 24
-    },
-    {
-      "insCode": "25417476013479486",
-      "symbol": "ساروج",
-      "asset_type": "share",
-      "rows": 1179,
-      "latest_date": "20261118",
-      "events": 5
-    },
-    {
-      "insCode": "15949743338644220",
-      "symbol": "ساروم",
-      "asset_type": "share",
-      "rows": 5042,
-      "latest_date": "20261118",
-      "events": 21
-    },
-    {
-      "insCode": "22312990497291517",
-      "symbol": "سامان",
-      "asset_type": "share",
-      "rows": 732,
-      "latest_date": "20261118",
-      "events": 6
-    },
-    {
-      "insCode": "32347247706508046",
-      "symbol": "ساوه",
-      "asset_type": "share",
-      "rows": 1615,
-      "latest_date": "20261118",
-      "events": 7
+      "events": 0
     }
   ],
   "failures": [],
-  "saved_at_utc": "2026-11-20T00:05:20.230347+00:00"
+  "saved_at_utc": "2026-11-20T01:21:18.880729+00:00"
 }
