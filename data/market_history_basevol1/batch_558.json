@@ -1,0 +1,19 @@
+{
+  "batch": 558,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 3020,
+  "corporate_action_events": 22,
+  "instruments": [
+    {
+      "insCode": "20411759370751096",
+      "symbol": "كنور",
+      "asset_type": "share",
+      "rows": 3020,
+      "latest_date": "20261118",
+      "events": 22
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:17:01.904124+00:00"
+}
