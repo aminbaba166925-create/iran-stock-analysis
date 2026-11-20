@@ -1,0 +1,19 @@
+{
+  "batch": 590,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 724,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "34397330698947448",
+      "symbol": "نماد2",
+      "asset_type": "share",
+      "rows": 724,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:40:28.598276+00:00"
+}
