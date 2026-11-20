@@ -1,91 +1,19 @@
 {
   "batch": 55,
-  "success": 10,
+  "success": 1,
   "failed": 0,
-  "raw_rows": 34052,
-  "corporate_action_events": 147,
+  "raw_rows": 1224,
+  "corporate_action_events": 0,
   "instruments": [
     {
-      "insCode": "16405556680571453",
-      "symbol": "كخاك",
-      "asset_type": "share",
-      "rows": 4582,
+      "insCode": "62575434414985179",
+      "symbol": "اوج",
+      "asset_type": "fund",
+      "rows": 1224,
       "latest_date": "20261118",
-      "events": 22
-    },
-    {
-      "insCode": "49632601495766480",
-      "symbol": "كروميت",
-      "asset_type": "share",
-      "rows": 887,
-      "latest_date": "20261118",
-      "events": 4
-    },
-    {
-      "insCode": "28291104595448527",
-      "symbol": "كزغال",
-      "asset_type": "share",
-      "rows": 1405,
-      "latest_date": "20261118",
-      "events": 8
-    },
-    {
-      "insCode": "20560887114747719",
-      "symbol": "كسرام",
-      "asset_type": "share",
-      "rows": 4830,
-      "latest_date": "20261118",
-      "events": 12
-    },
-    {
-      "insCode": "29122854902865456",
-      "symbol": "كسعدي",
-      "asset_type": "share",
-      "rows": 4843,
-      "latest_date": "20261118",
-      "events": 23
-    },
-    {
-      "insCode": "42690477960659940",
-      "symbol": "كشرق",
-      "asset_type": "share",
-      "rows": 3555,
-      "latest_date": "20261118",
-      "events": 9
-    },
-    {
-      "insCode": "67690708346979840",
-      "symbol": "كماسه",
-      "asset_type": "share",
-      "rows": 5105,
-      "latest_date": "20261118",
-      "events": 21
-    },
-    {
-      "insCode": "50341528161302545",
-      "symbol": "كمنگنز",
-      "asset_type": "share",
-      "rows": 5304,
-      "latest_date": "20261118",
-      "events": 24
-    },
-    {
-      "insCode": "20411759370751096",
-      "symbol": "كنور",
-      "asset_type": "share",
-      "rows": 3020,
-      "latest_date": "20261118",
-      "events": 22
-    },
-    {
-      "insCode": "10869855467299545",
-      "symbol": "كوچين",
-      "asset_type": "share",
-      "rows": 521,
-      "latest_date": "20261118",
-      "events": 2
+      "events": 0
     }
   ],
   "failures": [],
-  "saved_at_utc": "2026-11-20T00:27:40.451503+00:00"
+  "saved_at_utc": "2026-11-20T01:27:13.362850+00:00"
 }
