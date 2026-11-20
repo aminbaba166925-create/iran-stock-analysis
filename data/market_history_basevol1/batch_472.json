@@ -1,0 +1,19 @@
+{
+  "batch": 472,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5882,
+  "corporate_action_events": 24,
+  "instruments": [
+    {
+      "insCode": "7711282667602555",
+      "symbol": "شاراك",
+      "asset_type": "share",
+      "rows": 5882,
+      "latest_date": "20261118",
+      "events": 24
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:19:07.480968+00:00"
+}
