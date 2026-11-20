@@ -1,0 +1,91 @@
+{
+  "batch": 62,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 34404,
+  "corporate_action_events": 168,
+  "instruments": [
+    {
+      "insCode": "25514780181345713",
+      "symbol": "وساخت",
+      "asset_type": "share",
+      "rows": 5940,
+      "latest_date": "20261118",
+      "events": 16
+    },
+    {
+      "insCode": "37614886280396031",
+      "symbol": "وساپا",
+      "asset_type": "share",
+      "rows": 4676,
+      "latest_date": "20261118",
+      "events": 26
+    },
+    {
+      "insCode": "43283802997035462",
+      "symbol": "وسبحان",
+      "asset_type": "share",
+      "rows": 2710,
+      "latest_date": "20261118",
+      "events": 18
+    },
+    {
+      "insCode": "15770893497354321",
+      "symbol": "وسرمايه",
+      "asset_type": "share",
+      "rows": 79,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "70378695410609578",
+      "symbol": "وسرمايه2",
+      "asset_type": "share",
+      "rows": 79,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "11258722998911897",
+      "symbol": "وسكاب",
+      "asset_type": "share",
+      "rows": 3192,
+      "latest_date": "20261118",
+      "events": 25
+    },
+    {
+      "insCode": "46982154647719707",
+      "symbol": "وصنا",
+      "asset_type": "share",
+      "rows": 5200,
+      "latest_date": "20261118",
+      "events": 30
+    },
+    {
+      "insCode": "37204371816016200",
+      "symbol": "وصندوق",
+      "asset_type": "share",
+      "rows": 5555,
+      "latest_date": "20261118",
+      "events": 22
+    },
+    {
+      "insCode": "57309221039930244",
+      "symbol": "وصنعت",
+      "asset_type": "share",
+      "rows": 5680,
+      "latest_date": "20261118",
+      "events": 25
+    },
+    {
+      "insCode": "3955332316338258",
+      "symbol": "وطوبي",
+      "asset_type": "share",
+      "rows": 1293,
+      "latest_date": "20261118",
+      "events": 6
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T00:41:25.088930+00:00"
+}
