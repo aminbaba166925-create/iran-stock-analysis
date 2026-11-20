@@ -1,0 +1,19 @@
+{
+  "batch": 593,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 396,
+  "corporate_action_events": 2,
+  "instruments": [
+    {
+      "insCode": "41529644566373651",
+      "symbol": "هانيكو",
+      "asset_type": "share",
+      "rows": 396,
+      "latest_date": "20261118",
+      "events": 2
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:43:47.276244+00:00"
+}
