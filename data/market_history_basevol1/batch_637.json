@@ -1,0 +1,19 @@
+{
+  "batch": 637,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 882,
+  "corporate_action_events": 7,
+  "instruments": [
+    {
+      "insCode": "47026464823464687",
+      "symbol": "ومهان",
+      "asset_type": "share",
+      "rows": 882,
+      "latest_date": "20261118",
+      "events": 7
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T08:19:14.206856+00:00"
+}
