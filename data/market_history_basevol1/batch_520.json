@@ -1,0 +1,19 @@
+{
+  "batch": 520,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5409,
+  "corporate_action_events": 24,
+  "instruments": [
+    {
+      "insCode": "66772024744156373",
+      "symbol": "فباهنر",
+      "asset_type": "share",
+      "rows": 5409,
+      "latest_date": "20261118",
+      "events": 24
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:51:42.728892+00:00"
+}
