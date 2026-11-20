@@ -1,0 +1,19 @@
+{
+  "batch": 552,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1405,
+  "corporate_action_events": 8,
+  "instruments": [
+    {
+      "insCode": "28291104595448527",
+      "symbol": "كزغال",
+      "asset_type": "share",
+      "rows": 1405,
+      "latest_date": "20261118",
+      "events": 8
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:13:08.320375+00:00"
+}
