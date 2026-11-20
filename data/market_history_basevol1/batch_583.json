@@ -1,0 +1,19 @@
+{
+  "batch": 583,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 511,
+  "corporate_action_events": 1,
+  "instruments": [
+    {
+      "insCode": "29875801858560476",
+      "symbol": "مهرگان",
+      "asset_type": "share",
+      "rows": 511,
+      "latest_date": "20261118",
+      "events": 1
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:34:32.641292+00:00"
+}
