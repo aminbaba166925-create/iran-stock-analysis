@@ -1,0 +1,19 @@
+{
+  "batch": 389,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 2288,
+  "corporate_action_events": 13,
+  "instruments": [
+    {
+      "insCode": "44625249840480397",
+      "symbol": "حآسا",
+      "asset_type": "share",
+      "rows": 2288,
+      "latest_date": "20261118",
+      "events": 13
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:20:19.217123+00:00"
+}
