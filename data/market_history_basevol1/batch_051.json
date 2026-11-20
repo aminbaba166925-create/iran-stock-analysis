@@ -1,91 +1,19 @@
 {
   "batch": 51,
-  "success": 10,
+  "success": 1,
   "failed": 0,
-  "raw_rows": 41791,
-  "corporate_action_events": 189,
+  "raw_rows": 192,
+  "corporate_action_events": 0,
   "instruments": [
     {
-      "insCode": "44850033148208596",
-      "symbol": "غچين",
-      "asset_type": "share",
-      "rows": 4607,
+      "insCode": "62945240926992257",
+      "symbol": "امگا",
+      "asset_type": "fund",
+      "rows": 192,
       "latest_date": "20261118",
-      "events": 22
-    },
-    {
-      "insCode": "31024260997481994",
-      "symbol": "غگرجي",
-      "asset_type": "share",
-      "rows": 4847,
-      "latest_date": "20261118",
-      "events": 20
-    },
-    {
-      "insCode": "22299894048845903",
-      "symbol": "غگل",
-      "asset_type": "share",
-      "rows": 4704,
-      "latest_date": "20261118",
-      "events": 28
-    },
-    {
-      "insCode": "14312030900097668",
-      "symbol": "غگلپا",
-      "asset_type": "share",
-      "rows": 2455,
-      "latest_date": "20261118",
-      "events": 12
-    },
-    {
-      "insCode": "57300230097485720",
-      "symbol": "غگيلا",
-      "asset_type": "share",
-      "rows": 1613,
-      "latest_date": "20261118",
-      "events": 8
-    },
-    {
-      "insCode": "38547060135156069",
-      "symbol": "فاذر",
-      "asset_type": "share",
-      "rows": 5274,
-      "latest_date": "20261118",
-      "events": 8
-    },
-    {
-      "insCode": "20865316761157979",
-      "symbol": "فاراك",
-      "asset_type": "share",
-      "rows": 5122,
-      "latest_date": "20261118",
-      "events": 21
-    },
-    {
-      "insCode": "25244329144808274",
-      "symbol": "فارس",
-      "asset_type": "share",
-      "rows": 3301,
-      "latest_date": "20261118",
-      "events": 21
-    },
-    {
-      "insCode": "34673681828119297",
-      "symbol": "فاما",
-      "asset_type": "share",
-      "rows": 5295,
-      "latest_date": "20261118",
-      "events": 32
-    },
-    {
-      "insCode": "65004959184388996",
-      "symbol": "فايرا",
-      "asset_type": "share",
-      "rows": 4573,
-      "latest_date": "20261118",
-      "events": 17
+      "events": 0
     }
   ],
   "failures": [],
-  "saved_at_utc": "2026-11-20T00:19:09.659554+00:00"
+  "saved_at_utc": "2026-11-20T01:25:31.880376+00:00"
 }
