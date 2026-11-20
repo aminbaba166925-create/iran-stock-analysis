@@ -1,0 +1,19 @@
+{
+  "batch": 584,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1284,
+  "corporate_action_events": 9,
+  "instruments": [
+    {
+      "insCode": "33441514568901717",
+      "symbol": "ميدكو",
+      "asset_type": "share",
+      "rows": 1284,
+      "latest_date": "20261118",
+      "events": 9
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:35:38.939768+00:00"
+}
