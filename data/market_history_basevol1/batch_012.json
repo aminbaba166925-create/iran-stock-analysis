@@ -1,91 +1,19 @@
 {
   "batch": 12,
-  "success": 10,
+  "success": 1,
   "failed": 0,
-  "raw_rows": 5417,
+  "raw_rows": 504,
   "corporate_action_events": 0,
   "instruments": [
     {
-      "insCode": "34581754264880199",
-      "symbol": "درسا",
+      "insCode": "25643887236448721",
+      "symbol": "آسود2",
       "asset_type": "fund",
-      "rows": 1077,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "11285885633824855",
-      "symbol": "دريا",
-      "asset_type": "fund",
-      "rows": 965,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "13117618204212939",
-      "symbol": "دفينه",
-      "asset_type": "fund",
-      "rows": 116,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "37811898617906576",
-      "symbol": "دفينه2",
-      "asset_type": "fund",
-      "rows": 116,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "60410592153141114",
-      "symbol": "دلتا",
-      "asset_type": "fund",
-      "rows": 96,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "6084374471113261",
-      "symbol": "دوام2",
-      "asset_type": "fund",
-      "rows": 54,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "58108537439201620",
-      "symbol": "دوايكس",
-      "asset_type": "fund",
-      "rows": 382,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "49782064767608295",
-      "symbol": "دي سهام",
-      "asset_type": "fund",
-      "rows": 492,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "26547362091465395",
-      "symbol": "ديوان",
-      "asset_type": "fund",
-      "rows": 1204,
-      "latest_date": "20261118",
-      "events": 0
-    },
-    {
-      "insCode": "33527290777160784",
-      "symbol": "رابين",
-      "asset_type": "fund",
-      "rows": 915,
+      "rows": 504,
       "latest_date": "20261118",
       "events": 0
     }
   ],
   "failures": [],
-  "saved_at_utc": "2026-11-19T23:02:27.345320+00:00"
+  "saved_at_utc": "2026-11-20T00:59:02.005477+00:00"
 }
