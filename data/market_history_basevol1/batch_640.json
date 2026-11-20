@@ -1,0 +1,19 @@
+{
+  "batch": 640,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4892,
+  "corporate_action_events": 24,
+  "instruments": [
+    {
+      "insCode": "62603302940123327",
+      "symbol": "ونيرو",
+      "asset_type": "share",
+      "rows": 4892,
+      "latest_date": "20261118",
+      "events": 24
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T08:21:46.774484+00:00"
+}
