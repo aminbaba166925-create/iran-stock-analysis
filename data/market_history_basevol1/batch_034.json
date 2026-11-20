@@ -1,91 +1,19 @@
 {
   "batch": 34,
-  "success": 10,
+  "success": 1,
   "failed": 0,
-  "raw_rows": 21836,
-  "corporate_action_events": 135,
+  "raw_rows": 559,
+  "corporate_action_events": 0,
   "instruments": [
     {
-      "insCode": "17403065366457237",
-      "symbol": "آواپارس",
-      "asset_type": "share",
-      "rows": 30,
+      "insCode": "12629673694762396",
+      "symbol": "اركيده",
+      "asset_type": "fund",
+      "rows": 559,
       "latest_date": "20261118",
       "events": 0
-    },
-    {
-      "insCode": "39751275523025334",
-      "symbol": "اتكاي",
-      "asset_type": "share",
-      "rows": 2854,
-      "latest_date": "20261118",
-      "events": 21
-    },
-    {
-      "insCode": "22811176775480091",
-      "symbol": "اخابر",
-      "asset_type": "share",
-      "rows": 4398,
-      "latest_date": "20261118",
-      "events": 25
-    },
-    {
-      "insCode": "35331248532537562",
-      "symbol": "اردستان",
-      "asset_type": "share",
-      "rows": 1306,
-      "latest_date": "20261118",
-      "events": 5
-    },
-    {
-      "insCode": "59266699437480384",
-      "symbol": "ارفع",
-      "asset_type": "share",
-      "rows": 3059,
-      "latest_date": "20261118",
-      "events": 18
-    },
-    {
-      "insCode": "58356374066358100",
-      "symbol": "اروند",
-      "asset_type": "share",
-      "rows": 1357,
-      "latest_date": "20261118",
-      "events": 1
-    },
-    {
-      "insCode": "36773155987365094",
-      "symbol": "اعتلا",
-      "asset_type": "share",
-      "rows": 3068,
-      "latest_date": "20261118",
-      "events": 23
-    },
-    {
-      "insCode": "49502666250908008",
-      "symbol": "افق",
-      "asset_type": "share",
-      "rows": 1910,
-      "latest_date": "20261118",
-      "events": 14
-    },
-    {
-      "insCode": "18599703143458101",
-      "symbol": "اميد",
-      "asset_type": "share",
-      "rows": 2343,
-      "latest_date": "20261118",
-      "events": 19
-    },
-    {
-      "insCode": "58873907630765023",
-      "symbol": "امين",
-      "asset_type": "share",
-      "rows": 1511,
-      "latest_date": "20261118",
-      "events": 9
     }
   ],
   "failures": [],
-  "saved_at_utc": "2026-11-19T23:45:02.598951+00:00"
+  "saved_at_utc": "2026-11-20T01:14:13.005523+00:00"
 }
