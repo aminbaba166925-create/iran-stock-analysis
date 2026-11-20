@@ -1,0 +1,19 @@
+{
+  "batch": 606,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5659,
+  "corporate_action_events": 23,
+  "instruments": [
+    {
+      "insCode": "48010225447410247",
+      "symbol": "وبانك",
+      "asset_type": "share",
+      "rows": 5659,
+      "latest_date": "20261118",
+      "events": 23
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:54:38.624476+00:00"
+}
