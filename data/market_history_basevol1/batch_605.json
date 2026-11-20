@@ -1,0 +1,19 @@
+{
+  "batch": 605,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 3098,
+  "corporate_action_events": 14,
+  "instruments": [
+    {
+      "insCode": "3149396562827132",
+      "symbol": "وايران",
+      "asset_type": "share",
+      "rows": 3098,
+      "latest_date": "20261118",
+      "events": 14
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:53:55.681834+00:00"
+}
