@@ -1,0 +1,19 @@
+{
+  "batch": 550,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4582,
+  "corporate_action_events": 22,
+  "instruments": [
+    {
+      "insCode": "16405556680571453",
+      "symbol": "كخاك",
+      "asset_type": "share",
+      "rows": 4582,
+      "latest_date": "20261118",
+      "events": 22
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T07:11:55.838614+00:00"
+}
