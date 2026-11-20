@@ -1,91 +1,19 @@
 {
   "batch": 42,
-  "success": 10,
+  "success": 1,
   "failed": 0,
-  "raw_rows": 33094,
-  "corporate_action_events": 172,
+  "raw_rows": 335,
+  "corporate_action_events": 0,
   "instruments": [
     {
-      "insCode": "20024911381434086",
-      "symbol": "دكيمي",
-      "asset_type": "share",
-      "rows": 5753,
+      "insCode": "55761294311886451",
+      "symbol": "اعتبارسهام",
+      "asset_type": "fund",
+      "rows": 335,
       "latest_date": "20261118",
-      "events": 19
-    },
-    {
-      "insCode": "52382684379473036",
-      "symbol": "دكپسول",
-      "asset_type": "share",
-      "rows": 1813,
-      "latest_date": "20261118",
-      "events": 9
-    },
-    {
-      "insCode": "29247915161590165",
-      "symbol": "دلقما",
-      "asset_type": "share",
-      "rows": 5330,
-      "latest_date": "20261118",
-      "events": 25
-    },
-    {
-      "insCode": "70474983732269112",
-      "symbol": "دپارس",
-      "asset_type": "share",
-      "rows": 5831,
-      "latest_date": "20261118",
-      "events": 31
-    },
-    {
-      "insCode": "66565762259123454",
-      "symbol": "ذرت",
-      "asset_type": "share",
-      "rows": 232,
-      "latest_date": "20261118",
-      "events": 1
-    },
-    {
-      "insCode": "68941822863885255",
-      "symbol": "رافزا",
-      "asset_type": "share",
-      "rows": 1607,
-      "latest_date": "20261118",
-      "events": 10
-    },
-    {
-      "insCode": "40505767672724777",
-      "symbol": "رانفور",
-      "asset_type": "share",
-      "rows": 5049,
-      "latest_date": "20261118",
-      "events": 25
-    },
-    {
-      "insCode": "13386281759834677",
-      "symbol": "رانيز",
-      "asset_type": "share",
-      "rows": 245,
-      "latest_date": "20261118",
-      "events": 1
-    },
-    {
-      "insCode": "41048299027409941",
-      "symbol": "رتاپ",
-      "asset_type": "share",
-      "rows": 3672,
-      "latest_date": "20261118",
-      "events": 26
-    },
-    {
-      "insCode": "27952969918967492",
-      "symbol": "ركيش",
-      "asset_type": "share",
-      "rows": 3562,
-      "latest_date": "20261118",
-      "events": 25
+      "events": 0
     }
   ],
   "failures": [],
-  "saved_at_utc": "2026-11-20T00:00:57.556059+00:00"
+  "saved_at_utc": "2026-11-20T01:20:08.018131+00:00"
 }
