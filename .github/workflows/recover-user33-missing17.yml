@@ -30,6 +30,8 @@ jobs:
           else
             git switch -c "recover17-${{ github.run_id }}"
           fi
+      - name: Refresh live MarketWatch screener
+        run: python scripts/scan_market.py
       - name: Search instruments and save each history independently
         env:
           CHECKPOINT_BRANCH: market-history-user33-checkpoints
