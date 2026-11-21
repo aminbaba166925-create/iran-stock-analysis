@@ -2,71 +2,71 @@
   "batch": 0,
   "success": 8,
   "failed": 2,
-  "raw_rows": 13680,
+  "raw_rows": 13688,
   "events": 77,
   "instruments": [
     {
       "insCode": "37661500521100963",
       "symbol": "آبادا",
       "asset_type": "share",
-      "rows": 1528,
-      "latest_date": "20261118",
+      "rows": 1529,
+      "latest_date": "20261121",
       "events": 4
     },
     {
       "insCode": "9956888831468521",
       "symbol": "آردينه",
       "asset_type": "share",
-      "rows": 768,
-      "latest_date": "20261118",
+      "rows": 769,
+      "latest_date": "20261121",
       "events": 4
     },
     {
       "insCode": "29758477602878557",
       "symbol": "تيپيكو",
       "asset_type": "share",
-      "rows": 3096,
-      "latest_date": "20261118",
+      "rows": 3097,
+      "latest_date": "20261121",
       "events": 16
     },
     {
       "insCode": "4369934250728330",
       "symbol": "غزر",
       "asset_type": "share",
-      "rows": 1558,
-      "latest_date": "20261118",
+      "rows": 1559,
+      "latest_date": "20261121",
       "events": 13
     },
     {
       "insCode": "4733285133017464",
       "symbol": "فخاس",
       "asset_type": "share",
-      "rows": 4553,
-      "latest_date": "20261118",
+      "rows": 4554,
+      "latest_date": "20261121",
       "events": 30
     },
     {
       "insCode": "29875801858560476",
       "symbol": "مهرگان",
       "asset_type": "share",
-      "rows": 511,
-      "latest_date": "20261118",
+      "rows": 512,
+      "latest_date": "20261121",
       "events": 1
     },
     {
       "insCode": "2160777579058191",
       "symbol": "وفيروزه",
       "asset_type": "share",
-      "rows": 141,
-      "latest_date": "20261118",
+      "rows": 142,
+      "latest_date": "20261121",
       "events": 1
     },
     {
       "insCode": "10114441830266109",
       "symbol": "گدنا",
       "asset_type": "share",
-      "rows": 1525,
-      "latest_date": "20261118",
+      "rows": 1526,
+      "latest_date": "20261121",
       "events": 8
     }
   ],
@@ -74,13 +74,13 @@
     {
       "insCode": "25187135698923656",
       "symbol": "انرژيك",
-      "error": "daily history too short: 3"
+      "error": "daily history too short: 4"
     },
     {
       "insCode": "24721740603180411",
       "symbol": "انرژينو",
-      "error": "daily history too short: 3"
+      "error": "daily history too short: 4"
     }
   ],
-  "saved_at_utc": "2026-11-19T22:39:34.634269Z"
+  "saved_at_utc": "2026-11-21T20:40:16.249500Z"
 }
