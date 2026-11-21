@@ -1,0 +1,15 @@
+{
+  "success": false,
+  "status": "not_found_after_marketwatch_and_recursive_search",
+  "ordinal": 16,
+  "symbol": "لکما",
+  "discovery": {
+    "source": "none",
+    "search_errors": [
+      "GET failed: https://cdn.tsetmc.com/api/Instrument/GetInstrumentSearch/%D9%84%DA%A9%D9%85%D8%A7/0: HTTP Error 404: Not Found",
+      "GET failed: https://cdn.tsetmc.com/api/Instrument/GetInstrumentSearch?query=%D9%84%DA%A9%D9%85%D8%A7: HTTP Error 404: Not Found",
+      "GET failed: https://cdn.tsetmc.com/api/Instrument/GetInstrumentSearch?symbol=%D9%84%DA%A9%D9%85%D8%A7: HTTP Error 404: Not Found"
+    ]
+  },
+  "checked_at_utc": "2026-11-21T21:52:26.437269+00:00"
+}
