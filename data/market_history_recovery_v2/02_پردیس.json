@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "status": "complete",
+  "ordinal": 2,
+  "symbol": "پردیس",
+  "matched_symbol": "پرديس",
+  "insCode": "15039949673085566",
+  "baseVol": 0.0,
+  "asset_type": "share",
+  "rows": 4490,
+  "latest_date": "20261121",
+  "events": 31,
+  "discovery": {
+    "source": "refreshed_market_screener"
+  },
+  "saved_at_utc": "2026-11-21T20:46:43.985586+00:00"
+}
