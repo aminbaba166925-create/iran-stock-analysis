@@ -1,0 +1,15 @@
+{
+  "success": false,
+  "status": "not_found_after_marketwatch_and_recursive_search",
+  "ordinal": 6,
+  "symbol": "جوین",
+  "discovery": {
+    "source": "none",
+    "search_errors": [
+      "GET failed: https://cdn.tsetmc.com/api/Instrument/GetInstrumentSearch/%D8%AC%D9%88%DB%8C%D9%86/0: HTTP Error 404: Not Found",
+      "GET failed: https://cdn.tsetmc.com/api/Instrument/GetInstrumentSearch?query=%D8%AC%D9%88%DB%8C%D9%86: HTTP Error 404: Not Found",
+      "GET failed: https://cdn.tsetmc.com/api/Instrument/GetInstrumentSearch?symbol=%D8%AC%D9%88%DB%8C%D9%86: HTTP Error 404: Not Found"
+    ]
+  },
+  "checked_at_utc": "2026-11-21T21:06:44.259284+00:00"
+}
