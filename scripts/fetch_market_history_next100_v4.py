@@ -65,7 +65,7 @@ def within_seven_days(a, b):
     db = datetime.strptime(str(b), "%Y%m%d").date()
     return abs((da - db).days) <= 7
 
-def fetch_one(item):
+def fetch_one(item, min_rows=20):
     code = str(item["insCode"]).strip()
     symbol = str(item.get("symbol", ""))
     name = str(item.get("name", ""))
@@ -74,7 +74,7 @@ def fetch_one(item):
     shares_url = BASE + "/Instrument/GetInstrumentShareChange/" + code
     print("[%s] requesting daily history" % symbol, flush=True)
     daily = rows_from(get_json(daily_url), ("closingPriceDaily",))
-    if len(daily) < 20:
+    if len(daily) < min_rows:
         raise RuntimeError("daily history too short: " + str(len(daily)))
     print("[%s] requesting price adjustments" % symbol, flush=True)
     adjustments = rows_from(get_json(adjust_url), ("priceAdjust",))
@@ -116,8 +116,8 @@ def fetch_one(item):
         if values["close"] > 0:
             clean.append(values)
     clean.sort(key=lambda x: x["date"])
-    if len(clean) < 20:
-        raise RuntimeError("valid daily rows too short")
+    if len(clean) < min_rows:
+        raise RuntimeError("valid daily rows too short: " + str(len(clean)))
     adjusted = []
     for row in clean:
         factor = 1.0
