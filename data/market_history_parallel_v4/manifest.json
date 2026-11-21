@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-11-19T22:41:24.026828Z",
+  "generated_at_utc": "2026-11-21T20:42:31.993591Z",
   "source": "TSETMC CDN API",
   "instruments_requested": 100,
   "instruments_succeeded": 97,
   "instruments_failed": 3,
-  "raw_rows": 272922,
-  "adjusted_rows": 272922,
+  "raw_rows": 272939,
+  "adjusted_rows": 272939,
   "corporate_action_events": 1296,
-  "latest_date": "20261118",
+  "latest_date": "20261121",
   "workers": 4,
   "batch_size": 10,
   "format": "Per-batch gzip CSV checkpoints; raw and adjusted OHLCV stored separately",
@@ -18,16 +18,16 @@
       "insCode": "37661500521100963",
       "symbol": "آبادا",
       "asset_type": "share",
-      "rows": 1528,
-      "latest_date": "20261118",
+      "rows": 1529,
+      "latest_date": "20261121",
       "events": 4
     },
     {
       "insCode": "9956888831468521",
       "symbol": "آردينه",
       "asset_type": "share",
-      "rows": 768,
-      "latest_date": "20261118",
+      "rows": 769,
+      "latest_date": "20261121",
       "events": 4
     },
     {
@@ -162,8 +162,8 @@
       "insCode": "29758477602878557",
       "symbol": "تيپيكو",
       "asset_type": "share",
-      "rows": 3096,
-      "latest_date": "20261118",
+      "rows": 3097,
+      "latest_date": "20261121",
       "events": 16
     },
     {
@@ -194,8 +194,8 @@
       "insCode": "49270349234092953",
       "symbol": "خاور",
       "asset_type": "share",
-      "rows": 865,
-      "latest_date": "20261118",
+      "rows": 866,
+      "latest_date": "20261121",
       "events": 5
     },
     {
@@ -210,8 +210,8 @@
       "insCode": "65883838195688438",
       "symbol": "خودرو",
       "asset_type": "share",
-      "rows": 5924,
-      "latest_date": "20261118",
+      "rows": 5925,
+      "latest_date": "20261121",
       "events": 13
     },
     {
@@ -242,16 +242,16 @@
       "insCode": "66726992874614788",
       "symbol": "دتوزيع",
       "asset_type": "share",
-      "rows": 1746,
-      "latest_date": "20261118",
+      "rows": 1747,
+      "latest_date": "20261121",
       "events": 9
     },
     {
       "insCode": "69540585676934415",
       "symbol": "ددانا",
       "asset_type": "share",
-      "rows": 1355,
-      "latest_date": "20261118",
+      "rows": 1356,
+      "latest_date": "20261121",
       "events": 6
     },
     {
@@ -338,8 +338,8 @@
       "insCode": "27218386411183410",
       "symbol": "سدور",
       "asset_type": "share",
-      "rows": 4844,
-      "latest_date": "20261118",
+      "rows": 4845,
+      "latest_date": "20261121",
       "events": 11
     },
     {
@@ -402,8 +402,8 @@
       "insCode": "4369934250728330",
       "symbol": "غزر",
       "asset_type": "share",
-      "rows": 1558,
-      "latest_date": "20261118",
+      "rows": 1559,
+      "latest_date": "20261121",
       "events": 13
     },
     {
@@ -466,8 +466,8 @@
       "insCode": "4733285133017464",
       "symbol": "فخاس",
       "asset_type": "share",
-      "rows": 4553,
-      "latest_date": "20261118",
+      "rows": 4554,
+      "latest_date": "20261121",
       "events": 30
     },
     {
@@ -490,8 +490,8 @@
       "insCode": "51017863148152520",
       "symbol": "فرود",
       "asset_type": "share",
-      "rows": 1262,
-      "latest_date": "20261118",
+      "rows": 1263,
+      "latest_date": "20261121",
       "events": 5
     },
     {
@@ -514,8 +514,8 @@
       "insCode": "40808043719554948",
       "symbol": "فولاژ",
       "asset_type": "share",
-      "rows": 3830,
-      "latest_date": "20261118",
+      "rows": 3831,
+      "latest_date": "20261121",
       "events": 32
     },
     {
@@ -570,8 +570,8 @@
       "insCode": "66025809087145106",
       "symbol": "كيمازي",
       "asset_type": "share",
-      "rows": 42,
-      "latest_date": "20261118",
+      "rows": 43,
+      "latest_date": "20261121",
       "events": 0
     },
     {
@@ -618,8 +618,8 @@
       "insCode": "29875801858560476",
       "symbol": "مهرگان",
       "asset_type": "share",
-      "rows": 511,
-      "latest_date": "20261118",
+      "rows": 512,
+      "latest_date": "20261121",
       "events": 1
     },
     {
@@ -690,8 +690,8 @@
       "insCode": "2160777579058191",
       "symbol": "وفيروزه",
       "asset_type": "share",
-      "rows": 141,
-      "latest_date": "20261118",
+      "rows": 142,
+      "latest_date": "20261121",
       "events": 1
     },
     {
@@ -746,8 +746,8 @@
       "insCode": "57722642338781674",
       "symbol": "پلاسك",
       "asset_type": "share",
-      "rows": 4349,
-      "latest_date": "20261118",
+      "rows": 4350,
+      "latest_date": "20261121",
       "events": 11
     },
     {
@@ -778,8 +778,8 @@
       "insCode": "10114441830266109",
       "symbol": "گدنا",
       "asset_type": "share",
-      "rows": 1525,
-      "latest_date": "20261118",
+      "rows": 1526,
+      "latest_date": "20261121",
       "events": 8
     },
     {
@@ -795,17 +795,17 @@
     {
       "insCode": "25187135698923656",
       "symbol": "انرژيك",
-      "error": "daily history too short: 3"
+      "error": "daily history too short: 4"
     },
     {
       "insCode": "24721740603180411",
       "symbol": "انرژينو",
-      "error": "daily history too short: 3"
+      "error": "daily history too short: 4"
     },
     {
       "insCode": "51346017122365212",
       "symbol": "كاريز",
-      "error": "daily history too short: 7"
+      "error": "daily history too short: 8"
     }
   ]
 }
