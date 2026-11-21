@@ -1,0 +1,45 @@
+name: Base volume greater than 1 history archive
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fetch_market_history_by_basevol.py'
+      - '.github/workflows/market-history-basevol-gt1.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '17 0 * * *' # resume daily from the last per-symbol checkpoint
+
+permissions:
+  contents: write
+
+concurrency:
+  group: iran-market-history-market-history-basevol-gt1
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      BASEVOL_MODE: "gt1"
+      EXPECTED_COUNT: "33"
+      CHECKPOINT_BRANCH: "market-history-basevol-gt1-checkpoints"
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Configure independent checkpoint branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin "${CHECKPOINT_BRANCH}" || true
+          if git show-ref --verify --quiet "refs/remotes/origin/${CHECKPOINT_BRANCH}"; then
+            git switch -c "history-${{ github.run_id }}" FETCH_HEAD
+            git merge --no-edit origin/main
+          else
+            git switch -c "history-${{ github.run_id }}"
+          fi
+      - name: Fetch and checkpoint cohort
+        run: python scripts/fetch_market_history_by_basevol.py

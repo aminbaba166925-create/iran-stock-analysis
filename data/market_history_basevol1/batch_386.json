@@ -1,0 +1,19 @@
+{
+  "batch": 386,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5029,
+  "corporate_action_events": 6,
+  "instruments": [
+    {
+      "insCode": "32845891587040106",
+      "symbol": "ثنوسا",
+      "asset_type": "share",
+      "rows": 5029,
+      "latest_date": "20261118",
+      "events": 6
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:18:13.142570+00:00"
+}

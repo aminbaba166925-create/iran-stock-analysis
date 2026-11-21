@@ -1,0 +1,19 @@
+{
+  "batch": 402,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1866,
+  "corporate_action_events": 8,
+  "instruments": [
+    {
+      "insCode": "43552974795606067",
+      "symbol": "خراسان",
+      "asset_type": "share",
+      "rows": 1866,
+      "latest_date": "20261118",
+      "events": 8
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:29:50.889860+00:00"
+}

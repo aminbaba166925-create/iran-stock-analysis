@@ -1,0 +1,19 @@
+{
+  "batch": 378,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 3538,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "62940838026283460",
+      "symbol": "توريل2",
+      "asset_type": "share",
+      "rows": 3538,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:11:35.478424+00:00"
+}

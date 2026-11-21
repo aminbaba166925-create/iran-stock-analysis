@@ -1,0 +1,19 @@
+{
+  "batch": 353,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 2522,
+  "corporate_action_events": 14,
+  "instruments": [
+    {
+      "insCode": "63830424809501048",
+      "symbol": "اپرداز",
+      "asset_type": "share",
+      "rows": 2522,
+      "latest_date": "20261118",
+      "events": 14
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T04:53:19.958835+00:00"
+}

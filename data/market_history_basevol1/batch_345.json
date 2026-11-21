@@ -1,0 +1,19 @@
+{
+  "batch": 345,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1357,
+  "corporate_action_events": 1,
+  "instruments": [
+    {
+      "insCode": "58356374066358100",
+      "symbol": "اروند",
+      "asset_type": "share",
+      "rows": 1357,
+      "latest_date": "20261118",
+      "events": 1
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T04:46:21.019598+00:00"
+}

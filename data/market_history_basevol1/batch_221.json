@@ -1,0 +1,19 @@
+{
+  "batch": 221,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 3178,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "67858991327059184",
+      "symbol": "كاريس2",
+      "asset_type": "fund",
+      "rows": 3178,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T03:25:18.434855+00:00"
+}

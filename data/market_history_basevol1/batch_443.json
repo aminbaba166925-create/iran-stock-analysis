@@ -1,0 +1,19 @@
+{
+  "batch": 443,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 2054,
+  "corporate_action_events": 9,
+  "instruments": [
+    {
+      "insCode": "33420285433308219",
+      "symbol": "زپارس",
+      "asset_type": "share",
+      "rows": 2054,
+      "latest_date": "20261118",
+      "events": 9
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:59:55.802599+00:00"
+}

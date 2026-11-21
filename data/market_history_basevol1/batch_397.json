@@ -1,0 +1,19 @@
+{
+  "batch": 397,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4841,
+  "corporate_action_events": 26,
+  "instruments": [
+    {
+      "insCode": "16369313804633525",
+      "symbol": "حپترو",
+      "asset_type": "share",
+      "rows": 4841,
+      "latest_date": "20261118",
+      "events": 26
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:25:33.142235+00:00"
+}

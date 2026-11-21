@@ -1,0 +1,19 @@
+{
+  "batch": 468,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4434,
+  "corporate_action_events": 25,
+  "instruments": [
+    {
+      "insCode": "14231831499205396",
+      "symbol": "سنير",
+      "asset_type": "share",
+      "rows": 4434,
+      "latest_date": "20261118",
+      "events": 25
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:15:41.947900+00:00"
+}

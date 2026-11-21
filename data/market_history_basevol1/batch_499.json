@@ -1,0 +1,19 @@
+{
+  "batch": 499,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4773,
+  "corporate_action_events": 22,
+  "instruments": [
+    {
+      "insCode": "61506294208022391",
+      "symbol": "غشصفا",
+      "asset_type": "share",
+      "rows": 4773,
+      "latest_date": "20261118",
+      "events": 22
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:34:48.135989+00:00"
+}

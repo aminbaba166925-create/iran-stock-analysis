@@ -1,0 +1,19 @@
+{
+  "batch": 349,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1511,
+  "corporate_action_events": 9,
+  "instruments": [
+    {
+      "insCode": "58873907630765023",
+      "symbol": "امين",
+      "asset_type": "share",
+      "rows": 1511,
+      "latest_date": "20261118",
+      "events": 9
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T04:49:57.589762+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "batch": 141,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 767,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "60996557641329487",
+      "symbol": "روال2",
+      "asset_type": "fund",
+      "rows": 767,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T02:29:42.548627+00:00"
+}

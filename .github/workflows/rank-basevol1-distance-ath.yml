@@ -1,0 +1,33 @@
+name: Rank base-volume-1 symbols by distance from adjusted ATH
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/rank_basevol1_distance_from_ath.py'
+      - '.github/workflows/rank-basevol1-distance-ath.yml'
+permissions:
+  contents: write
+concurrency:
+  group: basevol1-distance-ath
+  cancel-in-progress: false
+jobs:
+  rank:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Load archived base-volume-1 history
+        run: |
+          git fetch origin market-history-basevol1-cohort-checkpoints
+          git checkout FETCH_HEAD -- data/market_history_basevol1
+      - name: Calculate adjusted ATH distance
+        run: python scripts/rank_basevol1_distance_from_ath.py
+      - name: Commit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/basevol1_distance_from_ath.json reports/basevol1_distance_from_ath.md
+          git commit -m "Add base-volume-1 adjusted ATH distance ranking" || exit 0
+          git push origin HEAD:main

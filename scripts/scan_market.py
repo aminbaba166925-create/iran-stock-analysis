@@ -126,12 +126,12 @@ def main():
             continue
         # Use only documented TSETMC field names. Fuzzy aliases caused
         # yesterday-price and close-price misreads in earlier snapshots.
-        close = num(price, "pClosing")
-        last = num(price, "pDrCotVal")
-        yesterday = num(price, "priceYesterday")
-        volume = num(price, "qTotTran5J")
-        value = num(price, "qTotCap")
-        trades = num(price, "zTotTran")
+        close = num(price, "pClosing", "pcl")
+        last = num(price, "pDrCotVal", "pdv")
+        yesterday = num(price, "priceYesterday", "py")
+        volume = num(price, "qTotTran5J", "qtj")
+        value = num(price, "qTotCap", "qtc")
+        trades = num(price, "zTotTran", "ztt")
         buy_iv = num(ct, "buy_I_Volume")
         sell_iv = num(ct, "sell_I_Volume")
         buy_ic = num(ct, "buy_I_Count")
@@ -152,13 +152,13 @@ def main():
         buyer_power = ((buy_iv / buy_ic) / (sell_iv / sell_ic)) if client_type_valid and buy_iv > 0 and sell_iv > 0 else None
         raw_change_pct = ((close / yesterday) - 1) * 100 if close > 0 and yesterday > 0 else None
         change_pct = raw_change_pct if raw_change_pct is not None and abs(raw_change_pct) <= 15 else None
-        base_vol = num(ins, "baseVol", "baseVolume") or num(item, "baseVol", "baseVolume")
+        base_vol = num(ins, "baseVol", "baseVolume", "bv") or num(item, "baseVol", "baseVolume", "bv")
         base_ratio = volume / base_vol if base_vol > 0 else None
         # Ranking is deliberately disabled until source fields pass live validation.
         score = ""
         output.append({
             "symbol": symbol, "name": name, "asset_type": asset_type, "insCode": code,
-            "market": first(ins, "cgrValCotTitle", "flowTitle", "marketName"),
+            "market": first(ins, "cgrValCotTitle", "flowTitle", "marketName", "cGrValCot", "flow"),
             "sector": first(ins, "lSecValTitle", "lSecVal", "sectorName"),
             "close_rial": close, "last_rial": last, "change_pct": round(change_pct, 3) if change_pct is not None else "",
             "volume": int(volume), "trade_count": int(trades), "value_rial": int(value),
@@ -221,12 +221,12 @@ def main():
             "price_sample_keys": list((watch[0].get("closingPriceInfo") or {}).keys()) if watch and isinstance(watch[0], dict) and isinstance(watch[0].get("closingPriceInfo"), dict) else [],
             "client_type_sample_keys": list(client_rows[0].keys()) if client_rows and isinstance(client_rows[0], dict) else []
         },
-        "top_20": output[:20],
+        "highest_value_20_not_ranked": output[:20],
     }
     (OUT / "market_screener_summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"OK: market rows={len(watch)}, saved symbols={len(output)}, client-type rows={len(client_rows)}, matched={summary['symbols_with_client_type']}")
     print(f"CSV: {csv_path}")
-    print("Top 10:")
+    print("Highest traded-value 10 (not a recommendation ranking):")
     for row in output[:10]:
         print(row["symbol"], row["change_pct"], row["net_individual_value_rial"], row["buyer_power"], row["screen_score"])
 

@@ -1,0 +1,19 @@
+{
+  "batch": 415,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1786,
+  "corporate_action_events": 7,
+  "instruments": [
+    {
+      "insCode": "13243992182070788",
+      "symbol": "درهآور",
+      "asset_type": "share",
+      "rows": 1786,
+      "latest_date": "20261118",
+      "events": 7
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:38:08.426015+00:00"
+}

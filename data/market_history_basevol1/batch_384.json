@@ -1,0 +1,19 @@
+{
+  "batch": 384,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 3020,
+  "corporate_action_events": 13,
+  "instruments": [
+    {
+      "insCode": "6043384171800349",
+      "symbol": "ثشرق",
+      "asset_type": "share",
+      "rows": 3020,
+      "latest_date": "20261118",
+      "events": 13
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:15:59.630782+00:00"
+}

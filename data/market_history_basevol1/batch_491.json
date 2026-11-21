@@ -1,0 +1,19 @@
+{
+  "batch": 491,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5570,
+  "corporate_action_events": 22,
+  "instruments": [
+    {
+      "insCode": "42387718866026650",
+      "symbol": "غبشهر",
+      "asset_type": "share",
+      "rows": 5570,
+      "latest_date": "20261118",
+      "events": 22
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:29:46.586024+00:00"
+}

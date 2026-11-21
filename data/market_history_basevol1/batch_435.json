@@ -1,0 +1,19 @@
+{
+  "batch": 435,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1872,
+  "corporate_action_events": 7,
+  "instruments": [
+    {
+      "insCode": "26547785441834730",
+      "symbol": "زشريف",
+      "asset_type": "share",
+      "rows": 1872,
+      "latest_date": "20261118",
+      "events": 7
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:52:56.416175+00:00"
+}

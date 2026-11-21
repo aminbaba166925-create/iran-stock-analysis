@@ -1,0 +1,11 @@
+{
+  "method": "(1 - latest adjusted close / maximum adjusted daily high) * 100",
+  "data_source": "TSETMC official Financial.aspx chart API with a=1 (adjusted)",
+  "filters": "ordinary shares only; trading rows with volume > 0; minimum 30 valid rows",
+  "archive_cohort": "baseVol exactly 1",
+  "requested_shares": 0,
+  "succeeded": 0,
+  "failed": 0,
+  "top50": [],
+  "failures": []
+}

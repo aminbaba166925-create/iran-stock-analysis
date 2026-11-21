@@ -1,0 +1,19 @@
+{
+  "batch": 484,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 873,
+  "corporate_action_events": 4,
+  "instruments": [
+    {
+      "insCode": "9098178887955847",
+      "symbol": "شهر",
+      "asset_type": "share",
+      "rows": 873,
+      "latest_date": "20261118",
+      "events": 4
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:25:52.142420+00:00"
+}

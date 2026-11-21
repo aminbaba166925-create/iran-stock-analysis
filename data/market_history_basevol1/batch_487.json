@@ -1,0 +1,19 @@
+{
+  "batch": 487,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1607,
+  "corporate_action_events": 7,
+  "instruments": [
+    {
+      "insCode": "5987841496184505",
+      "symbol": "شگويا",
+      "asset_type": "share",
+      "rows": 1607,
+      "latest_date": "20261118",
+      "events": 7
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:26:57.446336+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "batch": 428,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 3672,
+  "corporate_action_events": 26,
+  "instruments": [
+    {
+      "insCode": "41048299027409941",
+      "symbol": "رتاپ",
+      "asset_type": "share",
+      "rows": 3672,
+      "latest_date": "20261118",
+      "events": 26
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:47:50.600280+00:00"
+}

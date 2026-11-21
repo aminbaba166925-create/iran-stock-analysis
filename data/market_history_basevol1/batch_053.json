@@ -1,0 +1,16 @@
+{
+  "batch": 53,
+  "success": 0,
+  "failed": 1,
+  "raw_rows": 0,
+  "corporate_action_events": 0,
+  "instruments": [],
+  "failures": [
+    {
+      "insCode": "24721740603180411",
+      "symbol": "انرژينو",
+      "error": "daily history too short: 3"
+    }
+  ],
+  "saved_at_utc": "2026-11-20T06:49:52.880947+00:00"
+}

@@ -1,0 +1,91 @@
+{
+  "batch": 0,
+  "success": 10,
+  "failed": 0,
+  "raw_rows": 9423,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "56987424987755487",
+      "symbol": "آتش",
+      "asset_type": "fund",
+      "rows": 466,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "22839330962768817",
+      "symbol": "آتيمس",
+      "asset_type": "fund",
+      "rows": 2545,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "47492157735162813",
+      "symbol": "آتيه ملت",
+      "asset_type": "fund",
+      "rows": 590,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "43358402418932595",
+      "symbol": "آذرين",
+      "asset_type": "fund",
+      "rows": 753,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "14230681955555738",
+      "symbol": "آرام",
+      "asset_type": "fund",
+      "rows": 1125,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "41963936424187357",
+      "symbol": "آرتان",
+      "asset_type": "fund",
+      "rows": 30,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "57643967123480136",
+      "symbol": "آرژان",
+      "asset_type": "fund",
+      "rows": 23,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "10063040211859748",
+      "symbol": "آس",
+      "asset_type": "fund",
+      "rows": 459,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "53835366979083256",
+      "symbol": "آسا2",
+      "asset_type": "fund",
+      "rows": 309,
+      "latest_date": "20261118",
+      "events": 0
+    },
+    {
+      "insCode": "66682662312253625",
+      "symbol": "آساس",
+      "asset_type": "fund",
+      "rows": 3123,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-19T22:38:49.042909+00:00"
+}

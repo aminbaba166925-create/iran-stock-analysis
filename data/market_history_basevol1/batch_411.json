@@ -1,0 +1,19 @@
+{
+  "batch": 411,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5137,
+  "corporate_action_events": 39,
+  "instruments": [
+    {
+      "insCode": "60451823714332895",
+      "symbol": "دالبر",
+      "asset_type": "share",
+      "rows": 5137,
+      "latest_date": "20261118",
+      "events": 39
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:35:09.541035+00:00"
+}

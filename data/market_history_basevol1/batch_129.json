@@ -1,0 +1,19 @@
+{
+  "batch": 129,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 915,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "33527290777160784",
+      "symbol": "رابين",
+      "asset_type": "fund",
+      "rows": 915,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T02:21:14.476210+00:00"
+}

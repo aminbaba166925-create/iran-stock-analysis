@@ -1,0 +1,19 @@
+{
+  "batch": 350,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1326,
+  "corporate_action_events": 5,
+  "instruments": [
+    {
+      "insCode": "10236455588057352",
+      "symbol": "انتخاب",
+      "asset_type": "share",
+      "rows": 1326,
+      "latest_date": "20261118",
+      "events": 5
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T04:50:39.166403+00:00"
+}

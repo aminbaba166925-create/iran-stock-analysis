@@ -1,0 +1,19 @@
+{
+  "batch": 258,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1086,
+  "corporate_action_events": 3,
+  "instruments": [
+    {
+      "insCode": "1241998328504490",
+      "symbol": "نشان",
+      "asset_type": "fund",
+      "rows": 1086,
+      "latest_date": "20261118",
+      "events": 3
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T03:48:37.822693+00:00"
+}

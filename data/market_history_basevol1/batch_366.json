@@ -1,0 +1,19 @@
+{
+  "batch": 366,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5218,
+  "corporate_action_events": 24,
+  "instruments": [
+    {
+      "insCode": "20453828618330936",
+      "symbol": "بنيرو",
+      "asset_type": "share",
+      "rows": 5218,
+      "latest_date": "20261118",
+      "events": 24
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:02:49.535643+00:00"
+}

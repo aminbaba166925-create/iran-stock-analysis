@@ -1,0 +1,19 @@
+{
+  "batch": 234,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 617,
+  "corporate_action_events": 2,
+  "instruments": [
+    {
+      "insCode": "37118058361762279",
+      "symbol": "مالك آتيه",
+      "asset_type": "fund",
+      "rows": 617,
+      "latest_date": "20261118",
+      "events": 2
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T03:34:05.541096+00:00"
+}

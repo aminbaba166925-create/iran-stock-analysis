@@ -1,0 +1,19 @@
+{
+  "batch": 500,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5741,
+  "corporate_action_events": 10,
+  "instruments": [
+    {
+      "insCode": "20487994977117557",
+      "symbol": "غشهد",
+      "asset_type": "share",
+      "rows": 5741,
+      "latest_date": "20261118",
+      "events": 10
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:35:54.693740+00:00"
+}

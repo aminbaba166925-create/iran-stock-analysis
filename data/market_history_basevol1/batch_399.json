@@ -1,0 +1,19 @@
+{
+  "batch": 399,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1331,
+  "corporate_action_events": 8,
+  "instruments": [
+    {
+      "insCode": "47756003257788498",
+      "symbol": "حگهر",
+      "asset_type": "share",
+      "rows": 1331,
+      "latest_date": "20261118",
+      "events": 8
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:26:56.732098+00:00"
+}

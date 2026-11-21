@@ -1,0 +1,19 @@
+{
+  "batch": 118,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 736,
+  "corporate_action_events": 4,
+  "instruments": [
+    {
+      "insCode": "43009306066217458",
+      "symbol": "دامون",
+      "asset_type": "fund",
+      "rows": 736,
+      "latest_date": "20261118",
+      "events": 4
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T02:12:39.601179+00:00"
+}

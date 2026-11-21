@@ -1,0 +1,19 @@
+{
+  "batch": 263,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 53,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "56749722173437552",
+      "symbol": "نقرا",
+      "asset_type": "fund",
+      "rows": 53,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T03:52:15.275425+00:00"
+}

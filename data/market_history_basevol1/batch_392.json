@@ -1,0 +1,19 @@
+{
+  "batch": 392,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 2410,
+  "corporate_action_events": 12,
+  "instruments": [
+    {
+      "insCode": "13281937213456378",
+      "symbol": "حسير",
+      "asset_type": "share",
+      "rows": 2410,
+      "latest_date": "20261118",
+      "events": 12
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:22:25.333837+00:00"
+}
