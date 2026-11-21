@@ -1,0 +1,33 @@
+name: Unified adjusted ATH ranking
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/rank_combined_adjusted_ath.py"
+      - ".github/workflows/rank-combined-adjusted-ath.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  rank:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: market-history-user33-checkpoints
+          fetch-depth: 0
+      - name: Fetch all archive branches
+        run: git fetch origin '+refs/heads/*:refs/remotes/origin/*'
+      - name: Get ranking script from main
+        run: |
+          git show origin/main:scripts/rank_combined_adjusted_ath.py > /tmp/rank_combined_adjusted_ath.py
+          cp /tmp/rank_combined_adjusted_ath.py scripts/rank_combined_adjusted_ath.py
+      - name: Calculate one unified ranking
+        run: python scripts/rank_combined_adjusted_ath.py
+      - name: Commit unified ranking
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/combined_adjusted_ath_ranking.json data/combined_adjusted_ath_ranking.md
+          git commit -m "Create unified adjusted ATH ranking"
+          git push origin HEAD:market-history-user33-checkpoints
