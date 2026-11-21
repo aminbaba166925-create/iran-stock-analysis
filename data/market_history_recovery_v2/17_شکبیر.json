@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "status": "limited_history",
+  "ordinal": 17,
+  "symbol": "شکبیر",
+  "matched_symbol": "شكبير",
+  "insCode": "69243469815198168",
+  "baseVol": 0.0,
+  "asset_type": "share",
+  "rows": 9,
+  "latest_date": "20261121",
+  "events": 0,
+  "discovery": {
+    "source": "refreshed_market_screener"
+  },
+  "saved_at_utc": "2026-11-21T21:52:41.919593+00:00"
+}
