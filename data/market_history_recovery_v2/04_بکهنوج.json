@@ -1,0 +1,15 @@
+{
+  "success": false,
+  "status": "not_found_after_marketwatch_and_recursive_search",
+  "ordinal": 4,
+  "symbol": "بکهنوج",
+  "discovery": {
+    "source": "none",
+    "search_errors": [
+      "GET failed: https://cdn.tsetmc.com/api/Instrument/GetInstrumentSearch/%D8%A8%DA%A9%D9%87%D9%86%D9%88%D8%AC/0: HTTP Error 404: Not Found",
+      "GET failed: https://cdn.tsetmc.com/api/Instrument/GetInstrumentSearch?query=%D8%A8%DA%A9%D9%87%D9%86%D9%88%D8%AC: HTTP Error 404: Not Found",
+      "GET failed: https://cdn.tsetmc.com/api/Instrument/GetInstrumentSearch?symbol=%D8%A8%DA%A9%D9%87%D9%86%D9%88%D8%AC: HTTP Error 404: Not Found"
+    ]
+  },
+  "checked_at_utc": "2026-11-21T20:54:24.815427+00:00"
+}
