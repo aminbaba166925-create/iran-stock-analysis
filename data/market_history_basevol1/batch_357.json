@@ -1,0 +1,19 @@
+{
+  "batch": 357,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1542,
+  "corporate_action_events": 11,
+  "instruments": [
+    {
+      "insCode": "5599691633622269",
+      "symbol": "بخاور",
+      "asset_type": "share",
+      "rows": 1542,
+      "latest_date": "20261118",
+      "events": 11
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T04:56:18.976129+00:00"
+}

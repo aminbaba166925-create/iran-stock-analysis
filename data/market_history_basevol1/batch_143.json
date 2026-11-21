@@ -1,0 +1,19 @@
+{
+  "batch": 143,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 2379,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "15124889255100138",
+      "symbol": "رويش",
+      "asset_type": "fund",
+      "rows": 2379,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T02:31:17.555941+00:00"
+}

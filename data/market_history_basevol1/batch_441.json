@@ -1,0 +1,19 @@
+{
+  "batch": 441,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4482,
+  "corporate_action_events": 21,
+  "instruments": [
+    {
+      "insCode": "5054819322815158",
+      "symbol": "زمگسا",
+      "asset_type": "share",
+      "rows": 4482,
+      "latest_date": "20261118",
+      "events": 21
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:57:31.328756+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "batch": 494,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5005,
+  "corporate_action_events": 17,
+  "instruments": [
+    {
+      "insCode": "2434703913394836",
+      "symbol": "غدشت",
+      "asset_type": "share",
+      "rows": 5005,
+      "latest_date": "20261118",
+      "events": 17
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:31:16.774751+00:00"
+}

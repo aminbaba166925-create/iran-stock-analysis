@@ -1,0 +1,19 @@
+{
+  "batch": 171,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 103,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "57468269415483633",
+      "symbol": "سولار",
+      "asset_type": "fund",
+      "rows": 103,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T02:53:24.387508+00:00"
+}

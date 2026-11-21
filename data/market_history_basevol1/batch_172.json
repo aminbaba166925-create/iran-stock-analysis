@@ -1,0 +1,19 @@
+{
+  "batch": 172,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 73,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "31765923007618205",
+      "symbol": "سيان",
+      "asset_type": "fund",
+      "rows": 73,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T02:53:53.402134+00:00"
+}

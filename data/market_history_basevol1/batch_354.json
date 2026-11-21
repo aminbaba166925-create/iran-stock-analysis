@@ -1,0 +1,19 @@
+{
+  "batch": 354,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5302,
+  "corporate_action_events": 29,
+  "instruments": [
+    {
+      "insCode": "46752599569017089",
+      "symbol": "بترانس",
+      "asset_type": "share",
+      "rows": 5302,
+      "latest_date": "20261118",
+      "events": 29
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T04:54:14.449122+00:00"
+}

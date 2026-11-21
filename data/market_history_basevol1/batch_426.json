@@ -1,0 +1,19 @@
+{
+  "batch": 426,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5049,
+  "corporate_action_events": 25,
+  "instruments": [
+    {
+      "insCode": "40505767672724777",
+      "symbol": "رانفور",
+      "asset_type": "share",
+      "rows": 5049,
+      "latest_date": "20261118",
+      "events": 25
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:46:50.525169+00:00"
+}

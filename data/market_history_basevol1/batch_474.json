@@ -1,0 +1,19 @@
+{
+  "batch": 474,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 3518,
+  "corporate_action_events": 17,
+  "instruments": [
+    {
+      "insCode": "35366681030756042",
+      "symbol": "شبندر",
+      "asset_type": "share",
+      "rows": 3518,
+      "latest_date": "20261118",
+      "events": 17
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:20:43.935600+00:00"
+}

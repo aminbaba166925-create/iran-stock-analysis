@@ -1,0 +1,19 @@
+{
+  "batch": 288,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 553,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "8912965520056581",
+      "symbol": "هومان",
+      "asset_type": "fund",
+      "rows": 553,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T04:08:25.684975+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "batch": 511,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4847,
+  "corporate_action_events": 20,
+  "instruments": [
+    {
+      "insCode": "31024260997481994",
+      "symbol": "غگرجي",
+      "asset_type": "share",
+      "rows": 4847,
+      "latest_date": "20261118",
+      "events": 20
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:44:14.203687+00:00"
+}

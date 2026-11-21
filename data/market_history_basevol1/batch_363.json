@@ -1,0 +1,19 @@
+{
+  "batch": 363,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5064,
+  "corporate_action_events": 20,
+  "instruments": [
+    {
+      "insCode": "22382156782768756",
+      "symbol": "بكام",
+      "asset_type": "share",
+      "rows": 5064,
+      "latest_date": "20261118",
+      "events": 20
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:00:19.341624+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "batch": 154,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 498,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "57191287546444240",
+      "symbol": "زمرد كوروش",
+      "asset_type": "fund",
+      "rows": 498,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T02:39:39.678073+00:00"
+}

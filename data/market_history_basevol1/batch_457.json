@@ -1,0 +1,19 @@
+{
+  "batch": 457,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 2311,
+  "corporate_action_events": 17,
+  "instruments": [
+    {
+      "insCode": "35948133957468680",
+      "symbol": "سرچشمه",
+      "asset_type": "share",
+      "rows": 2311,
+      "latest_date": "20261118",
+      "events": 17
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:08:33.403966+00:00"
+}

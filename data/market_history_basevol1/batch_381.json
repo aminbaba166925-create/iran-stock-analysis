@@ -1,0 +1,19 @@
+{
+  "batch": 381,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4983,
+  "corporate_action_events": 29,
+  "instruments": [
+    {
+      "insCode": "43062880954780884",
+      "symbol": "تپمپي",
+      "asset_type": "share",
+      "rows": 4983,
+      "latest_date": "20261118",
+      "events": 29
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:13:28.784281+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "batch": 418,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5346,
+  "corporate_action_events": 30,
+  "instruments": [
+    {
+      "insCode": "49054891736433700",
+      "symbol": "دعبيد",
+      "asset_type": "share",
+      "rows": 5346,
+      "latest_date": "20261118",
+      "events": 30
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:40:25.470591+00:00"
+}

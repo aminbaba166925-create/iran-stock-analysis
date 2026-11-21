@@ -1,0 +1,19 @@
+{
+  "batch": 400,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 865,
+  "corporate_action_events": 5,
+  "instruments": [
+    {
+      "insCode": "49270349234092953",
+      "symbol": "خاور",
+      "asset_type": "share",
+      "rows": 865,
+      "latest_date": "20261118",
+      "events": 5
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:27:50.881198+00:00"
+}

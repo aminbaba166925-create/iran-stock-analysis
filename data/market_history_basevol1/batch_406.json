@@ -1,0 +1,19 @@
+{
+  "batch": 406,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4453,
+  "corporate_action_events": 22,
+  "instruments": [
+    {
+      "insCode": "4758266259250794",
+      "symbol": "خپويش",
+      "asset_type": "share",
+      "rows": 4453,
+      "latest_date": "20261118",
+      "events": 22
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:31:40.102642+00:00"
+}

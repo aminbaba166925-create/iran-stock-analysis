@@ -1,0 +1,19 @@
+{
+  "batch": 200,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1034,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "45452221088910484",
+      "symbol": "عقيق",
+      "asset_type": "fund",
+      "rows": 1034,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T03:11:35.568157+00:00"
+}

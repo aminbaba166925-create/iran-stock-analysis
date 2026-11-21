@@ -1,0 +1,19 @@
+{
+  "batch": 330,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 276,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "48968268685622891",
+      "symbol": "گلدا",
+      "asset_type": "fund",
+      "rows": 276,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T04:35:33.873045+00:00"
+}

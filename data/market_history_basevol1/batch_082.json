@@ -1,0 +1,19 @@
+{
+  "batch": 82,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 2821,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "36657164096233359",
+      "symbol": "تداوم4",
+      "asset_type": "fund",
+      "rows": 2821,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T01:47:37.469773+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "batch": 315,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 773,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "30762816122316539",
+      "symbol": "پتروصبا",
+      "asset_type": "fund",
+      "rows": 773,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T04:26:01.928823+00:00"
+}

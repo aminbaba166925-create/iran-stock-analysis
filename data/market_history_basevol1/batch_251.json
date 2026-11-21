@@ -1,0 +1,19 @@
+{
+  "batch": 251,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 944,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "41874435286844039",
+      "symbol": "ناب2",
+      "asset_type": "fund",
+      "rows": 944,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T03:44:49.357282+00:00"
+}

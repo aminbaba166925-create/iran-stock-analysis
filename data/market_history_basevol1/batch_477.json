@@ -1,0 +1,19 @@
+{
+  "batch": 477,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5006,
+  "corporate_action_events": 25,
+  "instruments": [
+    {
+      "insCode": "30974710508383145",
+      "symbol": "شسينا",
+      "asset_type": "share",
+      "rows": 5006,
+      "latest_date": "20261118",
+      "events": 25
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:22:25.580515+00:00"
+}

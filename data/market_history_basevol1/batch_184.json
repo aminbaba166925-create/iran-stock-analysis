@@ -1,0 +1,19 @@
+{
+  "batch": 184,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 475,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "31379272181300633",
+      "symbol": "سپنتارود",
+      "asset_type": "fund",
+      "rows": 475,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T03:00:06.374736+00:00"
+}

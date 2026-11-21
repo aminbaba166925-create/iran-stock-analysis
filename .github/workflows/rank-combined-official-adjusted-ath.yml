@@ -1,0 +1,34 @@
+name: Rank combined cohort using official adjusted TSETMC chart
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/rank_combined_official_adjusted_ath.py'
+      - '.github/workflows/rank-combined-official-adjusted-ath.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: combined-official-adjusted-ath
+  cancel-in-progress: false
+jobs:
+  rank:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Load exact previous cohort membership
+        run: |
+          git fetch origin market-history-user33-checkpoints
+          git checkout FETCH_HEAD -- data/combined_adjusted_ath_ranking.json
+      - name: Fetch official adjusted chart data and rank
+        run: python scripts/rank_combined_official_adjusted_ath.py
+      - name: Commit verified ranking
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/combined_official_adjusted_ath.json reports/combined_official_adjusted_ath.md
+          git commit -m "Rank combined cohort using official adjusted TSETMC chart" || exit 0
+          git push origin HEAD:main

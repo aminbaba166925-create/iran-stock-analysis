@@ -1,0 +1,19 @@
+{
+  "batch": 518,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5295,
+  "corporate_action_events": 32,
+  "instruments": [
+    {
+      "insCode": "34673681828119297",
+      "symbol": "فاما",
+      "asset_type": "share",
+      "rows": 5295,
+      "latest_date": "20261118",
+      "events": 32
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:50:54.470868+00:00"
+}

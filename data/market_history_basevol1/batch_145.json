@@ -1,0 +1,19 @@
+{
+  "batch": 145,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 373,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "39354015400238252",
+      "symbol": "رويش همراه2",
+      "asset_type": "fund",
+      "rows": 373,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T02:32:28.036632+00:00"
+}

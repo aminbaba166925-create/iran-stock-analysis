@@ -1,0 +1,19 @@
+{
+  "batch": 413,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1355,
+  "corporate_action_events": 6,
+  "instruments": [
+    {
+      "insCode": "69540585676934415",
+      "symbol": "ددانا",
+      "asset_type": "share",
+      "rows": 1355,
+      "latest_date": "20261118",
+      "events": 6
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:36:45.688402+00:00"
+}

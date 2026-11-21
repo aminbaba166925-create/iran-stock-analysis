@@ -1,0 +1,19 @@
+{
+  "batch": 463,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1373,
+  "corporate_action_events": 5,
+  "instruments": [
+    {
+      "insCode": "21096748051392414",
+      "symbol": "سغدير",
+      "asset_type": "share",
+      "rows": 1373,
+      "latest_date": "20261118",
+      "events": 5
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:12:35.463180+00:00"
+}

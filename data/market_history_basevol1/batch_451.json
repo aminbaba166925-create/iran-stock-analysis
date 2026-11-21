@@ -1,0 +1,19 @@
+{
+  "batch": 451,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4776,
+  "corporate_action_events": 20,
+  "instruments": [
+    {
+      "insCode": "4470657233334072",
+      "symbol": "سخاش",
+      "asset_type": "share",
+      "rows": 4776,
+      "latest_date": "20261118",
+      "events": 20
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:04:31.588919+00:00"
+}

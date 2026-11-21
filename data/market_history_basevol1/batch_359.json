@@ -1,0 +1,19 @@
+{
+  "batch": 359,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4688,
+  "corporate_action_events": 33,
+  "instruments": [
+    {
+      "insCode": "47377315952751604",
+      "symbol": "بسويچ",
+      "asset_type": "share",
+      "rows": 4688,
+      "latest_date": "20261118",
+      "events": 33
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T04:57:43.400648+00:00"
+}

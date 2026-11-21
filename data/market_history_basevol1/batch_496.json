@@ -1,0 +1,19 @@
+{
+  "batch": 496,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 1558,
+  "corporate_action_events": 13,
+  "instruments": [
+    {
+      "insCode": "4369934250728330",
+      "symbol": "غزر",
+      "asset_type": "share",
+      "rows": 1558,
+      "latest_date": "20261118",
+      "events": 13
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:32:16.647433+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "batch": 196,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 356,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "66294700705851469",
+      "symbol": "طعام2",
+      "asset_type": "fund",
+      "rows": 356,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T03:08:49.019593+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "batch": 148,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 292,
+  "corporate_action_events": 0,
+  "instruments": [
+    {
+      "insCode": "36952679871949516",
+      "symbol": "ريتون2",
+      "asset_type": "fund",
+      "rows": 292,
+      "latest_date": "20261118",
+      "events": 0
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T02:34:44.484800+00:00"
+}

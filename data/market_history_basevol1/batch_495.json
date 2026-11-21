@@ -1,0 +1,19 @@
+{
+  "batch": 495,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 2587,
+  "corporate_action_events": 12,
+  "instruments": [
+    {
+      "insCode": "3492952121304423",
+      "symbol": "غديس",
+      "asset_type": "share",
+      "rows": 2587,
+      "latest_date": "20261118",
+      "events": 12
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T06:31:46.833887+00:00"
+}

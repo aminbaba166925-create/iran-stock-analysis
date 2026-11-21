@@ -1,0 +1,19 @@
+{
+  "batch": 372,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 5024,
+  "corporate_action_events": 8,
+  "instruments": [
+    {
+      "insCode": "3654864906585643",
+      "symbol": "تكنو",
+      "asset_type": "share",
+      "rows": 5024,
+      "latest_date": "20261118",
+      "events": 8
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:07:23.936211+00:00"
+}

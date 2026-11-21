@@ -1,0 +1,19 @@
+{
+  "batch": 419,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 4872,
+  "corporate_action_events": 27,
+  "instruments": [
+    {
+      "insCode": "18303237082155264",
+      "symbol": "دفرا",
+      "asset_type": "share",
+      "rows": 4872,
+      "latest_date": "20261118",
+      "events": 27
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T05:41:19.368641+00:00"
+}

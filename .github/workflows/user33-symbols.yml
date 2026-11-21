@@ -1,0 +1,43 @@
+name: User supplied 33 symbols one-by-one history extraction
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fetch_user33_symbols.py'
+      - '.github/workflows/user33-symbols.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '47 0 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: iran-market-history-user33
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Configure independent checkpoint branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin market-history-user33-checkpoints || true
+          if git show-ref --verify --quiet refs/remotes/origin/market-history-user33-checkpoints; then
+            git switch -c "user33-${{ github.run_id }}" FETCH_HEAD
+            git merge --no-edit origin/main
+          else
+            git switch -c "user33-${{ github.run_id }}"
+          fi
+      - name: Extract each symbol separately and checkpoint
+        env:
+          CHECKPOINT_BRANCH: market-history-user33-checkpoints
+        run: python scripts/fetch_user33_symbols.py

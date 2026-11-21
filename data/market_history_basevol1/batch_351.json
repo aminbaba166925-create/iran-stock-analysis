@@ -1,0 +1,19 @@
+{
+  "batch": 351,
+  "success": 1,
+  "failed": 0,
+  "raw_rows": 2435,
+  "corporate_action_events": 12,
+  "instruments": [
+    {
+      "insCode": "69847139870135237",
+      "symbol": "اوان",
+      "asset_type": "share",
+      "rows": 2435,
+      "latest_date": "20261118",
+      "events": 12
+    }
+  ],
+  "failures": [],
+  "saved_at_utc": "2026-11-20T04:51:44.999615+00:00"
+}

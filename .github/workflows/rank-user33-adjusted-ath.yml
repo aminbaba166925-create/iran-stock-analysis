@@ -1,0 +1,34 @@
+name: Rank user33 adjusted ATH distance
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/rank_user33_adjusted_ath.py"
+      - ".github/workflows/rank-user33-adjusted-ath.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  rank:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Preserve ranking script
+        run: cp scripts/rank_user33_adjusted_ath.py /tmp/rank_user33_adjusted_ath.py
+      - name: Load saved adjusted histories
+        run: |
+          git fetch origin market-history-user33-checkpoints
+          git checkout market-history-user33-checkpoints
+          cp /tmp/rank_user33_adjusted_ath.py scripts/rank_user33_adjusted_ath.py
+      - name: Calculate ranking
+        run: python scripts/rank_user33_adjusted_ath.py
+      - name: Commit ranking to checkpoint branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/market_history_user33/adjusted_ath_distance_ranking.json
+          git commit -m "Rank extracted symbols by adjusted ATH distance" || exit 0
+          git push origin market-history-user33-checkpoints
