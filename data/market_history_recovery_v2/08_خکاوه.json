@@ -1,0 +1,15 @@
+{
+  "success": false,
+  "status": "not_found_after_marketwatch_and_recursive_search",
+  "ordinal": 8,
+  "symbol": "خکاوه",
+  "discovery": {
+    "source": "none",
+    "search_errors": [
+      "GET failed: https://cdn.tsetmc.com/api/Instrument/GetInstrumentSearch/%D8%AE%DA%A9%D8%A7%D9%88%D9%87/0: HTTP Error 404: Not Found",
+      "GET failed: https://cdn.tsetmc.com/api/Instrument/GetInstrumentSearch?query=%D8%AE%DA%A9%D8%A7%D9%88%D9%87: HTTP Error 404: Not Found",
+      "GET failed: https://cdn.tsetmc.com/api/Instrument/GetInstrumentSearch?symbol=%D8%AE%DA%A9%D8%A7%D9%88%D9%87: HTTP Error 404: Not Found"
+    ]
+  },
+  "checked_at_utc": "2026-11-21T21:17:06.120182+00:00"
+}
