@@ -1,0 +1,60 @@
+{
+  "generated_at_utc": "2026-11-21T21:52:42.888601+00:00",
+  "requested": 17,
+  "succeeded": 2,
+  "unresolved": [
+    "بایکا",
+    "زندگی",
+    "بکهنوج",
+    "بشام",
+    "جوین",
+    "حیات",
+    "خکاوه",
+    "خودکفا",
+    "قیسنو",
+    "کصدف",
+    "کقزوی",
+    "کهرام",
+    "لزما",
+    "لپیام",
+    "لکما"
+  ],
+  "failed": [],
+  "results": [
+    {
+      "success": true,
+      "status": "complete",
+      "ordinal": 2,
+      "symbol": "پردیس",
+      "matched_symbol": "پرديس",
+      "insCode": "15039949673085566",
+      "baseVol": 0.0,
+      "asset_type": "share",
+      "rows": 4490,
+      "latest_date": "20261121",
+      "events": 31,
+      "discovery": {
+        "source": "refreshed_market_screener"
+      },
+      "saved_at_utc": "2026-11-21T20:46:43.985586+00:00"
+    },
+    {
+      "success": true,
+      "status": "limited_history",
+      "ordinal": 17,
+      "symbol": "شکبیر",
+      "matched_symbol": "شكبير",
+      "insCode": "69243469815198168",
+      "baseVol": 0.0,
+      "asset_type": "share",
+      "rows": 9,
+      "latest_date": "20261121",
+      "events": 0,
+      "discovery": {
+        "source": "refreshed_market_screener"
+      },
+      "saved_at_utc": "2026-11-21T21:52:41.919593+00:00"
+    }
+  ],
+  "note": "Success can be limited_history for symbols with fewer than 20 available daily rows."
+}
