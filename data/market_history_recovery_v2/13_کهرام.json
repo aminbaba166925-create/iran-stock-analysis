@@ -1,0 +1,15 @@
+{
+  "success": false,
+  "status": "not_found_after_marketwatch_and_recursive_search",
+  "ordinal": 13,
+  "symbol": "کهرام",
+  "discovery": {
+    "source": "none",
+    "search_errors": [
+      "GET failed: https://cdn.tsetmc.com/api/Instrument/GetInstrumentSearch/%DA%A9%D9%87%D8%B1%D8%A7%D9%85/0: HTTP Error 404: Not Found",
+      "GET failed: https://cdn.tsetmc.com/api/Instrument/GetInstrumentSearch?query=%DA%A9%D9%87%D8%B1%D8%A7%D9%85: HTTP Error 404: Not Found",
+      "GET failed: https://cdn.tsetmc.com/api/Instrument/GetInstrumentSearch?symbol=%DA%A9%D9%87%D8%B1%D8%A7%D9%85: HTTP Error 404: Not Found"
+    ]
+  },
+  "checked_at_utc": "2026-11-21T21:39:16.030703+00:00"
+}
