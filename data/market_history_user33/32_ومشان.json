@@ -1,11 +1,7 @@
 {
-  "success": true,
+  "success": false,
+  "status": "not_found_or_basevol_mismatch",
   "ordinal": 32,
   "symbol": "ومشان",
-  "insCode": "35369183060321179",
-  "baseVol": 764327.0,
-  "rows": 3264,
-  "latest_date": "20261118",
-  "events": 13,
-  "saved_at_utc": "2026-11-20T06:40:39.635653+00:00"
+  "checked_at_utc": "2026-11-24T02:00:42.870843+00:00"
 }
