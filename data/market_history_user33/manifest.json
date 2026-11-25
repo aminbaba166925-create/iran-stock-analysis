@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-11-24T02:00:43.928907+00:00",
+  "generated_at_utc": "2026-11-25T02:04:28.453428+00:00",
   "requested": 33,
-  "matched_live_basevol_gt1": 15,
-  "succeeded": 15,
+  "matched_live_basevol_gt1": 13,
+  "succeeded": 13,
   "failed": 0,
   "missing_or_basevol_mismatch": [
     "بایکا",
@@ -15,6 +15,8 @@
     "خکاوه",
     "خودکفا",
     "شارپیلن",
+    "فاهواز",
+    "فجوش",
     "قیسنو",
     "کصدف",
     "کقزوی",
@@ -113,28 +115,6 @@
       "latest_date": "20261118",
       "events": 5,
       "saved_at_utc": "2026-11-20T06:45:01.576995+00:00"
-    },
-    {
-      "success": true,
-      "ordinal": 19,
-      "symbol": "فاهواز",
-      "insCode": "44296315953738727",
-      "baseVol": 428926.0,
-      "rows": 2614,
-      "latest_date": "20261118",
-      "events": 2,
-      "saved_at_utc": "2026-11-20T06:37:17.906990+00:00"
-    },
-    {
-      "success": true,
-      "ordinal": 20,
-      "symbol": "فجوش",
-      "insCode": "64485827086284311",
-      "baseVol": 3049095.0,
-      "rows": 3186,
-      "latest_date": "20261118",
-      "events": 2,
-      "saved_at_utc": "2026-11-20T06:45:55.376282+00:00"
     },
     {
       "success": true,
