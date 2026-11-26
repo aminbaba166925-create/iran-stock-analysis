@@ -1,0 +1,32 @@
+name: Rank post-reopening laggards 1405
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/rank_laggards_since_reopening_1405.py'
+      - '.github/workflows/rank-laggards-since-reopening-1405.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: laggards-since-reopening-1405
+  cancel-in-progress: false
+jobs:
+  rank:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Calculate adjusted returns since market reopening
+        run: python scripts/rank_laggards_since_reopening_1405.py
+      - name: Commit ranking report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/laggards_since_reopening_1405.json reports/laggards_since_reopening_1405.md
+          git commit -m "Rank shares lagging since 1405 market reopening" || exit 0
+          git push origin HEAD:main
