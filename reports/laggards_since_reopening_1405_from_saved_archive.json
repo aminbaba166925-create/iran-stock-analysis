@@ -17,9 +17,9 @@
     "وملت",
     "گشان"
   ],
-  "eligible_shares": 281,
+  "eligible_shares": 606,
   "successful": 278,
-  "failed_or_insufficient": 3,
+  "failed_or_insufficient": 328,
   "latest_data_date": "20261118",
   "median_adjusted_return_pct": 135.62,
   "top50_laggards": [
@@ -3977,6 +3977,1631 @@
       "symbol": "كاوان",
       "insCode": "29712227786531574",
       "reason": "only 1 valid sessions"
+    },
+    {
+      "symbol": "آ س پ",
+      "insCode": "17617474823279712",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_335_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "آبادا",
+      "insCode": "37661500521100963",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_336_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "آردينه",
+      "insCode": "9956888831468521",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_337_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "آريا",
+      "insCode": "55127657985997520",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_338_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "آكو",
+      "insCode": "60235881999727383",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_339_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "آواپارس",
+      "insCode": "17403065366457237",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_340_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "اتكاي",
+      "insCode": "39751275523025334",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_341_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "اخابر",
+      "insCode": "22811176775480091",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_342_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "اردستان",
+      "insCode": "35331248532537562",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_343_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ارفع",
+      "insCode": "59266699437480384",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_344_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "اروند",
+      "insCode": "58356374066358100",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_345_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "اعتلا",
+      "insCode": "36773155987365094",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_346_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "افق",
+      "insCode": "49502666250908008",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_347_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "اميد",
+      "insCode": "18599703143458101",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_348_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "امين",
+      "insCode": "58873907630765023",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_349_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "انتخاب",
+      "insCode": "10236455588057352",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_350_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "اوان",
+      "insCode": "69847139870135237",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_351_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "اپال",
+      "insCode": "655060129740445",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_352_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "اپرداز",
+      "insCode": "63830424809501048",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_353_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "بترانس",
+      "insCode": "46752599569017089",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_354_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "بتهران",
+      "insCode": "63520812390415652",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_355_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "بجهرم",
+      "insCode": "33629260529503413",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_356_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "بخاور",
+      "insCode": "5599691633622269",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_357_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "بساما",
+      "insCode": "41625340598198551",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_358_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "بسويچ",
+      "insCode": "47377315952751604",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_359_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "بشهاب",
+      "insCode": "69454539056549106",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_360_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "بفجر",
+      "insCode": "46178280540110577",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_361_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "بكاب",
+      "insCode": "70219663893822560",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_362_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "بكام",
+      "insCode": "22382156782768756",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_363_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "بموتو",
+      "insCode": "22086876724551482",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_364_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "بمولد",
+      "insCode": "48261930411425125",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_365_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "بنيرو",
+      "insCode": "20453828618330936",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_366_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "بپاس",
+      "insCode": "51971068201094874",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_367_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "تابان",
+      "insCode": "30714151942396396",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_368_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "تاديكو",
+      "insCode": "31116454489395198",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_369_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "تاصيكو",
+      "insCode": "23293437377896568",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_370_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "تاپيكو",
+      "insCode": "22560050433388046",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_371_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "تكنو",
+      "insCode": "3654864906585643",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_372_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "تكيميا",
+      "insCode": "14825677919842501",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_373_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "تليسه",
+      "insCode": "41781090739318251",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_374_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "تملت",
+      "insCode": "11129387075131725",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_375_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "تنوين",
+      "insCode": "25357135030606405",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_376_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "توريل",
+      "insCode": "37389789764168256",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_377_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "توريل2",
+      "insCode": "62940838026283460",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_378_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "تيپيكو",
+      "insCode": "29758477602878557",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_379_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "تپسي",
+      "insCode": "3839324986781871",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_380_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "تپمپي",
+      "insCode": "43062880954780884",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_381_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ثالوند",
+      "insCode": "16693610252404739",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_382_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ثامان",
+      "insCode": "66456062140680461",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_383_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ثشرق",
+      "insCode": "6043384171800349",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_384_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ثغرب",
+      "insCode": "17939384202383793",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_385_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ثنوسا",
+      "insCode": "32845891587040106",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_386_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "جم",
+      "insCode": "32357363984168442",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_387_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "جم پيلن",
+      "insCode": "27096851668435724",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_388_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "حآسا",
+      "insCode": "44625249840480397",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_389_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "حتايد",
+      "insCode": "3722699128879020",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_390_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "حخزر",
+      "insCode": "28253678449273505",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_391_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "حسير",
+      "insCode": "13281937213456378",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_392_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "حسينا",
+      "insCode": "1625149423498289",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_393_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "حفارس",
+      "insCode": "35424116338766901",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_394_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "حفاري",
+      "insCode": "28809886765682162",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_395_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "حپارسا",
+      "insCode": "917857106093847",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_396_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "حپترو",
+      "insCode": "16369313804633525",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_397_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "حپرتو",
+      "insCode": "4885314541377431",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_398_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "حگهر",
+      "insCode": "47756003257788498",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_399_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "خاور",
+      "insCode": "49270349234092953",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_400_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "خبرنا",
+      "insCode": "25079426576214829",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_401_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "خراسان",
+      "insCode": "43552974795606067",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_402_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "خكار",
+      "insCode": "59217041815333317",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_403_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "خنور",
+      "insCode": "33716211077781594",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_404_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "خودرو",
+      "insCode": "65883838195688438",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_405_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "خپويش",
+      "insCode": "4758266259250794",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_406_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "دابور",
+      "insCode": "61332057061846617",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_407_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "داتام",
+      "insCode": "68863997659126807",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_408_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "داروند",
+      "insCode": "7740831252462823",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_409_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "داسوه",
+      "insCode": "12387472624849835",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_410_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "دالبر",
+      "insCode": "60451823714332895",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_411_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "دتوزيع",
+      "insCode": "66726992874614788",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_412_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ددانا",
+      "insCode": "69540585676934415",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_413_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "درازي",
+      "insCode": "16567465928886309",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_414_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "درهآور",
+      "insCode": "13243992182070788",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_415_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "درپاد",
+      "insCode": "9917562130961534",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_416_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "دسبحا",
+      "insCode": "43622578471330344",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_417_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "دعبيد",
+      "insCode": "49054891736433700",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_418_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "دفرا",
+      "insCode": "18303237082155264",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_419_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "دكيمي",
+      "insCode": "20024911381434086",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_420_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "دكپسول",
+      "insCode": "52382684379473036",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_421_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "دلقما",
+      "insCode": "29247915161590165",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_422_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "دپارس",
+      "insCode": "70474983732269112",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_423_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ذرت",
+      "insCode": "66565762259123454",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_424_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "رافزا",
+      "insCode": "68941822863885255",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_425_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "رانفور",
+      "insCode": "40505767672724777",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_426_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "رانيز",
+      "insCode": "13386281759834677",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_427_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "رتاپ",
+      "insCode": "41048299027409941",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_428_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ركيش",
+      "insCode": "27952969918967492",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_429_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "رمپنا",
+      "insCode": "67126881188552864",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_430_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "رنيك",
+      "insCode": "33854964748757477",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_431_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ريشمك",
+      "insCode": "6478064539164167",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_432_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "زبينا",
+      "insCode": "54482686501491508",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_433_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "زدشت",
+      "insCode": "25180702353416009",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_434_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "زشريف",
+      "insCode": "26547785441834730",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_435_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "زشگزا",
+      "insCode": "26259366519412975",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_436_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "زفارس",
+      "insCode": "9155145921347611",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_437_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "زفجر",
+      "insCode": "36844527173896115",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_438_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "زفكا",
+      "insCode": "5427792638736934",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_439_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "زملارد",
+      "insCode": "14916489896692147",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_440_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "زمگسا",
+      "insCode": "5054819322815158",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_441_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "زهلال",
+      "insCode": "48636523343139021",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_442_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "زپارس",
+      "insCode": "33420285433308219",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_443_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "زگلدشت",
+      "insCode": "10024128313803797",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_444_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ساراب",
+      "insCode": "4563413583000719",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_445_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ساروج",
+      "insCode": "25417476013479486",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_446_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ساروم",
+      "insCode": "15949743338644220",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_447_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "سامان",
+      "insCode": "22312990497291517",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_448_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ساوه",
+      "insCode": "32347247706508046",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_449_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ستران",
+      "insCode": "30829203706095076",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_450_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "سخاش",
+      "insCode": "4470657233334072",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_451_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "سخزر",
+      "insCode": "67327029014085707",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_452_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "سخوز",
+      "insCode": "41974758296041288",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_453_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "سدشت",
+      "insCode": "27000326841257664",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_454_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "سدور",
+      "insCode": "27218386411183410",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_455_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "سرود",
+      "insCode": "11964419322927535",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_456_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "سرچشمه",
+      "insCode": "35948133957468680",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_457_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "سشرق",
+      "insCode": "26997316501080743",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_458_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "سشمال",
+      "insCode": "6757220448540984",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_459_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "سشمال2",
+      "insCode": "49716396555783214",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_460_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "سصفها",
+      "insCode": "10568944722570445",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_461_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "سصوفي",
+      "insCode": "13227300125161435",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_462_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "سغدير",
+      "insCode": "21096748051392414",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_463_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "سفانو",
+      "insCode": "4528607775462304",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_464_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "سقاين",
+      "insCode": "60654872678917533",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_465_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "سكرما",
+      "insCode": "15472396110662150",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_466_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "سمازن",
+      "insCode": "33808206014018431",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_467_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "سنير",
+      "insCode": "14231831499205396",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_468_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "سهرمز",
+      "insCode": "29747059672582491",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_469_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "سهگمت",
+      "insCode": "41284516796232939",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_470_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "سيلام",
+      "insCode": "14617104402836487",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_471_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "شاراك",
+      "insCode": "7711282667602555",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_472_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "شبريز",
+      "insCode": "48753732042176709",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_473_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "شبندر",
+      "insCode": "35366681030756042",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_474_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "شراز",
+      "insCode": "14031158866706953",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_475_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "شستا",
+      "insCode": "2400322364771558",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_476_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "شسينا",
+      "insCode": "30974710508383145",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_477_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "شصدف",
+      "insCode": "204092872752957",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_478_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "شغدير",
+      "insCode": "21772258644715569",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_479_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "شفا",
+      "insCode": "36899214178084525",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_480_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "شكربن",
+      "insCode": "27308217070238237",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_482_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "شكيميا",
+      "insCode": "57848902730525508",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_483_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "شهر",
+      "insCode": "9098178887955847",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_484_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "شپاكسا",
+      "insCode": "11622051128546106",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_485_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "شپنا",
+      "insCode": "7745894403636165",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_486_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "شگويا",
+      "insCode": "5987841496184505",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_487_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "صبا",
+      "insCode": "33938004134399485",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_488_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "عاليس",
+      "insCode": "34213522001938649",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_489_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "غانيزان",
+      "insCode": "53350307353645375",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_490_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "غبشهر",
+      "insCode": "42387718866026650",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_491_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "غبهنوش",
+      "insCode": "17059960254855208",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_492_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "غدانه",
+      "insCode": "8234855558996646",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_493_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "غدشت",
+      "insCode": "2434703913394836",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_494_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "غديس",
+      "insCode": "3492952121304423",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_495_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "غزر",
+      "insCode": "4369934250728330",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_496_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "غسالم",
+      "insCode": "28672095850798501",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_497_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "غشاذر",
+      "insCode": "59921975187856916",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_498_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "غشصفا",
+      "insCode": "61506294208022391",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_499_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "غشهد",
+      "insCode": "20487994977117557",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_500_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "غشهداب",
+      "insCode": "33611155027418901",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_501_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "غصينو",
+      "insCode": "71758511001096824",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_502_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "غفارس",
+      "insCode": "16410724132711490",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_503_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "غكورش",
+      "insCode": "62404730109947970",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_504_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "غمهرا",
+      "insCode": "6131290133202745",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_505_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "غمينو",
+      "insCode": "5516102131364383",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_506_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "غويتا",
+      "insCode": "37842793167868642",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_507_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "غپآذر",
+      "insCode": "45518744711972166",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_508_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "غپاك",
+      "insCode": "34032872653290886",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_509_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "غچين",
+      "insCode": "44850033148208596",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_510_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "غگرجي",
+      "insCode": "31024260997481994",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_511_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "غگل",
+      "insCode": "22299894048845903",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_512_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "غگلپا",
+      "insCode": "14312030900097668",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_513_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "غگيلا",
+      "insCode": "57300230097485720",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_514_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "فاذر",
+      "insCode": "38547060135156069",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_515_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "فاراك",
+      "insCode": "20865316761157979",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_516_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "فارس",
+      "insCode": "25244329144808274",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_517_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "فاما",
+      "insCode": "34673681828119297",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_518_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "فايرا",
+      "insCode": "65004959184388996",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_519_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "فباهنر",
+      "insCode": "66772024744156373",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_520_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "فخاس",
+      "insCode": "4733285133017464",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_521_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "فخوز",
+      "insCode": "28864540805361867",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_522_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "فرود",
+      "insCode": "51017863148152520",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_523_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "فروي",
+      "insCode": "29974853866926823",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_524_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "فزر",
+      "insCode": "8175784894140974",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_525_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "فزرين",
+      "insCode": "43716452378323683",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_526_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "فسرب",
+      "insCode": "54277068923045214",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_527_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "فسپا",
+      "insCode": "8977441217024425",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_528_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "فصبا",
+      "insCode": "23557166059925779",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_529_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "فغدير",
+      "insCode": "28147934478934110",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_530_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "فملي",
+      "insCode": "35425587644337450",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_531_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "فن افزار",
+      "insCode": "69171897374421261",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_532_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "فنقره",
+      "insCode": "35026822153186010",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_533_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "فنوال",
+      "insCode": "57875847776839336",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_534_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "فوكا",
+      "insCode": "21003176534704369",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_535_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "فولاد",
+      "insCode": "46348559193224090",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_536_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "فولاژ",
+      "insCode": "40808043719554948",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_537_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "فپرديس",
+      "insCode": "10979459081222858",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_538_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "فگستر",
+      "insCode": "8725363201030474",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_539_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "قاسم",
+      "insCode": "34540569618314880",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_540_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "قشير",
+      "insCode": "71523986304961239",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_541_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "قصفها",
+      "insCode": "40411537531154482",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_542_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "قهكمت",
+      "insCode": "14398278072324784",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_543_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "قچار",
+      "insCode": "23600798892801694",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_544_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "كاسپين",
+      "insCode": "28431095903407567",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_546_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "كانسار",
+      "insCode": "24653108506137885",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_547_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "كاوه",
+      "insCode": "60350996279289099",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_548_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "كتوسعه",
+      "insCode": "23374429962331387",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_549_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "كخاك",
+      "insCode": "16405556680571453",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_550_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "كروميت",
+      "insCode": "49632601495766480",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_551_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "كزغال",
+      "insCode": "28291104595448527",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_552_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "كسرام",
+      "insCode": "20560887114747719",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_553_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "كسعدي",
+      "insCode": "29122854902865456",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_554_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "كشرق",
+      "insCode": "42690477960659940",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_555_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "كماسه",
+      "insCode": "67690708346979840",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_556_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "كمنگنز",
+      "insCode": "50341528161302545",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_557_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "كنور",
+      "insCode": "20411759370751096",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_558_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "كوچين",
+      "insCode": "10869855467299545",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_559_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "كي بي سي",
+      "insCode": "62977319271289925",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_560_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "كيانا",
+      "insCode": "45353845483523901",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_561_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "كيمازي",
+      "insCode": "66025809087145106",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_562_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "كيميا",
+      "insCode": "14427168056799610",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_563_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "كيمياتك",
+      "insCode": "39884565732277052",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_564_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "كپرور",
+      "insCode": "22941065011246116",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_565_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "كپشير",
+      "insCode": "57639364758870873",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_566_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "كگل",
+      "insCode": "35700344742885862",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_567_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "كگهر",
+      "insCode": "30703140537034664",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_568_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "لابسا",
+      "insCode": "63363116407864462",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_569_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "لبن",
+      "insCode": "39485921411827022",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_570_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "لخزر",
+      "insCode": "65414507129586385",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_571_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "لطيف",
+      "insCode": "16422980660132735",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_572_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "لپارس",
+      "insCode": "5187018329202415",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_573_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ماديرا",
+      "insCode": "15917865009187760",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_574_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "مارون",
+      "insCode": "53449700212786324",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_575_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "مارون2",
+      "insCode": "34480543403220870",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_576_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "مبين",
+      "insCode": "27922860956133067",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_577_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "محتشم",
+      "insCode": "46934177065273437",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_578_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "مفاخر",
+      "insCode": "4247709727327181",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_579_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ملت",
+      "insCode": "13611044044646901",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_580_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "منجيل",
+      "insCode": "19239905145688600",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_581_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "مهر",
+      "insCode": "20453559648564964",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_582_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "مهرگان",
+      "insCode": "29875801858560476",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_583_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ميدكو",
+      "insCode": "33441514568901717",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_584_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ناما",
+      "insCode": "10411249540376641",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_585_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "نان",
+      "insCode": "8000351713789858",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_586_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "نخريس",
+      "insCode": "46878429508891351",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_587_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "نطرين",
+      "insCode": "64699417405634265",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_588_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "نماد",
+      "insCode": "65197850030400728",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_589_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "نماد2",
+      "insCode": "34397330698947448",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_590_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "نمرينو",
+      "insCode": "30231789123900526",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_591_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "نوري",
+      "insCode": "19040514831923530",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_592_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "هانيكو",
+      "insCode": "41529644566373651",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_593_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "هاي وب",
+      "insCode": "43362635835198978",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_594_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "هرمز",
+      "insCode": "70498485598181604",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_595_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "همراه",
+      "insCode": "68635710163497089",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_596_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وآذر",
+      "insCode": "1358190916156744",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_597_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وآفري",
+      "insCode": "589599697502308",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_598_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وآوا",
+      "insCode": "22490169030401337",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_599_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "واتي",
+      "insCode": "33541897671561960",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_600_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "واعتبار",
+      "insCode": "47841327496247362",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_601_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "والماس",
+      "insCode": "36282416082320053",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_602_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "واميد",
+      "insCode": "52232388263291380",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_603_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وامين",
+      "insCode": "4373573287489723",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_604_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وايران",
+      "insCode": "3149396562827132",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_605_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وبانك",
+      "insCode": "48010225447410247",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_606_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وبشهر",
+      "insCode": "13937270451301973",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_607_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وبصادر",
+      "insCode": "28320293733348826",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_608_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وبملت",
+      "insCode": "778253364357513",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_609_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وبوعلي",
+      "insCode": "28328710198554144",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_610_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وتجارت",
+      "insCode": "63917421733088077",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_611_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وتوسم",
+      "insCode": "17528249960294496",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_612_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وتوشه",
+      "insCode": "54676885047867737",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_613_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وتوصا",
+      "insCode": "2944500421562364",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_614_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وثنو",
+      "insCode": "22501232035732859",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_615_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وخارزم",
+      "insCode": "7395271748414592",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_616_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وخاور",
+      "insCode": "47333458678352378",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_617_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ودي",
+      "insCode": "43966385447049549",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_618_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ورنا",
+      "insCode": "7385624172574740",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_619_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وساخت",
+      "insCode": "25514780181345713",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_620_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وساپا",
+      "insCode": "37614886280396031",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_621_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وسبحان",
+      "insCode": "43283802997035462",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_622_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وسرمايه",
+      "insCode": "15770893497354321",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_623_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وسرمايه2",
+      "insCode": "70378695410609578",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_624_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وسكاب",
+      "insCode": "11258722998911897",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_625_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وصنا",
+      "insCode": "46982154647719707",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_626_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وصندوق",
+      "insCode": "37204371816016200",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_627_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وصنعت",
+      "insCode": "57309221039930244",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_628_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وطوبي",
+      "insCode": "3955332316338258",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_629_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وغدير",
+      "insCode": "26014913469567886",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_630_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وفيروزه",
+      "insCode": "2160777579058191",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_631_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وكار",
+      "insCode": "47996917271187218",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_632_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وكغدير",
+      "insCode": "40553302624764543",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_633_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ولتجار",
+      "insCode": "50011948410571353",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_634_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ولغدر",
+      "insCode": "23086515493897579",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_635_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ومعادن",
+      "insCode": "58931793851445922",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_636_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ومهان",
+      "insCode": "47026464823464687",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_637_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ونفت",
+      "insCode": "33931218652865616",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_638_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ونوين",
+      "insCode": "47302318535715632",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_639_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "ونيرو",
+      "insCode": "62603302940123327",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_640_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وهور",
+      "insCode": "25215182208950217",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_641_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وپايا",
+      "insCode": "67244978897607661",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_642_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وپخش",
+      "insCode": "7183333492448248",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_643_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وپست",
+      "insCode": "22087269603540841",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_644_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "وپويا",
+      "insCode": "24785665268004766",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_645_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "پارس",
+      "insCode": "6110133418282108",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_646_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "پارسان",
+      "insCode": "23441366113375722",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_647_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "پتاير",
+      "insCode": "41935584690956944",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_648_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "پترول",
+      "insCode": "69143674941561637",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_649_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "پخش",
+      "insCode": "12638840758449459",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_650_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "پرديس",
+      "insCode": "15039949673085566",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_651_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "پلاسك",
+      "insCode": "57722642338781674",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_652_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "پيزد",
+      "insCode": "32784604551756178",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_653_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "چدن",
+      "insCode": "12329519546621752",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_654_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "چكارن",
+      "insCode": "53113471126689455",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_655_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "چكاوه",
+      "insCode": "24254843881948059",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_656_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "چكاپا",
+      "insCode": "28957320033282870",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_657_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "گدنا",
+      "insCode": "10114441830266109",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_658_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "گكوثر",
+      "insCode": "66599109405217136",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_659_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "گوهران",
+      "insCode": "65018804181564924",
+      "reason": "fatal: path 'data/data/market_history_basevol1/batch_660_adjusted.csv.gz' does not exist in 'origin/market-history-basevol1-cohort-checkpoints'\n"
+    },
+    {
+      "symbol": "شارپيلن",
+      "insCode": "27695838950009037",
+      "reason": "fatal: path 'data/data/market_history_basevol_gt1/batch_000_adjusted.csv.gz' does not exist in 'origin/market-history-basevol-gt1-checkpoints'\n"
     }
   ]
 }
