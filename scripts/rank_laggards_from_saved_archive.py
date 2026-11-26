@@ -52,7 +52,7 @@ def archived_metadata(branch, directory):
             filename=path.rsplit("/",1)[1].replace(".json","_adjusted.csv.gz")
             out.append({"insCode":str(item.get("insCode","")),"symbol":item.get("symbol",""),
               "asset_type":item.get("asset_type",""),"branch":branch,
-              "adjusted_file":path.rsplit("/",1)[0]+"/"+filename})
+              "adjusted_file":path.removeprefix("data/").rsplit("/",1)[0]+"/"+filename})
     return out
 
 def main():
@@ -115,7 +115,7 @@ def main():
       "method":"(latest adjusted close / first adjusted close on or after 2026-05-19 - 1) * 100",
       "source":"Existing gzip CSV adjusted-history archives indexed by data/market_history_master/index.json; no TSETMC refetch",
       "start_date":"2026-05-19","start_date_jalali":"1405-02-29",
-      "excluded_symbols":sorted(EXCLUDED),"eligible_shares":len(eligible),
+      "excluded_symbols":sorted(EXCLUDED),"eligible_shares":len(eligible),\n      "included_sources":["master v2/v3/v4","basevol1 cohort","basevol>1 cohort","complete recovery histories"],
       "successful":len(results),"failed_or_insufficient":len(failures),
       "latest_data_date":max((x["latest_date"] for x in results),default=None),
       "median_adjusted_return_pct":median,"top50_laggards":results[:50],
