@@ -38,14 +38,48 @@ def read_batch(branch, path):
                     by_code[str(row.get("insCode","")).strip()].append((d,close,volume))
         return by_code
 
+
+def archived_metadata(branch, directory):
+    listing = subprocess.run(["git","ls-tree","-r","--name-only","origin/"+branch,"data/"+directory],capture_output=True,text=True,check=True).stdout.splitlines()
+    out=[]
+    for path in listing:
+        if not path.endswith(".json") or path.endswith("manifest.json") or path.endswith("universe.json"):
+            continue
+        raw=subprocess.run(["git","show","origin/"+branch+":"+path],capture_output=True,check=True).stdout
+        try: meta=json.loads(raw)
+        except Exception: continue
+        for item in meta.get("instruments",[]):
+            filename=path.rsplit("/",1)[1].replace(".json","_adjusted.csv.gz")
+            out.append({"insCode":str(item.get("insCode","")),"symbol":item.get("symbol",""),
+              "asset_type":item.get("asset_type",""),"branch":branch,
+              "adjusted_file":path.rsplit("/",1)[0]+"/"+filename})
+    return out
+
 def main():
     records = json.loads(INDEX.read_text(encoding="utf-8"))
+    records += archived_metadata("market-history-basevol1-cohort-checkpoints","market_history_basevol1")
+    records += archived_metadata("market-history-basevol-gt1-checkpoints","market_history_basevol_gt1")
+    recovery_branch="market-history-user33-checkpoints"
+    manifest_path="data/market_history_recovery_v2/recovery_v2_manifest.json"
+    try:
+        manifest=json.loads(subprocess.run(["git","show",recovery_branch+":"+manifest_path],capture_output=True,check=True).stdout)
+        for item in manifest.get("results",[]):
+            if item.get("success") and item.get("status")=="complete":
+                sym=item.get("symbol","")
+                ordinal=int(item.get("ordinal",0))
+                filename="{:02d}_{}_adjusted.csv.gz".format(ordinal,sym)
+                records.append({"insCode":str(item.get("insCode","")),"symbol":sym,
+                  "asset_type":item.get("asset_type","share"),"branch":recovery_branch,
+                  "adjusted_file":"market_history_recovery_v2/"+filename})
+    except Exception:
+        pass
     eligible = {}
     for x in records:
         code = str(x.get("insCode","")).strip()
         sym = str(x.get("symbol","")).strip()
         if code and x.get("asset_type")=="share" and sym not in EXCLUDED and not sym.endswith("3"):
-            eligible.setdefault(code,x)
+            if code not in eligible or x.get("dataset") in ("v2","v3","v4"):
+                eligible[code]=x
 
     grouped = defaultdict(list)
     for code,x in eligible.items():
