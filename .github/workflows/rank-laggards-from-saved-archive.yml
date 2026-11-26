@@ -29,3 +29,5 @@ jobs:
           git add reports/laggards_since_reopening_1405_from_saved_archive.json reports/laggards_since_reopening_1405_from_saved_archive.md
           git commit -m "Rank laggards from saved adjusted history archives" || echo "No changes"
           git push
+
+# rerun after syntax fix
