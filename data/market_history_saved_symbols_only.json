@@ -1,0 +1,19 @@
+{
+  "generated_at_utc": "2026-11-26T21:18:07.061Z",
+  "description": "Standalone list of symbols with archived history files confirmed in user33 manifest. Only symbols whose individual raw and adjusted history files were successfully saved; unavailable symbols excluded.",
+  "symbols": [
+    "آرمان",
+    "ثنام",
+    "خصدرا",
+    "خعمرا",
+    "داراب",
+    "شصفها",
+    "شگستر",
+    "فسا",
+    "گشان",
+    "مرقام",
+    "وملت"
+  ],
+  "source_manifest": "data/market_history_user33/manifest.json",
+  "note": "These are saved history files; latest date in source manifest is 2026-11-18. This file contains the eligible symbol list only, not the underlying historical CSV data."
+}
