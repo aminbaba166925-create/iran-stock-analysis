@@ -16,6 +16,11 @@ LABEL = "basevol1" if MODE == "eq1" else "basevol_gt1"
 OUT = Path("data") / ("market_history_" + LABEL)
 MASTER = Path("data/market_history_master/eligible_codes.json")
 CHECKPOINT_BRANCH = os.getenv("CHECKPOINT_BRANCH", "market-history-" + LABEL + "-checkpoints")
+EXCLUDED_SYMBOLS_FILE = Path("config/market_history_excluded_symbols.json")
+
+
+def normalize_symbol(value):
+    return str(value).strip().replace("ك", "ک").replace("ي", "ی").replace("\u200c", "").replace(" ", "")
 # One instrument per checkpoint; at most the current symbol can be lost on interruption.
 BATCH_SIZE = 1
 WORKERS = 1
@@ -38,6 +43,11 @@ def main():
     if not isinstance(master, dict) or not isinstance(master.get("insCodes"), list) or len(master["insCodes"]) < 100:
         raise RuntimeError("Invalid master eligible_codes.json")
     archived = {str(x).strip() for x in master["insCodes"] if str(x).strip()}
+    if EXCLUDED_SYMBOLS_FILE.exists():
+        excluded_payload = json.loads(EXCLUDED_SYMBOLS_FILE.read_text(encoding="utf-8"))
+        excluded_symbols = {normalize_symbol(x) for x in excluded_payload.get("symbols", [])}
+    else:
+        excluded_symbols = set()
 
     params = ["market=0"] + [f"paperTypes[{i}]={i+1}" for i in range(9)]
     params += ["withBestLimits=false", "hEven=0", "RefID=0"]
@@ -47,7 +57,7 @@ def main():
         raise RuntimeError("MarketWatch returned no instrument rows")
 
     candidates, already_archived, seen = [], [], set()
-    skipped = {"suffix3": 0, "out_of_scope": 0, "missing_code": 0, "missing_basevol": 0, "wrong_basevol": 0}
+    skipped = {"suffix3": 0, "out_of_scope": 0, "missing_code": 0, "missing_basevol": 0, "wrong_basevol": 0, "user_excluded_symbol": 0}
     basevol_histogram = {}
     for item in rows:
         if not isinstance(item, dict):
@@ -58,6 +68,9 @@ def main():
         symbol = str(scan_market.first(source, "lva", "lVal18AFC", "lVal18", "symbol", "ticker",
                         default=scan_market.first(source, "lvc", "lVal30", "name"))).strip()
         name = str(scan_market.first(source, "lvc", "lVal30", "name", "companyName", default=symbol))
+        if normalize_symbol(symbol) in excluded_symbols:
+            skipped["user_excluded_symbol"] += 1
+            continue
         code = str(scan_market.first(source, "insCode", "inscode", "ins_code",
                         default=scan_market.first(price, "insCode", "inscode", "ins_code"))).strip()
         if not code or code == "0":
