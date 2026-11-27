@@ -1,0 +1,35 @@
+name: Rank laggards from saved adjusted archives
+on:
+  push:
+    paths:
+      - "scripts/rank_laggards_from_saved_archive.py"
+      - ".github/workflows/rank-laggards-from-saved-archive.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  rank:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Fetch archived history branches
+        run: |
+          git fetch origin market-history-checkpoints market-history-checkpoints-v3 market-history-checkpoints-v4 market-history-basevol1-cohort-checkpoints market-history-basevol-gt1-checkpoints market-history-user33-checkpoints
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Rank from saved adjusted CSV archives
+        run: python scripts/rank_laggards_from_saved_archive.py
+      - name: Commit ranking
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/laggards_since_reopening_1405_from_saved_archive.json reports/laggards_since_reopening_1405_from_saved_archive.md
+          git commit -m "Rank laggards from saved adjusted history archives" || echo "No changes"
+          git push
+
+# rerun after syntax fix
+
+# trigger corrected ranking
