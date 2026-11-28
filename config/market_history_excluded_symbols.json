@@ -1,0 +1,10 @@
+{
+  "purpose": "Symbols explicitly excluded from all future market-history cohort downloads; existing archived data is retained.",
+  "symbols": [
+    "انرژیک",
+    "انرژی‌نو",
+    "یکان",
+    "شکبیر",
+    "کاریز"
+  ]
+}
